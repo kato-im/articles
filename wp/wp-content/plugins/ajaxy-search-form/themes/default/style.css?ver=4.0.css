@@ -1,0 +1,106 @@
+#sf_results
+{
+	background: #fff;
+	box-shadow: 0 0 5px #aaa;
+	border-color: #333 #333 #293e6a;
+}
+.sf_more
+{
+	background: #F7F7F7;
+	border-top:1px solid #DDD;
+}
+#sf_val ul.sf_main
+{
+	background: #fff;
+}
+#sf_val ul ul li
+{
+	color:#000;
+	border-color:#fff;
+}
+#sf_val ul li.sf_selected
+{
+	background-color: #6D84B4 !important;
+	border-color: #3B5998 !important;
+	color: white !important;
+}
+#sf_val ul li.sf_selected a, #sf_val ul li.sf_selected span
+{
+	color: white !important;
+}
+#sf_val ul li.sf_header
+{
+	background:#eee;
+	border-top:1px solid #DDD;
+}
+#sf_val li.sf_item img
+{
+	background-color: #eceff5;
+}
+#sf_val li .sf_small
+{
+	color:#666;
+}
+.sf_search .sf_input{
+	color:#aaa !important;
+	background:#fff !important;
+}
+.sf_search .sf_focused{
+	color:#333 !important;
+}
+.sf_search
+{	
+	background:#fff;
+}
+.sf_search .sf_button,.sf_search  .searchsubmit
+{
+	background-image: url("images/sf_search.png") !important;
+	background-repeat: no-repeat !important;
+	background-position: 0px 0 !important;
+	background-color: white !important;
+	-webkit-box-shadow: 0 0 0 0 !important;
+	-moz-box-shadow:0 0 0 0 !important;
+	box-shadow:0 0 0 0 !important;
+}
+#sf_loading
+{
+	background-image: url("images/sf_loading.gif") !important;
+}
+/* selective search css */
+.sf_ajaxy-selective-search {
+    color: rgba(255, 255, 255, 0.498039);
+    text-decoration: none solid rgba(255, 255, 255, 0.498039);
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+	border-color:rgba(0, 0, 0, 0.247059) rgba(0, 0, 0, 0.14902) rgba(0, 0, 0, 0.14902) rgba(0, 0, 0, 0.14902);
+    font: 16px/24px Arial, sans-serif;
+    outline: rgba(255, 255, 255, 0.498039) none 0px;
+}
+
+
+.sf_ajaxy-selective-item {
+    color: rgb(255, 255, 255);
+	text-decoration: none solid rgb(255, 255, 255);
+	background: rgb(109, 132, 180) -webkit-linear-gradient(top, rgb(116, 140, 190), rgb(102, 124, 170)) repeat scroll 0% 0% / auto padding-box border-box;
+	border: 1px solid rgb(98, 118, 158);
+	border-radius: 2px 2px 2px 2px;
+	font: normal normal bold 11px/19px Arial, sans-serif;
+	outline: rgb(255, 255, 255) none 0px;
+	padding: 0px 8px;
+	transition: all 0.218s ease 0s;
+}
+
+.sf_ajaxy-selective-close {
+    color: rgb(255, 255, 255);
+    text-decoration: none solid rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal bold 11px/19px Arial, sans-serif;
+    margin: 16.5px 0px;
+    outline: rgb(255, 255, 255) none 0px;
+	background: transparent;
+}
+
+.sf_ajaxy-selective-search input.sf_ajaxy-selective-input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+	box-shadow: 0 0 0;
+}

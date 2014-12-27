@@ -1,0 +1,44 @@
+.sf_ajaxy-selective-search {
+    width: 467px;
+	border-width:1px;
+	border-style:solid;
+    font: 16px/24px Arial, sans-serif;
+    overflow: hidden;
+    padding: 0px 0px 0px 4px;
+	cursor:text;
+}
+
+.sf_ajaxy-selective-item {
+    cursor: default;
+    display: inline-block;
+    height: 19px;
+    min-width: 18px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px 2px 2px 2px;
+    font: normal normal bold 11px/19px Arial, sans-serif;
+    padding: 0px 8px;
+	margin:0 2px;
+}
+
+.sf_ajaxy-selective-close {
+    display: inline;
+    height: auto;
+    text-align: center;
+    width: auto;
+    font: normal normal bold 11px/19px Arial, sans-serif;
+    margin: 16.5px 0px;
+    overflow: auto;
+	padding-left: 8px;
+	cursor:pointer;
+	padding: 0 0 0 8px;
+}
+
+.sf_ajaxy-selective-search input.sf_ajaxy-selective-input {
+    -height: 18px;
+    width: 50px;
+    margin: 0px;
+    padding: 5px 2px;
+	outline: none;
+	font-size: 12px;
+}

@@ -1,0 +1,77 @@
+{
+    "entries": {
+        "en": {
+            "type": "category",
+            "title": "English",
+            "entries": {
+                "general": {
+                    "title": "General",
+                    "type": "category",
+                    "entries": [
+                        {
+                            "type": "page",
+                            "src": "cheatsheet",
+                            "title": "Cheatsheet"
+                        },
+                        {
+                            "type": "page",
+                            "src": "editing-messages",
+                            "title": "Editing Messages"
+                        },
+                        {
+                            "type": "page",
+                            "src": "long-messages",
+                            "title": "Long Messages"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-types",
+                            "title": "Room Types"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-drag-n-drop",
+                            "title": "Room Drag-n-Drop"
+                        },
+                        {
+                            "type": "page",
+                            "src": "profile-cards",
+                            "title": "Profile Cards"
+                        },
+                        {
+                            "type": "page",
+                            "src": "global-search",
+                            "title": "Global Search"
+                        }
+                    ]
+                },
+                "notifications": {
+                    "type": "category",
+                    "title": "Notifications",
+                    "entries": [
+                        {
+                            "type": "page",
+                            "src": "noise-control",
+                            "title": "Noise Control"
+                        },
+                        {
+                            "type": "page",
+                            "src": "audio-notifications",
+                            "title": "Audio Notifications"
+                        },
+                        {
+                            "type": "page",
+                            "src": "auto-hide-notifications",
+                            "title": "Auto Hide Notifications"
+                        },
+                        {
+                            "type": "page",
+                            "src": "group-mentions",
+                            "title": "Group Mentions"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+
+/*====================================================*/
+/* FILE /plugins//image-zoom/css/theme1.css*/
+/*====================================================*/
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+.gallery_colorbox {cursor: url(https://kato.im/articles/wp-content/plugins/image-zoom/img/zoomin.cur), pointer; }
+#cboxOverlay{background:#000;}
+#colorbox{outline:0;}
+#cboxContent{margin-top:40px;margin-bottom:40px;margin-left:10px;margin-right:10px;background: #000 url('https://kato.im/articles/wp-content/plugins/image-zoom/img/loading.gif') no-repeat center;}
+.cboxIframe{background:#fff;}
+#cboxError{padding:50px; border:1px solid #ccc;color:#BBB;text-align:center;}
+#cboxLoadedContent{border:5px solid #000; background:#fff;}
+#cboxTitle{position:absolute; bottom:-40px; height:40px; overflow:auto; overflow-y:hidden; left:0; color:#ccc;}
+#cboxTitle h2{margin:0px;padding:0px;font-size:105%;font-weight:bold ;}
+#cboxCurrent{position:absolute; top:-40px; height:40px; overflow:auto; overflow-y:hidden; right:0px; color:#ccc;}
+#cboxLoadingGraphic{background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/loading.gif') no-repeat center center;}
+#cboxLoadingOverlay{background:#000;}
+#cboxLoadingGraphic{background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/loading.gif') no-repeat center center;}
+#cboxLoadedContent{border:5px solid #FFFFFF;background:#FFFFFF;background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/loading.gif') no-repeat center;}
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+#cboxPrevious{position:absolute; top:50%; left:5px; margin-top:-32px; background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/theme1.png') no-repeat 0px 0px; width:28px; height:65px; text-indent:-9999px;}
+#cboxPrevious:hover{background-position:0px -65px;}
+#cboxNext{position:absolute; top:50%; right:5px; margin-top:-32px; background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/theme1.png') no-repeat -68px 0px; width:28px; height:65px; text-indent:-9999px;}
+#cboxNext:hover{background-position:-68px -65px;}
+#cboxClose{position:absolute; top:-8px; right:-16px; display:block; background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/theme1.png') no-repeat -30px 0px; width:38px; height:25px; text-indent:-9999px;}
+#cboxClose:hover{background-position:-30px -111px;}
+.cboxSlideshow_off #cboxSlideshow{position:absolute; bottom:5px; left:50%; margin-left: -32px; display:block; background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/theme1.png') no-repeat -16px -147px; width:65px; height:29px; text-indent:-9999px;}
+.cboxSlideshow_off #cboxSlideshow:hover{background-position:-16px -178px;}
+.cboxSlideshow_on #cboxSlideshow{position:absolute; bottom:5px; left:50%; margin-left: -32px; display:block; background:url('https://kato.im/articles/wp-content/plugins/image-zoom/img/theme1.png') no-repeat -16px -210px; width:65px; height:29px; text-indent:-9999px;}
+.cboxSlideshow_on #cboxSlideshow:hover{background-position:-16px -241px;}
+
+/*====================================================*/
+/* FILE /sedlex/inline_styles/cd00cf09019ffa5ad13db6fd5e892fe0722237e7.css*/
+/*====================================================*/
+.gallery_colorbox {}
+#cboxOverlay{}
+#colorbox{}
+#cboxContent{}
+.cboxIframe{}
+#cboxError{}
+#cboxLoadedContent{}
+#cboxTitle{}
+#cboxTitle h2{}
+#cboxCurrent{}
+#cboxLoadingGraphic{}
+#cboxLoadingOverlay{}
+#cboxLoadingGraphic{}
+#cboxLoadedContent{}
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {}
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {}
+#cboxPrevious{}
+#cboxPrevious:hover{}
+#cboxNext{}
+#cboxClose{}
+#cboxClose:hover{}
+.cboxSlideshow_off #cboxSlideshow{}
+.cboxSlideshow_off #cboxSlideshow:hover{}
+.cboxSlideshow_on #cboxSlideshow{}
+.cboxSlideshow_on #cboxSlideshow:hover{}
