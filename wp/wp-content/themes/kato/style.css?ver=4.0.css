@@ -60,6 +60,7 @@ and Blueprint http://www.blueprintcss.org/
   outline: none;
   padding: 8px 10px 10px 35px;
   margin-top: 158px;
+  font-family: 'Source Sans Pro';
 }
 
 .site-content .widget-area ul {
@@ -95,7 +96,7 @@ and Blueprint http://www.blueprintcss.org/
   margin-left: -15px;
   display: inline-block;
   border-radius: 100px;
-  margin-right: 5px;
+  /* margin-right: 5px; */
   border: 3px solid #000;
   width: 0px;
   height: 0px;

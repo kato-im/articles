@@ -21,50 +21,42 @@ fs.readFile('manifest.json', 'utf8', function (err, data) {
 });
 
 var traverseManifest = function (entity, dirpath, home, language, category) {
+    /*
     if (entity.type === 'home') {
         home = entity;
 
-        var dir = './build/' + dirpath.slice(1).join('/');
-        var r = mkdirp.sync(dir);
-        var rp = fs.realpathSync('./wp');
-        fs.symlinkSync(rp + '/wp-content', dir + '/wp-content');
-        fs.symlinkSync(rp + '/wp-includes', dir + '/wp-includes');
-        fs.symlinkSync(rp + '/sspro-2.010r', dir + '/sspro-2.010r');
+        linkWp(dirpath);
 
         var filePath = dirpath.push('README.md').join('/');
         var template1 = template.replace('$$FILE_NAME$$', '../' + filePath);
         var template0 = template1.replace('$$ROSTER_NAME$$', '../' + 'roster.jade');
         fs.writeFileSync('./build-tmp/index.tmp.jade', template0);
         var fn = jade.compileFile('./build-tmp/index.tmp.jade', { "pretty": true });
-        var prevNext = getPrevNext(entity.entities, entity.entities[0]);
-        var html = fn({"language": entity, "entity": entity, "prev": prevNext.prev, "next": prevNext.next});
+        var prevNext = getPrevNext(entity.entities);
+        var html = fn({
+            "language": entity,
+            "current": entity,
+            "prev": prevNext.prev,
+            "next": prevNext.next,
+            "path": '/articles/' + dirpath.slice(1, -1).join('/')
+        });
         rimraf.sync('./build-tmp/index.tmp.jade', function (err) { });
         fs.writeFileSync('./build/' + dirpath.push('index.html').join('/'), html);
     }
-    else if (entity.type === 'page') {
-        var filePath = dirpath.slice(0, -1).push(entity.src + '.md').join('/');
-        var template1 = template.replace('$$FILE_NAME$$', '../' + filePath);
-        var template0 = template1.replace('$$ROSTER_NAME$$', '../' + 'roster.jade');
-        fs.writeFileSync('./build-tmp/' + entity.src + '.tmp.jade', template0);
-        var fn = jade.compileFile('./build-tmp/' + entity.src + '.tmp.jade', { "pretty": true });
-        var prevNext = getPrevNext(category.entities, entity);
-        var html = fn({"language": language, "entity": entity, "prev": prevNext.prev, "next": prevNext.next});
-        fs.writeFileSync('./build/' + dirpath.slice(0, -1).push(entity.src + '.html').join('/'), html);
+    else */ if (entity.type === 'page') {
+        renderPage(dirpath, entity.src, entity, category.entities, language);
     }
-    else if (entity.type === 'category' || entity.type === 'language')
+    else if (entity.type === 'category' || entity.type === 'language' || entity.type === 'home')
     {
         if (entity.type === 'language') {
             language = entity;
         } else if (entity.type === 'category') {
             category = entity;
+        } else if (entity.type === 'home') {
+            home = entity;
         }
 
-        var dir = './build/' + dirpath.slice(1).join('/');
-        var r = mkdirp.sync(dir);
-        var rp = fs.realpathSync('./wp');
-        fs.symlinkSync(rp + '/wp-content', dir + '/wp-content');
-        fs.symlinkSync(rp + '/wp-includes', dir + '/wp-includes');
-        fs.symlinkSync(rp + '/sspro-2.010r', dir + '/sspro-2.010r');
+        linkWp(dirpath);
 
         var filePath = dirpath.push('README.md').join('/');
         var template1 = template.replace('$$FILE_NAME$$', '../' + filePath);
@@ -76,8 +68,20 @@ var traverseManifest = function (entity, dirpath, home, language, category) {
             prevNext = getPrevNext(language.entities, entity);
         } else if (entity.type === 'language') {
             prevNext = getPrevNext(home.entities, entity);
+        } else if (entity.type === 'home') {
+            prevNext = getPrevNext(entity.entities);
         }
-        var html = fn({"language": language, "entity": entity, "prev": prevNext.prev, "next": prevNext.next});
+        var path = dirpath.slice(1, -1).join('/');
+        if (path) {
+            path += '/';
+        }
+        var html = fn({
+            "language": language ? language : entity,
+            "current": entity,
+            "prev": prevNext.prev,
+            "next": prevNext.next,
+            "path": '/articles/' + path
+        });
         rimraf.sync('./build-tmp/index.tmp.jade', function (err) { });
         fs.writeFileSync('./build/' + dirpath.push('index.html').join('/'), html);
     }
@@ -89,15 +93,14 @@ var traverseManifest = function (entity, dirpath, home, language, category) {
     }
 };
 
-var getPrevNext = function(entities, entity) {
-    var prev;
-    var next;
+var getPrevNext = function (entities, entity) {
+    var prev, next;
     for (k in entities) {
-        if (entities[k].src === entity.src) {
-            next = true;
-        } else if (next === true) {
+        if (!entity || next === true) {
             next = entities[k];
             break;
+        } else if (entities[k].src === entity.src) {
+            next = true;
         } else {
             prev = entities[k];
         }
@@ -108,4 +111,30 @@ var getPrevNext = function(entities, entity) {
     }
 
     return { "prev": prev, "next": next };
+};
+
+var linkWp = function (dirpath) {
+    var dir = './build/' + dirpath.slice(1).join('/');
+    var r = mkdirp.sync(dir);
+    var rp = fs.realpathSync('./wp');
+    fs.symlinkSync(rp + '/wp-content', dir + '/wp-content');
+    fs.symlinkSync(rp + '/wp-includes', dir + '/wp-includes');
+    fs.symlinkSync(rp + '/sspro-2.010r', dir + '/sspro-2.010r');
+};
+
+var renderPage = function (dirpath, fileName, entity, entities, padre) {
+    var filePath = dirpath.join('/');
+    var template1 = template.replace('$$FILE_NAME$$', '../' + filePath + '.md');
+    var template0 = template1.replace('$$ROSTER_NAME$$', '../' + 'roster.jade');
+    fs.writeFileSync('./build-tmp/' + fileName + '.tmp.jade', template0);
+    var fn = jade.compileFile('./build-tmp/' + fileName + '.tmp.jade', { "pretty": true });
+    var prevNext = getPrevNext(entities, entity);
+    var html = fn({
+        "language": padre,
+        "current": entity,
+        "prev": prevNext.prev,
+        "next": prevNext.next,
+        "path": '/articles/' + dirpath.slice(1, -1).join('/') + '/'
+    });
+    fs.writeFileSync('./build/' + filePath + '.html', html);
 };

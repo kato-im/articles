@@ -4,7 +4,7 @@ html(lang='en-US')
     meta(charset='UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title 
-      | !{ entity.title } 
+      | !{ current.title } 
       | | Kato Articles
     link(rel='stylesheet', type='text/css', href="sspro-2.010r/style.css")
     style.
@@ -45,7 +45,7 @@ html(lang='en-US')
             article#post-330.post-330.post.type-post.status-publish.format-standard.hentry.category-general
               header.entry-header
                 h1.entry-title 
-                  | !{ entity.title }
+                  | !{ current.title }
                 | &#x9;&#x9;
                 .entry-meta
                   span.posted-on
@@ -75,15 +75,17 @@ html(lang='en-US')
               | &#x9;&#x9;&#x9;&#x9;
               .nav-links
                 if prev
-                  a(href='room-types/index.html%3Fp=647.html', rel='prev')
+                  - var href = path + prev.src;
+                  a(href=href, rel='prev')
                     .nav-previous
                       span.meta-nav &larr;
                       | &nbsp;!{ prev.title }
                 | &#x9;&#x9;&#x9;&#x9;&#x9;
                 | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
                 | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
-                a(href='room-types/index.html%3Fp=318.html', rel='next')
-                  if next
+                if next
+                  - var href = path + next.src;
+                  a(href=href, rel='next')
                     .nav-next
                       | !{ next.title }&nbsp;
                       span.meta-nav &rarr;
@@ -96,7 +98,7 @@ html(lang='en-US')
             h1.widget-title Filter
             | &#x9;&#x9;&#x9;
             .textwidget
-              a.homeLink(href='../articles.html')
+              a.homeLink(href='/articles')
               input#article-filter(placeholder='Filter by title...', type='text')
               #no-search-results No search results
           include $$ROSTER_NAME$$

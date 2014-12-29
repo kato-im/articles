@@ -1,2 +1,2 @@
-## [English](/en)
-## [Русский](/ru)
+## [English](/articles/en)
+## [Русский](/articles/ru)
