@@ -21,7 +21,9 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
+/*
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,200italic,300italic,400italic,600italic";
+*/
 
 .content-area {
   float: left;
@@ -105,42 +107,47 @@ and Blueprint http://www.blueprintcss.org/
   color: #999;
 }
 
+.site-content .widget-area ul li.category h2 a {
+  font-size: 18px;
+  color: #999;
+}
+
 .site-content .widget-area ul li a:hover {
   color: #666;
 }
 
 .site-content .content-area main article.category-general header h1,
-.site-content .widget-area ul li.category-general h2, .site-content .widget-area ul li.category-general .current a, .site-content .widget-area ul li.category-general h2:before, .site-content .widget-area ul li.category-general .current:before {
+.site-content .widget-area ul li.category-general h2 a, .site-content .widget-area ul li.category-general .current a, .site-content .widget-area ul li.category-general h2:before, .site-content .widget-area ul li.category-general .current:before {
   color: #0092CB;
   border-color: #0092CB;
 }
 
 .site-content .content-area main article.category-notifications header h1,
-.site-content .widget-area ul li.category-notifications h2, .site-content .widget-area ul li.category-notifications .current a, .site-content .widget-area ul li.category-notifications h2:before, .site-content .widget-area ul li.category-notifications .current:before  {
+.site-content .widget-area ul li.category-notifications h2 a, .site-content .widget-area ul li.category-notifications .current a, .site-content .widget-area ul li.category-notifications h2:before, .site-content .widget-area ul li.category-notifications .current:before  {
   color: #9F00CF;
   border-color: #9F00CF;
 }
 
 .site-content .content-area main article.category-organizations header h1,
-.site-content .widget-area ul li.category-organizations h2, .site-content .widget-area ul li.category-organizations .current a, .site-content .widget-area ul li.category-organizations h2:before, .site-content .widget-area ul li.category-organizations .current:before  {
+.site-content .widget-area ul li.category-organizations h2 a, .site-content .widget-area ul li.category-organizations .current a, .site-content .widget-area ul li.category-organizations h2:before, .site-content .widget-area ul li.category-organizations .current:before  {
   color: #80DB00;
   border-color: #80DB00;
 }
 
 .site-content .content-area main article.category-power-users header h1,
-.site-content .widget-area ul li.category-power-users h2, .site-content .widget-area ul li.category-power-users .current a, .site-content .widget-area ul li.category-power-users h2:before, .site-content .widget-area ul li.category-power-users .current:before  {
+.site-content .widget-area ul li.category-power-users h2 a, .site-content .widget-area ul li.category-power-users .current a, .site-content .widget-area ul li.category-power-users h2:before, .site-content .widget-area ul li.category-power-users .current:before  {
   color: #F1A200;
   border-color: #F1A200;
 }
 
 .site-content .content-area main article.category-fun header h1,
-.site-content .widget-area ul li.category-fun h2, .site-content .widget-area ul li.category-fun .current a, .site-content .widget-area ul li.category-fun h2:before, .site-content .widget-area ul li.category-fun .current:before  {
+.site-content .widget-area ul li.category-fun h2 a, .site-content .widget-area ul li.category-fun .current a, .site-content .widget-area ul li.category-fun h2:before, .site-content .widget-area ul li.category-fun .current:before  {
   color: #CE1A00;
   border-color: #CE1A00;
 }
 
 .site-content .content-area main article.category-kato-labs header h1,
-.site-content .widget-area ul li.category-kato-labs h2, .site-content .widget-area ul li.category-kato-labs .current a, .site-content .widget-area ul li.category-kato-labs h2:before, .site-content .widget-area ul li.category-kato-labs .current:before  {
+.site-content .widget-area ul li.category-kato-labs h2 a, .site-content .widget-area ul li.category-kato-labs .current a, .site-content .widget-area ul li.category-kato-labs h2:before, .site-content .widget-area ul li.category-kato-labs .current:before  {
   color: #00CCC7;
   border-color: #00CCC7;
 }
@@ -380,7 +387,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
     border: 0;
     font-family: inherit;
-        font-size: 100%;
+    font-size: 100%;
     font-style: inherit;
     font-weight: inherit;
     margin: 0;
@@ -472,9 +479,9 @@ input,
 select,
 textarea {
     color: #999;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.8rem;
     line-height: 1.5;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-size: 1.8em; /* should be 1.8rem, but it breaks font size in chrome on mba 11" */
 }
 
 h1,

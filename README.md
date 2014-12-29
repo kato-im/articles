@@ -1,1 +1,2 @@
-[English](/en)
+## [English](/en)
+## [Русский](/ru)

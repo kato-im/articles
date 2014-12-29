@@ -1,13 +1,17 @@
 {
-    "entries": {
-        "en": {
-            "type": "category",
+    "src": "/",
+    "type": "home",
+    "entities": [
+        {
+            "type": "language",
             "title": "English",
-            "entries": {
-                "general": {
+            "src": "en",
+            "entities": [
+                {
                     "title": "General",
                     "type": "category",
-                    "entries": [
+                    "src": "general",
+                    "entities": [
                         {
                             "type": "page",
                             "src": "cheatsheet",
@@ -45,10 +49,11 @@
                         }
                     ]
                 },
-                "notifications": {
+                {
                     "type": "category",
                     "title": "Notifications",
-                    "entries": [
+                    "src": "notifications",
+                    "entities": [
                         {
                             "type": "page",
                             "src": "noise-control",
@@ -62,7 +67,7 @@
                         {
                             "type": "page",
                             "src": "auto-hide-notifications",
-                            "title": "Auto Hide Notifications"
+                            "title": "Auto-hide Notifications"
                         },
                         {
                             "type": "page",
@@ -71,7 +76,83 @@
                         }
                     ]
                 }
-            }
+            ]
+        },
+        {
+            "type": "language",
+            "title": "Русский",
+            "src": "ru",
+            "entities": [
+                {
+                    "title": "Общее",
+                    "type": "category",
+                    "src": "general",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "cheatsheet",
+                            "title": "Справка"
+                        },
+                        {
+                            "type": "page",
+                            "src": "editing-messages",
+                            "title": "Редактирование сообщений"
+                        },
+                        {
+                            "type": "page",
+                            "src": "long-messages",
+                            "title": "Длинные сообщения"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-types",
+                            "title": "Типы комнат"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-drag-n-drop",
+                            "title": "Перестановка комнат"
+                        },
+                        {
+                            "type": "page",
+                            "src": "profile-cards",
+                            "title": "Визитные карточки"
+                        },
+                        {
+                            "type": "page",
+                            "src": "global-search",
+                            "title": "Глобальный поиск"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Уведомления",
+                    "src": "notifications",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "noise-control",
+                            "title": "Управление шумом"
+                        },
+                        {
+                            "type": "page",
+                            "src": "audio-notifications",
+                            "title": "Звуковые уведомления"
+                        },
+                        {
+                            "type": "page",
+                            "src": "auto-hide-notifications",
+                            "title": "Схлопывание уведомлений"
+                        },
+                        {
+                            "type": "page",
+                            "src": "group-mentions",
+                            "title": "Упоминания групп"
+                        }
+                    ]
+                }
+            ]
         }
-    }
+    ]
 }

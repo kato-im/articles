@@ -1,0 +1,96 @@
+/* based on result of http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic,700italic */
+/* ttf fonts are from https://github.com/JLarky/source-sans-pro/tree/master/target/TTF
+  files:
+    SourceSansPro-BoldIt.ttf
+    SourceSansPro-Bold.ttf
+    SourceSansPro-It.ttf
+    SourceSansPro-Light.ttf
+    SourceSansPro-Regular.ttf
+    SourceSansPro-Semibold.ttf
+
+ * other formats were generated using CSS3 @font-face generator v2.0
+ * by Zoltan Hawryluk (http://www.useragentman.com).
+ * Latest version of this program is available at
+ * https://github.com/zoltan-dulac/css3FontConverter
+
+ how to http://www.useragentman.com/blog/the-css3-font-converter/
+ ttf2eot https://www.npmjs.com/package/ttf2eot
+ woff2 https://code.google.com/p/font-compression-reference/wiki/gathering_compression_improvement_numbers
+ */
+
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('SourceSansPro-Light.eot');
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'),
+    url('SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('SourceSansPro-Light.woff2') format('woff2'),
+    url('SourceSansPro-Light.woff') format('woff'),
+    url('SourceSansPro-Light.ttf') format('truetype'),
+    url('SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('SourceSansPro-Regular.eot');
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'),
+    url('SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('SourceSansPro-Regular.woff2') format('woff2'),
+    url('SourceSansPro-Regular.woff') format('woff'),
+    url('SourceSansPro-Regular.ttf') format('truetype'),
+    url('SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url('SourceSansPro-Semibold.eot');
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'),
+    url('SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('SourceSansPro-Semibold.woff2') format('woff2'),
+    url('SourceSansPro-Semibold.woff') format('woff'),
+    url('SourceSansPro-Semibold.ttf') format('truetype'),
+    url('SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('SourceSansPro-Bold.eot');
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+    url('SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('SourceSansPro-Bold.woff2') format('woff2'),
+    url('SourceSansPro-Bold.woff') format('woff'),
+    url('SourceSansPro-Bold.ttf') format('truetype'),
+    url('SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: url('SourceSansPro-It.eot');
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-It'),
+    url('SourceSansPro-It.eot?#iefix') format('embedded-opentype'),
+    url('SourceSansPro-It.woff2') format('woff2'),
+    url('SourceSansPro-It.woff') format('woff'),
+    url('SourceSansPro-It.ttf') format('truetype'),
+    url('SourceSansPro-It.svg#SourceSansPro-It') format('svg');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: url('SourceSansPro-BoldIt.eot');
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldIt'),
+    url('SourceSansPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+    url('SourceSansPro-BoldIt.woff2') format('woff2'),
+    url('SourceSansPro-BoldIt.woff') format('woff'),
+    url('SourceSansPro-BoldIt.ttf') format('truetype'),
+    url('SourceSansPro-BoldIt.svg#SourceSansPro-BoldIt') format('svg');
+}
+

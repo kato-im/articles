@@ -1,0 +1,12 @@
+ul#article-list
+  each category in language.entities
+    li.category(class='category-' + category.src)
+      h2
+        a(href='/' + src + '/' + category.src, rel='bookmark', title='Permanent link to ' + category.title) !{ category.title }
+      |  
+      ul
+        each page in category.entities
+          - var klass = entity.src === page.src ? 'current' : '';
+          li(class=klass)
+            a(href='/' + src + '/' + category.src + '/' + page.src, rel='bookmark', title='Permanent link to ' + page.title)
+              | !{ page.title }
