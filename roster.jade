@@ -1,6 +1,7 @@
 ul#article-list
   each entity in language.entities
-    li.category(class='category-' + entity.src)
+    - var klass = current.src === entity.src ? 'current' : '';
+    li.category(class=klass + ' category-' + entity.src)
       h2
         - var href = '/articles/' + (language.src.length ? language.src + '/' : '') + entity.src;
         a(href=href, rel='bookmark', title='Permanent link to ' + entity.title) !{ entity.title }

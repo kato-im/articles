@@ -118,6 +118,18 @@ and Blueprint http://www.blueprintcss.org/
 }
 
 .site-content .content-area main article.category-general header h1,
+.site-content .widget-area ul li.category-general h2 a, .site-content .widget-area ul li.category-general .current a, .site-content .widget-area ul li.category h2:before, .site-content .widget-area ul li.category:before {
+  color: #999;
+  border-color: #999;
+}
+
+.site-content .widget-area ul li.category.current h2:before,
+.site-content .widget-area ul li.category h2:hover:before,
+.site-content .widget-area ul li.category:hover:before {
+    border-width: 6px;
+}
+
+.site-content .content-area main article.category-general header h1,
 .site-content .widget-area ul li.category-general h2 a, .site-content .widget-area ul li.category-general .current a, .site-content .widget-area ul li.category-general h2:before, .site-content .widget-area ul li.category-general .current:before {
   color: #0092CB;
   border-color: #0092CB;
