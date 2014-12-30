@@ -1,4 +1,4 @@
 ## [English](/articles/en)
 ## [Русский](/articles/ru)
-## [Español](/articles/en)
+## [Español](/articles/es)
 ## [日本語](/articles/ja)
