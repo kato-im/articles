@@ -1,7 +1,6 @@
 var jade = require('jade');
 var rimraf = require('rimraf');
 var mkdirp = require('mkdirp');
-var ncp = require('ncp');
 var Immutable = require('immutable');
 var fs = require('fs');
 var template = null;
@@ -15,7 +14,7 @@ fs.readFile('manifest.json', 'utf8', function (err, data) {
     mkdirp.sync('./build-tmp', function (err) {});
     fs.readFile('template.jade', 'utf8', function (err, data) {
         template = data;
-        traverseManifest(manifest, Immutable.List.of('.'));
+        traverseManifest(manifest, Immutable.List.of('..'));
     });
 });
 
@@ -60,7 +59,7 @@ var traverseManifest = function (entity, dirpath, home, language, category) {
             "path": '/articles/' + path
         });
         rimraf.sync('./build-tmp/index.tmp.jade', function (err) { });
-        fs.writeFileSync('./build/' + dirpath.push('index.html').join('/'), html);
+        fs.writeFileSync('./build/' + dirpath.slice(1).push('index.html').join('/'), html);
     }
 
     for (k in entity.entities) {
@@ -100,8 +99,8 @@ var linkWp = function (dirpath) {
 };
 
 var renderPage = function (dirpath, fileName, entity, category, padre) {
-    var filePath = dirpath.join('/');
-    var template1 = template.replace('$$FILE_NAME$$', '../' + filePath + '.md');
+    var filePath = dirpath.slice(1).join('/');
+    var template1 = template.replace('$$FILE_NAME$$', '../../' + filePath + '.md');
     var template0 = template1.replace('$$ROSTER_NAME$$', '../' + 'roster.jade');
     fs.writeFileSync('./build-tmp/' + fileName + '.tmp.jade', template0);
     var fn = jade.compileFile('./build-tmp/' + fileName + '.tmp.jade', { "pretty": true });
