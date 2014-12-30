@@ -4,7 +4,6 @@ var mkdirp = require('mkdirp');
 var ncp = require('ncp');
 var Immutable = require('immutable');
 var fs = require('fs');
-
 var template = null;
 
 fs.readFile('manifest.json', 'utf8', function (err, data) {
@@ -21,30 +20,8 @@ fs.readFile('manifest.json', 'utf8', function (err, data) {
 });
 
 var traverseManifest = function (entity, dirpath, home, language, category) {
-    /*
-    if (entity.type === 'home') {
-        home = entity;
-
-        linkWp(dirpath);
-
-        var filePath = dirpath.push('README.md').join('/');
-        var template1 = template.replace('$$FILE_NAME$$', '../' + filePath);
-        var template0 = template1.replace('$$ROSTER_NAME$$', '../' + 'roster.jade');
-        fs.writeFileSync('./build-tmp/index.tmp.jade', template0);
-        var fn = jade.compileFile('./build-tmp/index.tmp.jade', { "pretty": true });
-        var prevNext = getPrevNext(entity.entities);
-        var html = fn({
-            "language": entity,
-            "current": entity,
-            "prev": prevNext.prev,
-            "next": prevNext.next,
-            "path": '/articles/' + dirpath.slice(1, -1).join('/')
-        });
-        rimraf.sync('./build-tmp/index.tmp.jade', function (err) { });
-        fs.writeFileSync('./build/' + dirpath.push('index.html').join('/'), html);
-    }
-    else */ if (entity.type === 'page') {
-        renderPage(dirpath, entity.src, entity, category.entities, language);
+    if (entity.type === 'page') {
+        renderPage(dirpath, entity.src, entity, category, language);
     }
     else if (entity.type === 'category' || entity.type === 'language' || entity.type === 'home')
     {
@@ -122,15 +99,16 @@ var linkWp = function (dirpath) {
     fs.symlinkSync(rp + '/sspro-2.010r', dir + '/sspro-2.010r');
 };
 
-var renderPage = function (dirpath, fileName, entity, entities, padre) {
+var renderPage = function (dirpath, fileName, entity, category, padre) {
     var filePath = dirpath.join('/');
     var template1 = template.replace('$$FILE_NAME$$', '../' + filePath + '.md');
     var template0 = template1.replace('$$ROSTER_NAME$$', '../' + 'roster.jade');
     fs.writeFileSync('./build-tmp/' + fileName + '.tmp.jade', template0);
     var fn = jade.compileFile('./build-tmp/' + fileName + '.tmp.jade', { "pretty": true });
-    var prevNext = getPrevNext(entities, entity);
+    var prevNext = getPrevNext(category.entities, entity);
     var html = fn({
         "language": padre,
+        "category": category,
         "current": entity,
         "prev": prevNext.prev,
         "next": prevNext.next,

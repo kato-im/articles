@@ -3,7 +3,7 @@
  *
  * Handles toggling the navigation menu for small screens.
  */
-( function() {
+(function() {
 	var container, button, menu;
 
 	container = document.getElementById( 'site-navigation' );
@@ -31,4 +31,8 @@
 		else
 			container.className += ' toggled';
 	};
-} )();
+})();
+
+(function() {
+    var colors = ['#0092CB', '#9F00CF', '#80DB00', '#F1A200', '#CE1A00', '#00CCC7'];
+})();

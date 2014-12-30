@@ -19,7 +19,7 @@ html(lang='en-US')
     link#ajaxy-sf-selective-css(rel='stylesheet', href='wp-content/plugins/ajaxy-search-form/themes/selective.css%3Fver=4.0.css', type='text/css', media='all')
     link#ajaxy-sf-theme-css(rel='stylesheet', href='wp-content/plugins/ajaxy-search-form/themes/default/style.css%3Fver=4.0.css', type='text/css', media='all')
     link#sedlex_styles-css(rel='stylesheet', href='wp-content/sedlex/inline_styles/e7aad09adb8f671e2429c881ea72c3db092c99cb.css%3Fver=20141226.css', type='text/css', media='all')
-    link#kato-style-css(rel='stylesheet', href='wp-content/themes/kato/style.css%3Fver=4.0.css', type='text/css', media='all')
+    link#kato-style-css(rel='stylesheet', href='wp-content/themes/kato/style.css', type='text/css', media='all')
     script(type='text/javascript', src='wp-includes/js/jquery/jquery.js%3Fver=1.11.1')
     script(type='text/javascript', src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.2.1')
     script(type='text/javascript', src='wp-content/sedlex/inline_scripts/01dccd0af79d5a0008be3d29ee4d87b578ca3cbf.js%3Fver=20141226')
@@ -42,7 +42,10 @@ html(lang='en-US')
       #content.site-content
         #primary.content-area
           main#main.site-main(role='main')
-            article#post-330.post-330.post.type-post.status-publish.format-standard.hentry.category-general
+            - var categoryClass = category ? 'category-' + category.src : null;
+            if !categoryClass
+              - categoryClass = current.type === 'category' ? 'category-' + current.src : '';
+            article#post-330.post-330.post.type-post.status-publish.format-standard.hentry(class=categoryClass)
               header.entry-header
                 h1.entry-title 
                   | !{ current.title }
@@ -117,6 +120,6 @@ html(lang='en-US')
       analytics.track("Viewed Post", {"title":"Room Types","category":"General, Product Updates, Notifications, Docs, Organizations, Fun, Power Users, Kato Labs","noninteraction":true}, {"library":"analytics-wordpress"});
     script(type='text/javascript', src='wp-content/plugins/ajaxy-search-form/js/sf.js%3Fver=1.0.1')
     script(type='text/javascript', src='wp-content/plugins/ajaxy-search-form/js/sf_selective.js%3Fver=1.0.0')
-    script(type='text/javascript', src='wp-content/themes/kato/js/navigation.js%3Fver=20120206')
-    script(type='text/javascript', src='wp-content/themes/kato/js/skip-link-focus-fix.js%3Fver=20130115')
-    script(type='text/javascript', src='wp-content/themes/kato/js/filter.js%3Fver=20140822')
+    script(type='text/javascript', src='wp-content/themes/kato/js/navigation.js')
+    script(type='text/javascript', src='wp-content/themes/kato/js/skip-link-focus-fix.js')
+    script(type='text/javascript', src='wp-content/themes/kato/js/filter.js')
