@@ -153,6 +153,158 @@
                     ]
                 }
             ]
+        },
+        {
+            "type": "language",
+            "title": "日本語",
+            "src": "ja",
+            "entities": [
+                {
+                    "title": "General",
+                    "type": "category",
+                    "src": "general",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "cheatsheet",
+                            "title": "Cheatsheet"
+                        },
+                        {
+                            "type": "page",
+                            "src": "editing-messages",
+                            "title": "Editing Messages"
+                        },
+                        {
+                            "type": "page",
+                            "src": "long-messages",
+                            "title": "Long Messages"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-types",
+                            "title": "Room Types"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-drag-n-drop",
+                            "title": "Room Drag-n-Drop"
+                        },
+                        {
+                            "type": "page",
+                            "src": "profile-cards",
+                            "title": "Profile Cards"
+                        },
+                        {
+                            "type": "page",
+                            "src": "global-search",
+                            "title": "Global Search"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Notifications",
+                    "src": "notifications",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "noise-control",
+                            "title": "Noise Control"
+                        },
+                        {
+                            "type": "page",
+                            "src": "audio-notifications",
+                            "title": "Audio Notifications"
+                        },
+                        {
+                            "type": "page",
+                            "src": "auto-hide-notifications",
+                            "title": "Auto-hide Notifications"
+                        },
+                        {
+                            "type": "page",
+                            "src": "group-mentions",
+                            "title": "Group Mentions"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "language",
+            "title": "Español",
+            "src": "es",
+            "entities": [
+                {
+                    "title": "General",
+                    "type": "category",
+                    "src": "general",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "cheatsheet",
+                            "title": "Cheatsheet"
+                        },
+                        {
+                            "type": "page",
+                            "src": "editing-messages",
+                            "title": "Editing Messages"
+                        },
+                        {
+                            "type": "page",
+                            "src": "long-messages",
+                            "title": "Long Messages"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-types",
+                            "title": "Room Types"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-drag-n-drop",
+                            "title": "Room Drag-n-Drop"
+                        },
+                        {
+                            "type": "page",
+                            "src": "profile-cards",
+                            "title": "Profile Cards"
+                        },
+                        {
+                            "type": "page",
+                            "src": "global-search",
+                            "title": "Global Search"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Notifications",
+                    "src": "notifications",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "noise-control",
+                            "title": "Noise Control"
+                        },
+                        {
+                            "type": "page",
+                            "src": "audio-notifications",
+                            "title": "Audio Notifications"
+                        },
+                        {
+                            "type": "page",
+                            "src": "auto-hide-notifications",
+                            "title": "Auto-hide Notifications"
+                        },
+                        {
+                            "type": "page",
+                            "src": "group-mentions",
+                            "title": "Group Mentions"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

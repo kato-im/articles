@@ -5,11 +5,11 @@
             return condition ? 'hide' : 'show'
         }
         $('#article-filter').on('keyup', function() {
-            var txt = $(this).val().toLowerCase();    
+            var txt = $(this).val().toLowerCase();
             $('ul#article-list > li').each(function() {
                 var allItems = $('ul li', this);
                 var visibleItems = allItems.filter(function(index, elem) {
-                    return $(elem).text().toLowerCase().indexOf(txt) !== -1;                
+                    return $(elem).text().toLowerCase().indexOf(txt) !== -1;
                 });
                 visibleItems.show();
                 allItems.not(visibleItems).hide();
