@@ -6,6 +6,7 @@
             "type": "language",
             "title": "English",
             "src": "en",
+            "improve": "Improve this article",
             "entities": [
                 {
                     "title": "General",
@@ -75,6 +76,109 @@
                             "title": "Group Mentions"
                         }
                     ]
+                },
+                {
+                    "type": "category",
+                    "title": "Teams",
+                    "src": "teams",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "who-owns-your-messages",
+                            "title": "Who Owns Your Messages?"
+                        },
+                        {
+                            "type": "page",
+                            "src": "security-audit-log",
+                            "title": "Security Audit Log"
+                        },
+                        {
+                            "type": "page",
+                            "src": "claiming-domains",
+                            "title": "Claiming Domains"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Fun",
+                    "src": "fun",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "emoji-support",
+                            "title": "Emoji Support"
+                        },
+                        {
+                            "type": "page",
+                            "src": "ifttt-integration",
+                            "title": "IFTTT Integration"
+                        },
+                        {
+                            "type": "page",
+                            "src": "product-updates",
+                            "title": "Product Updates"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Power Users",
+                    "src": "power-users",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "markdown-syntax",
+                            "title": "Markdown Syntax"
+                        },
+                        {
+                            "type": "page",
+                            "src": "m-for-markdown",
+                            "title": "M for Markdown"
+                        },
+                        {
+                            "type": "page",
+                            "src": "keyboard-control",
+                            "title": "Keyboard Control"
+                        },
+                        {
+                            "type": "page",
+                            "src": "integrations",
+                            "title": "Integrations"
+                        },
+                        {
+                            "type": "page",
+                            "src": "google-hangouts-integration",
+                            "title": "Google Hangouts Integration"
+                        },
+                        {
+                            "type": "page",
+                            "src": "uberconference-integration",
+                            "title": "UberConference Integration"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Kato Labs",
+                    "src": "kato-labs",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "video-voice-calling",
+                            "title": "Video/Voice Calling"
+                        },
+                        {
+                            "type": "page",
+                            "src": "screensharing",
+                            "title": "Screensharing"
+                        },
+                        {
+                            "type": "page",
+                            "src": "kato-for-mac",
+                            "title": "Kato for Mac OS X"
+                        }
+                    ]
                 }
             ]
         },
@@ -82,6 +186,7 @@
             "type": "language",
             "title": "Русский",
             "src": "ru",
+            "improve": "Улучшить статью",
             "entities": [
                 {
                     "title": "Общее",
@@ -158,6 +263,7 @@
             "type": "language",
             "title": "日本語",
             "src": "ja",
+            "improve": "日本語",
             "entities": [
                 {
                     "title": "General",
@@ -234,6 +340,7 @@
             "type": "language",
             "title": "Español",
             "src": "es",
+            "improve": "Mejorar este artículo",
             "entities": [
                 {
                     "title": "General",

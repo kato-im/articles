@@ -3,7 +3,7 @@
 ## Synopsis
 Good news! Today we are delighted to introduce group mentions in [Kato](https://kato.im).
 
-If you [follow](https://kato.im/articles/organization-model-and-noise-management-updates/) the **Development** room, and someone mentions **@Development** in any other room (or in **Development** room itself), you’ll get a ping (red counter, desktop and push notification, digest email).
+If you [follow](/articles/en/notifications/noise-control) the **Development** room, and someone mentions **@Development** in any other room (or in **Development** room itself), you’ll get a ping (red counter, desktop and push notification, digest email).
 
 If you need to get a designer’s attention, and you know that designers talk in **Design**, mention **@Design**.
 
@@ -27,9 +27,6 @@ But what happens if Alice is not in the Kitchen room, because she left? First, y
 And how do you alert the entire team, or the entire company? You’d need a room that nobody can leave. How do you mention a group in a room that was not joined by all members of that group? Oh boy!
 
 #### The Follow Model
-After experimenting with the Join/Leave Model in the early version of Kato, we decided to try to avoid these dilemmas by building noise management without explicit room membership. ([Restricted rooms](https://kato.im/articles/introducing-restricted-rooms/) are an exception.)
+After experimenting with the Join/Leave Model in the early version of Kato, we decided to try to avoid these dilemmas by building noise management without explicit room membership. ([Restricted rooms](/articles/en/general/cheatsheet#restricted-rooms) are an exception.)
 
 All full members of a Kato organization are members of all rooms.  Noise is controlled by a mechanism we ended up calling the Follow Model: the ability to easily mark rooms as important, somewhat important, or irrelevant. It’s similar to following things on Twitter. The big difference from the Join/Leave model is that a mention of @Alice in a room that Alice ignores will still result in a notification.
-
-Because it took us a while to formalize the Follow Model, we kept punting group mentions - a hotly requested feature. With the Follow Model [in place](https://kato.im/articles/organization-model-and-noise-management-updates/), group mentions naturally followed. Enjoy!
-

@@ -141,8 +141,8 @@ and Blueprint http://www.blueprintcss.org/
   border-color: #9F00CF;
 }
 
-.site-content .content-area main article.category-organizations header h1,
-.site-content .widget-area ul li.category-organizations h2 a, .site-content .widget-area ul li.category-organizations .current a, .site-content .widget-area ul li.category-organizations h2:before, .site-content .widget-area ul li.category-organizations .current:before  {
+.site-content .content-area main article.category-teams header h1,
+.site-content .widget-area ul li.category-teams h2 a, .site-content .widget-area ul li.category-teams .current a, .site-content .widget-area ul li.category-teams h2:before, .site-content .widget-area ul li.category-teams .current:before  {
   color: #80DB00;
   border-color: #80DB00;
 }
@@ -338,9 +338,15 @@ article tbody tr td {
     .comment-navigation .nav-next,
     .paging-navigation .nav-next,
     .post-navigation .nav-next {
-    float: none !important;
-    width: 100% !important;
-    }   
+        float: none !important;
+        width: 100% !important;
+    }
+    .post-navigation {
+        display: none;
+    }
+    #main article {
+        height: 100%;
+    }
 }
 article::-webkit-scrollbar, #article-list::-webkit-scrollbar {
   -webkit-appearance: none;
@@ -873,7 +879,15 @@ a:active {
 .paging-navigation .nav-previous,
 .post-navigation .nav-previous {
     float: left;
-    width: 50%;
+    width: 33%;
+}
+
+.comment-navigation .nav-previous,
+.paging-navigation .nav-previous,
+.post-navigation .nav-middle {
+    float: left;
+    text-align: center;
+    width: 33%;
 }
 
 .comment-navigation .nav-next,
@@ -881,7 +895,7 @@ a:active {
 .post-navigation .nav-next {
     float: right;
     text-align: right;
-    width: 50%;
+    width: 33%;
 }
 
 /*--------------------------------------------------------------
