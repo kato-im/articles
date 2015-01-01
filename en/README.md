@@ -4,7 +4,7 @@
 
 ---
 
-The source for these articles is available on GitHub: [https://github.com/kato-im/articles](http://github.com/kato-im/articles). Pull requests with translations, improvements and new topics are very welcome! There is a direct link to the source at the bottom of each article page&#8212;
+The source for these articles is available on GitHub: <a href='https://github.com/kato-im/articles' target='_blank'>http://github.com/kato-im/articles</a>. Pull requests with translations, improvements and new topics are very welcome! There is a direct link to the source at the bottom of each article page&#8212;
 
 ![clip.png](https://in.kato.im/adb4d5daf04ac5e6c27803f83a77905b5e506790fc9dcb7e5cc89119e637060b/clip.png)
 
