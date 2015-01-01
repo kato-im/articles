@@ -49,7 +49,8 @@ html(lang='en-US')
             article#post-330.post-330.post.type-post.status-publish.format-standard.hentry(class=categoryClass)
               header.entry-header
                 h1.entry-title 
-                  | !{ current.title }
+                  if current.type !== 'language'
+                    | !{ current.title }
                 | &#x9;&#x9;
                 .entry-meta
                   span.posted-on

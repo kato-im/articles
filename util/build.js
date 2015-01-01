@@ -27,7 +27,7 @@ var traverseManifest = function (entity, dirpath, home, language, category) {
         var prevNext = {"prev": undefined, "next": undefined};
         if (entity.type === 'language') {
             language = entity;
-            prevNext = getPrevNext(home.entities, entity);
+            prevNext = { "prev": undefined, "next": entity.entities[0] };
         } else if (entity.type === 'category') {
             category = entity;
             prevNext = getPrevNext(language.entities, entity);
@@ -43,7 +43,12 @@ var traverseManifest = function (entity, dirpath, home, language, category) {
         var template0 = template1.replace('$$ROSTER_NAME$$', '../' + 'roster.jade');
         fs.writeFileSync('./build-tmp/index.tmp.jade', template0);
         var fn = jade.compileFile('./build-tmp/index.tmp.jade', { "pretty": true });
-        var path = dirpath.slice(1, -1).join('/');
+        var path;
+        if (entity.type === 'language') {
+            path = dirpath.slice(1).join('/');
+        } else {
+            path = dirpath.slice(1, -1).join('/');
+        }
         if (path) {
             path += '/';
         }
