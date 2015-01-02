@@ -1,11 +1,11 @@
 ********************************************************************************
-## <a href="#newlines" name="newlines">Multi-line Messages</a>
+## <a href="#newlines" name="newlines">Многостроковые сообщения</a>
 
-To insert a blank line into a message, press **Shift+Return**. Easy!
+Для вставки пустой строки в сообщение, нажмите **Shift+Return**. Просто!
 
 ![clip.png](https://in.kato.im/8e38ead5ac3d507555c45475b4aa160e4f460046f99fcacf7cf98b56d8c00c5/clip.png)
 
-It's one of several [message formatting options](#message-formatting).
+Это - одна из нескольких [опций форматирования сообщения](#message-formatting).
 
 ********************************************************************************
 ## <a href="#presence" name="presence">Presence</a>
