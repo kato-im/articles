@@ -1,1 +1,1 @@
-## KATO LABS
+## Kato Labs
