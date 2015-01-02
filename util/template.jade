@@ -91,7 +91,7 @@ html(lang='en-US')
                 //| &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
                 //| &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
                 .nav-middle
-                  - var href = 'https://github.com/kato-im' + path.replace('articles', 'articles/tree/master') + current.src + (current.type !== 'page' ? '/README.md' : '.md');
+                  - var href = 'https://github.com/kato-im' + path.replace('articles', 'articles/tree/master') + (current.type !== 'language' && current.type !== 'category' ? current.src : '') + (current.type !== 'page' ? 'README.md' : '.md');
                   a(href=href, target='_blank')
                     i.fa.fa-github-alt
                     |  !{ language.improve }
