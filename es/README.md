@@ -12,9 +12,9 @@ The source for these articles is available on GitHub: <a href='https://github.co
 
 A Kato team is a secure place for professional communication. Instead of using a combination of messaging channels, such as email, SMS, Skype, and Facebook, Kato makes it easy to maintain all communication data in one place, available to all present and future team members.
 
-You can configure various services, like GitHub, Twitter, Zendesk, or Raygun to post notifications to rooms in Kato, helping you keep your email inbox free of automated messages.
-
 In Kato, communication happens in named, persistent _rooms_ in a form of immutable, temporally-ordered messages&#8212;also known as chat. Usually, a room is created per topic, such as _February 2015 Press Release_ or _Quality Assurance_. By default, rooms are visible to all members of your team. It's also possible to invite outsiders into closed, _restricted_ rooms, such that they have no access to the rest of your rooms. To limit the exposure to noise, each team member can adjust room noise level by choosing to follow, watch, or ignore a particular room.
+
+You can configure various services, like GitHub, Twitter, Zendesk, or Raygun to post notifications to rooms in Kato, helping you keep your email inbox free of automated messages.
 
 Kato makes it easy to work across multiple Kato Teams, possibly with some of the same people, and to interact with rooms from different teams at the same time.
 
