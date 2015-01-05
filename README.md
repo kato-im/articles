@@ -19,7 +19,7 @@
   2. Click on the 'edit' icon: ![clip.png](https://in.kato.im/7a029a7fd81e1465576284948664ac35c041bc86519141a13144903c800ad92/clip.png)
   3. Make your edits and click on the ![clip.png](https://in.kato.im/e3e599eb17558d7fa9c0cfea984136cbe6f51e8ca0486655f3adda187c3d2d91/clip.png) button at the bottom of the page.
 * To contribute a translation:
-  1. Use the same file structure as your see in [`articles/en`](https://github.com/kato-im/articles/tree/master/en) for your translation.
+  1. Use the same file names and directory structure as your see in [`articles/en`](https://github.com/kato-im/articles/tree/master/en) for your translation.
   2. Whenever you are ready to publish your translation, add all the articles under your language to [`util/manifest.json`](https://github.com/kato-im/articles/blob/master/util/manifest.json) (create a new language entry if necessary).
   3. Submit a pull request.
 * We'll review your pull request, merge with the mainline, and roll it out to [kato.im/articles](http://kato.im/articles).
