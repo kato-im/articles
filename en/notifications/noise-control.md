@@ -29,7 +29,7 @@ For normal [restricted or unrestricted rooms](/articles/en/general/room-types), 
 If you set the noise level for a specific room, it will be shown in _italic_: ![clip](https://s3.amazonaws.com/kato-share/817e344293c1db147d7db14dc0a2bf339d132401c8bb50b6dca8ddba77fc4f3/clip.png) vs ![clip](https://s3.amazonaws.com/kato-share/599ad9a8bc930bfe51ae45f6698218aa1f08e53117739f02d03ad91b28395c5/clip.png). Adjusting noise levels as conversations evolve is a good way to minimize unnecessary distractions. That's why Kato noise controls are always in view.
 
 ## <a href="#noise-account" name="noise-account">Account-Level Default Noise Settings</a>
-You can set a default noise level for each [room type](/articles/en/generic/room-types) in your account settings. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/account/noise*
+You can set a default noise level for each [room type](/articles/en/general/room-types) in your account settings. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/account/noise*
 
 ## <a href="#noise-organization" name="noise-organization">Organization-Level Default Noise Settings</a>
 Admins can set the default noise level for each room type, across the organization. Your default noise levels will override those. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/membership/_/noise*
