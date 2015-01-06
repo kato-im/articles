@@ -11,7 +11,7 @@ Some of the most challenging aspects of designing a collaboration product revolv
 
 To address this requirement, most real-time collaboration products employ what we call the Join/Leave Model, which uses the metaphor of entering and leaving chat rooms as the basis for noise control. In this model, it’s common to see messages similar to these:
 
-_Bob joined Kitchen_
+_Bob joined Kitchen_  
 _Alice left Kitchen_
 
 After Alice leaves, she will no longer be bothered with things happening in Kitchen.
