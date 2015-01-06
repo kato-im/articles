@@ -5,6 +5,8 @@ If you [follow](/articles/en/notifications/noise-control) the **Development** ro
 
 If you need to get a designer’s attention, and you know that designers talk in **Design**, mention **@Design**.
 
+The truth is, not all designers will want to follow the **Design** room, it may be too noisy to see a notification for every single message there. How can designers keep a **Design** room and have group mentions at the same time? The solution is to create another room, say **Designers**, which is not used for posting messages at all. All the designers simply agree to follow this room, so whenever and wherever **@Designers** are mentioned, all the right people get an alert.
+
 ## The Full Story
 #### The Join/Leave Model
 Some of the most challenging aspects of designing a collaboration product revolve around noise management. The goal is to deliver information (a) at the right time and (b) with minimal obnoxia.
