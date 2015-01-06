@@ -1,6 +1,6 @@
 ![clip.png](https://in.kato.im/e9704ffb91e62ba3533cc2f9566a20be3b5fbbeaf017c5726a4485c262b56bf3/clip.png)
 
-## Synopsis
+## In Short
 If you [follow](/articles/en/notifications/noise-control) the **Development** room, and someone mentions **@Development** in any other room (or in **Development** room itself), you’ll get a ping (red counter, desktop and push notification, digest email).
 
 If you need to get a designer’s attention, and you know that designers talk in **Design**, mention **@Design**.
