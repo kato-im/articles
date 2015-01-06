@@ -153,14 +153,20 @@ and Blueprint http://www.blueprintcss.org/
   border-color: #F1A200;
 }
 
+.site-content .content-area main article.category-kato-apps header h1,
+.site-content .widget-area ul li.category-kato-apps h2 a, .site-content .widget-area ul li.category-kato-apps .current a, .site-content .widget-area ul li.category-kato-apps h2:before, .site-content .widget-area ul li.category-kato-apps .current:before  {
+  color: #1545CC;
+  border-color: #1545CC;
+}
+
 .site-content .content-area main article.category-fun header h1,
 .site-content .widget-area ul li.category-fun h2 a, .site-content .widget-area ul li.category-fun .current a, .site-content .widget-area ul li.category-fun h2:before, .site-content .widget-area ul li.category-fun .current:before  {
   color: #CE1A00;
   border-color: #CE1A00;
 }
 
-.site-content .content-area main article.category-kato-labs header h1,
-.site-content .widget-area ul li.category-kato-labs h2 a, .site-content .widget-area ul li.category-kato-labs .current a, .site-content .widget-area ul li.category-kato-labs h2:before, .site-content .widget-area ul li.category-kato-labs .current:before  {
+.site-content .content-area main article.category-voice-video header h1,
+.site-content .widget-area ul li.category-voice-video h2 a, .site-content .widget-area ul li.category-voice-video .current a, .site-content .widget-area ul li.category-voice-video h2:before, .site-content .widget-area ul li.category-voice-video .current:before  {
   color: #00CCC7;
   border-color: #00CCC7;
 }

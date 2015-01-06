@@ -1,6 +1,6 @@
 If you're using **Google Chrome** or **Firefox**, you can share your screen with another Kato user. Here's how:
 
-**1. Enable [Video/Voice Calling](/articles/en/kato-labs/video-voice-calling)**
+**1. Enable [Video/Voice Calling](/articles/en/voice-video/video-voice-calling)**
 
   This can be done by an admin in your Kato organization.
 

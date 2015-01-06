@@ -145,23 +145,25 @@
                             "type": "page",
                             "src": "integrations",
                             "title": "Integrations"
-                        },
-                        {
-                            "type": "page",
-                            "src": "google-hangouts-integration",
-                            "title": "Google Hangouts Integration"
-                        },
-                        {
-                            "type": "page",
-                            "src": "uberconference-integration",
-                            "title": "UberConference Integration"
                         }
                     ]
                 },
                 {
                     "type": "category",
-                    "title": "Kato Labs",
-                    "src": "kato-labs",
+                    "title": "Apps",
+                    "src": "kato-apps",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "kato-for-mac",
+                            "title": "Kato for Mac OS X"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Voice & Video",
+                    "src": "voice-video",
                     "entities": [
                         {
                             "type": "page",
@@ -175,8 +177,13 @@
                         },
                         {
                             "type": "page",
-                            "src": "kato-for-mac",
-                            "title": "Kato for Mac OS X"
+                            "src": "google-hangouts-integration",
+                            "title": "Google Hangouts Integration"
+                        },
+                        {
+                            "type": "page",
+                            "src": "uberconference-integration",
+                            "title": "UberConference Integration"
                         }
                     ]
                 }
