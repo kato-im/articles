@@ -145,6 +145,11 @@
                             "type": "page",
                             "src": "integrations",
                             "title": "Integrations"
+                        },
+                        {
+                            "type": "page",
+                            "src": "api",
+                            "title": "API"
                         }
                     ]
                 },
