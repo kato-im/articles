@@ -1,4 +1,4 @@
-# OS X App (Safari Wrapper)
+## OS X App (Safari Wrapper)
 
 You can download this [**old version** of Kato for Mac OS X](http://labs.kato.im/Kato.pkg).
 
@@ -15,7 +15,7 @@ That said, there are upsides: you'll see red notification numbers in the Dock, a
 
 So we're making it available here in Kato Labs, strictly for the adventurous. Let us know about issues, but we don't promise to address them right away. Enjoy!
 
-# Windows (Chrome Shortcut)
+## Windows (Chrome Shortcut)
 
  - Go to https://app.kato.im in Chrome.
  - Click the Chrome menu in your browser toolbar.
