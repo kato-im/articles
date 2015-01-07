@@ -1,3 +1,5 @@
+***
+
 This section focuses on advanced features&#8212;not necessary for everyday use, but very nice to have when you need them.
 
 [**Markdown**](/articles/en/power-users/m-for-markdown) is a method of [rich formatting](/articles/en/power-users/markdown-syntax) that lets you compose messages with lists, embedded images, bold and italic text, hyperlinks, and more.

@@ -4,7 +4,7 @@ To enable Keyboard Control, go to ![clip.png](https://s3.amazonaws.com/kato-shar
 
 The most important thing to know about Keyboard Control is that it has two modes: **Command mode** is for navigating the interface and moving rooms around. **Input mode** is for entering and sending messages. You go between these modes using **Esc** and **i**—see below for details.
 
-(**Tip**: Keyboard Control follows many conventions established by the popular text editor [vi/vim](http://en.wikipedia.org/wiki/Vi). This means: when in doubt, hit **Esc**!)
+(**Tip**: Keyboard Control follows many conventions established by the popular text editor [vi/Vim](http://en.wikipedia.org/wiki/Vi). This means: when in doubt, hit **Esc**!)
 
 If you have questions, suggestions, or bug reports, please let us know in your [Kato support room](room-types), or via [support@kato.im](mailto:support@kato.im)
 

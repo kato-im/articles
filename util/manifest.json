@@ -160,8 +160,13 @@
                     "entities": [
                         {
                             "type": "page",
-                            "src": "kato-for-mac",
-                            "title": "Kato for Mac OS X"
+                            "src": "desktop",
+                            "title": "Desktop Apps"
+                        },
+                        {
+                            "type": "page",
+                            "src": "mobile",
+                            "title": "Mobile Apps"
                         }
                     ]
                 },
