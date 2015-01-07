@@ -1,4 +1,4 @@
-If you'd like to connect other tools and services with Kato in a more manual fashion than with [IFTTT](/articles/en/fun/ifttt-integration) and [Zapier](/articles/en/power-users/integrations/#zapier), you totally can!
+If you'd like to connect other tools and services with Kato in a more manual fashion than with [IFTTT](/articles/en/fun/ifttt-integration) and [Zapier](/articles/en/power-users/integrations#zapier), you totally can!
 
 For example, if you can trigger a message to Kato when your deploy script finishes running&#8212;you can use the HTTP POST API to do this, or you may want to use Kato to trigger your deployment script&#8212;the upcoming Webhooks API could be used for that.
 
