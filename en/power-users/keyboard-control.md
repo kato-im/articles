@@ -1,6 +1,6 @@
 If you begrudge every millisecond spent reaching for the mouse or trackpad, you'll be delighted to know that you can use the keyboard for most operations in Kato! It's a special feature that we call *Keyboard Control*. 
 
-To enable Keyboard Control, go to ![clip.png](https://s3.amazonaws.com/kato-share/2b9ca8dddd30d4b02b589b711204c953fb9a9aba105f87dbd326401b8ff6c7b6/clip.png) `-> My Account -> Options -> Keyboard Control`, or paste this URL into your Kato tab: <a href="https://app.kato.im/#/account/options/keyboard-control" target="_blank">https://app.kato.im/#/account/options/keyboard-control</a>
+To enable Keyboard Control, go to ![clip.png](https://s3.amazonaws.com/kato-share/2b9ca8dddd30d4b02b589b711204c953fb9a9aba105f87dbd326401b8ff6c7b6/clip.png) `→ My Account → Options → Keyboard Control`, or paste this URL into your Kato tab: <a href="https://app.kato.im/#/account/options/keyboard-control" target="_blank">https://app.kato.im/#/account/options/keyboard-control</a>
 
 The most important thing to know about Keyboard Control is that it has two modes: **Command mode** is for navigating the interface and moving rooms around. **Input mode** is for entering and sending messages. You go between these modes using **Esc** and **i**—see below for details.
 
