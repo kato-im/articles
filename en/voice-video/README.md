@@ -1,3 +1,5 @@
+***
+
 You have three different options for voice, video, and screensharing in Kato:
 
 - [Built-in voice and video support](/articles/en/voice-video/video-voice-calling) (requires Chrome or Firefox)
