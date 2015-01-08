@@ -150,6 +150,11 @@
                             "type": "page",
                             "src": "api",
                             "title": "API"
+                        },
+                        {
+                            "type": "page",
+                            "src": "direct-urls",
+                            "title": "Direct URLs"
                         }
                     ]
                 },
