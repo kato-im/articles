@@ -1,4 +1,5 @@
 ## OS X App (Safari Wrapper)
+***
 
 You can download this [**old version** of Kato for Mac OS X](http://labs.kato.im/Kato.pkg).
 
