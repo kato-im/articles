@@ -1,3 +1,5 @@
+***
+
 The world is quickly coming to terms with the realization that team chat is the way to go, when it comes to everyday workspace communication.
 
 While that's great, voice conferencing is not only not going away, it's actually getting pretty darn great.

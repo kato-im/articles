@@ -1,3 +1,5 @@
+***
+
 No enterprise system is complete without a security audit log. This includes communication and collaboration systems. Hey—this includes Kato! This is why we’re so excited to announce a new feature today: security audit log.
 
 ## Motivation

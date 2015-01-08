@@ -1,3 +1,5 @@
+***
+
 You can automatically route notifications from many third-party services into Kato rooms. To manage integrations for all rooms, click here: [https://app.kato.im/#/integrations](https://app.kato.im/#/integrations)
 
 (You can also manage integrations for a specific room from its room menu.)

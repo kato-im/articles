@@ -1,3 +1,5 @@
+***
+
 Kato can add your colleagues to your Kato organization automatically, based on email addresses. You can tell Kato to do this as part of your own signup, by *claiming the domain* that is part of your signup email address. (The domain is after the "@".)
 
 <!-- new branding: -->

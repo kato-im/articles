@@ -1,3 +1,5 @@
+***
+
 You can initiate a [Google Hangout](http://www.google.com/hangouts/) session right from Kato! If you'd like to focus on voice and screensharing and not video, check out our [UberConference integration](/articles/en/voice-video/uberconference-integration).
 
 **Note:** If you're currently logged in to your Google Apps account, then only users from your Google Apps domain can join this Google Hangout.

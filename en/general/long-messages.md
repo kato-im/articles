@@ -1,3 +1,5 @@
+***
+
 Sometimes you want to send a very long message, but you don't want it to overwhelm the chat history.
 
 So if you send a message with more than 2000 characters, Kato will put the whole thing into a new document, and show the first part of the message along with a link to the document.

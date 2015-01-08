@@ -1,3 +1,5 @@
+***
+
 ## Searching Across All Your Rooms And Teams
 
 When we started working on Kato, we wanted to build instant access all chat history — an implementation of a simple idea that **it should be faster to look up something that was already discussed than to re-ask the question**.

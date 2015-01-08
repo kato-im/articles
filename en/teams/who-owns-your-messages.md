@@ -1,3 +1,5 @@
+***
+
 Who owns your private messages in Kato? If you're using Kato Teams (the free product), you do. If you're using Kato Enterprise, the enterprise does. Here's how it works:
 
 ## Kato Teams

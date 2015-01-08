@@ -1,3 +1,5 @@
+***
+
 You can edit your last message for **two minutes** after you send it. To do this, click the message box and press **Up-Arrow**. You'll see a green highlight next to the message being edited. The message box will turn green too:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/737d2337892b6b2c67ec8e98dfdb405f9ac176275c21cbfb21f47883794e6ff/clip.png)

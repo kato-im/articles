@@ -1,3 +1,5 @@
+***
+
 [IFTTT](http://ifttt.com) (**I**f **T**his, **T**hen **T**hat) is a free service that lets you connect together various web applications, like Dropbox, Facebook...and now [Kato](https://ifttt.com/kato)!
 
 Kato ⟷ IFTTT integration is two-way: you can use Kato both as a **trigger** and a **source** for IFTTT. We encourage everyone to try their hand in cooking something interesting!

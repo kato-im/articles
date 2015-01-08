@@ -1,3 +1,5 @@
+***
+
 In Kato, conversations are called *rooms*. All room histories are archived and searchable. There are a few different kinds:
 
 ### ![icon_unrestricted.png](https://s3.amazonaws.com/kato-share/c40a19803021fd1a9a2a7e0c1d5501b2db31191dacbe9dda631b6c943a6521bf/clip.png) Unrestricted Rooms

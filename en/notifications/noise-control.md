@@ -1,3 +1,5 @@
+***
+
 Managing noise is a crucial aspect of a communication system, especially as the organization grows. Too many notifications, and you can't get anything done. Too few, and you miss important stuff. Kato has a flexible approach for managing the demands on your attention.
 
 First of all, you'll always get an immediate notification when someone sends you a message in the **[1:1 room](/articles/en/general/room-types)** that you share with that person.

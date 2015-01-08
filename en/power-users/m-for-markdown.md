@@ -1,3 +1,5 @@
+***
+
 Markdown is a lightweight markup language invented by John Gruber eight years ago. We've seen something similar in Wikipedia and a few other places, but Markdown took hold. For example, these days most READMEs appear to be written with Markdown (that's what ".md" in README.md stands for).
 
 The concept is very simple: add markup to content in such a way that it doesn't hinder readability. Anyone who has tried visually extracting content from HTML or XML documents would welcome the idea.
