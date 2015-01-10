@@ -308,7 +308,7 @@ Every Kato room has a unique email address. Some tools only provide email-based 
 ***
 ## <a href="#stripe" name="stripe">![clip.png](https://s3.amazonaws.com/kato-share/923ea0d6dca569bd864b093fecf0767d7c61ee7c49d1d3b211df7a89b314c99c/clip.png) Stripe</a>
 <br />
-<a href='https://stripe.com' target='_blank'>Stripe</a> is a web and mobile payments API service. [Configure the Kato-Stripe application](https://app.kato.im/#/integrations/stripe) to receive real-time notifications from your account in a Kato room. [See this post](https://kato.im/articles/introducing-stripe-integration/) for more info.
+<a href='https://stripe.com' target='_blank'>Stripe</a> is a web and mobile payments API service. [Configure the Kato-Stripe application](https://app.kato.im/#/integrations/stripe) to receive real-time notifications from your account in a Kato room.
 
 ***
 ## <a href="#teamcity" name="teamcity">![clip.png](https://s3.amazonaws.com/kato-share/e1ae5659ed45a59d49116e1aa899261665583d22fd5a486e115bb79a171f1705/clip.png) TeamCity</a>
