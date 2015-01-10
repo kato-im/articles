@@ -18,9 +18,9 @@ How to tell someone's online status:
 ********************************************************************************
 ## <a href="#video-calling" name="video-calling">Video Calling & </a><a href="#screensharing" name="screensharing">Screensharing</a>
 
-Organization admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [organization settings](https://app.kato.im/#/membership/). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](video-calling) and [Screensharing](introducing-screensharing).
+Organization admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [organization settings](https://app.kato.im/#/membership/_/kato-labs). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](/articles/en/voice-video/video-voice-calling) and [Screensharing](/articles/en/voice-video/screensharing).
 
-*(We also integrate with [Google Hangouts](google-hangouts-integration) and [UberConference](uberconference-integration). Just saying.)*
+*(We also integrate with [Google Hangouts](/articles/en/voice-video/google-hangouts-integration) and [UberConference](/articles/en/voice-video/uberconference-integration). Just saying.)*
 
 ********************************************************************************
 ## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
