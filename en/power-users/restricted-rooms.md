@@ -54,7 +54,7 @@ Users who only have access to a restricted room will see other users with explic
 
 Users who only have access to different restricted rooms will not be able to see each other.
 
-# Changing Room Access
+# Changing Room Access Type
 To change room access type from restricted to unrestricted and vice versa, open room settings and navigate to the **Access** tab.
 
 An administrator's password is required to actually perform the change:
