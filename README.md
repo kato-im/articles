@@ -16,7 +16,7 @@
 * Create a [GitHub](http://github.com) account or sign into an existing one.
 * To suggest an improvement to an existing article:
   1. click the link with this icon&#8212;<i class="fa fa-github-alt" style="color: #0092CB;"></i>&#8212;at the bottom of the page you'd like to improve.
-  2. Make your edits and click on the ![clip.png](https://in.kato.im/e3e599eb17558d7fa9c0cfea984136cbe6f51e8ca0486655f3adda187c3d2d91/clip.png) button at the bottom of the page, then click on ![clip.png](https://in.kato.im/f4eedd5cd8f7a29ffae1a015b2bfd459f95282ce67e8fe47fc6c84e8b5e49298/clip.png).
+  2. Make your edits and click on the **Propose file change** button at the bottom of the page, then click on **Create pull request**.
 * To contribute a translation:
   1. Use the same file names and directory structure as your see in [`articles/en`](https://github.com/kato-im/articles/tree/master/en) for your translation.
   2. Whenever you are ready to publish your translation, add all the articles under your language to [`util/manifest.json`](https://github.com/kato-im/articles/blob/master/util/manifest.json) (create a new language entry if necessary).
