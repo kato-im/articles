@@ -8,3 +8,8 @@
 ## [Español](/articles/es)
 ## [日本語](/articles/ja)
 -->
+<br />
+<br />
+<br />
+<br />
+<a href='https://github.com/kato-im/articles/blob/master/translate-improve-howto.md' target='_blank'>How to contribute improvements and translations</a>
