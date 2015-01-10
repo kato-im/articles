@@ -9,7 +9,7 @@ If you need to get a designer’s attention, and you know that designers talk in
 
 The truth is, not all designers will want to follow the **Design** room, it may be too noisy to see a notification for every single message there. How can designers keep a **Design** room, or _multiple_ design rooms (per project, per platform, etc) and have group mentions at the same time? The solution is to create another room, say **Designers**, which is not used for posting messages at all. All the designers simply agree to follow this room, so whenever and wherever **@Designers** are mentioned, all the right people get an alert. Note that they don't get an alert in the **Designers** room, but in the room where the mention is posted.
 
-This is the beauty of the follow model: choose what you want to follow, and get alerted in some room where the topic you're following is mentioned, even if you ignore that room.
+This is the beauty of the follow model: choose what you want to follow, and get alerted in some room where the topic you're following is mentioned, even if you're ignoring that specific room.
 
 ## The Full Story
 #### The Join/Leave Model
