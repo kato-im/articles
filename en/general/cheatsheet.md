@@ -16,7 +16,7 @@ How to tell someone's online status:
 ![clip.png](https://in.kato.im/7e0e5972d17c4e79e7217216f4e9574aabbaadb5ebc3407a99c47407e100ab3e/clip.png)
 
 ********************************************************************************
-## <a href="#video-calling" name="video-calling">Video Calling & </a><a href="#screensharing" name="screensharing">Screensharing</a>
+## <a href="#video-calling" name="video-calling">Video Calling & Screensharing</a>
 
 Organization admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [organization settings](https://app.kato.im/#/membership/_/kato-labs). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](/articles/en/voice-video/video-voice-calling) and [Screensharing](/articles/en/voice-video/screensharing).
 
