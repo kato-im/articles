@@ -797,6 +797,14 @@ h2 a:active {
     padding: 2px;
 }
 
+h3 a:hover,
+h3 a:focus,
+h3 a:active {
+    border-left: 3px solid #0073A0;
+    margin-left: -5px;
+    padding: 2px;
+}
+
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/

@@ -38,7 +38,7 @@ If no rooms are specified, new users will only be able to talk to the admins in 
 
 Restricted rooms get their own icon, an umbrella: ![clip.png](https://s3.amazonaws.com/kato-share/e00d5b0d88b2357867eaa1956bc7344624602bdc866ddab93471de9e5b4caa2f/clip.png)
 
-## <a href="#access" name="access">Who Has Access?</a>
+### <a href="#access" name="access">Who Has Access?</a>
 An admin can create a restricted room and grant others access. **The admin will have to grant herself access in order to see room history.**
 
 Changes to restricted room access are reflected in [security audit log](/articles/en/power-users/security-audit-log/) (if it's enabled).
