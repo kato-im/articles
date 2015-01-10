@@ -1,3 +1,5 @@
+# Kato.IM Articles
+
 ## How to Contribute Improvements and Translations
 
 * Create a [GitHub](http://github.com) account or sign into an existing one.
