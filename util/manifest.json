@@ -128,6 +128,11 @@
                     "entities": [
                         {
                             "type": "page",
+                            "src": "restricted-rooms",
+                            "title": "Restricted Rooms"
+                        },
+                        {
+                            "type": "page",
                             "src": "markdown-syntax",
                             "title": "Markdown Syntax"
                         },
