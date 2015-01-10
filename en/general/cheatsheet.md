@@ -205,7 +205,7 @@ Caveats:
 -->
 
 ********************************************************************************
-## <a href="#multiple-orgs" name="multiple-orgs">Working In Multiple Kato Organizations</a>
+## <a href="#multiple-teams" name="multiple-orgs">Working In Multiple Kato Organizations</a>
 
 In Kato, you can interact with rooms and people from different organizations at the same time.
 
