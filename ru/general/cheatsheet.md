@@ -1,40 +1,47 @@
 ********************************************************************************
-## <a href="#newlines" name="newlines">Multi-line Messages</a>
+## <a href="#newlines" name="newlines">Перенос строки в сообщении</a>
 
-To insert a blank line into a message, press **Shift+Return**. Easy!
+Для того, чтобы вставить в сообщение пустую строку нужно нажать комбинацию клавиш **Shift+Return**:
 
 ![clip.png](https://in.kato.im/8e38ead5ac3d507555c45475b4aa160e4f460046f99fcacf7cf98b56d8c00c5/clip.png)
 
-It's one of several [message formatting options](#message-formatting).
+Кроме того, в Kato существуют и некоторые другие возможности [ форматирования сообщений ](#message-formatting).
 
 ********************************************************************************
-## <a href="#presence" name="presence">Presence</a>
+## <a href="#presence" name="presence">Статус активности пользователя</a>
 
-How to tell someone's online status:
+Понять, активен ли определенный пользователь Kato, можно с помощью иконки статуса:
 
 <!-- with Kato Roll: ![clip.png](https://in.kato.im/c8500fc42995e6514c4f101dde876dd1d76da3d019586e423e69b57acbda4d3c/clip.png)-->
 ![clip.png](https://in.kato.im/7e0e5972d17c4e79e7217216f4e9574aabbaadb5ebc3407a99c47407e100ab3e/clip.png)
 
-********************************************************************************
-## <a href="#video-calling" name="video-calling">Video Calling & </a><a href="#screensharing" name="screensharing">Screensharing</a>
-
-Organization admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [organization settings](https://app.kato.im/#/membership/). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](video-calling) and [Screensharing](introducing-screensharing).
-
-*(We also integrate with [Google Hangouts](google-hangouts-integration) and [UberConference](uberconference-integration). Just saying.)*
+Помимо стандартных состояний («онлайн», «не в сети», «нет на месте») существуют и иконки статусов для ситуаций, когда пользователь работает в Kato с мобильного устройства или еще не ответил на приглашение присоединиться к беседе.
 
 ********************************************************************************
-## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
+## <a href="#video-calling" name="video-calling">Видеозвонки и </a><a href="#screensharing" name="screensharing"> демонстрация экрана</a>
 
-You have **two minutes** to edit your last message. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](edit-message).
+Администраторы конкретной организации в Kato могут активировать функцию совершения **видеозвонков**, которая включает в себя **голосовые вызовы** и возможность **демонстрации экрана**. Для этого необходимо активировать соответствующую в [настройках организации](https://app.kato.im/#/membership/) из меню **Kato Labs**.
+
+В настоящий момент перечисленные возможности представляются в тестовом режиме. Видео- и голосовые звонки доступны пользователям браузеров Chrome, Firefox и Opera. Демонстрировать своим собеседникам экран могут пользователи Chrome и Firefox (необходима дополнительная настройка).
+
+Более подробная информация о [видео- и голосовых звонках](video-calling), а также [демонстрации экрана](introducing-screensharing) представлено в соответствующих главах данного руководства.
+
+*(Мессенджер Kato также интегрирован с [Google Hangouts](google-hangouts-integration) и [UberConference](uberconference-integration).)*
 
 ********************************************************************************
-## <a href="#message-cards" name="message-cards">Message Cards</a>
+## <a href="#typos" name="typos">Редактирование сообщений и исправление опечаток</a>
 
-When you hover a message, you'll see some bars on the left. Click the bars to see the *message card*:
+Сообщения в Kato доступны для редактирования в течение **двух минут**. Для того, чтобы внести исправления в последнее сообщение необходимо кликнуть на окно ввода сообщения и нажать на клавиатуре стрелку вверх (клавиша **Up-Arrow**). 
+Подробнее процесс редактирования сообщений описан в [соответствующей главе](edit-message) руководства.
+
+********************************************************************************
+## <a href="#message-cards" name="message-cards">Карточки сообщений</a>
+
+При наведении курсора на сообщение, слева появится небольшая полоса, клик на которую открывает меню с **карточкой сообщения** (по аналогии с [карточкой пользователя](profile-cards) содержит информацию о сообщении).
 
 ![clip.png](https://in.kato.im/e766111232fe8e444c3a385f11b31cdd98e195314072f23c45013a497e568db/clip.png)
 
-It's a little popup with the time the message was sent, and some handy commands, including [message formatting](#message-formatting) options. It's like our [profile cards](profile-cards), but for messages. (Hover any item for a tooltip.)
+Эта карточка содержит информацию о времени отправки сообщения и несколько полезных команд — некоторые из них, к примеру, используются для [форматирования](#message-formatting). 
 
 ********************************************************************************
 ## <a href="#room-layout" name="room-layout">Room Layout</a>
