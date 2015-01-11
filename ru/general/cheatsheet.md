@@ -264,35 +264,35 @@ For more info, see [Introducing Kato Roll](https://kato.im/articles/introducing-
 -->
 
 ********************************************************************************
-## <a href="#message-formatting" name="message-formatting">Message Formatting</a>
-### <a href="#markdown" name="markdown">Markdown</a>
+## <a href="#message-formatting" name="message-formatting">Форматирование сообщений</a>
+### <a href="#markdown" name="markdown">Разметка Markdown</a>
 
-Markdown is a simple way to add formatting to messages. For more info, see [Markdown Syntax](https://kato.im/articles/markdown-syntax/).
+Markdown — это простой и действенный способ форматирования сообщений. Более подробно синтаксис разметки Markdown описан в соответствующем [разделе руководства](https://kato.im/articles/markdown-syntax/).
 
-To enter a message in markdown mode, choose **Markdown** from message options:
+Для того, чтобы начать ввод текста в режиме **Markdown** нужно выбрать его в меню настроек сообщения:
 
 ![https://s3.amazonaws.com/kato-share/6b884e72b57fc5801c1a2dc0e753329f52b25a0d6528b7c376d0b15770faa4c/clip.png](https://s3.amazonaws.com/kato-share/6b884e72b57fc5801c1a2dc0e753329f52b25a0d6528b7c376d0b15770faa4c/clip.png)
 
-To use markdown by default, enable the option in your account settings: [https://app.kato.im/#/account/options/markdown-default](https://app.kato.im/#/account/options/markdown-default).
+Существует возможность установки режима **Markdown** в качестве режима по умолчанию:  [https://app.kato.im/#/account/options/markdown-default](https://app.kato.im/#/account/options/markdown-default).
 
-Example:
+Пример сообщения, набранного с применением разметки **Markdown**:
 
 ![clip](https://s3.amazonaws.com/kato-share/6e971a68ff3fd49e4eb423b355fcc5b77f115764ad0a0ad2a4143101e7ddc33/clip.png)
 
 ********************************************************************************
-### <a href="#code" name="code">Code Formatting</a>
+### <a href="#code" name="code">Режим вставки кода</a>
 
-To paste code and preserve formatting and syntax highlighting, you can choose the **Code** option in message options:
+Для того, чтобы вставлять в сообщения код, который после копирования из окна мессенджера сохраняет свою работоспособность, а также форматирования кода прямо в тексте сообщения, необходимо выбрать опцию  **Code** в настройках:
 
 ![clip](https://s3.amazonaws.com/kato-share/8eb25a9cb5dfee4fea486183effd35295b2f14d3d8b958888685db8717d22c4f/Screenshot%20from%202014-07-06%2019%3A49%3A44.png)
 
 ![clip.png](https://s3.amazonaws.com/kato-share/f3d5afe8950adee082c6cd1aa0943d6388a514eaf105b9fc771321419a0fde3/clip.png)
 
 ********************************************************************************
-### <a href="#account" name="account">My Account</a>
+### <a href="#account" name="account">Учетная запись пользователя</a>
 
-Your account settings are accessed at the top right:
+Меню настроек учетной записи пользователя расположено в верхнем правом углу окна Kato:
 
 ![clip.png](https://in.kato.im/1e9e31d7ac64f0a0166dcdbdea5e3a41e5dee8b8ec76145492cd19bbbc9bc92b/clip.png)
 
-You can update your credentials, adjust notifications, and control many other aspects of your Kato experience.
+С помощью этого меню пользователи могут изменять свои логин и пароль, управлять оповещениями и осуществлять гибкую настройку мессенджера под свои задачи и потребности.
