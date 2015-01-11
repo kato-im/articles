@@ -131,18 +131,16 @@ _Комнаты_ предназначены для постоянных груп
 Кроме того, пользователи могут осуществлять [настройку шума](https://app.kato.im/#/account/noise) на основании типа комнат. Администраторы организации Kato также могут устанавливать уровень шума по умолчанию для всей организации. Более подробная информация по теме представлена в разделе руковдства под названием [«Контроль шума»](noise-control).
 
 ********************************************************************************
-## <a href="#email-notifications" name="email-notifications">Email Notifications and Replying by Email</a>
+## <a href="#email-notifications" name="email-notifications">Email-оповещения и ответы по Email</a>
 
-By default, unless you read or respond a message within a certain amount of time, you will get an email with a digest that includes the unread message. This is only true for messages in 1-1s and for [mentions](#mentions).
+По умолчанию, если пользователь Kato не прочитал или не ответил на сообщение за определенное количество времени, ему отправляется электронное письмо, содержащее это непрочитанное сообщение. Это относится к комнатам 1:1 и [упоминаниям](#mentions). Рассылку по Email можно отключить: [https://app.kato.im/#/account/notifications](https://app.kato.im/#/account/notifications)..
 
-The digests can be turned off here: [https://app.kato.im/#/account/notifications](https://app.kato.im/#/account/notifications).
-
-You can reply to a notification email&#8212;your reply will be posted back to the Kato room where the notification originated.
+Адресат подобного Email-сообщения может ответить на него — в таком случае ответ будет опубликован в комнате Kato, в которой было размещено изначально непрочитанное сообщение.
 
 ********************************************************************************
-## <a href="#sound-notifications" name="sound-notifications">Sound Notifications</a>
+## <a href="#sound-notifications" name="sound-notifications">Звуковые оповещения</a>
 
-You can enable audio notifications for private messages and mentions: 
+Пользователи Kato могут активировать звуковые сообщения для личных сообщений в комнатах 1:1 и при упоминаниях: 
 [https://app.kato.im/#/account/notifications/audio-notifications](https://app.kato.im/#/account/notifications/audio-notifications).
 
 ********************************************************************************
