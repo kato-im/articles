@@ -100,35 +100,35 @@ _Комнаты_ предназначены для постоянных груп
 Приватные комнаты хорошо подходят для обсуждения конфиденциальной информации (например, HR-вопросы или корпоративные финансы) и для работы с внешними партнерами — адвокатами, фрилансерами, инвесторами и т.д.
 
 ********************************************************************************
-## <a href="#mentions" name="mentions">Mentions</a>
+## <a href="#mentions" name="mentions">Упоминания</a>
 
-To get someone's attention, you can _mention_ them, like this:
+По аналогии с сервисом микроблогов Twitter, в Kato реализована функциональность _«упоминаний»_ пользователей. Для того чтобы привлечь внимание нужного человека его можно упомянуть в ходе беседы в одной из комнат, использовав символ @:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/c7bff9fce795b1534a26f80fe2f8922edca460cc556cc6228f719a8cc8a29330/clip.png)
 
-A mention ensures the recipient is notified of your message&#8212;with a maroon unread counter on the room where the mention took place, then with a desktop notification, mobile push notification, and&#8212;finally&#8212;an email.  
+Упомянутый таким образом пользователь получить оповещение об этом — в нужной комнате ему будет показана иконка, сигнализирующая о наличии непрочитанных сообщений, кроме того появятся всплывающее оповещение в десктоп-версии сервиса и push-уведомление в мобильном клиенте. Также на адрес электронной почты пользователя будет отправлено соответствующее письмо.
 
 ********************************************************************************
-## <a href="#group-mentions" name="group-mentions">Group Mentions</a>
+## <a href="#group-mentions" name="group-mentions">Упоминания групп</a>
 
-To mention a group of people, you can mention the name of a room. Those who follow the mentioned room will get a notification.
+Для того, чтобы привлечь внимание целой группы пользователей Kato, можно упомянуть комнату, на которую они подписаны. В таком случае, все пользователи, которые подписаны на нужную комнату, получат оповещение.
 
 ![clip.png](https://s3.amazonaws.com/kato-share/7946988e809cafe020ec78ee1148dcd48d76172b58872d35239867cfbd471d67/clip.png)
 
 ********************************************************************************
-## <a href="#noise" name="noise">Noise Control</a>
+## <a href="#noise" name="noise">Контроль шума</a>
 
-You can determine how much attention you want to give a room by using its Noise Control menu.
+С помощью меню для контроля шума, пользователи Kato могут настраивать степень вовлеченности в то или иное обсуждение.
 
-<img src="https://s3.amazonaws.com/kato-share/4a673be5e1c5e59a4363edf33c76ca2fb580e381565b51f628167e3c626ab4d8/clip.png" /> **Follow** means that you'll get notifications for unread messages in the room, and they'll contribute to unread counts as well. It's like following someone on Twitter.
+<img src="https://s3.amazonaws.com/kato-share/4a673be5e1c5e59a4363edf33c76ca2fb580e381565b51f628167e3c626ab4d8/clip.png" /> **Follow** — выбор этой опции означает, что пользователь бует получать оповещения обо всех непрочитанных сообщениях в данной комнате и видеть счетчик непрочитанных сообщений при открытии Kato (аналогичный механизм подписки реализован в Twitter).
 
-<img src="https://s3.amazonaws.com/kato-share/662c1f1551b8fee88b8fa26d7244ac6a6c29852397ec3d0e93da63c5b245d11/clip.png" /> **Watch** means that messages in the room will contribute to unread counts, but you won't get notifications for them. It's for rooms you want to keep an eye on, but you don't need to be obsessive about it.
+<img src="https://s3.amazonaws.com/kato-share/662c1f1551b8fee88b8fa26d7244ac6a6c29852397ec3d0e93da63c5b245d11/clip.png" /> **Watch** — выбор этой опции приведет к тому, что пользователь не будет получать оповещения о сообщениях в данной комнате, но при открытии Kato будет видеть счетчик непрочитанных сообщений. Этот режим хорошо подходит для работы с комнатами, которые не требуют внимание время от времени.
 
-<img src="https://s3.amazonaws.com/kato-share/5d58f5ead3667f997dacf0798d1df99ba6071839ff8c2f47eafcf125f19dec/clip.png" /> **Ignore** means you won't get unread message counts or notifications for that room.
+<img src="https://s3.amazonaws.com/kato-share/5d58f5ead3667f997dacf0798d1df99ba6071839ff8c2f47eafcf125f19dec/clip.png" /> **Ignore** — данная функция позволяет игнорировать активность в определенной комнате (не отправляются оповещения и не показывается счетчик непрочитанных сообщений).
 
-(This doesn't apply to [1:1 rooms](room-types) and [@mentions](#mentions)—you always follow those.)
+(Вышесказанное не относится к [комнатам типа 1:1](room-types) и [@упоминаниям](#mentions) — на них пользователи Kato подписаны всегда.)
 
-That's not all—you can set your own [default noise levels](https://app.kato.im/#/account/noise) by room type, and admins can set default levels for the entire organization. For more info, see [Noise Control](noise-control).
+Кроме того, пользователи могут осуществлять [настройку шума](https://app.kato.im/#/account/noise) на основании типа комнат. Администраторы организации Kato также могут устанавливать уровень шума по умолчанию для всей организации. Более подробная информация по теме представлена в разделе руковдства под названием [«Контроль шума»](noise-control).
 
 ********************************************************************************
 ## <a href="#email-notifications" name="email-notifications">Email Notifications and Replying by Email</a>
