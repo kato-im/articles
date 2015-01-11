@@ -180,11 +180,13 @@ _Комнаты_ предназначены для постоянных груп
 
 Большинство горячих клавиш представляют собой команды, набираемые в специальном режиме и состоящие из одного символа (по аналогии с Unix-редактором [vi/vim](http://en.wikipedia.org/wiki/Vi)). Для того, чтобы переключиться в командный режим нужно нажать клавишу **Escape**. Нажатие клавиши знака вопроса (**?**) выводит список всех доступных команд (также доступен по ссылке [https://app.kato.im/#/help/keyboard-control](https://app.kato.im/#/help/keyboard-control)).
 
+Более подробная информация о клавиатурных сокращениях представлена в главе [«Горячие клавиши»](https://app.kato.im/#/help/keyboard-control).
 
 ********************************************************************************
-## <a href="#integrations" name="integrations">Integrations</a>
+## <a href="#integrations" name="integrations">Интеграции с внешними сервисами</a>
 
-You can integrate Kato with dozens of tools and services (Zendesk, Shopify, GitHub, Wordpress, etc), as well as create your own custom integrations. For more info, see [Integrations](integrations).
+Существует возможность интеграции мессенджера Kato с десятками полезных инструментов и сервисов, облегчающих работу (Shopify, GitHub, WordPress и т.д.). Помимо этого, разработчики вншених сервисов могут разрабатывать связки своих проектов с Kato.
+Более подробная информация о создании новых интеграций или активации существующих содержится в соответствующем [разделе руководства](integrations).
 
 <!--
 ********************************************************************************
@@ -195,19 +197,20 @@ You can integrate Kato with dozens of tools and services (Zendesk, Shopify, GitH
 -->
 
 ********************************************************************************
-## <a href="#off-the-record" name="off-the-record">Going Off The Record</a>
+## <a href="#off-the-record" name="off-the-record">Режим Off The Record</a>
 
-While a room is "off the record" (OTR), messages posted to that room aren't stored on the server. This is handy for sending information that you don't want saved in Kato, like a password.
+Если комната находится в режиме "off the record" (OTR), то все сообщения, публикуемые в ней, не сохраняются на сервере Kato. Этот режим подходит для пересылки чувствительной информации, вроде паролей
 
 ![clip](https://s3.amazonaws.com/kato-share/79845aedd80817ba34e98e95e785587fab250c855c922479c10a0cb1499d92c/Screenshot%20from%202014-07-06%2019%3A19%3A04.png)
 
 ![clip](https://s3.amazonaws.com/kato-share/440099dbe23a4b03e0efcb05c2a23f5dec19bfab9abdf0e14e71c8673af6aa20/clip.png)
 
-Caveats:
-<li>OTR messages *are visible* to anyone who has that room open at the time.</li>
-<li>Once a user closes a room or reloads the web page, any OTR messages in that room are lost to that user.</li>
-<li>OTR isn't as secure as peer-to-peer encryption. Don't use it for extremely sensitive information.</li>
-<li>Uploaded files are stored separately from messages. So a file uploaded while a room is OTR remains accessible via its URL, even though the URL itself might no longer be visible in the message history.</li>
+Несколько важных моментов:
+
+<li>Сообщения в режиме OTR **могут быть просмотрены** всеми участниками переписки, на компьютерах которых открыта соответствующая комната.</li>
+<li>После того, как пользователь, подписанный на комнату в режиме OTR, перезагрузит браузер или закроет комнату, он теряет доступ ко всем опубликованным в ней сообщениям.</li>
+<li>Режим OTR не обеспечивает уровень защиты, аналогичный оконечному шифрованию (технология P2P), а значит, не подходит для пересылки очень важной секретной информации.</li>
+<li>Загруженные на сервера Kato файлы хранятся отдельно от сообщений. Это означает, что файл, загруженный в комнате в режиме OTR может оставаться доступным по URL даже после того, как сама эта ссылка перестает отображаться в истории собщений.</li>
 
 <!--
 ********************************************************************************
@@ -215,27 +218,25 @@ Caveats:
 -->
 
 ********************************************************************************
-## <a href="#multiple-orgs" name="multiple-orgs">Working In Multiple Kato Organizations</a>
+## <a href="#multiple-orgs" name="multiple-orgs">Работа в нескольких организациях Kato</a>
 
-In Kato, you can interact with rooms and people from different organizations at the same time.
+Пользователи Kato могут одновременно взаимодействовать с комнатами и людьми из различных организаций.
 
-In this case, the user is a member of two organizations: **Hunter Inc.** and **andrei's team**. 
+Предположим, что пользователь является членом двух организаций: **Hunter Inc.** и **andrei's team**.
 
-In the image on the left, only **Hunter Inc.** is expanded. The right image shows both organizations expanded&#8212;this means a union of people and rooms from both organizations appear in the roster.
+На картинке слева активирована только организация Hunter Inc. На изображении справа показаны обе организации — это значит, что в ростере отображаются люди и комнаты сразу из двух организаций.
 
 ![clip](https://s3.amazonaws.com/kato-share/da0c1134fdd7fd68a89d87a8155b226bad5ebb31c4c0e93b5cb48625ad7c8/Untitled%20drawing%20%282%29.png)
 
-In the "multi-org" view each room gets an organization "affinity token"&#8212;something you can use to identify the parent organization. In the image above, each organization has a **PR** room, but the affinity tokens provide a way to distinguish the two.
+При таком «многоорганизационном» представлении используется так называемый «токен принадлежности» — признак, позволяющий пользователю с одного взгляда определить принадлежность той или иной комнаты определенной организации. На представленном выше изображении справа показаны две комнаты с названием **PR**, однако они относятся к разным организациям — это явно видно благодаря токену (“an” и “Hu”, соответственно).
 
-Note that you can be connected to the same person via multiple organizations. This is why people don't have explicit organization affinity.
+Пользователь может быть связан с одним и тем же человеком одновременно в двух организациях, поэтому у людей отдельного токена принадлежности нет.
 
-In the scenario above, **Peter** is a members of both organizations.
-
-To verify this, click on **More** in 1-1 room options:
+В сценарии, описанном выше, пользователь под ником **Peter** является членом двух организаций одновременно. Узнать о количестве «общих» организаций с конкретным пользователем Kato можно кликнув на меню **More** в комнате 1-1 с этим человеком:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/1143494c2ff1d4e0621793886dfb00df534c9b67a4e7ef53dec5446c863854/clip.png)
 
-See the list of connecting organizations:
+Список организаций, которые связывают пользователя с собеседником:
 
 ![clip](https://s3.amazonaws.com/kato-share/5b6076cd59df16b4fff9d2d825670766466dfc6ff142c6233cdd26dc2ccb7be/Untitled%20drawing%20%283%29.png)
 
