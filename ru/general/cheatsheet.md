@@ -93,11 +93,11 @@ _Комнаты_ предназначены для постоянных груп
 ![clip.png](https://s3.amazonaws.com/kato-share/79ac31e7cf95ba981c61247ee1a240f0744bb7061c5496172841e6ad4f87419f/clip.png)
 
 ********************************************************************************
-## <a href="#restricted-members" name="restricted-members">Restricted Members</a>
+## <a href="#restricted-members" name="restricted-members">Участники с ограниченными правами</a>
 
-Any member of your organization that does not have access to **All Unrestricted Rooms** is called a _restricted member_. Restricted members only have access to specific rooms and can only see members who have access to the same rooms.
+Любой представитель организации, у которого нет доступа ко всем **публичным комнатам**, называется _участником с ограниченными правами_. Такие пользователи обладают доступом только к конкретным комнатам и могут видеть в своем контакт-листе только собеседников, которые также имеют доступ к этим комнатам.
 
-Restricted rooms are useful for sensitive information, like HR and Finance, and for working with outside partners&#8212;lawyers, bookkeepers, contractors, investors, and so on.
+Приватные комнаты хорошо подходят для обсуждения конфиденциальной информации (например, HR-вопросы или корпоративные финансы) и для работы с внешними партнерами — адвокатами, фрилансерами, инвесторами и т.д.
 
 ********************************************************************************
 ## <a href="#mentions" name="mentions">Mentions</a>
