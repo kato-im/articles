@@ -44,48 +44,53 @@
 Эта карточка содержит информацию о времени отправки сообщения и несколько полезных команд — некоторые из них, к примеру, используются для [форматирования](#message-formatting). 
 
 ********************************************************************************
-## <a href="#room-layout" name="room-layout">Room Layout</a>
+## <a href="#room-layout" name="room-layout">Шаблон комнат Kato</a>
 
-Kato lets you be in several conversations, or "rooms", at once, in the same window, even across organizations.
+Мессенджер Kato позволяет пользователям общаться с собеседниками (из одной или нескольких организаций) сразу в нескольких беседах или «комнатах» — и все это в одном окне.
 
-Working in five rooms:
+Вот так выглядит работа в пяти комнатах Kato:
+
 ![clip.png](https://s3.amazonaws.com/kato-share/fb6e15f9d756954d2707fd9d030bb6b6cdc57017d68a9227ac2b0067479f1de/clip.png)
 
-Rooms open on the right, and auto-close as needed on the left. You can adjust how many open rooms you want at once in your account options: ([https://app.kato.im/#/account/options](https://app.kato.im/#/account/options))
+Новые комнаты открываются справа, а по необходимости закрываются с левой стороны экрана. Пользователи могут изменять количество отображаемых одновременно комнат в [меню настроек аккаунта](https://app.kato.im/#/account/options).
 
-Once the limit is reached, rooms shift to the left, with the left-most room dropping off the screen.
+При превышении максимального числа открытых комнат, та из них, что расположена в левой части экрана, скрывается. 
 
-To keep a room open, you can <a href="#pins" name="pins">pin</a> it.
+Также в Kato существует возможность <a href="#pins" name="pins">«закрепления»</a>  комнаты, чтобы она всегда оставалось открытой.
 
-To keep your current layout (number of open rooms), while opening another room, hold down the `Alt` key when:
+Для того, чтобы сохранить текущее число открытых комнат при открытии новой, необходимо нажать клавишу `Alt` в двух перечисленных случаях:
 
-- Clicking on a room in the room list (roster)
-- Hitting `Enter` after activating the roster filter and arriving at a single result
+- при клике на комнате в списке комнат («ростере»);
+- при нажати клавиши Enter после клика на результатах поиска нужной комнаты в ростере.
 
 ********************************************************************************
-## <a href="#pins" name="pins">Pinning Rooms</a>
+## <a href="#pins" name="pins">Закрепление комнат</a>
 
-Every room has a pin icon: ![clip.png](https://s3.amazonaws.com/kato-share/983cb0ab8c5abbd84e8cef40be2e8b36e754001c27da1a04d01aebb41af6fb80/clip.png). A pinned room looks like this: ![clip.png](https://s3.amazonaws.com/kato-share/86bb058f13991cc218aeeb5e0c1c875b08e8ea4867832586cb2768fb2f02d0d/clip.png).
+Каждую комнату Kato можно «закрепить» с помощью специальной иконки: ![clip.png](https://s3.amazonaws.com/kato-share/983cb0ab8c5abbd84e8cef40be2e8b36e754001c27da1a04d01aebb41af6fb80/clip.png). Иконка «закрепленной» комнаты выглядит так: ![clip.png](https://s3.amazonaws.com/kato-share/86bb058f13991cc218aeeb5e0c1c875b08e8ea4867832586cb2768fb2f02d0d/clip.png).
 
-When Kato needs to close a room—usually to open another room—pinned rooms are closed last. In this example, if a new room is opened, "Dev" would stay open and "UX" would close automatically.
+Когда возникает необходимость автоматического закрытия комнаты (обычно в случае открытия новой, сверх установленного в настройках лимита), «закрепленные» комнаты закрываются в последнюю очередь.
+
+На картинке ниже изображена ситуация, в которой комната "Dev" закреплена и останется открытой при добавлении новой комнаты. При этом комната под названием "UX" не закреплена и будет автоматически закрыта.
 
 ![clip.png](https://s3.amazonaws.com/kato-share/9a4d5decf3d88d1dc23e2b4228289015ea3414b1a62450c478536c13c02c1c/clip.png)
 
-Note: If all rooms are pinned, pinning has no effect.
+Важный момент: Если все открытые комнаты являются «закрепленными», то будут рассматриваться Kato в качестве обычных комнат (что выливается в том числе в их автоматической закрытие в случае возникновения подобной необходимости).
 
 ********************************************************************************
-## <a href="#unrestricted-rooms" name="unrestricted-rooms">Unrestricted Rooms</a>
+## <a href="#unrestricted-rooms" name="unrestricted-rooms">Публичные комнаты</a>
 
-_Rooms_ are places for persistent, searchable group conversations. Rooms are usually named according to the general topic of discussion, like **Design** or **Marketing**.
+_Комнаты_ предназначены для постоянных групповых бесед с возможностью поиска по истории. Как правило комнатам присваиваются «говорящие» названия, помогающие с одного взгляда определить тему беседы, например **Design** или **Marketing**.
 
-When [adding a room](https://app.kato.im/#/rooms/add), by default it is visible to all existing and future members of your organization&#8212;there is no explicit room membership. Such rooms are called _unrestricted_.
+При [создании комнаты](https://app.kato.im/#/rooms/add) по умолчанию она будет доступна всем текущим и будущим членам конкретной организации Kato (поскольку в мессенджере отсутствует понятие «членства» в комнате). Такие комнаты называются _«публичными»_.
 
 ********************************************************************************
-## <a href="#restricted-rooms" name="restricted-rooms">Restricted Rooms</a>
+## <a href="#restricted-rooms" name="restricted-rooms">Приватные комнаты</a>
 
-Rooms only visible to certain members (or outsiders) are called _restricted_.
+Комнаты, которые видны только конкретным членам организации Kato (или пользователям мессенджера, не входящим в эту организацию) называются _приватными_.
 
-When [adding a room](https://app.kato.im/#/rooms/add), enable the **Restricted** switch to make it restricted: ![clip.png](https://s3.amazonaws.com/kato-share/79ac31e7cf95ba981c61247ee1a240f0744bb7061c5496172841e6ad4f87419f/clip.png)
+Для того, чтобы создать **приватную** комнату, необходимо установить соответствующий флаг в процессе [добавления новой комнаты](https://app.kato.im/#/rooms/add):
+
+![clip.png](https://s3.amazonaws.com/kato-share/79ac31e7cf95ba981c61247ee1a240f0744bb7061c5496172841e6ad4f87419f/clip.png)
 
 ********************************************************************************
 ## <a href="#restricted-members" name="restricted-members">Restricted Members</a>
