@@ -144,42 +144,42 @@ _Комнаты_ предназначены для постоянных груп
 [https://app.kato.im/#/account/notifications/audio-notifications](https://app.kato.im/#/account/notifications/audio-notifications).
 
 ********************************************************************************
-## <a href="#file-sharing" name="file-sharing">Sending Files and Images</a>
+## <a href="#file-sharing" name="file-sharing">Отправка файлов и изображений
+</a>
 
-Files can be shared in a number of ways:
+Пользователи Kato могут обмениваться файлами. Для этого существует несколько опций:
 
-#### Upload directly from local drive
+#### Загрузка с локального жесткого диска
 
 ![clip](https://s3.amazonaws.com/kato-share/d5bfad0d1f364b75daca0ad32b76fc5127502707f793efde0fe2725d5c801b5/clip.png)
 
-The file will be upload to Amazon S3 and access URL will appear in message input.
+Файл будет загружен в облако Amazon S3, а в окне набора сообщения появится URL-ссылка для доступа к нему.
 
-#### Share Dropbox link
+#### Публикация ссылок на файлы через Dropbox
 
 ![clip](https://s3.amazonaws.com/kato-share/677c3df2bbb0c8cfa8aefd8789f50ded02f925ac70d4887cfe5696742929/clip.png)
 
-Access URL to your Dropbox file will appear in message input.
+Ссылка на файл Dropbox появится в окне набора сообщения.
 
-#### Drag and drop files 
+#### Перетаскивание файлов в окно сообщения
 
 <a href="//fast.wistia.net/embed/iframe/5rssy2zfxj?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/182d8ea6d834b3503ecdfac6c94cd70d298664ee.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 
-#### Copy and paste images (Google Chrome)
+#### Копирование и вставка изображений (Google Chrome)
 
 <a href="//fast.wistia.net/embed/iframe/sqqejekd2e?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/ba7aa3b4610b4b789796f6d8d442b7e470d95b75.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 
 ********************************************************************************
-## <a href="#keyboard-control" name="keyboard-control">Keyboard Control</a>
+## <a href="#keyboard-control" name="keyboard-control">Горячие клавиши</a>
 
-Keyboard Control lets you keep your hands on the keyboard while you use Kato.
+Использование горячих клавиш позволяет работать в Kato не убирая рук с клавиатуры.
 
-Keyboard Control is off by default. Before using it, you must turn it on in account options: [https://app.kato.im/#/account/options/keyboard-control](/#/account/options/keyboard-control)
+По умолчанию горячие клавиши отключены, поэтому, чтобы начать их использовать, данную опцию необходимо активировать в настройках учетной записи Kato:  [https://app.kato.im/#/account/options/keyboard-control](/#/account/options/keyboard-control).
 
-Most commands are single characters entered in "command mode" (similar to [vi/vim](http://en.wikipedia.org/wiki/Vi)). To switch to command mode, press **Escape**. For a summary of commands, press **?** (question mark) or go to [https://app.kato.im/#/help/keyboard-control](https://app.kato.im/#/help/keyboard-control)
+Большинство горячих клавиш представляют собой команды, набираемые в специальном режиме и состоящие из одного символа (по аналогии с Unix-редактором [vi/vim](http://en.wikipedia.org/wiki/Vi)). Для того, чтобы переключиться в командный режим нужно нажать клавишу **Escape**. Нажатие клавиши знака вопроса (**?**) выводит список всех доступных команд (также доступен по ссылке [https://app.kato.im/#/help/keyboard-control](https://app.kato.im/#/help/keyboard-control)).
 
-For more info, see [Keyboard Control](keyboard-control).
 
 ********************************************************************************
 ## <a href="#integrations" name="integrations">Integrations</a>
