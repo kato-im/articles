@@ -1,6 +1,6 @@
 ***
 
-Managing noise is a crucial aspect of a communication system, especially as the organization grows. Too many notifications, and you can't get anything done. Too few, and you miss important stuff. Kato has a flexible approach for managing the demands on your attention.
+Managing noise is a crucial aspect of a communication system, especially as teams grow. Too many notifications, and you can't get anything done. Too few, and you miss important stuff. Kato has a flexible approach for managing the demands on your attention.
 
 First of all, you'll always get an immediate notification when someone sends you a message in the **[1:1 room](/articles/en/general/room-types)** that you share with that person.
 
@@ -34,10 +34,10 @@ If you set the noise level for a specific room, it will be shown in _italic_: ![
 You can set a default noise level for each [room type](/articles/en/general/room-types) in your account settings. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/account/noise*
 
 ## <a href="#noise-team" name="noise-team">Team-Level Default Noise Settings</a>
-Admins can set the default noise level for each room type, across the organization. Your default noise levels will override those. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/membership/_/noise*
+Admins can set the default noise level for each room type, across the team. Your default noise levels will override those. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/membership/_/noise*
 
 ## <a href="#noise-room" name="noise-room">Room-Level Default Noise Settings</a>
-Admins can also set the default noise level for a specific room, across the organization. Your default noise levels won't override that, but your own setting for that specific room will—so you win.
+Admins can also set the default noise level for a specific room, across the team. Your default noise levels won't override that, but your own setting for that specific room will—so you win.
 
 ***
 
