@@ -5,7 +5,7 @@
 
 ![clip.png](https://in.kato.im/8e38ead5ac3d507555c45475b4aa160e4f460046f99fcacf7cf98b56d8c00c5/clip.png)
 
-Кроме того, в Kato существуют и некоторые другие возможности [форматирования сообщений ](https://kato.im/articles/ru/cheatsheet/#message-formatting). 
+Кроме того, в Kato существуют и некоторые другие возможности [форматирования сообщений](https://kato.im/articles/ru/cheatsheet/#message-formatting). 
 
 ********************************************************************************
 ## <a href="#presence" name="presence">Статус активности пользователя</a>
