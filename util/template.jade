@@ -5,7 +5,9 @@ html(lang='en-US')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title 
       | !{ current.title } 
-      | | Kato Articles
+      if current.title
+        | |
+      |  Kato Articles
     link(rel='stylesheet', type='text/css', href="sspro-2.010r/style.css")
     style.
       html {
