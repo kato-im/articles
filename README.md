@@ -1,4 +1,4 @@
-# Welcome to the <a href="http://kato.im" target="_blank">Kato.IM</a> Articles
+# Welcome to <a href="http://kato.im" target="_blank">Kato.IM</a> Articles
 
 <br />
 
