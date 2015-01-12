@@ -805,6 +805,14 @@ h3 a:active {
     padding: 2px;
 }
 
+.category h2 a:hover,
+.category h2 a:focus,
+.category h2 a:active {
+    border-left: none;
+    margin-left: 0;
+    padding: 0;
+}
+
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
