@@ -1,6 +1,6 @@
 ***
 
-Hover over a name in the roster to see important user details, such as photo, title, and list of [organizations you share](https://kato.im/articles/cheatsheet/#multiple-orgs). You'll also see if the person is an admin in any of those organizations.
+Hover over a name in the roster to see important user details, such as photo, title, and list of [teams you share](https://kato.im/articles/cheatsheet/#multiple-orgs). You'll also see if the person is an admin in any of those teams.
 
 ![clip.png](https://s3.amazonaws.com/kato-share/84ea165578c38656fbf285dfb65da43e2a7c88f2afd5a7e8be8dab687f732c5f/clip.png)
 
