@@ -215,7 +215,7 @@ In the image on the left, only **Hunter Inc.** is expanded. The right image show
 
 ![clip](https://s3.amazonaws.com/kato-share/da0c1134fdd7fd68a89d87a8155b226bad5ebb31c4c0e93b5cb48625ad7c8/Untitled%20drawing%20%282%29.png)
 
-In the "multi-org" view each room gets an team "affinity token"&#8212;something you can use to identify the parent team. In the image above, each team has a **PR** room, but the affinity tokens provide a way to distinguish the two.
+In the "multi-team" view each room gets an team "affinity token"&#8212;something you can use to identify the parent team. In the image above, each team has a **PR** room, but the affinity tokens provide a way to distinguish the two.
 
 Note that you can be connected to the same person via multiple teams. This is why people don't have explicit team affinity.
 
