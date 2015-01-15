@@ -1,180 +1,196 @@
 ********************************************************************************
-## <a href="#newlines" name="newlines">Multi-line Messages</a>
+## <a href="#newlines" name="newlines">Перенос строки в сообщении</a>
 
-To insert a blank line into a message, press **Shift+Return**. Easy!
+Для того, чтобы вставить в сообщение пустую строку нужно нажать комбинацию клавиш **Shift+Return**:
 
 ![clip.png](https://in.kato.im/8e38ead5ac3d507555c45475b4aa160e4f460046f99fcacf7cf98b56d8c00c5/clip.png)
 
-It's one of several [message formatting options](#message-formatting).
+Кроме того, в Kato существуют и некоторые другие возможности [форматирования сообщений](https://kato.im/articles/ru/cheatsheet/#message-formatting). 
 
 ********************************************************************************
-## <a href="#presence" name="presence">Presence</a>
+## <a href="#presence" name="presence">Статус активности пользователя</a>
 
-How to tell someone's online status:
+Понять, активен ли определенный пользователь Kato, можно с помощью иконки статуса:
 
 <!-- with Kato Roll: ![clip.png](https://in.kato.im/c8500fc42995e6514c4f101dde876dd1d76da3d019586e423e69b57acbda4d3c/clip.png)-->
 ![clip.png](https://in.kato.im/7e0e5972d17c4e79e7217216f4e9574aabbaadb5ebc3407a99c47407e100ab3e/clip.png)
 
-********************************************************************************
-## <a href="#video-calling" name="video-calling">Video Calling & </a><a href="#screensharing" name="screensharing">Screensharing</a>
-
-Organization admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [organization settings](https://app.kato.im/#/membership/). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](video-calling) and [Screensharing](introducing-screensharing).
-
-*(We also integrate with [Google Hangouts](google-hangouts-integration) and [UberConference](uberconference-integration). Just saying.)*
+Доступны иконки для описания стандартных состояний («онлайн», «работает с телефона», «нет на месте», «не в сети» и «выслано приглашение»).
 
 ********************************************************************************
-## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
+## <a href="#video-calling" name="video-calling">Видеозвонки и </a><a href="#screensharing" name="screensharing"> демонстрация экрана</a>
 
-You have **two minutes** to edit your last message. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](edit-message).
+Администраторы команды в Kato могут разрешить (или запретить) **видеозвонки**.
+Для этого необходимо активировать соответствующую опцию в [настройках команды](https://app.kato.im/#/membership/) из меню **Kato Labs**.
+
+Функциональность видеозвонка также включает возможность **демонстрации экрана**.
+
+В настоящий момент перечисленные функции предоставляются в тестовом режиме. Видео- и голосовые звонки доступны пользователям браузеров Chrome, Firefox и Opera. Демонстрировать своим собеседникам экран могут пользователи Chrome и Firefox (необходима дополнительная настройка).
+
+Более подробная информация о [видео- и голосовых звонках](https://kato.im/articles/ru/video-calling/), а также [демонстрации экрана](https://kato.im/articles/ru/cheatsheet/introducing-screensharing) представлено в соответствующих главах данного руководства.
+
+*(Мессенджер Kato также интегрирован с [Google Hangouts](https://kato.im/articles/cheatsheet/google-hangouts-integration) и [UberConference](https://kato.im/articles/cheatsheet/uberconference-integration).)*
 
 ********************************************************************************
-## <a href="#message-cards" name="message-cards">Message Cards</a>
+## <a href="#typos" name="typos">Редактирование последнего сообщения</a>
 
-When you hover a message, you'll see some bars on the left. Click the bars to see the *message card*:
+Пользователи Kato могут менять текст последнего созданного сообщения в каждой определённой комнате в течение **двух минут** с момента его отправки. Для этого следует кликнуть на поле ввода сообщений и нажать на клавиатуре клавишу «стрелка вверх» (клавиша **Up-Arrow**). 
+
+Последнее отправленное сообщение будет скопировано в поле ввода сообщений с добавлением зелёной каймы. Пользователю нужно изменить текст и нажать клавишу **return**. После этого новый текст заместит собой первоначальное сообщение.
+
+********************************************************************************
+## <a href="#message-cards" name="message-cards">Карточки сообщений</a>
+
+Если навести курсор мышки на какое-то сообщение в истории комнаты, то слева появится вертикальная полоса («шпалы»), клик на которую открывает меню с так называемой **карточкой сообщения** (по аналогии с [**карточкой пользователя**](https://kato.im/articles/ru/cheatsheet/profile-cards)).
 
 ![clip.png](https://in.kato.im/e766111232fe8e444c3a385f11b31cdd98e195314072f23c45013a497e568db/clip.png)
 
-It's a little popup with the time the message was sent, and some handy commands, including [message formatting](#message-formatting) options. It's like our [profile cards](profile-cards), but for messages. (Hover any item for a tooltip.)
+Эта карточка сообщения содержит информацию о времени отправки сообщения (если задержать курсор мышки на поле времени, подсказка покажет полное время в формате GMT), а также несколько полезных иконок, позволяющих «схлопнуть» сообщение; показывать текст сообщения в режимах «Markdown включён», «Markdown выключён», «Код включён».
 
 ********************************************************************************
-## <a href="#room-layout" name="room-layout">Room Layout</a>
+## <a href="#room-layout" name="room-layout">Общая схема расположения комнат на экране Kato</a>
 
-Kato lets you be in several conversations, or "rooms", at once, in the same window, even across organizations.
+Мессенджер Kato позволяет пользователям на одном экране вести несколько параллельных бесед в разных комнатах.
 
-Working in five rooms:
-![clip.png](https://s3.amazonaws.com/kato-share/fb6e15f9d756954d2707fd9d030bb6b6cdc57017d68a9227ac2b0067479f1de/clip.png)
+Вот так выглядит работа в пяти комнатах Kato:
 
-Rooms open on the right, and auto-close as needed on the left. You can adjust how many open rooms you want at once in your account options: ([https://app.kato.im/#/account/options](https://app.kato.im/#/account/options))
+![clip.png](http://i.imgur.com/ykA0ICK.png)
 
-Once the limit is reached, rooms shift to the left, with the left-most room dropping off the screen.
+Новые комнаты открываются справа, а по необходимости закрываются с левой стороны экрана. Пользователи могут изменять количество отображаемых одновременно комнат в [меню настроек аккаунта](https://app.kato.im/#/account/options).
 
-To keep a room open, you can <a href="#pins" name="pins">pin</a> it.
+При превышении максимального числа открытых комнат, та из них, что расположена в левой части экрана, скрывается. 
 
-To keep your current layout (number of open rooms), while opening another room, hold down the `Alt` key when:
+Также в Kato существует возможность <a href="https://kato.im/articles/ru/cheatsheet/#pins">«закрепления»</a>  комнаты, чтобы она всегда оставалось открытой.
 
-- Clicking on a room in the room list (roster)
-- Hitting `Enter` after activating the roster filter and arriving at a single result
+Для того, чтобы сохранить текущее число открытых комнат при открытии новой, необходимо нажать клавишу `Alt` в двух перечисленных случаях:
 
-********************************************************************************
-## <a href="#pins" name="pins">Pinning Rooms</a>
-
-Every room has a pin icon: ![clip.png](https://s3.amazonaws.com/kato-share/983cb0ab8c5abbd84e8cef40be2e8b36e754001c27da1a04d01aebb41af6fb80/clip.png). A pinned room looks like this: ![clip.png](https://s3.amazonaws.com/kato-share/86bb058f13991cc218aeeb5e0c1c875b08e8ea4867832586cb2768fb2f02d0d/clip.png).
-
-When Kato needs to close a room—usually to open another room—pinned rooms are closed last. In this example, if a new room is opened, "Dev" would stay open and "UX" would close automatically.
-
-![clip.png](https://s3.amazonaws.com/kato-share/9a4d5decf3d88d1dc23e2b4228289015ea3414b1a62450c478536c13c02c1c/clip.png)
-
-Note: If all rooms are pinned, pinning has no effect.
+- при клике на комнате в списке комнат («ростере»);
+- при нажати клавиши Enter после клика на результатах поиска нужной комнаты в ростере.
 
 ********************************************************************************
-## <a href="#unrestricted-rooms" name="unrestricted-rooms">Unrestricted Rooms</a>
+## <a href="#pins" name="pins">Закрепление комнат</a>
 
-_Rooms_ are places for persistent, searchable group conversations. Rooms are usually named according to the general topic of discussion, like **Design** or **Marketing**.
+Каждую комнату Kato можно «закрепить» с помощью специальной иконки: ![clip.png](https://s3.amazonaws.com/kato-share/983cb0ab8c5abbd84e8cef40be2e8b36e754001c27da1a04d01aebb41af6fb80/clip.png). Иконка «закрепленной» комнаты выглядит так: ![clip.png](https://s3.amazonaws.com/kato-share/86bb058f13991cc218aeeb5e0c1c875b08e8ea4867832586cb2768fb2f02d0d/clip.png).
 
-When [adding a room](https://app.kato.im/#/rooms/add), by default it is visible to all existing and future members of your organization&#8212;there is no explicit room membership. Such rooms are called _unrestricted_.
+Когда возникает необходимость автоматического закрытия комнаты (обычно в случае открытия новой, сверх установленного в настройках лимита), «закрепленные» комнаты закрываются в последнюю очередь.
 
-********************************************************************************
-## <a href="#restricted-rooms" name="restricted-rooms">Restricted Rooms</a>
+На картинке ниже изображена ситуация, в которой крайняя левая комната 1:1 с пользователем "Andrei" закреплена и останется открытой при добавлении новой комнаты. При этом комната под названием "RockinRobin" не закреплена и будет автоматически закрыта.
 
-Rooms only visible to certain members (or outsiders) are called _restricted_.
+![clip.png](http://i.imgur.com/ykA0ICK.png)
 
-When [adding a room](https://app.kato.im/#/rooms/add), enable the **Restricted** switch to make it restricted: ![clip.png](https://s3.amazonaws.com/kato-share/79ac31e7cf95ba981c61247ee1a240f0744bb7061c5496172841e6ad4f87419f/clip.png)
-
-********************************************************************************
-## <a href="#restricted-members" name="restricted-members">Restricted Members</a>
-
-Any member of your organization that does not have access to **All Unrestricted Rooms** is called a _restricted member_. Restricted members only have access to specific rooms and can only see members who have access to the same rooms.
-
-Restricted rooms are useful for sensitive information, like HR and Finance, and for working with outside partners&#8212;lawyers, bookkeepers, contractors, investors, and so on.
+Важный момент: Если все открытые комнаты являются «закрепленными», то будут рассматриваться Kato в качестве обычных комнат (что выливается в том числе в их автоматической закрытие в случае возникновения подобной необходимости).
 
 ********************************************************************************
-## <a href="#mentions" name="mentions">Mentions</a>
+## <a href="#unrestricted-rooms" name="unrestricted-rooms">Публичные комнаты</a>
 
-To get someone's attention, you can _mention_ them, like this:
+_Комнаты_ предназначены для постоянных групповых бесед с возможностью поиска по истории. Как правило комнатам присваиваются «говорящие» названия, помогающие с одного взгляда определить тему беседы, например **Design** или **Marketing**.
+
+При [создании комнаты](https://app.kato.im/#/rooms/add) по умолчанию она будет доступна всем текущим и будущим членам конкретной организации Kato (поскольку в мессенджере отсутствует понятие «членства» в комнате). Такие комнаты называются _«публичными»_.
+
+********************************************************************************
+## <a href="#restricted-rooms" name="restricted-rooms">Приватные комнаты</a>
+
+Комнаты, которые видны только конкретным членам команды в Kato (или пользователям мессенджера, не входящим в эту команду) называются _приватными_.
+
+Для того, чтобы создать **приватную** комнату, необходимо установить соответствующий флаг в процессе [добавления новой комнаты](https://app.kato.im/#/rooms/add):
+
+![clip.png](https://s3.amazonaws.com/kato-share/79ac31e7cf95ba981c61247ee1a240f0744bb7061c5496172841e6ad4f87419f/clip.png)
+
+********************************************************************************
+## <a href="#restricted-members" name="restricted-members">Участники с ограниченными правами</a>
+
+Любой член команды, у которого нет доступа ко всем **публичным комнатам**, называется _участником с ограниченными правами_. Такие пользователи обладают доступом только к конкретным комнатам и могут видеть в своем контакт-листе только собеседников, которые также имеют доступ к этим комнатам.
+
+Приватные комнаты хорошо подходят для обсуждения конфиденциальной информации (например, HR-вопросы или корпоративные финансы) и для работы с внешними партнерами — адвокатами, фрилансерами, инвесторами и т.д.
+
+********************************************************************************
+## <a href="#mentions" name="mentions">Упоминания</a>
+
+По аналогии с сервисом микроблогов Twitter, в Kato реализована функциональность _«упоминаний»_ пользователей. Для того чтобы привлечь внимание нужного человека его можно упомянуть в ходе беседы в одной из комнат, использовав символ @:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/c7bff9fce795b1534a26f80fe2f8922edca460cc556cc6228f719a8cc8a29330/clip.png)
 
-A mention ensures the recipient is notified of your message&#8212;with a maroon unread counter on the room where the mention took place, then with a desktop notification, mobile push notification, and&#8212;finally&#8212;an email.  
+Упомянутый таким образом пользователь получить оповещение об этом — в нужной комнате ему будет показана иконка, сигнализирующая о наличии непрочитанных сообщений, кроме того появятся всплывающее оповещение в десктоп-версии сервиса и push-уведомление в мобильном клиенте. Также на адрес электронной почты пользователя будет отправлено соответствующее письмо.
 
 ********************************************************************************
-## <a href="#group-mentions" name="group-mentions">Group Mentions</a>
+## <a href="#group-mentions" name="group-mentions">Упоминания групп</a>
 
-To mention a group of people, you can mention the name of a room. Those who follow the mentioned room will get a notification.
+Для того, чтобы привлечь внимание целой группы пользователей Kato, можно упомянуть комнату, на которую они подписаны. В таком случае, все пользователи, которые подписаны на нужную комнату, получат оповещение.
 
 ![clip.png](https://s3.amazonaws.com/kato-share/7946988e809cafe020ec78ee1148dcd48d76172b58872d35239867cfbd471d67/clip.png)
 
 ********************************************************************************
-## <a href="#noise" name="noise">Noise Control</a>
+## <a href="#noise" name="noise">Контроль шума</a>
 
-You can determine how much attention you want to give a room by using its Noise Control menu.
+С помощью меню для контроля шума, пользователи Kato могут настраивать степень вовлеченности в то или иное обсуждение.
 
-<img src="https://s3.amazonaws.com/kato-share/4a673be5e1c5e59a4363edf33c76ca2fb580e381565b51f628167e3c626ab4d8/clip.png" /> **Follow** means that you'll get notifications for unread messages in the room, and they'll contribute to unread counts as well. It's like following someone on Twitter.
+<img src="https://s3.amazonaws.com/kato-share/4a673be5e1c5e59a4363edf33c76ca2fb580e381565b51f628167e3c626ab4d8/clip.png" /> **Follow** — выбор этой опции означает, что пользователь бует получать оповещения обо всех непрочитанных сообщениях в данной комнате и видеть счетчик непрочитанных сообщений при открытии Kato (аналогичный механизм подписки реализован в Twitter).
 
-<img src="https://s3.amazonaws.com/kato-share/662c1f1551b8fee88b8fa26d7244ac6a6c29852397ec3d0e93da63c5b245d11/clip.png" /> **Watch** means that messages in the room will contribute to unread counts, but you won't get notifications for them. It's for rooms you want to keep an eye on, but you don't need to be obsessive about it.
+<img src="https://s3.amazonaws.com/kato-share/662c1f1551b8fee88b8fa26d7244ac6a6c29852397ec3d0e93da63c5b245d11/clip.png" /> **Watch** — выбор этой опции приведет к тому, что пользователь не будет получать оповещения о сообщениях в данной комнате, но при открытии Kato будет видеть счетчик непрочитанных сообщений. Этот режим хорошо подходит для работы с комнатами, которые не требуют внимание время от времени.
 
-<img src="https://s3.amazonaws.com/kato-share/5d58f5ead3667f997dacf0798d1df99ba6071839ff8c2f47eafcf125f19dec/clip.png" /> **Ignore** means you won't get unread message counts or notifications for that room.
+<img src="https://s3.amazonaws.com/kato-share/5d58f5ead3667f997dacf0798d1df99ba6071839ff8c2f47eafcf125f19dec/clip.png" /> **Ignore** — данная функция позволяет игнорировать активность в определенной комнате (не отправляются оповещения и не показывается счетчик непрочитанных сообщений).
 
-(This doesn't apply to [1:1 rooms](room-types) and [@mentions](#mentions)—you always follow those.)
+(Вышесказанное не относится к [комнатам типа 1:1](https://kato.im/articles/ru/cheatsheet/room-types) и [@упоминаниям](https://kato.im/articles/ru/cheatsheet/#mentions) — на них пользователи Kato подписаны всегда.)
 
-That's not all—you can set your own [default noise levels](https://app.kato.im/#/account/noise) by room type, and admins can set default levels for the entire organization. For more info, see [Noise Control](noise-control).
-
-********************************************************************************
-## <a href="#email-notifications" name="email-notifications">Email Notifications and Replying by Email</a>
-
-By default, unless you read or respond a message within a certain amount of time, you will get an email with a digest that includes the unread message. This is only true for messages in 1-1s and for [mentions](#mentions).
-
-The digests can be turned off here: [https://app.kato.im/#/account/notifications](https://app.kato.im/#/account/notifications).
-
-You can reply to a notification email&#8212;your reply will be posted back to the Kato room where the notification originated.
+Кроме того, пользователи могут осуществлять [настройку шума](https://app.kato.im/#/account/noise) на основании типа комнат. Администраторы команд Kato также могут устанавливать уровень шума по умолчанию для каждой команды. Более подробная информация по теме представлена в разделе руководства под названием [«Контроль шума»](https://kato.im/articles/ru/cheatsheet/noise-control).
 
 ********************************************************************************
-## <a href="#sound-notifications" name="sound-notifications">Sound Notifications</a>
+## <a href="#email-notifications" name="email-notifications">Email-оповещения и ответы по Email</a>
 
-You can enable audio notifications for private messages and mentions: 
+По умолчанию, если пользователь Kato не прочитал или не ответил на сообщение за определенное количество времени, ему отправляется электронное письмо, содержащее это непрочитанное сообщение. Это относится к комнатам 1:1 и [упоминаниям](https://kato.im/articles/ru/cheatsheet/#mentions). Рассылку по Email можно отключить: [https://app.kato.im/#/account/notifications](https://app.kato.im/#/account/notifications)..
+
+Адресат подобного Email-сообщения может ответить на него — в таком случае ответ будет опубликован в комнате Kato, в которой было размещено изначально непрочитанное сообщение.
+
+********************************************************************************
+## <a href="#sound-notifications" name="sound-notifications">Звуковые оповещения</a>
+
+Пользователи Kato могут активировать звуковые сообщения для личных сообщений в комнатах 1:1 и при упоминаниях: 
 [https://app.kato.im/#/account/notifications/audio-notifications](https://app.kato.im/#/account/notifications/audio-notifications).
 
 ********************************************************************************
-## <a href="#file-sharing" name="file-sharing">Sending Files and Images</a>
+## <a href="#file-sharing" name="file-sharing">Отправка файлов и изображений
+</a>
 
-Files can be shared in a number of ways:
+Пользователи Kato могут обмениваться файлами. Для этого существует несколько опций:
 
-#### Upload directly from local drive
+#### Загрузка с локального жесткого диска
 
 ![clip](https://s3.amazonaws.com/kato-share/d5bfad0d1f364b75daca0ad32b76fc5127502707f793efde0fe2725d5c801b5/clip.png)
 
-The file will be upload to Amazon S3 and access URL will appear in message input.
+Файл будет загружен в облако Amazon S3, а в окне набора сообщения появится URL-ссылка для доступа к нему.
 
-#### Share Dropbox link
+#### Публикация ссылок на файлы через Dropbox
 
 ![clip](https://s3.amazonaws.com/kato-share/677c3df2bbb0c8cfa8aefd8789f50ded02f925ac70d4887cfe5696742929/clip.png)
 
-Access URL to your Dropbox file will appear in message input.
+Ссылка на файл Dropbox появится в окне набора сообщения.
 
-#### Drag and drop files 
+#### Перетаскивание файлов в окно сообщения
 
 <a href="//fast.wistia.net/embed/iframe/5rssy2zfxj?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/182d8ea6d834b3503ecdfac6c94cd70d298664ee.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 
-#### Copy and paste images (Google Chrome)
+#### Копирование и вставка изображений (Google Chrome)
 
 <a href="//fast.wistia.net/embed/iframe/sqqejekd2e?popover=true" class="wistia-popover[height=360,playerColor=7b796a,width=640]"><img src="https://embed-ssl.wistia.com/deliveries/ba7aa3b4610b4b789796f6d8d442b7e470d95b75.jpg?image_play_button=true&image_play_button_color=7b796ae0&image_crop_resized=300x169" alt="" /></a>
 <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
 
 ********************************************************************************
-## <a href="#keyboard-control" name="keyboard-control">Keyboard Control</a>
+## <a href="#keyboard-control" name="keyboard-control">Горячие клавиши</a>
 
-Keyboard Control lets you keep your hands on the keyboard while you use Kato.
+Использование горячих клавиш позволяет работать в Kato не убирая рук с клавиатуры.
 
-Keyboard Control is off by default. Before using it, you must turn it on in account options: [https://app.kato.im/#/account/options/keyboard-control](/#/account/options/keyboard-control)
+По умолчанию горячие клавиши отключены, поэтому, чтобы начать их использовать, данную опцию необходимо активировать в настройках учетной записи Kato:  [https://app.kato.im/#/account/options/keyboard-control](https://app.kato.im/#/account/options/keyboard-control).
 
-Most commands are single characters entered in "command mode" (similar to [vi/vim](http://en.wikipedia.org/wiki/Vi)). To switch to command mode, press **Escape**. For a summary of commands, press **?** (question mark) or go to [https://app.kato.im/#/help/keyboard-control](https://app.kato.im/#/help/keyboard-control)
+Большинство горячих клавиш представляют собой команды, набираемые в специальном режиме и состоящие из одного символа (по аналогии с Unix-редактором [vi/vim](http://en.wikipedia.org/wiki/Vi)). Для того, чтобы переключиться в командный режим нужно нажать клавишу **Escape**. Нажатие клавиши знака вопроса (**?**) выводит список всех доступных команд (также доступен по ссылке [https://app.kato.im/#/help/keyboard-control](https://app.kato.im/#/help/keyboard-control)).
 
-For more info, see [Keyboard Control](keyboard-control).
+Более подробная информация о клавиатурных сокращениях представлена в главе [«Горячие клавиши»](https://app.kato.im/#/help/keyboard-control).
 
 ********************************************************************************
-## <a href="#integrations" name="integrations">Integrations</a>
+## <a href="#integrations" name="integrations">Интеграции с внешними сервисами</a>
 
-You can integrate Kato with dozens of tools and services (Zendesk, Shopify, GitHub, Wordpress, etc), as well as create your own custom integrations. For more info, see [Integrations](integrations).
+Существует возможность интеграции мессенджера Kato с десятками полезных инструментов и сервисов, облегчающих работу (Shopify, GitHub, WordPress и т.д.). Помимо этого, разработчики вншених сервисов могут разрабатывать связки своих проектов с Kato.
+Более подробная информация о создании новых интеграций или активации существующих содержится в соответствующем [разделе руководства](https://kato.im/articles/ru/cheatsheet/integrations).
 
 <!--
 ********************************************************************************
@@ -185,19 +201,20 @@ You can integrate Kato with dozens of tools and services (Zendesk, Shopify, GitH
 -->
 
 ********************************************************************************
-## <a href="#off-the-record" name="off-the-record">Going Off The Record</a>
+## <a href="#off-the-record" name="off-the-record">Режим Off The Record</a>
 
-While a room is "off the record" (OTR), messages posted to that room aren't stored on the server. This is handy for sending information that you don't want saved in Kato, like a password.
+Если комната находится в режиме "off the record" (OTR), то все сообщения, публикуемые в ней, не сохраняются на сервере Kato. Этот режим подходит для пересылки чувствительной информации, вроде паролей
 
 ![clip](https://s3.amazonaws.com/kato-share/79845aedd80817ba34e98e95e785587fab250c855c922479c10a0cb1499d92c/Screenshot%20from%202014-07-06%2019%3A19%3A04.png)
 
 ![clip](https://s3.amazonaws.com/kato-share/440099dbe23a4b03e0efcb05c2a23f5dec19bfab9abdf0e14e71c8673af6aa20/clip.png)
 
-Caveats:
-<li>OTR messages *are visible* to anyone who has that room open at the time.</li>
-<li>Once a user closes a room or reloads the web page, any OTR messages in that room are lost to that user.</li>
-<li>OTR isn't as secure as peer-to-peer encryption. Don't use it for extremely sensitive information.</li>
-<li>Uploaded files are stored separately from messages. So a file uploaded while a room is OTR remains accessible via its URL, even though the URL itself might no longer be visible in the message history.</li>
+Несколько важных моментов:
+
+<li>Сообщения в режиме OTR **могут быть просмотрены** всеми участниками переписки, на компьютерах которых открыта соответствующая комната.</li>
+<li>После того, как пользователь, подписанный на комнату в режиме OTR, перезагрузит браузер или закроет комнату, он теряет доступ ко всем опубликованным в ней сообщениям.</li>
+<li>Режим OTR не обеспечивает уровень защиты, аналогичный оконечному шифрованию (технология P2P), а значит, не подходит для пересылки очень важной секретной информации.</li>
+<li>Загруженные на сервера Kato файлы хранятся отдельно от сообщений. Это означает, что файл, загруженный в комнате в режиме OTR может оставаться доступным по URL даже после того, как сама эта ссылка перестает отображаться в истории собщений.</li>
 
 <!--
 ********************************************************************************
@@ -205,27 +222,25 @@ Caveats:
 -->
 
 ********************************************************************************
-## <a href="#multiple-orgs" name="multiple-orgs">Working In Multiple Kato Organizations</a>
+## <a href="#multiple-orgs" name="multiple-orgs">Работа в нескольких организациях Kato</a>
 
-In Kato, you can interact with rooms and people from different organizations at the same time.
+Пользователи Kato могут одновременно взаимодействовать с комнатами и людьми из различных организаций.
 
-In this case, the user is a member of two organizations: **Hunter Inc.** and **andrei's team**. 
+Предположим, что пользователь является членом двух организаций: **Hunter Inc.** и **andrei's team**.
 
-In the image on the left, only **Hunter Inc.** is expanded. The right image shows both organizations expanded&#8212;this means a union of people and rooms from both organizations appear in the roster.
+На картинке слева активирована только организация Hunter Inc. На изображении справа показаны обе организации — это значит, что в ростере отображаются люди и комнаты сразу из двух организаций.
 
 ![clip](https://s3.amazonaws.com/kato-share/da0c1134fdd7fd68a89d87a8155b226bad5ebb31c4c0e93b5cb48625ad7c8/Untitled%20drawing%20%282%29.png)
 
-In the "multi-org" view each room gets an organization "affinity token"&#8212;something you can use to identify the parent organization. In the image above, each organization has a **PR** room, but the affinity tokens provide a way to distinguish the two.
+При таком «многоорганизационном» представлении используется так называемый «токен принадлежности» — признак, позволяющий пользователю с одного взгляда определить принадлежность той или иной комнаты определенной организации. На представленном выше изображении справа показаны две комнаты с названием **PR**, однако они относятся к разным организациям — это явно видно благодаря токену (“an” и “Hu”, соответственно).
 
-Note that you can be connected to the same person via multiple organizations. This is why people don't have explicit organization affinity.
+Пользователь может быть связан с одним и тем же человеком одновременно в двух организациях, поэтому у людей отдельного токена принадлежности нет.
 
-In the scenario above, **Peter** is a members of both organizations.
-
-To verify this, click on **More** in 1-1 room options:
+В сценарии, описанном выше, пользователь под ником **Peter** является членом двух организаций одновременно. Узнать о количестве «общих» организаций с конкретным пользователем Kato можно кликнув на меню **More** в комнате 1-1 с этим человеком:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/1143494c2ff1d4e0621793886dfb00df534c9b67a4e7ef53dec5446c863854/clip.png)
 
-See the list of connecting organizations:
+Список организаций, которые связывают пользователя с собеседником:
 
 ![clip](https://s3.amazonaws.com/kato-share/5b6076cd59df16b4fff9d2d825670766466dfc6ff142c6233cdd26dc2ccb7be/Untitled%20drawing%20%283%29.png)
 
@@ -253,35 +268,35 @@ For more info, see [Introducing Kato Roll](https://kato.im/articles/introducing-
 -->
 
 ********************************************************************************
-## <a href="#message-formatting" name="message-formatting">Message Formatting</a>
-### <a href="#markdown" name="markdown">Markdown</a>
+## <a href="#message-formatting" name="message-formatting">Форматирование сообщений</a>
+### <a href="#markdown" name="markdown">Разметка Markdown</a>
 
-Markdown is a simple way to add formatting to messages. For more info, see [Markdown Syntax](https://kato.im/articles/markdown-syntax/).
+Markdown — это простой и действенный способ форматирования сообщений. Более подробно синтаксис разметки Markdown описан в соответствующем [разделе руководства](https://kato.im/articles/ru/markdown-syntax/).
 
-To enter a message in markdown mode, choose **Markdown** from message options:
+Для того, чтобы начать ввод текста в режиме **Markdown** нужно выбрать его в меню настроек сообщения:
 
 ![https://s3.amazonaws.com/kato-share/6b884e72b57fc5801c1a2dc0e753329f52b25a0d6528b7c376d0b15770faa4c/clip.png](https://s3.amazonaws.com/kato-share/6b884e72b57fc5801c1a2dc0e753329f52b25a0d6528b7c376d0b15770faa4c/clip.png)
 
-To use markdown by default, enable the option in your account settings: [https://app.kato.im/#/account/options/markdown-default](https://app.kato.im/#/account/options/markdown-default).
+Существует возможность установки режима **Markdown** в качестве режима по умолчанию:  [https://app.kato.im/#/account/options/markdown-default](https://app.kato.im/#/account/options/markdown-default).
 
-Example:
+Пример сообщения, набранного с применением разметки **Markdown**:
 
 ![clip](https://s3.amazonaws.com/kato-share/6e971a68ff3fd49e4eb423b355fcc5b77f115764ad0a0ad2a4143101e7ddc33/clip.png)
 
 ********************************************************************************
-### <a href="#code" name="code">Code Formatting</a>
+### <a href="#code" name="code">Режим вставки кода</a>
 
-To paste code and preserve formatting and syntax highlighting, you can choose the **Code** option in message options:
+Для того, чтобы вставлять в сообщения код, который после копирования из окна мессенджера сохраняет свою работоспособность, а также форматирования кода прямо в тексте сообщения, необходимо выбрать опцию  **Code** в настройках:
 
 ![clip](https://s3.amazonaws.com/kato-share/8eb25a9cb5dfee4fea486183effd35295b2f14d3d8b958888685db8717d22c4f/Screenshot%20from%202014-07-06%2019%3A49%3A44.png)
 
 ![clip.png](https://s3.amazonaws.com/kato-share/f3d5afe8950adee082c6cd1aa0943d6388a514eaf105b9fc771321419a0fde3/clip.png)
 
 ********************************************************************************
-### <a href="#account" name="account">My Account</a>
+### <a href="#account" name="account">Учетная запись пользователя</a>
 
-Your account settings are accessed at the top right:
+Меню настроек учетной записи пользователя расположено в верхнем правом углу окна Kato:
 
 ![clip.png](https://in.kato.im/1e9e31d7ac64f0a0166dcdbdea5e3a41e5dee8b8ec76145492cd19bbbc9bc92b/clip.png)
 
-You can update your credentials, adjust notifications, and control many other aspects of your Kato experience.
+С помощью этого меню пользователи могут изменять свои логин и пароль, управлять оповещениями и осуществлять гибкую настройку мессенджера под свои задачи и потребности.
