@@ -3,7 +3,7 @@
 <br />
 
 ## [English&#8212;User's manual, tutorials, and documentation](/articles/en)
-## [Русский](/articles/ru)&#8212;Руководство и документация
+## [Русский&#8212;Руководство и документация](/articles/ru)
 <!--
 ## [Español](/articles/es)
 ## [日本語](/articles/ja)
