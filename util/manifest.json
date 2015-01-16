@@ -203,6 +203,26 @@
                     ]
                 }
             ]
+        },
+        {
+            "type": "language",
+            "title": "Русский",
+            "src": "ru",
+            "improve": "Предложить улучшение",
+            "entities": [
+                {
+                    "title": "Основные возможности",
+                    "type": "category",
+                    "src": "general",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "cheatsheet",
+                            "title": "Справка"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
