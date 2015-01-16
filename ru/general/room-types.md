@@ -1,33 +1,37 @@
-In Kato, conversations are called *rooms*. All room histories are archived and searchable. There are a few different kinds:
+## Типы комнат
 
-### ![icon_unrestricted.png](https://s3.amazonaws.com/kato-share/c40a19803021fd1a9a2a7e0c1d5501b2db31191dacbe9dda631b6c943a6521bf/clip.png) Unrestricted Rooms
+В Kato беседы называются **комнатами**. История сообщений каждой комнаты сохраняется и доступна для поиска. Существует несколько типов комнат:
 
-*Unrestricted rooms* are where most time is spent in Kato. **Anyone in your organization** can follow, read, and write to unrestricted rooms. Some teams have a single unrestricted room for all discussion; others create an unrestricted room for each major discussion area. Whatever works for your team is fine.
+### ![icon_unrestricted.png](https://s3.amazonaws.com/kato-share/c40a19803021fd1a9a2a7e0c1d5501b2db31191dacbe9dda631b6c943a6521bf/clip.png) Публичные комнаты
 
-### ![icon_restricted.png](https://s3.amazonaws.com/kato-share/b0ec7fb6ba4217471256c42a85225b1a82b5fb1967e754386b881b14a08591/clip.png) Restricted Rooms
+**Публичные комнаты** — это основное пространство для общения в Kato. **Каждый член команды** может подписываться на такие комнаты, читать публикуемый там контент и самостоятельно размещать в них сообщения. Каждая команда по-совему работает с публичными комнатами — некоторые держат одну такую комнату для всех обсуждений, другие создают публичные комнаты для бесед на конкретную тему.
 
-Access to *Restricted rooms* is limited to **specific people**. Admins in your organization can grant and revoke access to restricted rooms. If the current room is restricted, a red bar in the sidebar shows who has access to it.
+### ![icon_restricted.png](https://s3.amazonaws.com/kato-share/b0ec7fb6ba4217471256c42a85225b1a82b5fb1967e754386b881b14a08591/clip.png) Приватные комнаты
 
-**Note:** Creating a restricted room **doesn't automatically give you access to it**. Sometimes admins create restricted rooms on behalf of others. (For example, an administrative assistant might create a room where sensitive financial details are discussed.)
+Получить доступ к **приватным комнатам** могут только **определенные люди**. Администраторы команд в Kato могут выдавать конкретным пользователям права на доступ к ним (и отзывать эти права). Если открытая в данный момент комната является приватной, то в контакт-листе рядом с пользователями, имеющими к ней доступ, будет расположена красная полоса.
 
-For more info on restricted rooms, see [Restricted Rooms](introducing-restricted-rooms) and [Changing Room Access](introducing-changing-room-access).
+**Важный момент**: Создание приватной комнаты **не дает ее создателю автоматический доступ к публикуемому контенту**. Иногда приватные комнаты для других пользователей могут создавать администраторы (пример: администратор может создать комнату для обсуждения финансовой информации компании).
 
-### ![icon_1-1](https://s3.amazonaws.com/kato-share/ab26984594a4d458fddcedfd5dcd648dac751415e57c45568811db9a856dd946/clip.png) 1:1 Rooms
+Работа с приватными комнатами подробно описана [здесь](https://kato.im/articles/ru/room-types/introducing-restricted-rooms), информация о том, как изменить тип комнаты, представлена по [ссылке](https://kato.im/articles/ru/room-types/introducing-changing-room-access).
 
-*1:1 (one-to-one) rooms* are **private conversations** between two people. Only you and the other person can read messages in your mutual 1:1 room. To open a 1:1 room, just click the person's name in the Kato sidebar.
+### ![icon_1-1](https://s3.amazonaws.com/kato-share/ab26984594a4d458fddcedfd5dcd648dac751415e57c45568811db9a856dd946/clip.png) Комнаты 1:1 
 
-**Note:** Admins can disable 1:1 rooms for an organization, in the Policy settings for that organization.
+**Комнаты 1:1** (один-на-один) — это приватные диалоги между двумя людьми. Сообщения в комнате 1:1 могут читать только ее участники. Для того, чтобы открыть с каким-либо пользователем комнату 1:1 нужно кликнуть на его имени в контакт-листе Kato.
 
-### ![icon_support](https://s3.amazonaws.com/kato-share/81bb199e41a8e4729cd4e1354aa2af9a611c2534a46be563149eda97cfb61954/clip.png) Kato Support Rooms
+**Примечание:** С помощью меню настроек политик конфиденциальности администраторы могут отключить комнаты 1:1 для всей команды.
 
-Your *Kato support room* is special—it gives your team **direct access to Kato staff**, who are usually available to answer any questions and discuss suggestions. There's one Kato support room per organization.
+### ![icon_support](https://s3.amazonaws.com/kato-share/81bb199e41a8e4729cd4e1354aa2af9a611c2534a46be563149eda97cfb61954/clip.png) Комнаты поддержки Kato
 
-**Note:** Admins can disable Support rooms for an organization, in the Policy settings for that organization. Anyone can hide Support rooms for himself in Account settings.
+С помощью **комнаты поддержки Kato** каждая команда, пользующаяся сервисом, может связаться с работниками Kato по любым вопросам (от работы сервиса, до обсуждения возможных нововведений). У каждой команды в Kato своя комната поддержки.
 
-### ![icon_audit](https://s3.amazonaws.com/kato-share/1ff1ab2420539f3d4d5b008f957e047bac4f06c45c9d08ebd288dc34975a965b/clip.png) Security Audit Logs
+**Примечание:** Администраторы команды могут отключать комнаты поддержки. Любой член команды может скрыть такую комнату для себя через меню настроек учетной записи.
 
-*Security Audit Log* rooms aren't really a separate type. They just have a special icon, showing that they use the [*Audit Log* integration](https://kato.im/articles/introducing-security-audit-log/). This posts certain automatic messages to the room. Otherwise, these are just normal (restricted or unrestricted) rooms.
+### ![icon_audit](https://s3.amazonaws.com/kato-share/1ff1ab2420539f3d4d5b008f957e047bac4f06c45c9d08ebd288dc34975a965b/clip.png) Журналы проверок безопасности
 
-### ![icon_public](https://s3.amazonaws.com/kato-share/b2695440ca4e074b7b4c5d4a434e7772615146e4221c3b0401f4eb6f72f1709/Untitled%208.png) Public Rooms
+Комнаты **журналов проверок безопасности** не являются комнатами уникального типа. Специальная иконка показывает, что для конкретной комнаты подключена интеграция журналов безопасности ([Audit Log](https://kato.im/articles/ru/introducing-security-audit-log/)) — благодаря этому в комнате автоматически публикуется определенная служебная информация. В остальном таки комнаты ничем не отличаются от других и могут быть приватными и публичными.
 
-*Public rooms* have a URL that you can share with anyone, to let them chat with your team. They allow you to interact with your audience just like we interact with you in your Kato support room. (For now, we've removed this feature while we work out some technical issues, but we plan to bring it back.)
+### ![icon_public](https://s3.amazonaws.com/kato-share/b2695440ca4e074b7b4c5d4a434e7772615146e4221c3b0401f4eb6f72f1709/Untitled%208.png) Комнаты внешнего доступа
+
+У **комнат внешнего доступа** есть URL, который пользователи могут давать людям вне команды, предоставляя таким образом им возможность контактировать с командой (по аналогии с тем, как сотрудники Kato общаются с пользователями в комнатах поддержки).
+
+(В настоящий момент эта функциональность временно недоступна.)
