@@ -1,33 +1,42 @@
-Who owns your private messages in Kato? If you're using Kato Teams (the free product), you do. If you're using Kato Enterprise, the enterprise does. Here's how it works:
+## Кому принадлежат сообщения
+
+В бесплатной версии мессенджера Kato Teams личные сообщения в комнатах 1:1 всегда принадлежат пользователям. В платной версии Kato Enterprise даже личные собщения могут принадлежать компании. Вот как это работает,
 
 ## Kato Teams
-A Kato Teams account belongs to the individual, and all [1:1 conversations](/articles/en/general/room-types) between two accounts belong to both account holders.
+В Kato Teams учетная запись в сервисе полностью принадлежит создавшему ее пользователю, а история сообщения в [комнатах 1:1](https://kato.im/articles/ru/room-types/) принадлежат каждому из участников этих бесед.
 
-If this behavior is undesirable, a Kato Teams admin can disable 1:1 rooms between non-admins. This can be done from an organization's Policy settings: [https://app.kato.im/#/membership/_/policy/1-1](https://app.kato.im/#/membership/_/policy/1-1)
+Если подобное положение вещей является нежелательным, администраторы команд Kato могут отключить возможность создания комнат 1:1 между не-администраторами. Сделать это можно в меню настроек команды: [https://app.kato.im/#/membership/_/policy/1-1](https://app.kato.im/#/membership/_/policy/1-1).
 
-For example, Bob and Alice have a web consulting agency that uses Kato Teams for communication. When a client—Acme Corp—invites Bob and Alice into the Acme Corp Kato organization, Bob and Alice are now connected to each other via two teams: their own and Acme Corp's. This new connection has no effect on their private 1:1 room, which continues as before. When the contract with Acme Corp ends and Bob and Alice are removed from the Acme Corp organization, their 1:1 room remains intact. However, everything written by Bob and Alice in Acme Corp's **restricted or unrestricted rooms** belongs to Acme Corp.
+Рассмотрим ситуацию использования Kato Teams на практическом примере:
 
-If, at some point, Bob and Alice decide to disband their web consulting agency and delete their Kato organization, they will no longer be connected via Kato and each will disappear from the other's roster.
+Петя и Оля владеют консалтинговой компанией и используют для коммуникаций бесплатную версию Kato (Kato Teams). Крупный заказчик их компании — ООО «СуперТехнологии» — также пользуется Kato Teams. Когда этот клиент пригласит Петю и Олю в свою команду в сервисе Kato, консультанты смогут общаться еще и с сотрудниками этой компании. Для коммуникаций с клиентом и личного общения в режиме 1:1 им не придется переключать контекст, как видно из следующего рисунка. 
 
-However, if Bob joins another company that uses Kato, and that company proceeds to bring on Alice as a consultant, Bob and Alice's 1-1 history will resume from where it ended when they deleted their agency's Kato organization.
+![clip.png](http://habrastorage.org/getpro/habr/post_images/cba/41f/389/cba41f389e63c326a90844ce867b6fae.png)
 
-Kato Teams identities are global, and each organization's purpose is to connect identities and to contain rooms.
+Таким образом, Петя и Оля смогут продолжить общение между собой в **режиме 1:1**, а также также обмениваться сообщениями в комнатах компании ООО «СуперТехнологии». История в комнате 1:1 будет принадлежать каждому из собеседников (как письмо электронной почты), а в комнатах с бóльшим числом участников — команде, которой принадлежат комнаты. Несмотря на возможность подключения к нескольким командам, личный чат в режиме 1:1 всегда один и существует независимо, полностью находясь под контролем собеседников.  
+
+Когда срок действия договора с заказчиком истечет, Петя и Оля будут удалены из команды ООО «СуперТехнологии» и не смогут видеть, что происходит в комнатах с участием сотрудников этой команды, но сохранят контроль над комнатой 1:1. Если впоследствии Петя и Оля решат закрыть свою компанию и удалить команду из Kato, то они более не будут соединены внутри сервиса и пропадут из списка контактов друг друга в Kato.
+
+В том случае, если позже Петя устроится на работу в компанию, которая использует Kato Teams, и эта организация пригласит еще и Олю, то история их сообщений в режиме 1:1 восстановится с того момента, на котором она прервалась в момент удаления команды консалтинговой фирмы — «непрерывность» истории личного общения является одним из отличий Kato от других мессенджеров.
 
 ## Kato Enterprise
-Each Kato Enterprise is its own enclosed Kato universe (consisting of identities and organizations), where identities can only operate within the context of that universe. All 1:1 messages belong explicitly to the Enterprise, just like all corporate emails and documents.
+Каждый экземпляр Kato Enterprise (платная версия в настоящий момент находится на этапе бета-тестирования) является замкнутой «вселенной», состоящей из команд сотрудников, комнат, участвующих в них пользователей, а также установок, определяющих правила функционирования данной «вселенной». 
+
+Сущности (пользователи, их права доступа, отправленные сообщения, правила видимости и т.д.) могут взаимодействовать между собой лишь внутри этой «вселенной». Все диалоги в режиме 1:1 внутри этой «вселенной» принадлежат компании, которая платит за Kato Enterprise — точно так же как этой компании принадлежат все документы, созданные сотрудниками, включая отправленную ими электронную почту (это тоже своего рода документы).
 
 ## Edited messages
-In Kato, you can edit a message only if:
+В Kato сообщения можно редактировать только если соблюдены два условия:
 
-1.  It is your _last_ message, and
-2.  Less than 120 seconds has elapsed since the message was committed to the database
+1.  Редактируемое сообщение является последним отправленным;
+2.  С момента его публикации (записи в базу данных) прошло меньше 120 секунд.
 
-Only the last edit of a message is retained. Kato does not retain a change log, nor the fact that a message was edited at all. 
+Сохраняется только последнее изменение сообщения. В Kato не хранится история изменений сообщения (change log), в базе также нет никаких отметок, свидетельствующих о том, что сообщение было изменено. 
 
-## Deleted messages
-In Kato, you can't remove a message from the database. Admins can "delete" a message (although not in 1:1 rooms), but this simply hides the message from non-admins. The message is still there, and it can be _undeleted_.
+## Удаленные сообщения
+В Kato сообщения не удаляются из базы данных — администраторы команд могут «удалять» сообщения из комнат (но не из комнат 1:1), однако в реальности это позволит только скрыть сообщение от не-администраторов. Сообщение будет по прежнему храниться в базе данных и может быть в любой момент _«восстановлено»_.
 
-True removal of messages is not part of Kato for two reasons:
+Физическое удаление сообщений отсутствует в сервисе по трем причинам:
 
-1.  Removing a message from the database does not negate its existence. It might have been recorded elsewhere, on multiple clients.
-2.  If a message is removed _after_ a database is backed up, the message is recoverable. This makes it impossible for us to claim true removal, given our current backup strategy.
+1.  Удаление сообщения из базы данных не означает, что его не скопировали другим способом, например просто сделав снимок экрана.
+2.  Если сообщение было удалено после резервного копирования базы данных, то его иногда все равно можно восстановить из копии базы данных.
+3.  «Удаленное» сообщение могло быть сохранено в файле в результате исполнения функции «Download History».
