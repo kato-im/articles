@@ -1,79 +1,79 @@
-No enterprise system is complete without a security audit log. This includes communication and collaboration systems. Hey—this includes Kato! This is why we’re so excited to announce a new feature today: security audit log.
+## Журналы безопасности
 
-## Motivation
+В любой корпоративной системе обязательно существуют журналы, в которых хранится важная информация об использоании сервиса. Мессенджеры для командного общения и, в частности Kato, не исключение.
 
-What’s a security audit log? It’s a room that contains an immutable record of important things that happen in your Kato organization, but that nobody knows about—unless you have a security audit log! Consider these unpleasant possibilities:
+В Kato есть комнаты специального типа — они называются журналами проверок безопасности. В них в автоматическом режиме публикуюется важная информация о том, что происходит в конкретной команде Kato.:
 
 <table>
     <tr>
-        <td><b>Important Thing</b></td>
-        <td><b>Threat</b></td>
+        <td><b>Информация</b></td>
+        <td><b>Потенциальная угроза безопасности</b></td>
     </tr>
     <tr>
-        <td>Changing a display name or email address</td>
-        <td>Impersonation, identity theft</td>
+        <td>Изменение отображаемого имени или email-адреса</td>
+        <td>«Угон» учетной записи, попытка заполучить данные с помощью имперсонации (попытка выдать себя за другого человека)</td>
     </tr>
     <tr>
-        <td>Granting admin status</td>
-        <td>Inappropriate power</td>
+        <td>Выдача пользователю прав администратора</td>
+        <td>Чрезмерные полномочия для конкретного сотрудника</td>
     </tr>
     <tr>
-        <td>Revoking admin status</td>
-        <td>Sabotage, “hostage-taking” of content</td>
+        <td>Отзыв административных полномочий</td>
+        <td>Саботаж, «кража» контента (например, бывшим сотрудником с целью навредить компании)</td>
     </tr>
     <tr>
-        <td>Adding people to the organization</td>
-        <td>Voyeurism</td>
+        <td>Добавление новых людей в команду</td>
+        <td>Риск учечек данных</td>
     </tr>
     <tr>
-        <td>Removing people from the organization</td>
-        <td>Vandalism</td>
+        <td>Удаление людей из команды</td>
+        <td>Вандализм (как и в случае отзыва административных прав)</td>
     </tr>
     <tr>
-        <td>Creating restricted rooms</td>
-        <td>Establishes private channel for sharing sensitive content</td>
+        <td>Создание приватной комнаты</td>
+        <td>В таком случае возникает скрытый от чужих глаз канал для обмена чувствительной информацией</td>
     </tr>
     <tr>
-        <td>Deleting or renaming rooms</td>
-        <td>Malicious destruction or unexplained disappearance of content</td>
+        <td>Удаление и смена названий комнат</td>
+        <td>Злонамеренное уничтожение контента</td>
     </tr>
     <tr>
-        <td>Changing a restricted room’s access list</td>
-        <td>Sensitive data spreads throughout the organization</td>
+        <td>Изменение списка пользователей, имеющих доступ к приватным комнатам</td>
+        <td>Чувствительная информация может распространиться внутри команды</td>
     </tr>
     <tr>
-        <td>Changing a room’s restricted status</td>
-        <td>Sensitive data becomes visible to unintended audience</td>
+        <td>Изменение статуса приватности комнаты</td>
+        <td>Чувствительная информация становится потенциально доступной любому пользовтелю интернета</td>
     </tr>
     <tr>
-        <td>Making a room public</td>
-        <td>Outsiders and competitors can see private data</td>
+        <td>Присвоение комнате статуса «комнаты внешнего доступа»</td>
+        <td>Не-члены команды (в том числе сотрудники компаний-конкурентов) смогут увидеть не предназначенную для их глаз информацию</td>
     </tr>
     <tr>
-        <td>Enabling a security audit log</td>
-        <td>Inappropriate observation of user activity</td>
+        <td>Включение журнала проверок безопасности</td>
+        <td>Несанкционированный анализ активности пользователя в сервисе Kato</td>
     </tr>
     <tr>
-        <td>Disabling a security audit log</td>
-        <td>All of the above</td>
+        <td>Отключения журнала проверок безопасности</td>
+        <td>Все перечисленное выше</td>
     </tr>
 </table>
 
-## Example
+## Пример
 
-Here’s what the security audio log looks like in a room where an admin has enabled it:
+Вот так выглядит комната журнала проверок безопаснтсти, которую включил администратор команды:
 
  ![clip.png](https://s3.amazonaws.com/kato-share/dbadff7e6df31ee34b53eb3bae1bbc9f8a3b51e8ede6828f14b02adbe9050d79/clip.png)
  
-## Instructions
+## Как включить журналирование
 
-To get your own security audit log, you have to have administrative access. Once you do, follow these steps:
+Чтобы активировать журнал проверок безопасности пользователь должен обладать правами администратора. Включение журнала происходит следующим образом:
 
-1. Create a room, restricted or unrestricted&#8212;up to you. If you’re really **Enterprise**, with a capital **E**, make it restricted. We suggest giving this room a descriptive name, like *Audit Log*.
+1. Прежде всего необходимо создать ноую комнату (публичную или приватную). Лучше всего дать этой комнате «говорящее» название, например **Audit Log**.
 
-2. Enable the *Audit Log* integration:
+2. Далее следует активировать интеграцию **Audit Log**:
 
  ![clip.png](https://s3.amazonaws.com/kato-share/dc3dca0aa398f2d962001cf94f9d7b1fd0d0000fe502bb9b8dfa229b6194cb67/clip.png)
 
-3. Sleep easier.
+3. После этого журнал будет активирован.
 
