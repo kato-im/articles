@@ -19,7 +19,7 @@ The source for these articles is available on GitHub: <a href='https://github.co
  - [Room Types](/articles/en/general/room-types)
  - [Room Drag-n-Drop](/articles/en/general/room-drag-n-drop)
  - [Profile Cards](/articles/en/general/profile-cards)
- - [Global Search](/articles/en/general/gloabl-search)
+ - [Global Search](/articles/en/general/global-search)
 - [**Notifications**](/articles/en/notifications)
  - [Noise Control](/articles/en/notifications/noise-control)
  - [Audio Notifications](/articles/en/notifications/audio-notifications)
