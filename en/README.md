@@ -34,7 +34,7 @@ The source for these articles is available on GitHub: <a href='https://github.co
  - [IFTTT Integration](/articles/en/fun/ifttt-integration)
  - [Product Updates](/articles/en/fun/product-updates)
 - [**Power Users**](/articles/en/power-users)
- - [Restricted Rooms](/artices/en/power-users/restricted-rooms)
+ - [Restricted Rooms](/articles/en/power-users/restricted-rooms)
  - [Markdown Syntax](/articles/en/power-users/markdown-syntax)
  - [M for Markdown](/articles/en/power-users/m-for-markdown)
  - [Keyboard Control](/articles/en/power-users/keyboard-control)
