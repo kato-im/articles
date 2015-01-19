@@ -16,27 +16,26 @@ Using Markdown mode in Kato makes it possible to post messages that look like th
 
 ![clip.png](https://in.kato.im/825b6411defe9b7414963b06a503ed2760e0564a2e28a21e0a56836e2526c11/clip.png)
 
-Markdown mode is enabled by clicking the M button above the input area:
+Markdown mode is enabled by choosing **Markdown** in message options:
 
-![](https://s3.amazonaws.com/kato-share/d752fff0363dc6d6ba5635f1f8097be8b8d39ce440438384be3b8170347e120/clip.png)
+![clip.png](https://in.kato.im/6eb5c51231c72a4c2c458857f706f38b4f9d60ebfa5d79c5be6ff87936dd3e51/clip.png)
 
-The result:
+Once a message is posted as Markdown, you can see what it looks like in plain text: open the [message card](/articles/en/general/cheatsheet#message-cards) and de-select **M**:
 
-![](https://s3.amazonaws.com/kato-share/a633dcf3ac070b57b07c935240825b3c9a57beb63422945171eef4e8d8f62b8/clip.png)
+![clip.png](https://in.kato.im/a7ad3223a5f64fc14af66271cf7c1d5616e29fce937c7c0a4c5dda3fe35c39cf/clip.png)
 
-Once a message is posted as Markdown, it's possible to see what it looks like in plain text with a feature we call message controls: hover over a message and in the upper right corner you'll see the buttons for Markdown [M], code [</>], and collapse [-]. These are toggles, so resetting Markdown will display the message as plain text:
+You will see the original:
 
-![](https://s3.amazonaws.com/kato-share/8591fca088fa273b533755b4fc96052a5ea8ae92468e691a69745e24e8f733f3/clip.png)
-![](https://s3.amazonaws.com/kato-share/9099774be4fb2b52aae7e7ed6eb050d9ec0dd7bb1191bd689202a959c50f9473/clip.png)
+![clip.png](https://in.kato.im/b3296b2d545773a047eba915848f6ad6f73c912776b1b54355005a5c561835fc/clip.png)
 
 This view state is not persistent, reloading the history in a room will revert the view of the message back to the author's version. (This is something we may change in the future.)
 
 Note: it's possible for the server to post HTML messages (currently only for the rare cases of HTML-only emails), but it's not possible via the API or UI. Therefore HTML messages don't have any controls other than collapse.
 
-It's perfectly reasonable to only use Markdown. Since setting the type of each message gets old pretty quick, there is a remedy in account settings:
+You can use Markdown by default. Paste this link&#8212;https://app.kato.im/#/account/options/markdown-default&#8212;in your Kato tab or open account options: 
 
-![](https://s3.amazonaws.com/kato-share/f32505a3d20f16926e582510914fa46573051a89f870b307ce3799267e0c0d5f/clip.png)
+![clip.png](https://in.kato.im/a0f17170fb59a08a1898b897bfad007ea2687bcf96d9382e848130b525f0e9ee/clip.png)
 
-We plan on evolving the Markdown feature until the sky is fully reached. Meanwhile, we'd love for you to try it and let us know how it goes.
+And set **Default to Markdown** to ON.
 
-Oh, and one more thing. We really need a [Font Awesome](http://fortawesome.github.io/Font-Awesome/) Markdown icon. Please vote for it to be made [here](https://github.com/FortAwesome/Font-Awesome/issues/1557).
+We really need a [Font Awesome](http://fortawesome.github.io/Font-Awesome/) Markdown icon. Please vote for it to be made [here](https://github.com/FortAwesome/Font-Awesome/issues/1557).
