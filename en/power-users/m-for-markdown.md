@@ -14,7 +14,7 @@ Markdown is much more powerful. We use this [reference](https://github.com/fletc
 
 Using Markdown mode in Kato makes it possible to post messages that look like this:
 
-![](https://s3.amazonaws.com/kato-share/faf87cd364ebc679916c4dd6791d4d29b57f515f93ce15b7f0ee89311f88b36/clip.png)
+![clip.png](https://in.kato.im/825b6411defe9b7414963b06a503ed2760e0564a2e28a21e0a56836e2526c11/clip.png)
 
 Markdown mode is enabled by clicking the M button above the input area:
 
