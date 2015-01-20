@@ -121,7 +121,7 @@ That's not all—you can set your own [default noise levels](https://app.kato.im
 ********************************************************************************
 ## <a href="#email-notifications" name="email-notifications">Email Notifications and Replying by Email</a>
 
-By default, unless you read or respond a message within a certain amount of time, you will get an email with a digest that includes the unread message. This is only true for messages in 1-1s and for [mentions](#mentions).
+By default, unless you read or respond a message within a certain amount of time, you will get an email with a digest that includes the unread message. This is only true for messages in 1:1s and for [mentions](#mentions).
 
 The digests can be turned off here: [https://app.kato.im/#/account/notifications](https://app.kato.im/#/account/notifications).
 
@@ -217,11 +217,11 @@ In the image on the left, only **Hunter Inc.** is expanded. The right image show
 
 In the "multi-team" view each room gets an team "affinity token"&#8212;something you can use to identify the parent team. In the image above, each team has a **PR** room, but the affinity tokens provide a way to distinguish the two.
 
-Note that you can be connected to the same person via multiple teams. This is why people don't have explicit team affinity.
+Note that you can be connected to the same person via multiple teams. This is why people don't have explicit team affinity. If 1:1 are disabled in one such team and enabled in another, 1:1 is allowed. 
 
 In the scenario above, **Peter** is a members of both teams.
 
-To verify this, click on **More** in 1-1 room options:
+To verify this, click on **More** in 1:1 room options:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/1143494c2ff1d4e0621793886dfb00df534c9b67a4e7ef53dec5446c863854/clip.png)
 
