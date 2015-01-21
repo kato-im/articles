@@ -1,19 +1,23 @@
-The world is quickly coming to terms with the realization that team chat is the way to go, when it comes to everyday workspace communication.
+## Интеграция с UberConference
 
-While that's great, voice conferencing is not only not going away, it's actually getting pretty darn great.
+Главная проблема при организации конференции по сети (а иногда — и по обычному телефону) заключается в старте общения — большинство существующих систем предполагает загрузку и разворачивание клиента на компьютере каждого участника, а также применение сложных схем подключения с вводом различных пин-кодов и паролей. В итоге провести быстрый «созвон» для обсуждения текущих задач без долгой подготовки и настройки становится очень сложно.
 
-<a href="https://www.uberconference.com/">UberConference</a> fixes all the broken and outdated aspects of traditional conference calling, giving you a simple and pain-free way to schedule and run audio conferences without the hassle of PIN numbers. With the UberConference visual interface, you can share your screen, share documents, control calls with a click, and see who’s there and who’s talking.
+Интеграция сервиса для проведения аудио-конференций UberConference с мессенджером для командной работы Kato решает именно эту проблему.
+
+UberConference — это инструмент, призванный исправить самые проблемные аспекты традиционных онлайн-конференций. Потоковое видео часто работает неустойчиво (хочется верить, что эта вечная проблема скоро будет решена окончательно), поэтому создатели UberConference сосредоточились на качественной передаче звука. 
 
 <img src="https://in.kato.im/8d750e9a4bb3c7747b4416d0a5dfcbd3d4dd566920fcf40b9ed679419248d553/clip.jpg" />
 
-The Kato integration with UberConference uses the new <a href="https://www.uberconference.com/developers">UberConference API</a> to start a new call and share its details in Kato, similar to the <a href="/articles/en/power-users/google-hangouts-integration">integration with Google Hangouts</a>.
+Интеграция Kato и UberConference работает через API сервиса для конференций.
 
-<img src="https://in.kato.im/77633d6f1c71afddbd48c28e9737b3260ab176578c48d1aa7d1d472b07907/clip.png" alt="clip.png" />
+Все работает очень просто — пользователь Kato выбирает в меню пункт «Начать UberConference»:
 
-After starting the conference, a messages similar to this one will appear in the room:
+<img src="http://habrastorage.org/getpro/habr/post_images/f60/4e0/f15/f604e0f151c43cb4b48a80b2645c76f1.png " alt="clip.png" />
 
-<img src="https://in.kato.im/2e08ce40c5d60c8c5ceb59c59934a8e1929c06ecfbd3f61018d3f077332a1b9c/clip.png" alt="clip.png" />
+После этого в выбранной комнате появляется сообщение с приглашением подключиться к беседе:
 
-Clicking on the link in the message or dialing the number and pin will guide everyone to your conference.
+<img src="http://habrastorage.org/getpro/habr/post_images/ee7/2fd/974/ee72fd9749fd1d06987de00f009afaf0.png" alt="clip.png" />
 
-If you have any issues with this integration, please let us know in your <a href="https://app.kato.im/#/rooms/support">support room</a> and we'll help you out.
+Участники могут подключиться к конференции, кликнув на своих десктопах на ссылку из сообщения (после этого сервис предложит создать аккаунт в системе UberConference для новичков). 
+
+Участники, использующие мобильные устройства, просто набирают на них указанный в сообщении номер ( “Optional dial-in number”). При этом даже ввод пин-кода для подключения к беседе в UberConference облегчен — комбинация цифр отображается в углу экрана смартфона, и нажатие на нее автоматически подключает пользователя к беседе.
