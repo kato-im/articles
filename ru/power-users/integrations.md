@@ -1,375 +1,374 @@
-You can automatically route notifications from many third-party services into Kato rooms. To manage integrations for all rooms, click here: [https://app.kato.im/#/integrations](https://app.kato.im/#/integrations)
+## Интеграции
 
-(You can also manage integrations for a specific room from its room menu.)
+Пользователи Kato могут настраивать связку мессенджера с множеством внешних приложений и сервисов, что позволяет автоматически направлять оповещения, генерируемые этими сервисами в комнаты Kato и отправлять сигналы из комнат в эти программные продукты.
 
-**Tip:** If an integration isn't working like it should, check to see that it's turned on. It's easy to get excited and forget about the big **ON** button at the top of the Integrations screen. (It's OK—we all do it.)
+Как правило, команды, пользующиеся Kato, настраивают для каждой интеграции отдельную комнату, однако в реальности в одной комнате могут быть собраны оповещения из нескольких внешних сервисов.
 
-Most teams dedicate a room for each integration they use. But you don't have to do it that way. Multiple integrations can feed a single room, and you can send messages in a room that has integrations feeding it. It's up to you.
-
-Don't see an integration for a service you want? Want to integrate your product with Kato? [Get in touch!](https://kato.im/contact)
+Ниже представлена информация о доступных [интеграциях](https://app.kato.im/#/integrations) с внешними сервисами:
 
 ***
 
 ## <a href="#http_post" name="http_post">![clip.png](https://s3.amazonaws.com/kato-share/99274149d925695cd0677f15d0ef2b05d78cdd8cc6a767ef439edcc91978b83/clip.png) HTTP POST</a>
 <br />
-Make your own integrations by POSTing messages to Kato in JSON format. [Learn more](https://app.kato.im/#/integrations/http_post).
+Разработчики внешних сервисов могут создавать собственные интеграции с Kato благодаря этой интеграции, позволяющей отправлять отправлять в мессенджер сообщения (POST) в формате JSON. [Подробная информация.](https://app.kato.im/#/integrations/http_post).
 
 ***
 
 ## <a href="#email" name="email">![clip.png](https://s3.amazonaws.com/kato-share/46feccb283936148b37eda00196da0e0f5976d986d029c1c917f334b84d17e1/clip.png) Email</a>
 <br />
-Every Kato room has a unique email address. Some tools only provide email-based notifications (e.g. Bitbucket issues); you can use this integration to route notifications to Kato. At Kato, we use this integration to receive messages from syslog in a room called Syslog. For more info, [click here](https://app.kato.im/#/integrations/email).
+У каждой комнаты в Kato есть собственный уникальный email-адрес. Поскольку никоторые внешние инструменты поддерживают только email-оповещения, данную интеграцию можно использовать для перенаправления подобных сообщений в комнаты мессенджера. Более подробная информация представлена по [ссылке](https://app.kato.im/#/integrations/email).
 
 ***
 
 ## <a href="#airbrake" name="airbrake">![clip](https://s3.amazonaws.com/kato-share/98755b9c7e3f7b127961ce0f7f43993d14cc18864030142f47e113eb1a0f324/clip.png) Airbrake</a>
 <br />
-[Airbrake](https://airbrake.io/) provides error tracking service for web applications. Whenever an error happens, you can receive a notification in a Kato room of your choice. To configure the Airbrake integration, click [here](https://app.kato.im/#/integrations/airbrake).
+[Airbrake](https://airbrake.io/)— это сервис для отслеживания ошибок в веб-приложения. Интеграция с Kato может быть использована для генерации автоматических оповещений в комнаты мессенджера при возникновении ошибки. Для настройки интеграции нужно кликнуть [здесь](https://app.kato.im/#/integrations/airbrake).
 
 ***
 
 ## <a href="#appsignal" name="appsignal">![clip.png](https://s3.amazonaws.com/kato-share/1b99fbaee7544174fa85a68dfe4c4c1873ea11c74ec4379e7211783db1a7acb/clip.png) AppSignal</a>
 <br />
-[AppSignal](https://appsignal.com/) is an error tracking for Ruby on Rails applications. You can route AppSignal events to a Kato room of your choice ([click here to get started](https://app.kato.im/#/integrations/appsignal)).
+[AppSignal](https://appsignal.com/) — инструмент для отслеживания ошибок в приложениях на Ruby on Rails. Инструкция по настройке представлена [по ссылке](https://app.kato.im/#/integrations/appsignal).
 
 ***
 
 ## <a href="#asana" name="asana">![clip.png](https://s3.amazonaws.com/kato-share/f1fe65fe660b3d67faa458c890970cabf019943810c9521d5e1b518129e92c3b/clip.png) Asana</a>
 <br />
-[Asana](https://asana.com/) is a collaborative task management application. [Click here](https://app.kato.im/#/integrations/asana) to start sending all your Asana notifications to Kato (via Zapier).
+[Asana](https://asana.com/) — удобный инструмент для управления проектами и задачами. С помощью соответствующей [интеграции](https://app.kato.im/#/integrations/asana) пользователи могут отправлять оповещения из Asana в Kato (интеграция работает через сервис Zapier).
 
 ***
 
 ## <a href="#balanced" name="balanced">![clip.png](https://s3.amazonaws.com/kato-share/3f568e69f56fbe46d9b7bb0b83c552d8cd59e41ba276edce81f7ea2aece3315f/clip.png) Balanced</a>
 <br />
-[Balanced](https://www.balancedpayments.com/) is a micro-merchant payment service. To keep track of your Balanced activity, you can send Balanced events to Kato. [Click here](https://app.kato.im/#/integrations/balanced) to get started.
+[Balanced](https://www.balancedpayments.com/) — это платежный сервис для малых продавцов, события которого также можно [выводить](https://app.kato.im/#/integrations/balanced) в Kato. 
 
 ***
 
 ## <a href="#base" name="base">![clip.png](https://s3.amazonaws.com/kato-share/e670dac976be0890f03efe7b5a9995475f5b9ac4e183bc140c17ae625e7ea0b/clip.png) Base CRM</a>
 <br />
-[Base CRM](https://getbase.com/) is a customer relationship management system available for iOS, Android, and Windows Phone. It's possible to push Base CRM notifications to Kato via Zapier. To get started, [click here](https://app.kato.im/#/integrations/base).
+[Base CRM](https://getbase.com/) — CRM-система, работающая на iOS, Android и Windows Phone. Существует [интеграция](https://app.kato.im/#/integrations/base) этого инструмента с Kato, позволяющая публиковать оповещения из CRM в комнате мессенджера (реализована через Zapier).
 
 ***
 
 ## <a href="#beanstalk" name="beanstalk">![clip.png](https://s3.amazonaws.com/kato-share/aeff771cb0f2a388a7a1429514f6ca2de8bb9d1f65604006ea20cd21e116464/clip.png) Beanstalk</a>
 <br />
-[Beanstalk](http://beanstalkapp.com/) is a Git and Subversion hosting and code collaboration platform from [Wildbit](http://wildbit.com/), the makers of [Postmark](postmarkapp.com) and [dploy.io](http://dploy.io/). You can keep track of Beanstalk notifications in Kato—[click here to begin](https://app.kato.im/#/integrations/beanstalk).
+[Beanstalk](http://beanstalkapp.com/) — разработанная компанией [Wildbit](http://wildbit.com/) (создатели проектов [Postmark](postmarkapp.com) и [dploy.io](http://dploy.io/)) платформа для хостинга репозиториев Git и Subversion и совместной работы над кодом. С помощью [интеграции](https://app.kato.im/#/integrations/beanstalk) с Kato, оповещения из этой системы могут направляться в комнату чата.
 
 ***
 
 ## <a href="#bitbucket" name="bitbucket">![clip.png](https://s3.amazonaws.com/kato-share/6c585a91af31c18016c69096bbdf1aaded89285bc3af7996c1df067367815ea/clip.png) Bitbucket</a>
 <br />
-[Bitbucket](https://bitbucket.org) is a source code hosting platform for Git and Mercurial. You can see commits, comments, push requests, etc in Kato by enabling the Bitbucket integration. Click on this link to get started: [https://app.kato.im/#/integrations/bitbucket](https://app.kato.im/#/integrations/bitbucket).
+[Bitbucket](https://bitbucket.org) — открытая платформа для хостинга репозиториев Git и Mercurial. Информация о коммитах, комментария, push-запросах может быть [выведена](https://app.kato.im/#/integrations/bitbucket) в комнату Kato.
+
+is a source code hosting platform for Git and Mercurial. You can see commits, comments, push requests, etc in Kato by enabling the Bitbucket integration. Click on this link to get started: [https://app.kato.im/#/integrations/bitbucket](https://app.kato.im/#/integrations/bitbucket).
 
 ***
 
 ## <a href="#braintree" name="braintree">![clip.png](https://s3.amazonaws.com/kato-share/81fab368d10560c9ba2227a52f294946716f8413d135052017b564a168ead8ed/clip.png) Braintree</a>
 <br />
-[Braintree](https://www.braintreepayments.com/), a full-stack payments platform for online and mobile payments, generates a ton of events. To see these events in real time, you can integrate Braintree with Kato. [Click here](https://app.kato.im/#/integrations/bitbucket) to get the ball rolling.
+[Braintree](https://www.braintreepayments.com/) — универсальная платежная платформа для приема платежей онлайн и с мобильных платформ. В процессе работы она генерирует множество различных оповещений, которые для удобства могут быть [выведены](https://app.kato.im/#/integrations/bitbucket) в комнату мессенджера Kato. 
 
 ***
 ## <a href="#bugsnag" name="bugsnag">![clip.png](https://s3.amazonaws.com/kato-share/c822ed7a8909894ea336b6f4f7ab9788724c0dfca7dad1d72f78091273454ec1/clip.png) Bugsnag</a>
 <br />
-[Bugsnag](https://bugsnag.com/) is an errors tracking service for web and mobile applications. [Connect](https://app.kato.im/#/integrations/bugsnag) Bugsnag to Kato to keep track of errors in real time.
+[Bugsnag](https://bugsnag.com/) — сервис для отслеживания ошибок для веб и мобильных приложений, которые также можно [интегрировать](https://app.kato.im/#/integrations/bugsnag) с Kato.
 
 ***
 ## <a href="#circleci" name="circleci">![clip.png](https://s3.amazonaws.com/kato-share/b0f1a75903102af3ca698b42d1ae3575dc384d2a8761a60a8da1c4d9f92fa76/clip.png) CircleCI</a>
 <br />
-[CircleCI](https://circleci.com/) is hosted continuous integration service for web applications. To keep an eye on build status in Kato, [configure](https://app.kato.im/#/integrations/circleci) the CircleCI integration.
+[CircleCI](https://circleci.com/) — отдельностоящий сервис для непрерывной интеграции (continuous integration) веб-приложений. Для контроля статуса сборок можно использовать [интеграцию](https://app.kato.im/#/integrations/circleci) с Kato.
 
 ***
 ## <a href="#cloudforge" name="cloudforge">![clip.png](https://s3.amazonaws.com/kato-share/35c4c415fda49e17a621360b6039b3b172eb6215d2df6ffadf89c4deecb4de38/clip.png) CloudForge</a>
 <br />
-[CloudForge](http://www.cloudforge.com/) is a Subversion and Git hosting and bug tracking platform. To push CloudForge notifications to Kato, [click here](https://app.kato.im/#/integrations/cloudforge).
+[CloudForge](http://www.cloudforge.com/) — еще одна хостинг платформа для Subversion и Git и багтрекинга. Оповещения CloudForge можно публиковать в Kato, подключив соответствующую [интеграцию](https://app.kato.im/#/integrations/cloudforge).
 
 ***
 ## <a href="#codeship" name="codeship">![clip.png](https://s3.amazonaws.com/kato-share/7a8e15a6fb956d6dc8a03debaac5d31d8f9509d2ea129e39d6dafaeb1fdd73a3/clip.png) Codeship</a>
 <br />
-[Codeship](https://twitter.com/moritzplassnig) is a continuous integration service. If you use Codeship, you can receive build status notifications in Kato&#8212;[start here](https://app.kato.im/#/integrations/codeship).
+[Codeship](https://twitter.com/moritzplassnig) — сервис для непрерывной интеграции. Оповещения о статусе сборок могут быть опубликованы в Kato с помощью [интеграции](https://app.kato.im/#/integrations/codeship). 
 
 ***
 ## <a href="#crashlytics" name="crashlytics">![clip.png](https://s3.amazonaws.com/kato-share/b321aa3e1c69f3c114bbea31bfc72799e12ed1dd49e679fb8efae55c02a95ac/clip.png) Crashlytics</a>
 <br />
-[Crashlytics](http://try.crashlytics.com/) is a lightweight crash reporting solution for iOS and Android developers. To see your crashes in Kato in real-time, you can [configure](https://app.kato.im/#/integrations/crashlytics) the Kato/Crashlytics integration.
+[Crashlytics](http://try.crashlytics.com/) — легкое и удобное средство оповещения о падениях приложения для разработчиков iOS и Android. С помощью интеграции Crashlytics и Kato в мессенджер можно [направлять](https://app.kato.im/#/integrations/crashlytics) сообщения о падениях приложений («крашах»). 
 
 ***
 ## <a href="#customerio" name="customerio">![clip.png](https://s3.amazonaws.com/kato-share/a9e52d2929b42262e89353acf05324f1554be60c616d2fc23d153857131f26a0/clip.png) Customer.io</a>
 <br />
-[Customer.io](http://customer.io/) sends emails triggered by user behavior. Helps build, measure, and improve emails geared toward user activation and retention. To keep track of the various Customer.io events and notifications in Kato, [configure the integration](https://app.kato.im/#/integrations/customerio).
+Сервис [Customer.io](http://customer.io/) на основе поведения пользователей отправляет им электронные письма. Видеть информацию о различных событиях сервиса прямо в комнате мессенджера можно с помощью [интеграции](https://app.kato.im/#/integrations/customerio) Customer.io и Kato.
 
 ***
 ## <a href="#desk" name="desk">![clip.png](https://s3.amazonaws.com/kato-share/8797c25e4b980351f26659de37b9bdedafaf68e629d8d179f3d435cd3afed73f/clip.png) Desk</a>
 <br />
-[Desk](http://www.desk.com/), née Assistly, is a customer support service application offered by Salesforce.com. To receive notifications from Desk in Kato, follow this [11-step integration manual](https://app.kato.im/#/integrations/desk).
+[Desk](http://www.desk.com/), ранее называвший Assistly — это приложение для поддержки клиентов от Salesforce.com. Для того, чтобы получать оповещения из Desk в Kato нужно проделать несколько шагов по [интеграции](https://app.kato.im/#/integrations/desk) сервисов.  
 
 ***
 ## <a href="#dokuwiki" name="dokuwiki">![clip.png](https://s3.amazonaws.com/kato-share/e268c4dbde9f08ffb25f8fa32d119eeefc2d60a4149d3ceba0cd62e7ce6ca31c/clip.png) DokuWiki</a>
 <br />
-[DokuWiki](https://www.dokuwiki.org/dokuwiki) is an open source wiki software that does not require a database. [Integrate](https://app.kato.im/#/integrations/dokuwiki), to see update notifications to your wiki in Kato.
+[DokuWiki](https://www.dokuwiki.org/dokuwiki) — открытый софт для создания вики-страниц, который работает без базы данных. Информация об изменении тектсов может быть [опубликована](https://app.kato.im/#/integrations/dokuwiki) в комнатах Kato. 
 
 ***
 ## <a href="#doorbell" name="doorbell">![clip.png](https://in.kato.im/9f9d7fce42168fc350d7ef1354e40fe37ceebaf86fd938aeb30e88d6d97d9fbf/clip.png) Doorbell</a>
 <br />
-[Doorbell](https://doorbell.io) is a free, in-app user feedback service for web, iOS, and Android. The Doorbell/Kato integration posts a message to a Kato room of your choice when new user feedback arrives. [Click here](https://app.kato.im/#/integrations/doorbell) to get started with the integration.
+[Doorbell](https://doorbell.io) — бесплатный встраиваемый в веб, а также iOS и Android-приложения, инструмент для сбора обратной связи от пользователей. Интеграция Doorbell и Kato позволяет [публиковать в комнатах](https://app.kato.im/#/integrations/doorbell) мессенджера сообщения о том, что пользователь оставил новый отзыв. 
 
 ***
 ## <a href="#freshdesk" name="freshdesk">![clip.png](https://s3.amazonaws.com/kato-share/66391ccf90f055ef9770bf4799d99498a472de3e18175b40af91ea9ec3a84e47/clip.png) Freshdesk</a>
 <br />
-[Freshdesk](http://freshdesk.com/) is a customer support and help desk software. To integrate Freshdesk with Kato, [click here](https://app.kato.im/#/integrations/freshdesk).
+[Freshdesk](http://freshdesk.com/) — это инструмент для поддержки пользователей. Для того, чтобы интегрировать Freshdesk с Kato, необходимо кликнуть [здесь](https://app.kato.im/#/integrations/freshdesk).
 
 ***
 ## <a href="#git" name="git">![clip.png](https://s3.amazonaws.com/kato-share/6e17e4193ee9166c93fb72f8c0a5b45eeac71b685c1d2367337384b57d425235/clip.png) Git</a>
 <br />
-[Git](http://git-scm.com/) is a free and open source distributed version control system designed by Linus Torvalds. You can [configure](https://app.kato.im/#/integrations/git) an update hook to monitor updates to your repository in Kato.
+[Git](http://git-scm.com/) — бесплатная и свободная распределенная система контроля версий, созданная Линусом Торвальдсом. Пользователи Kato могут отслеживать изменения, происходящие в своем репозитории, с помощью специальной [интеграции](https://app.kato.im/#/integrations/git).  
 
 ***
 ## <a href="#github" name="github">![clip.png](https://s3.amazonaws.com/kato-share/d2651481d6305741b2d9653a2ef15602d22f9fecb9e588502d5f4306bdd42a5b/clip.png) GitHub</a>
 <br />
-[GitHub](http://github.com) is a source code hosting and collaboration service based on Git. [Connect GitHub to Kato](https://app.kato.im/#/integrations/github) to see real-time GitHub notifications in Kato.
+[GitHub](http://github.com) — платформа для хостинга кода и совместной работы над ним. [Интеграция](https://app.kato.im/#/integrations/github)  с этим сервисом позволяет в режиме реального времени видеть в Kato оповещения о происходящих изменениях и коммитах.
 
 ***
 ## <a href="#gitlab" name="gitlab">![clip.png](https://s3.amazonaws.com/kato-share/1338b03115ee6018568a4d3c1667a3d12628ec4a9367e6c275aa4adce483f668/clip.png) GitLab</a>
 <br />
-[GitLab](https://about.gitlab.com/), open source Git management software, can send notifications to Kato via a webhook. To configure the integration, [click here](https://app.kato.im/#/integrations/gitlab).
+[GitLab](https://about.gitlab.com/) — открытая система для работы с Git, сообщения из которой можно выводить в комнату Kato. Для настройки интеграции необходимо перейти по [ссылке](https://app.kato.im/#/integrations/gitlab). 
+
 
 ***
 ## <a href="#helpscout" name="helpscout">![clip.png](https://s3.amazonaws.com/kato-share/82956a7c7ce7c693b7753228b447f20b1585305c12c24c3971ef2d0ca3aac0c/clip.png) HelpScout</a>
 <br />
-[HelpScout](https://www.helpscout.net/) is a help desk service. To receive notifications about new customer emails in Kato, [configure the HelpScout integration](https://app.kato.im/#/integrations/helpscout).
+[HelpScout](https://www.helpscout.net/) — программное обеспечение для специалистов службы поддержки. Информация о новых письмах клиентов [может быть выедена](https://app.kato.im/#/integrations/helpscout) в комнату Kato. 
 
 ***
 ## <a href="#heroku" name="heroku">![clip.png](https://s3.amazonaws.com/kato-share/daca62db1a9826b9789929a52863fa85e423a80a3185196be601fbae7b2f28b4/clip.png) Heroku</a>
 <br />
-[Heroku](https://www.heroku.com/) is a cloud application platform. [Follow these instructions](https://app.kato.im/#/integrations/heroku) to monitor your application deployment events in Kato.
+[Heroku](https://www.heroku.com/) — платформа для работы с облачными приложениями. Информацию о разворачивании приложения можно [публиковать](https://app.kato.im/#/integrations/heroku) прямо в Kato. 
 
 ***
 ## <a href="#hubot" name="hubot">![clip.png](https://in.kato.im/8e0024aca90ceb91828ee90421a4dac4896221f2d449a881701f507b00c70a/clip.png) Hubot</a>
 <br />
-[Hubot](https://github.com/kato-im/hubot-kato/) a robot that helps you automate things. For example, you can configure Hubot to automatically translate messages from one language to another, to deploy your website with a simple command, or to serve as weather forecaster. To get started, please visit our Hubot adapter page on GitHub: [https://github.com/kato-im/hubot-kato](https://github.com/kato-im/hubot-kato).
+[Hubot](https://github.com/kato-im/hubot-kato/) — это робот, помогающий автоматизировать многие задачи. К примеру, он может автоматически переводить сообщения с одного языка на другой, или находить в сети прогноз погоды. Страница адаптера Hubot для Kato опубликована на [GitHub](https://github.com/kato-im/hubot-kato). 
 
 ***
 ## <a href="#intercom" name="intercom">![clip.png](https://s3.amazonaws.com/kato-share/c8dd1e4575e38117d804f38216624923e55d38b8b97aecba5d2dd848fcc4bb11/clip.png) Intercom</a>
 <br />
-[Intercom](https://www.intercom.io/) is a way for web and mobile businesses to see and talk to their users. With live user intelligence you can send relevant messages that start conversations and create personalized experiences. To use this integration, you need to add a Kato Webhook URL to your Intercom account settings. [Start here](https://app.kato.im/#/integrations/intercom). 
+[Intercom](https://www.intercom.io/) — инструмент, позволяющий веб- и мобильным проектам общаться со своими пользователями. Для того, чтобы активировать [интеграцию](https://app.kato.im/#/integrations/intercom) этого сервиса с Kato необходимо добавить Kato Webhook URL в учетную запись Intercom. 
 
 ***
 ## <a href="#ifttt" name="ifttt">![clip.png](https://s3.amazonaws.com/kato-share/75402c164503d0ee1bd4aa7c6a9222b7e7148d3b384a30c81a78d1b35f2acdef/clip.png) IFTTT</a>
 <br />
-[IFTTT](https://www.ifttt.com/) ("if this, then that") connects web services by matching a "trigger" from one to an "action" of another. [Here's how](https://app.kato.im/#/integrations/ifttt) to link IFTTT to Kato.
+[IFTTT](https://www.ifttt.com/)("if this, then that" — «если это, тогда то») — пользователи IFTTT могут создавать так называемые «рецепты», которые определяют заданный сценарий — что «то» надо сделать, когда наступает «это» событие. [Здесь](https://app.kato.im/#/integrations/ifttt) описан процесс подключения IFTTT к Kato.
 
 ***
 ## <a href="#jenkins" name="jenkins">![clip.png](https://s3.amazonaws.com/kato-share/b65496a66352826692e830d11d99df48ceef3011b9cfc4eda213052315060b8/clip.png) Jenkins</a>
 <br />
-[Jenkins](http://jenkins-ci.org/) is an open source continuous integration server written in Java. By [installing and configuring](https://app.kato.im/#/integrations/jenkins) the Kato Jenkins plugin, you can receive real-time build status notifications in a Kato room of your choice.
+[Jenkins](http://jenkins-ci.org/) — написанный на Java открытый сервер для непрерывной интеграции. С помощью специального [плагина](https://app.kato.im/#/integrations/jenkins) Kato Jenkins пользователи могут в режиме реального времени получать информацию о сборках в выбранную комнату мессенджера. 
 
 ***
 ## <a href="#jira" name="jira">![clip.png](https://s3.amazonaws.com/kato-share/651d84bd676148c62ef28417485467ca67cf35f7a3e69b9b1e9f62a2a5ed2dd/clip.png) Jira</a>
 <br />
-[Jira](https://www.atlassian.com/software/jira) is Atlassian's issue tracking system. The Kato/Jira  integration makes it possible to push Jira events to a Kato room. [Click here to configure](https://app.kato.im/#/integrations/jira).
+[Jira](https://www.atlassian.com/software/jira) — система отслеживания ошибок от Atlassian. Ее [интеграция](https://app.kato.im/#/integrations/jira) с Kato позволяет публиковать события Jira в комнату мессенджера.  
 
 ***
 ## <a href="#kiln" name="jira">![clip.png](https://s3.amazonaws.com/kato-share/bf3f660925281f8f617b9b3616f71af34fc51539e30cd39571c9a4151b7793f7/clip.png) Kiln</a>
 <br />
-[Kiln](http://www.fogcreek.com/kiln/) is a source control management system based on Git and Mercurial with integrated code review mechanism from [Fog Creek Software](http://www.fogcreek.com/). To receive real-time notifications from Kiln in Kato, [configure the integration](https://app.kato.im/#/integrations/kiln).
+[Kiln](http://www.fogcreek.com/kiln/) — система управления кодом, основанная на Git и Mercurial, в которую также интегрирован механизм для анализа кода от [Fog Creek Software](http://www.fogcreek.com/). Для того, чтобы в режиме реального времени получать оповещения от Kilt в комнате мессенджера, необходимо настроить [интеграцию](https://app.kato.im/#/integrations/kiln) сервиса с Kato.
 
 ***
 ## <a href="#logentries" name="logentries">![clip.png](https://s3.amazonaws.com/kato-share/44545f6c403929ca37a6f9ae31ce5ff01092e648d33529a6beb3f6fd21b6b543/clip.png) LogEntries</a>
 <br />
-[Logentries](https://logentries.com/) is a log management and analytics service. [Configure the integration](https://app.kato.im/#/integrations/logentries) to receive real-time alerts from Logentries in Kato.
+[Logentries](https://logentries.com/) — система для анализа и управления журналами событий. [Интеграция](https://app.kato.im/#/integrations/logentries) с Kato позволяет публиковать оповещения системы в комнату мессенджера. 
 
 ***
 ## <a href="#magnumci" name="magnumci">![clip.png](https://s3.amazonaws.com/kato-share/951e35a7dd296f90551ce054414681623d41afbd4ed4ad81bb681d0bf0627b63/clip.png) Magnum CI</a>
 <br />
-[Magnum CI](https://magnum-ci.com/) is a hosted Continuous Integration and Delivery Platform. You can keep an eye on the various events from Magnum CI in Kato. To get started, [click here](https://app.kato.im/#/integrations/magnumci).
+[Magnum CI](https://magnum-ci.com/) — работающая локально платформа для непрерывной интеграции и развертывания. Многочисленные события системы могут быть [выведены](https://app.kato.im/#/integrations/magnumci) в комнату Kato
 
 ***
 ## <a href="#mailchimp" name="mailchimp">![clip.png](https://s3.amazonaws.com/kato-share/a8a420d08136e60c1e7b2d6ecda203e3e0e161bcd596d84dc6893eb6747692aa/clip.png) MailChimp</a>
 <br />
-[MailChimp](http://mailchimp.com/), the email marketing service provider, can be configured to push events to a Kato room of your choice. [Show me.](https://app.kato.im/#/integrations/mailchimp)
-
+[MailChimp](http://mailchimp.com/) — популярная платформа для email-маркетинга. Существует ее [интеграция](https://app.kato.im/#/integrations/mailchimp) с Kato, позволяющая видеть оповещения системы в комнате мессенджера.  
 ***
 ## <a href="#mailjet" name="mailjet">![clip.png](https://s3.amazonaws.com/kato-share/eb13ae099a9d743e6208ef9a882427bcacf99345bf4e4db74ec82322871fb4c9/clip.png) Mailjet</a>
 <br />
-[Mailjet](http://www.mailjet.com/) is a transactional, bulk, and marketing email service. [Add the integration](https://app.kato.im/#/integrations/mailchimp) to see Mailjet warnings in a Kato room.
+[Mailjet](http://www.mailjet.com/) — система для работы с электронной почтой и email-маркетинга. Существует [интеграция](https://app.kato.im/#/integrations/mailchimp) с Kato. 
 
 ***
 ## <a href="#mandrill" name="mandrill">![clip.png](https://s3.amazonaws.com/kato-share/c840d8b4cffb93c3a2f0c53986ed47bb83b0af4a0fae68b5705c53088c762bc/clip.png) Mandrill</a>
 <br />
-[Mandrill](http://mandrill.com/) is a transactional email service. To get a Kato message whenever someone opens an email, [enable and configure this integration](https://app.kato.im/#/integrations/mandrill).
+[Mandrill](http://mandrill.com/) — транзакционный email-сервис. [Интеграция](https://app.kato.im/#/integrations/mandrill) с Kato позволяет видеть в комнате мессенджера информацию об открытиях писем и других событиях. 
 
 ***
 ## <a href="#mention" name="mention">![clip.png](https://s3.amazonaws.com/kato-share/276543ddf4a19cd662fcda0ea9b1a8367eaad92753ba5fe272cbee31e343782f/clip.png) Mention (via Zapier)</a>
 <br />
-[Mention](https://mention.net/) is a media monitoring service. You can route Mention reports to Kato instead of email. To get started [click here](https://app.kato.im/#/integrations/mention).
+[Mention](https://mention.net/) — система мониторинга СМИ и медиа. Отчеты системы можно [публиковать](https://app.kato.im/#/integrations/mention) в комнату Kato. 
 
 ***
 ## <a href="#munin" name="munin">![clip.png](https://s3.amazonaws.com/kato-share/f04c2ff549c9bef3f7291cb81a1bb32fa625fe7a3e4c651ddd1f5872731d9fcc/clip.png) Munin</a>
 <br />
-[Munin](http://munin-monitoring.org/) is a system, network, and infrastructure monitoring software. To see alerts from Munin in a Kato room, [add this integration](https://app.kato.im/#/integrations/munin).
+[Munin](http://munin-monitoring.org/) — система для мониторинга состояния сетей и инфраструктуры. Сигналы системы можно публиковать в комнаты Kato с помощью соответствующей [интеграции](https://app.kato.im/#/integrations/munin). 
 
 ***
 ## <a href="#newrelic" name="newrelic">![clip.png](https://s3.amazonaws.com/kato-share/aefd4db09dbb4af8d1a56b8b5e7f764d4193123fb80c2e9322d4d49631a5abcb/clip.png) New Relic</a>
 <br />
-[New Relic](http://newrelic.com/) is a monitoring service for web and mobile applications. You can receive New Relic alerts in Kato. [Click here](https://app.kato.im/#/integrations/newrelic) to get started.
+[New Relic](http://newrelic.com/) — сервис для мониторинга мобильных и веб-приложений. Оповещения системы могут [направляться](https://app.kato.im/#/integrations/newrelic) в комнату Kato. 
 
 ***
 ## <a href="#opsgenie" name="opsgenie">![clip.png](https://s3.amazonaws.com/kato-share/1b07962a3acbadd39b74504023584c4ef7b05943b38a77869259985054c8bc3c/clip.png) OpsGenie</a>
 <br />
-[OpsGenie](http://www.opsgenie.com/) is an alert management service for mobile devices. To begin receiving events from OpsGenie in a chat room, sign into Kato and then click [here](https://app.kato.im/#/integrations/opsgenie).
+[OpsGenie](http://www.opsgenie.com/) — система управления оповещениями для мобильных устройств. Чтобы получать события от OpsGenie в комнату мессенджера, необходимо настроить [интеграцию](https://app.kato.im/#/integrations/opsgenie) с Kato. 
 
 ***
 ## <a href="#pagerduty" name="pagerduty">![clip.png](https://s3.amazonaws.com/kato-share/b0ad622f2fed0b1a1510650d786dc898e22cff5883fac3fd7efa5e11cdbfa73/clip.png) PagerDuty</a>
 <br />
-[PagerDuty](http://www.pagerduty.com/) is an IT alert monitoring, incident tracking, and on-call scheduling service. PagerDuty can be configured to page Kato! [It's true.](https://app.kato.im/#/integrations/pagerduty)
+[PagerDuty](http://www.pagerduty.com/) — инструмент для мониторинга IT-инфраструктуры и контроля инцидентов. Существует возможность настройки [публикации событий](https://app.kato.im/#/integrations/pagerduty) в Kato. 
 
 ***
 ## <a href="#papertrail" name="papertrail">![clip.png](https://s3.amazonaws.com/kato-share/d512a4dbcba12869a69001049901d5cd277cac5d4990b5c37a7db1ea28ec5b6/clip.png) Papertrail</a>
 <br />
-[Papertrail](https://papertrailapp.com/) is a cloud log management service. You can [configure](https://app.kato.im/#/integrations/papertrail) Papertrail to send alerts to Kato.
+[Papertrail](https://papertrailapp.com/) — облачная система управления журналами событий. Благодаря [интеграции](https://app.kato.im/#/integrations/papertrail) с Kato сигналы Papertrail могут быть выведены в комнату чата. 
 
 ***
 ## <a href="#perforce" name="perforce">![clip.png](https://s3.amazonaws.com/kato-share/93469900408a39e8e35a96772d18c779fd7c35817c8ef26fda7bfdb585567fe/clip.png) Perforce</a>
 <br />
-[Perforce](http://www.perforce.com/) is a source code version management system. You can [install a trigger](https://app.kato.im/#/integrations/perforce) to have your Perforce instance notify Kato of code commits and other events.
+[Perforce](http://www.perforce.com/) — система для контроля исходного кода. С помощью настройки [специального триггера](https://app.kato.im/#/integrations/perforce), пользователи могут организовать вывод в Kato информации о коммитах и других событиях системы. 
 
 ***
 ## <a href="#pingdom" name="pingdom">![clip.png](https://s3.amazonaws.com/kato-share/b099d3855d549ec0da1194117176a486f4832e7c1a452dab5b52055c5f650c7f/clip.png) Pingdom</a>
 <br />
-[Pingdom](https://www.pingdom.com/) ia a website monitoring service. Pingdom can send up/down status messages to a Kato room of your choice via a webhook. To configure the webhook, [click here](https://app.kato.im/#/integrations/pingdom).
+[Pingdom](https://www.pingdom.com/) — система мониторинга сайтов, которая отправляет сообщения о состоянии веб-ресурсов. Существует возможность [интеграции](https://app.kato.im/#/integrations/pingdom) с Kato.  
 
 ***
 ## <a href="#pipedrive" name="pipedrive">![clip.png](https://s3.amazonaws.com/kato-share/13cf48c8284aba25cf90523ba0cb533473ca8eb7125fa7fe6f4817af2767858b/clip.png) Pipedrive</a>
 <br />
-[Pipedrive](https://www.pipedrive.com/) is sales pipeline software. You can receive Kato notifications whenever a person, organization, deal, or activity is added or deleted in Pipedrive. [See for yourself!](https://app.kato.im/#/integrations/pipedrive)
+[Pipedrive](https://www.pipedrive.com/) — инструмент для работы с воронкой продаж. С помощью [интеграции](https://app.kato.im/#/integrations/pipedrive) с Kato пользователи могут видеть в комнате чата информацию об активности пользователей, отслеживаемой сервисом.  
 
 ***
 ## <a href="#pivotaltracker" name="pivotaltracker">![clip.png](https://s3.amazonaws.com/kato-share/fc9f76601288a3293f83e974e23f7f9515ee86ffc6751684ab666c6f56b522/clip.png) Pivotal Tracker</a>
 <br />
-[Pivotal Tracker](http://www.pivotaltracker.com/) is a project management tool for software teams. You can keep track of stories in Kato by [enabling and configuring this integration](https://app.kato.im/#/integrations/pivotaltracker).
+[Pivotal Tracker](http://www.pivotaltracker.com/) — инструмент управления проектами для разработчиков ПО. Оповещения о вносимых в проект изменениях [могут быть выведены в комнату](https://app.kato.im/#/integrations/pivotaltracker) Kato. 
 
 ***
 ## <a href="#postmark" name="postmark">![clip.png](https://s3.amazonaws.com/kato-share/88c69470e991fd6bdd13749e4a5243c224b62c5b77af878cec8b71714f0963cf/clip.png) Postmark</a>
 <br />
-[Postmark](https://postmarkapp.com/) is an email delivery service for web apps from from [Wildbit](http://wildbit.com/), the makers of [Beanstalk](http://beanstalkapp.com/) and [dploy.io](http://dploy.io/). Whenever an email sent on your behalf by Postmark bounces, Postmark can notify your Kato room of this occurrence via a webhook. [Add this integration.](https://app.kato.im/#/integrations/postmark)
+[Postmark](https://postmarkapp.com/) — сервис для email-рассылок для веб-приложений от компании [Wildbit](http://wildbit.com/) (создатели [Beanstalk](http://beanstalkapp.com/) и [dploy.io](http://dploy.io/)). С помощью [интеграции](https://app.kato.im/#/integrations/postmark) с Kato в комнату мессенджера можно выводить информацию об отправке писем. 
 
 ***
 ## <a href="#raygun" name="raygun">![clip.png](https://s3.amazonaws.com/kato-share/cb2d274682c281dd9228a9cc9d9daded6c3d05fd1a0f26e226dd1613c01d3ba/clip.png) Raygun</a>
 <br />
-[Raygun](http://raygun.io/) is a stacktrace-aware error and crash reporting tool. You can receive Raygun notifications in Kato by either configuring a webhook or using the Kato integration provided by Raygun. Note that the webhook version currently shows a bit more information (August 2014). To get started, [click here](https://app.kato.im/#/integrations/raygun).
+[Raygun](http://raygun.io/) — сервис генерации отчетов об ошибках и падениях приложений. Оповещения Raygun можно выводить в Kato с помощью специальной [интеграции](https://app.kato.im/#/integrations/raygun).
 
 ***
 ## <a href="#redmine" name="redmine">![clip.png](https://s3.amazonaws.com/kato-share/d8cfd902545845045ecd3d9fcd03ea48e4e68c5d40bec238cd8c57480f7c1c8/clip.png) Redmine</a>
 <br />
-[Redmine](http://www.redmine.org/) is a web-based project management and bug-tracking tool written in Ruby. To receive Redmine notifications in Kato, [configure the integration](https://app.kato.im/#/integrations/redmine).
+[Redmine](http://www.redmine.org/) — веб-система для управления проектами и контроля ошибок, написанная на Ruby.  Для получения оповещений от Redmine в Kato нужно настроить [интеграцию](https://app.kato.im/#/integrations/redmine) сервисов.  
 
 ***
-<a href="#rss" name="rss">![clip.png](https://s3.amazonaws.com/kato-share/ca797c3481ff595633134a56c3720fabba6fc712a38dcf384768ee431402de5f/clip.png) RSS (via Zapier)</a>
+<a href="#rss" name="rss">![clip.png](https://s3.amazonaws.com/kato-share/ca797c3481ff595633134a56c3720fabba6fc712a38dcf384768ee431402de5f/clip.png) RSS (через Zapier)</a>
 <br />
-[RSS] is a way to syndicate frequently-updated resources, such as blog posts or news feeds. You can see these updates in Kato by [enabling the Kato/RSS integration](https://app.kato.im/#/integrations/rss), provided by Zapier.
+[RSS] — популярный способ получения информации из различных источников в одном месте. Пользователи Kato могут [выводить](https://app.kato.im/#/integrations/rss) rss-потоки публикаций интересных им сервисов и блогов в комнату чата.
 
 ***
 ## <a href="#runscope" name="runscope">![clip.png](https://s3.amazonaws.com/kato-share/33be53d65ed8d759e64592cb7d96debd700afe535cce7db06b4b1ca78e4bf766/clip.png) Runscope</a>
 <br />
-[Runscope](https://www.runscope.com/) provides API testing and monitoring for app developers. You can [add a Kato webhook](https://app.kato.im/#/integrations/runscope) to your Runscope account to receive notifications.
+[Runscope](https://www.runscope.com/) предоставляет сервис для тестирования API и мониторинга для разработчиков приложений. Чтобы получать оповещения системы в Kato, необходимо настроить [интеграцию](https://app.kato.im/#/integrations/runscope) с Runscope. 
 
 ***
 ## <a href="#semaphore" name="semaphore">![clip.png](https://s3.amazonaws.com/kato-share/49cf1b13a74129e47b357dca90b74f7bb8b110683a6a677ebba95befa525f68/clip.png) Semaphore</a>
 <br />
-[Sempahore](https://semaphoreapp.com/) is a hosted continuous integration service for Ruby and Rails applications. [Add this integration](https://app.kato.im/#/integrations/semaphore) to get Semaphore build status notifications in Kato.
+[Sempahore](https://semaphoreapp.com/) — сервис для непрерывной интеграции приложений на Ruby on Rails. Оповещения сервиса могут быть [выведены](https://app.kato.im/#/integrations/semaphore) в комнату Kato.  
 
 ***
 ## <a href="#sendgrid" name="sendgrid">![clip.png](https://s3.amazonaws.com/kato-share/3bc2fc729cb0e6f33f59f812db6961a95372aa41795f9bc06d4341ca1d3af3b6/clip.png) SendGrid</a>
 <br />
-[SendGrid](http://sendgrid.com/) is a transactional email delivery and management service. You can configure SendGrid to send event notifications to your Kato room&#8212;[see how](https://app.kato.im/#/integrations/sendgrid).
+[SendGrid](http://sendgrid.com/) — транзакционный сервис для email-рассылок. Существует возможность настройки [интеграции](https://app.kato.im/#/integrations/sendgrid) этого инструмента с мессенджером Kato.
 
 ***
 ## <a href="#sentry" name="sentry">![clip.png](https://s3.amazonaws.com/kato-share/19485943b69dd49cc389265648d391355378745dfcc65c0ec84be362f7e5971f/clip.png) Sentry</a>
 <br />
-[Sentry](https://getsentry.com/) is an error notification service for web and mobile applications. To keep track of Sentry alerts in Kato, [you can enable and configure this integration](https://app.kato.im/#/integrations/sentry).
+[Sentry](https://getsentry.com/) — сервис для оповещения о возникновении ошибок в мобильных и веб-приложениях. Сигналы системы можно [вывести в комнату](https://app.kato.im/#/integrations/sentry) Kato. 
 
 ***
 ## <a href="#shopify" name="shopify">![clip.png](https://s3.amazonaws.com/kato-share/b6e5d1fef9901096b28ea3fb4f637b4ebb4ccf7e21ee403c11678da8327dbe24/clip.png) Shopify</a>
 <br />
-[Shopify](http://www.shopify.com/) is an e-commerce software, online store builder, and website store hosting solution. Get notified in Kato whenever an order is created, updated, or cancelled by [adding and configuring this integration](https://app.kato.im/#/integrations/shopify).
+[Shopify](http://www.shopify.com/) — онлайн-конструктор интернет-магазинов. С помощью [интеграции](https://app.kato.im/#/integrations/shopify) с Kato в комнату мессенджера можно выводить информацию о совершенных покупках, сформированных или отмененных заказах. 
 
 ***
 ## <a href="#sprintly" name="sprintly">![clip.png](https://s3.amazonaws.com/kato-share/ac665975bd760dddb3c7321c843a554e621af94286b88c302f120c4bf96289d8/clip.png) Sprintly</a>
 <br />
-[Sprintly](https://sprint.ly/) provides project management software. You can shift your Sprintly events out of email by routing them to Kato instead. [Let's go!](https://app.kato.im/#/integrations/sprintly)
+[Sprintly](https://sprint.ly/) — это сервис для управления проектами. С помощью [интеграции](https://app.kato.im/#/integrations/sprintly) с Kato, оповещения о событиях Sprintly можно перенести из электронной почты в комнату чата. 
 
 ***
 ## <a href="#stash" name="stash">![clip.png](https://s3.amazonaws.com/kato-share/370138b126961dca482cf7d5976e872af6cd9c0788e53b1ea695775297a031fb/clip.png) Stash</a>
 <br />
-[Stash](https://www.atlassian.com/software/stash) is an on-prem Git repository management application. [Follow these instructions](https://app.kato.im/#/integrations/stash) to install a post-receive hook in your Stash instance for pinging Kato about any updates.
+[Stash](https://www.atlassian.com/software/stash) — инструмент для управления репозиториями Git.  По [ссылке](https://app.kato.im/#/integrations/stash) представлена инструкция по созданию связки между Stash и Kato. 
 
 ***
 ## <a href="#stripe" name="stripe">![clip.png](https://s3.amazonaws.com/kato-share/923ea0d6dca569bd864b093fecf0767d7c61ee7c49d1d3b211df7a89b314c99c/clip.png) Stripe</a>
 <br />
-[Stripe](https://stripe.com) is a web and mobile payments API service. [Configure the Kato-Stripe application](https://app.kato.im/#/integrations/stripe) to receive real-time notifications from your account in a Kato room. [See this post](https://kato.im/articles/introducing-stripe-integration/) for more info.
+[Stripe](https://stripe.com) — известный сервис для организации приема платежей для мобильных и веб-проектов. С помощью [интеграции](https://app.kato.im/#/integrations/stripe) сервиса с Kato пользователи могут выводить в комнату чата информацию о совершенных покупках.  
 
 ***
 ## <a href="#teamcity" name="teamcity">![clip.png](https://s3.amazonaws.com/kato-share/e1ae5659ed45a59d49116e1aa899261665583d22fd5a486e115bb79a171f1705/clip.png) TeamCity</a>
 <br />
-[TeamCity](http://www.jetbrains.com/teamcity/) is a continuous integration and build management server. To receive build status updates in Kato, [follow these instructions](https://app.kato.im/#/integrations/teamcity).
+[TeamCity](http://www.jetbrains.com/teamcity/) — билд-сервер для обеспечения непрерывной интеграции. Статусы сборок можно пубиковать в комнату Kato благодаря специальной интеграции (инструкции по ее подключению представлены по [ссылке](https://app.kato.im/#/integrations/teamcity)). 
 
 ***
 ## <a href="#tender" name="tender">![clip.png](https://s3.amazonaws.com/kato-share/8793ff3c372ad125b2b7282787b8ddfaa68cc23014e322e7d73ae4a366300a/clip.png) Tender Support</a>
 <br />
-[Tender Support](http://tenderapp.com/) is a knowledge base, help desk, and forum service. To receive real-time updates from your Tender Support account in Kato, [configure this integration](https://app.kato.im/#/integrations/tender).
+[Tender Support](http://tenderapp.com/) — это база знаний, ПО для создания форумов и инструмент для организации поддержки пользователей. Для организации вывода сообщений из системы в комнату Kato необходимо настроить соответствующую [интеграцию](https://app.kato.im/#/integrations/tender). 
 
 ***
 ## <a href="#travis" name="travis">![clip.png](https://s3.amazonaws.com/kato-share/dc46e4b8e9e3b6d2d16d9d27d683cc20d70711c6a6761d5c8aad4c39cd4048a/clip.png) Travis</a>
 <br />
-[Travis](https://travis-ci.org/) is a continuous integration and deployment service. You can monitor build results from Travis in Kato by [following these instructions](https://app.kato.im/#/integrations/travis).
+[Travis](https://travis-ci.org/) — сервис для непрерывной интеграции и развертывания. Оповещения о состоянии сборок можно [выводить в комнату](https://app.kato.im/#/integrations/travis) Kato. 
 
 ***
 ## <a href="#trello" name="trello">![clip.png](https://s3.amazonaws.com/kato-share/da009d49aa4fae71adb77512c2d386c987629a7bb074d87b2db351972706e10d/clip.png) Trello</a>
 <br />
-[Trello](https://trello.com/) is a project and task management service. To see your Trello activity in Kato, [connect Kato with Trello](https://app.kato.im/#/integrations/trello).
+[Trello](https://trello.com/) — система для управления проектами и задачами. События Trello можно [выводить](https://app.kato.im/#/integrations/trello) в комнату Kato.
 
 ***
 ## <a href="#unbounce" name="unbounce">![clip.png](https://s3.amazonaws.com/kato-share/4b5cd6b14f42ee9f6b05c8525fed03dd5152a0591a08185c9090741d403d2b9/clip.png) Unbounce</a>
 <br />
-[Unbounce](http://unbounce.com/) is a tool for building, publishing, and A/B testing landing pages. You can configure Unbounce notifications to appear in a Kato room of your choice. [Get started.](https://app.kato.im/#/integrations/unbounce)
-
+[Unbounce](http://unbounce.com/) — инструмент для создания, публикации и A/B-тестирования посадочных страниц. Пользователи Kato могут [настроить отображение оповещений Unbounce](https://app.kato.im/#/integrations/unbounce) в комнате Kato. 
 
 ***
 ## <a href="#userecho" name="userecho">![clip.png](https://in.kato.im/dea28f418e245c7415b77c6322f9e8c25567ddbcf6c73568ca36e4bddd443fa5/clip.png) UserEcho</a>
 <br />
-[UserEcho](https://www.userecho.com/) is a customer support service with helpdesk, online chat, knowledge base and ideas forum. You can [integrate UserEcho with Kato](https://app.kato.im/#/integrations/userecho).
+[UserEcho](https://www.userecho.com/) — сервис для организации поддержки клиентов с встроенным модулем helpdesk, онлайн-чатом, базой знаний и форумом. Существует возможность [интеграции](https://app.kato.im/#/integrations/userecho) сервиса с Kato. 
 
 ***
 ## <a href="#uservoice" name="uservoice">![clip.png](https://s3.amazonaws.com/kato-share/20a73a22f67040d2798ad6ed98009bc5b9e32d0a8e6470f9e3b87f89786b9eeb/clip.png) UserVoice</a>
 <br />
-[UserVoice](https://www.uservoice.com/) provides feedback, help desk, and knowledge base management tools. To receive notifications from UserVoice in Kato, [follow these instructions](https://app.kato.im/#/integrations/uservoice).
+[UserVoice](https://www.uservoice.com/) — еще один инструмент для оказания поддержки пользователей с встроенным helpdesk модулем и базой знаний. Инструкция по интеграции UserVoice с мессенжером Kato размещена по [ссылке](https://app.kato.im/#/integrations/uservoice). 
 
 ***
 ## <a href="#vend" name="vend">![clip.png](https://s3.amazonaws.com/kato-share/7e29c72c33d4ab299281b42b58547630ecaddf52c12dfb4def0ae08e8ea68800/clip.png) Vend</a>
 <br />
-[Vend](http://www.vendhq.com/) web and iPad POS (point-of-sale) software and inventory management service. [Keep an eye on your sales activity in Kato.](https://app.kato.im/#/integrations/vend)
+[Vend](http://www.vendhq.com/) — программное обеспечение и устройство для приема платежей с карточек POS (point-of-sale)web and iPad POS (point-of-sale). Информацию о продажах можно [выводить в комнату](https://app.kato.im/#/integrations/vend) Kato. 
 
 ***
 ## <a href="#vso" name="vso">![clip.png](https://s3.amazonaws.com/kato-share/817082233ab941dcb3300ca5458f24d436256216da6aafcc374212007ae8c52b/clip.png) Visual Studio Online</a>
 <br />
-[Visual Studio Online](http://www.visualstudio.com/en-us/products/visual-studio-online-overview-vs) is Microsoft Visual Studio in the cloud. To keep track of your team's VSO activity, [add this integration](https://app.kato.im/#/integrations/vso).
+[Visual Studio Online](http://www.visualstudio.com/en-us/products/visual-studio-online-overview-vs) — облачная версия Microsoft Visual Studio. [Интеграция](https://app.kato.im/#/integrations/vso) с мессенджером Kato позволяет выводить информацию об активности членов команды в VSO в комнату чата.
 
 ***
 ## <a href="#wordpress" name="wordpress">![clip.png](https://s3.amazonaws.com/kato-share/b4b481669764db664b46a5d419bcbfb7f939ef9a44c5524ff722b990250e4a7e/clip.png) WordPress</a>
 <br />
-[WordPress](http://wordpress.com/) is a blog tool, publishing platform, and content management system. Keep track of comment activity on your WordPress site in Kato by [following these steps](https://app.kato.im/#/integrations/wordpress).
+[WordPress](http://wordpress.com/) — популярный блогосервис и CMS-система, которую также можно [интегрировать](https://app.kato.im/#/integrations/wordpress) с Kato, чтобы выводить в комнату информацию о новых комментариях и других событиях.
 
 ***
 ## <a href="#workingon" name="workingon">![clip.png](https://s3.amazonaws.com/kato-share/ec007f2ba8e37c3f34d0ad93e1e72761b84018b3cf3ce7a25d1b2f60fe03f10a/clip.png) WorkingOn</a>
 <br />
-[WorkingOn](https://www.workingon.co/) provides minimalist progress tracking for teams. You can [route WorkingOn events to Kato.](https://app.kato.im/#/integrations/workingon)
+[WorkingOn](https://www.workingon.co/) — сервис для отслеживания прогресса в разработке. События из WorkinOn могут быть [выведены в комнату](https://app.kato.im/#/integrations/workingon) Kato. 
 
 ***
 ## <a href="#zapier" name="zapier">![clip.png](https://s3.amazonaws.com/kato-share/16a41c8d3e414e6da3f18ad06ac1b8d68e2eb236d7e30e58bfc6291d03190e/clip.png) Zapier</a>
 <br />
-[Zapier](http://zapier.com) connects and automates tasks between web services. Zapier is a meta-integration&#8212;it lets you configure bidirectional messaging between Kato and hundreds of other services. For more info, [click here](https://app.kato.im/#/integrations/zapier).
+[Zapier](http://zapier.com) позволяет организовывать связки из различных веб-сервисов. С его помощью возможно создание двусторонних связей между Kato и сотнями других сервисов. Подробное описание возможных интеграций представлено по [ссылке](https://app.kato.im/#/integrations/zapier). 
 
 ***
 ## <a href="#zendesk" name="zendesk">![clip.png](https://s3.amazonaws.com/kato-share/daea0b10e78fad32a3382fbfa0c8670a914afe09bfde7bd06da0579d1f1f853d/clip.png) Zendesk</a>
 <br />
-[Zendesk](http://www.zendesk.com/) provides customer service software and support ticket system. To send Zendesk notifications to Kato, [follow these instructions](https://app.kato.im/#/integrations/zendesk).
+[Zendesk](http://www.zendesk.com/) — система для организации подержки пользователей и создания тикетов. Для того, чтобы отправлять оповещения Zendesk в Kato необходимо настроить интеграцию (инструкция представлена по [ссылке](https://app.kato.im/#/integrations/zendesk)). 
