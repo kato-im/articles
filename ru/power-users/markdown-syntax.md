@@ -1,135 +1,98 @@
-Markdown is a lightweight markup language invented by John Gruber eight years ago. We've seen something similar in Wikipedia and a few other places, but Markdown took hold.
+## Разметка Markdown
 
-See [this post](/articles/en/power-users/m-for-markdown) for a detailed discussion of Markdown in [Kato](http://kato.im).
+Markdown — это простой в восприятии язык разметки, созданный Джоном Грубером. Существуют и другие языки разметки (например, вики-разметка), однако по нашему мнению, Markdown превосходит их в удобстве использования.
 
-## Phrase Emphasis ##
+Подробная [статья](http://habrahabr.ru/company/kato/blog/244215/) о применении Markdown в мессенджере Kato опубликована в нашем блоге на «Хабрахабре», а сейчас мы рассмотрим некоторые возможности форматирования сообщений в чате.
 
-    *italic*   **bold**
-    _italic_   __bold__
+## Выделение текста ##
+
+    *курсив*   **жирный шрифт**
+    _курсив_   __жирный шрифт__
 
 
-## Links ##
+## Ссылки ##
 
-Inline:
+В тексте:
 
-    An [example](http://url.com/ "Title")
+    Тестовая [ссылка](http://url.com/ "Title")
 
-Reference-style labels (titles are optional):
+Сноски (использование title не обязательно):
 
-    An [example][id]. Then, anywhere
-    else in the doc, define the link:
+    Тестовая [ссылка][id]. Далее в любой части текста можно определить ссылку следующим образом:
     
-      [id]: http://example.com/  "Title"
+       [id]: http://example.com/  "Title"
 
 
-## Images ##
+## Изображения ##
 
-Inline (titles are optional):
+В тексте (использование Title опционально):
 
-    ![alt text](/path/img.jpg "Title")
+    ![текст](/path/img.jpg "Title")
 
-Reference-style:
+В виде сноски:
 
-    ![alt text][id]
+    ![текст][id]
 
     [id]: /url/to/img.jpg "Title"
 
 
-## Headers ##
+## Заголовки ##
 
-Setext-style:
+Стиль Setext:
 
-    Header 1
+    Заголовок 1
     ========
     
-    Header 2
+    Заголовок 2
     --------
 
-atx-style (closing #'s are optional):
+Стиль atx  (использование закрыващего символа # опционально):
 
-    # Header 1 #
+    # Заголовок 1 #
 
-    ## Header 2 ##
+    ## Заголовок 2 ##
 
-    ###### Header 6
+    ###### Заголовок 6
 
 
-## Lists ##
+## Списки ##
 
-Ordered, without paragraphs:
+Нумерованные (без абзацев текста):
 
     1.  Foo
     2.  Bar
 
-Unordered, with paragraphs:
+Ненумерованные (с абзацами текст)
 
-    *   A list item.
+    *   Пункт списка.
     
-        With multiple paragraphs.
+        С несколькими абзацами.
 
-    *   Bar
+    *   Следующий пункт.
 
-You can nest them:
+Существует возможность создания вложенных списков:
 
-    *   Abacus
-        * answer
-    *   Bubbles
-        1.  bunk
-        2.  bupkis
-            * BELITTLER
-        3. burper
-    *   Cunning
+    *   Первый пункт:
+        * вложенная строка списка.
+    *   Второй пункт:
+        1.  Важное замечание номер один.
+        2.  Важное замечание номер два:
+            * Уточняющая информация.
+        3.  Важное замечание номер три.
+    *   Последний пункт.
 
 
-## Blockquotes ##
+## Цитаты ##
 
-    > Email-style angle brackets
-    > are used for blockquotes.
+    > Для оформления цитат используются угловые скобки.
     
-    > > And, they can be nested.
+    > > С их помощью можно также создавать вложенные цитаты.
 
-    > #### Headers in blockquotes
+    > #### В цитатах могут быть заголовки.
     > 
-    > * You can quote a list.
-    > * Etc.
+    > * И списки.
 
 
-## Code Spans ##
+## Вставка кода ##
 
-    `<code>` spans are delimited
-    by backticks.
-
-    You can include literal backticks
-    like `` `this` ``.
-
-
-## Preformatted Code Blocks ##
-
-Indent every line of a code block by at least 4 spaces or 1 tab.
-
-    This is a normal paragraph.
-
-        This is a preformatted
-        code block.
-
-
-## Horizontal Rules ##
-
-Three or more dashes or asterisks:
-
-    ---
-    
-    * * *
-    
-    - - - - 
-
-
-## Manual Line Breaks ##
-
-End a line with two or more spaces:
-
-    Roses are red,   
-    Violets are blue.
-
-<small>Source/Credit: [https://github.com/fletcher/MultiMarkdown/blob/master/Documentation/Markdown&nbsp;Syntax.md](https://github.com/fletcher/MultiMarkdown/blob/master/Documentation/Markdown%20Syntax.md)</small>
-
+    `<code>` — теги кода необходимо экранировать обратными кавычками.
