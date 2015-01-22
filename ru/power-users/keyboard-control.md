@@ -1,14 +1,16 @@
-If you begrudge every millisecond spent reaching for the mouse or trackpad, you'll be delighted to know that you can use the keyboard for most operations in Kato! It's a special feature that we call *Keyboard Control*. 
+## Горячие клавиши
 
-To enable Keyboard Control, go to ![clip.png](https://s3.amazonaws.com/kato-share/2b9ca8dddd30d4b02b589b711204c953fb9a9aba105f87dbd326401b8ff6c7b6/clip.png) `-> My Account -> Options -> Keyboard Control`, or paste this URL into your Kato tab: <a href="https://app.kato.im/#/account/options/keyboard-control" target="_blank">https://app.kato.im/#/account/options/keyboard-control</a>
+В Kato пользователи общаются по работе в различных «комнатах» и организациях с разными коллегами, поэтому мы реализовали инструмент, который позволял бы экономить время и перемещаться между комнатами и организациями быстрее.
 
-The most important thing to know about Keyboard Control is that it has two modes: **Command mode** is for navigating the interface and moving rooms around. **Input mode** is for entering and sending messages. You go between these modes using **Esc** and **i**—see below for details.
+Для его реализации мы решили не изобретать велосипед, а воспользоваться решением из Unix-редактора Vim, который имеет два режима работы — один используется для набора текста, а второй для ввода различных команд.
 
-(**Tip**: Keyboard Control follows many conventions established by the popular text editor [vi/vim](http://en.wikipedia.org/wiki/Vi). This means: when in doubt, hit **Esc**!)
+Поскольку подобная возможность нужна только достаточно продвинутым пользователям, по умолчанию режим для работы с горячими клавишами отключен. Включить его можно в настройках (![clip.png](https://s3.amazonaws.com/kato-share/2b9ca8dddd30d4b02b589b711204c953fb9a9aba105f87dbd326401b8ff6c7b6/clip.png) `-> My Account -> Options -> Keyboard Control`).
 
-If you have questions, suggestions, or bug reports, please let us know in your [Kato support room](room-types), or via [support@kato.im](mailto:support@kato.im)
+Аналогично тому, как это реализовано в Vim, в Kato после включения командного режима (клавиша Esc) сразу вводить текст уже нельзя — нажатие на некоторые клавиши будет интерпретировано сервисом, как команда. Переключиться в режим ввода и редактирования текста можно, нажав клавишу i.
 
-### Commands
+Вдохновившись идеологией Vim, мы постарались максимально использовать имеющиеся там клавиатурные сокращения. Их список приведен ниже:
+
+### Команды
 
 ![clip](https://in.kato.im/8a41e7dd93568a57d422307af7f6d014695bb38c6d9ed9cc783e79f4e00ebff0/clip.png)
 
