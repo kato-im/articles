@@ -16,11 +16,11 @@ How to tell someone's online status:
 ![clip.png](https://in.kato.im/7e0e5972d17c4e79e7217216f4e9574aabbaadb5ebc3407a99c47407e100ab3e/clip.png)
 
 ********************************************************************************
-## <a href="#video-calling" name="video-calling">Video Calling & </a><a href="#screensharing" name="screensharing">Screensharing</a>
+## <a href="#video-calling" name="video-calling">Video Calling & Screensharing</a>
 
-Organization admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [organization settings](https://app.kato.im/#/membership/). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](video-calling) and [Screensharing](introducing-screensharing).
+Team admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [team settings](https://app.kato.im/#/membership/_/kato-labs). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](/articles/en/voice-video/video-voice-calling) and [Screensharing](/articles/en/voice-video/screensharing).
 
-*(We also integrate with [Google Hangouts](google-hangouts-integration) and [UberConference](uberconference-integration). Just saying.)*
+*(We also integrate with [Google Hangouts](/articles/en/voice-video/google-hangouts-integration) and [UberConference](/articles/en/voice-video/uberconference-integration). Just saying.)*
 
 ********************************************************************************
 ## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
@@ -39,7 +39,7 @@ It's a little popup with the time the message was sent, and some handy commands,
 ********************************************************************************
 ## <a href="#room-layout" name="room-layout">Room Layout</a>
 
-Kato lets you be in several conversations, or "rooms", at once, in the same window, even across organizations.
+Kato lets you be in several conversations, or "rooms", at once, in the same window, even across teams.
 
 Working in five rooms:
 ![clip.png](https://s3.amazonaws.com/kato-share/fb6e15f9d756954d2707fd9d030bb6b6cdc57017d68a9227ac2b0067479f1de/clip.png)
@@ -71,7 +71,7 @@ Note: If all rooms are pinned, pinning has no effect.
 
 _Rooms_ are places for persistent, searchable group conversations. Rooms are usually named according to the general topic of discussion, like **Design** or **Marketing**.
 
-When [adding a room](https://app.kato.im/#/rooms/add), by default it is visible to all existing and future members of your organization&#8212;there is no explicit room membership. Such rooms are called _unrestricted_.
+When [adding a room](https://app.kato.im/#/rooms/add), by default it is visible to all existing and future members of your team&#8212;there is no explicit room membership. Such rooms are called _unrestricted_.
 
 ********************************************************************************
 ## <a href="#restricted-rooms" name="restricted-rooms">Restricted Rooms</a>
@@ -83,7 +83,7 @@ When [adding a room](https://app.kato.im/#/rooms/add), enable the **Restricted**
 ********************************************************************************
 ## <a href="#restricted-members" name="restricted-members">Restricted Members</a>
 
-Any member of your organization that does not have access to **All Unrestricted Rooms** is called a _restricted member_. Restricted members only have access to specific rooms and can only see members who have access to the same rooms.
+Any member of your team that does not have access to **All Unrestricted Rooms** is called a _restricted member_. Restricted members only have access to specific rooms and can only see members who have access to the same rooms.
 
 Restricted rooms are useful for sensitive information, like HR and Finance, and for working with outside partners&#8212;lawyers, bookkeepers, contractors, investors, and so on.
 
@@ -116,12 +116,12 @@ You can determine how much attention you want to give a room by using its Noise 
 
 (This doesn't apply to [1:1 rooms](room-types) and [@mentions](#mentions)—you always follow those.)
 
-That's not all—you can set your own [default noise levels](https://app.kato.im/#/account/noise) by room type, and admins can set default levels for the entire organization. For more info, see [Noise Control](noise-control).
+That's not all—you can set your own [default noise levels](https://app.kato.im/#/account/noise) by room type, and admins can set default levels for the entire team. For more info, see [Noise Control](noise-control).
 
 ********************************************************************************
 ## <a href="#email-notifications" name="email-notifications">Email Notifications and Replying by Email</a>
 
-By default, unless you read or respond a message within a certain amount of time, you will get an email with a digest that includes the unread message. This is only true for messages in 1-1s and for [mentions](#mentions).
+By default, unless you read or respond a message within a certain amount of time, you will get an email with a digest that includes the unread message. This is only true for messages in 1:1s and for [mentions](#mentions).
 
 The digests can be turned off here: [https://app.kato.im/#/account/notifications](https://app.kato.im/#/account/notifications).
 
@@ -205,27 +205,27 @@ Caveats:
 -->
 
 ********************************************************************************
-## <a href="#multiple-orgs" name="multiple-orgs">Working In Multiple Kato Organizations</a>
+## <a href="#multiple-teams" name="multiple-teams">Working In Multiple Kato Teams</a>
 
-In Kato, you can interact with rooms and people from different organizations at the same time.
+In Kato, you can interact with rooms and people from different teams at the same time.
 
-In this case, the user is a member of two organizations: **Hunter Inc.** and **andrei's team**. 
+In this case, the user is a member of two teams: **Hunter Inc.** and **andrei's team**. 
 
-In the image on the left, only **Hunter Inc.** is expanded. The right image shows both organizations expanded&#8212;this means a union of people and rooms from both organizations appear in the roster.
+In the image on the left, only **Hunter Inc.** is expanded. The right image shows both teams expanded&#8212;this means a union of people and rooms from both teams appear in the roster.
 
 ![clip](https://s3.amazonaws.com/kato-share/da0c1134fdd7fd68a89d87a8155b226bad5ebb31c4c0e93b5cb48625ad7c8/Untitled%20drawing%20%282%29.png)
 
-In the "multi-org" view each room gets an organization "affinity token"&#8212;something you can use to identify the parent organization. In the image above, each organization has a **PR** room, but the affinity tokens provide a way to distinguish the two.
+In the "multi-team" view each room gets an team "affinity token"&#8212;something you can use to identify the parent team. In the image above, each team has a **PR** room, but the affinity tokens provide a way to distinguish the two.
 
-Note that you can be connected to the same person via multiple organizations. This is why people don't have explicit organization affinity.
+Note that you can be connected to the same person via multiple teams. This is why people don't have explicit team affinity. If 1:1 are disabled in one such team and enabled in another, 1:1 is allowed. 
 
-In the scenario above, **Peter** is a members of both organizations.
+In the scenario above, **Peter** is a members of both teams.
 
-To verify this, click on **More** in 1-1 room options:
+To verify this, click on **More** in 1:1 room options:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/1143494c2ff1d4e0621793886dfb00df534c9b67a4e7ef53dec5446c863854/clip.png)
 
-See the list of connecting organizations:
+See the list of connecting teams:
 
 ![clip](https://s3.amazonaws.com/kato-share/5b6076cd59df16b4fff9d2d825670766466dfc6ff142c6233cdd26dc2ccb7be/Untitled%20drawing%20%283%29.png)
 

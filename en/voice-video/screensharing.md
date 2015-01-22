@@ -4,7 +4,7 @@ If you're using **Google Chrome** or **Firefox**, you can share your screen with
 
 **1. Enable [Video/Voice Calling](/articles/en/voice-video/video-voice-calling)**
 
-  This can be done by an admin in your Kato organization.
+  This can be done by an admin in your Kato team.
 
 **2. Start a video call**
 

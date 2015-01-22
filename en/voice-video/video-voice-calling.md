@@ -4,7 +4,7 @@ Kato Video/voice calling lets you see and hear your team in real time, without l
 
 <iframe src="//player.vimeo.com/video/82638945?title=0&amp;byline=0&amp;portrait=0" width="712" height="401" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-Video/voice calling is supported in **Chrome**, **Firefox**, and **Opera** browsers. It's part of **Kato Labs**. That means it's experimental, so an Admin has to enable it in [organization settings](https://app.kato.im/#/membership/):
+Video/voice calling is supported in **Chrome**, **Firefox**, and **Opera** browsers. It's part of **Kato Labs**. That means it's experimental, so an Admin has to enable it in [team settings](https://app.kato.im/#/membership/):
 
 ![clip](https://in.kato.im/943e42f246e492352433013ca8b910d629ae9734ad3c1fdfa71647550ad716b/clip.png)
 
@@ -18,4 +18,4 @@ That puts a call message in the room:
 
 A video call will start automatically. To start a voice call, first close the video call, then click on the **Voice** button.
 
-To join the call, click one of the buttons. Anyone who sees the message can join. Anyone on the call can invite others to the same call, by posting a **Start call** message in any room, in any organization.
+To join the call, click one of the buttons. Anyone who sees the message can join. Anyone on the call can invite others to the same call, by posting a **Start call** message in any room, in any team.

@@ -128,6 +128,11 @@
                     "entities": [
                         {
                             "type": "page",
+                            "src": "restricted-rooms",
+                            "title": "Restricted Rooms"
+                        },
+                        {
+                            "type": "page",
                             "src": "markdown-syntax",
                             "title": "Markdown Syntax"
                         },
@@ -194,6 +199,78 @@
                             "type": "page",
                             "src": "uberconference-integration",
                             "title": "UberConference Integration"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "language",
+            "title": "Русский",
+            "src": "ru",
+            "improve": "Предложить улучшение",
+            "entities": [
+                {
+                    "title": "Основные возможности",
+                    "type": "category",
+                    "src": "general",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "cheatsheet",
+                            "title": "Справка"
+                        },
+                        {
+                            "type": "page",
+                            "src": "editing-messages",
+                            "title": "Редактирование сообщений"
+                        },
+                        {
+                            "type": "page",
+                            "src": "long-messages",
+                            "title": "Длинные сообщения"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-types",
+                            "title": "Типы комнат"
+                        },
+                        {
+                            "type": "page",
+                            "src": "room-drag-n-drop",
+                            "title": "Перестановка комнат"
+                        },
+                        {
+                            "type": "page",
+                            "src": "profile-cards",
+                            "title": "Карточки пользователей"
+                        },
+                        {
+                            "type": "page",
+                            "src": "global-search",
+                            "title": "Поиск по истории всех команд и комнат"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Команды",
+                    "src": "teams",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "who-owns-your-messages",
+                            "title": "Кому принадлежат сообщения"
+                        },
+                        {
+                            "type": "page",
+                            "src": "security-audit-log",
+                            "title": "Журналы безопасности"
+                        },
+                        {
+                            "type": "page",
+                            "src": "claiming-domains",
+                            "title": "Подключение домена"
                         }
                     ]
                 }
