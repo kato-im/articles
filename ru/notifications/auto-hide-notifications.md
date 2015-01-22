@@ -1,5 +1,5 @@
-This feature applies only if you're using the **Google Chrome** browser.
+## Автоматически скрывающиеся уведомления
 
-You can keep an eye on important conversations even when Kato isn't in front. If Kato isn't the selected tab in your browser, or even if your browser isn't the frontmost application on your computer, you'll get a popup desktop notification. The notification will show briefly and then automatically hide.
+Эта функция доступна только при использовании браузера Google Chrome. Пользователи Kato могут следить за важными обсуждениями даже когда страница мессенджера скрыта за другими вкладками. В этом случае – даже если браузер открыт, но пользователь работает в другом приложении — он получите всплывающее сообщение. Такие уведомления видны непродолжительное время и довольно быстро автоматически исчезают. 
 
-If you'd rather dismiss each notification individually, you can disable the auto-hide behavior from your Account settings.
+Те пользователи, кто не хочет, чтобы сообщения пропадали автоматически, могут отключить эту функцию в настройках своей учетной записи.

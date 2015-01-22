@@ -1,3 +1,5 @@
-Kato can get your attention using sound as well as visual notifications. You can enable audio notifications in your [Account settings](https://app.kato.im/#/account/notifications/audio-notifications).
+## Звуковые уведомления
 
-If you do, you'll hear a gentle *pop* any time you're specifically mentioned, or if you receive a message in a 1-1 room. It's a subtle way to draw your attention back to potentially important messages.
+Kato может привлекать внимание пользователей не только с помощью визуальных, но и звуковых уведомлений. Пользователи могут подключать аудио-уведомления в [настройках](https://app.kato.im/#/account/notifications/audio-notifications) своего аккаунта.
+
+Если звуковые уведомления включены, то пользователь будет слышать негромкий *хлопок* каждый раз, когда кто-то упомянет его в сообщении или когда он получит сообщение в комнате 1:1. Это – хороший способ мягко привлечь внимание человека к потенциально важным сообщениям.
