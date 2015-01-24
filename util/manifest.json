@@ -101,23 +101,23 @@
                 },
                 {
                     "type": "category",
-                    "title": "Дополнительные возможности",
+                    "title": "Fun",
                     "src": "fun",
                     "entities": [
                         {
                             "type": "page",
                             "src": "emoji-support",
-                            "title": "Поддержка Emoji"
+                            "title": "Emoji Support"
                         },
                         {
                             "type": "page",
                             "src": "ifttt-integration",
-                            "title": "Интеграция с IFTTT"
+                            "title": "IFTTT Integration "
                         },
                         {
                             "type": "page",
                             "src": "product-updates",
-                            "title": "Обновления продукта"
+                            "title": "Product Updates"
                         }
                     ]
                 },
@@ -273,6 +273,28 @@
                             "title": "Подключение домена"
                         }
                     ]
+                }
+                {
+                  "type": "category",
+                    "title": "Дополнительные возможности",
+                    "src": "fun",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "emoji-support",
+                            "title": "Поддержка Emoji"
+                        },
+                        {
+                            "type": "page",
+                            "src": "ifttt-integration",
+                            "title": "Интеграция с IFTTT "
+                        },
+                        {
+                            "type": "page",
+                            "src": "product-updates",
+                            "title": "Обновления продукта"
+                        }
+                    ]  
                 }
             ]
         }
