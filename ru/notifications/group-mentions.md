@@ -1,4 +1,4 @@
-## Групповые упоминания
+***
 
 ![clip.png](https://s3.amazonaws.com/kato-share/eccad637cc6e36c539b3bfa4bad3f9295f09adebb58011f05fffbd8c4b3a888a/clip.png)
 
