@@ -158,7 +158,7 @@
 ### <a href="#September-18-2014" name="September-18-2014">18 сентября, 2014</a>
 - Исправлены звуковые оповещения вin MacGap при работе в режиме [горячих клавиш](/articles/ru/power-users/keyboard-control)
 
-### <a href="#September-17-2014" name="September-17-2014">September 17, 2014</a>
+### <a href="#September-17-2014" name="September-17-2014">17 сентября, 2014</a>
 - Представлено меню интеграций: [https://app.kato.im/#/integrations](https://app.kato.im/#/integrations)
 
 ### <a href="#September-15-2014" name="September-15-2014">15 сентября, 2014</a>
