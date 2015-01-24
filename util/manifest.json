@@ -254,6 +254,33 @@
                 },
                 {
                     "type": "category",
+                    "title": "Уведомления",
+                    "src": "notifications",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "noise-control",
+                            "title": "Борьба с информационным шумом"
+                        },
+                        {
+                            "type": "page",
+                            "src": "audio-notifications",
+                            "title": "Звуковые уведомления"
+                        },
+                        {
+                            "type": "page",
+                            "src": "auto-hide-notifications",
+                            "title": "Автоматически скрывающиеся уведомления"
+                        },
+                        {
+                            "type": "page",
+                            "src": "group-mentions",
+                            "title": "Групповые упоминания"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
                     "title": "Команды",
                     "src": "teams",
                     "entities": [
