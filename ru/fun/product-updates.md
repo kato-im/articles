@@ -133,6 +133,7 @@
 
 ### <a href="#September-30-2014" name="September-30-2014">30 сентября, 2014</a>
 - Улучшена маршрутизация URL в приложении (in-app URL routing)
+- Рисунок CEO
 
 ![clip.png](https://s3.amazonaws.com/kato-share/85e82d6b396b06a693e133b57f4308fdf69e1cf06759e3821c7c80a44bcd839a/clip.png)
 
