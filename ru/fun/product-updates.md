@@ -410,72 +410,72 @@
 ## <a href="#May-2014" name="May-2014">Май 2014</a>
 ***
 
-### <a href="#May-28-2014" name="May-28-2014">May 28, 2014</a>
-- Do not create invitation requests for existing accounts
+### <a href="#May-28-2014" name="May-28-2014">28 мая, 2014</a>
+- Не создавать запросы на присоединение к сервису для существущих учетных записей
 
-### <a href="#May-26-2014" name="May-26-2014">May 26, 2014</a>
-- Delete all sessions on password reset
+### <a href="#May-26-2014" name="May-26-2014">26 мая, 2014</a>
+- Удалять все сессии после сброса пароля 
 
-### <a href="#May-25-2014" name="May-25-2014">May 25, 2014</a>
-- Add ability to resend invite emails
+### <a href="#May-25-2014" name="May-25-2014">25 мая, 2014</a>
+- Добавлена функция повторной отправки электронных писем с приглашениями в Kato 
 
-### <a href="#May-24-2014" name="May-24-2014">May 24, 2014</a>
-- Fix security hole in invitations
+### <a href="#May-24-2014" name="May-24-2014">24 мая, 2014</a>
+- Исправлена ошибка безопасности в функции отправки уведомлений
 
-### <a href="#May-23-2014" name="May-23-2014">May 23, 2014</a>
-- New integration: [Redmine](https://kato.im/articles/en/power-users/integrations/#redmine)
+### <a href="#May-23-2014" name="May-23-2014">23 мая, 2014</a>
+- Новая интеграция: [Redmine](/articles/ru/power-users/integrations/#redmine)
 
-### <a href="#May-22-2014" name="May-22-2014">May 22, 2014</a>
-- Url-encode parentheses in filenames to fix markdown links (yes!)
+### <a href="#May-22-2014" name="May-22-2014">22 мая, 2014</a>
+- Url-кодирование скобок в именах файлов для исправления ссылок в разметке Markdown 
 
-### <a href="#May-19-2014" name="May-19-2014">May 19, 2014</a>
-- Fix room header on mobile
+### <a href="#May-19-2014" name="May-19-2014">19 мая, 2014</a>
+- Исправлено отображение заголовка комнат на мобильных устройствах
 
-### <a href="#May-18-2014" name="May-18-2014">May 18, 2014</a>
-- Make collapse button work correctly for video call widget
+### <a href="#May-18-2014" name="May-18-2014">18 мая, 2014</a>
+- Кнопка «Свернуть» в виджете видеовызова теперь работает корректно
 
-### <a href="#May-16-2013" name="May-16-2013">May 16, 2013</a>
-- Fix issue with layout switching and not saving room state
-- Remove cursor pointer from room header
-- Fix boolean of roster sorting switch
-- Make roster menu match room dropdown appearance
-- First message in room had no message control - fix this
-- Fix memory leak
-- Make default layout to be two
+### <a href="#May-16-2013" name="May-16-2013">16 мая, 2014</a>
+- Исправлена ошибка, из-за которой при изменении порядка отображения комнат, не сохранялись их настройки
+- Удаление указателя курсора с заголовка комнаты
+- Исправлена Булевая сортировка ростера 
+- Меню ростера приведено в соответствие с выпадающим меню
+- Исправление ошибки, при которой у первого сообщения в комнате отсутствует функция контроля
+- Удалена утечка памяти
+- Добавлениа возможность дублирования исходного шаблона комнат
 
-### <a href="#May-14-2013" name="May-14-2013">May 14, 2013</a>
-- Fix CSS of room search to match room history
+### <a href="#May-14-2013" name="May-14-2013">14 мая, 2014</a>
+- CSS поиска в комнате приведен в соответствие с историей переписки
 
-### <a href="#May-13-2013" name="May-13-2013">May 13, 2013</a>
-- Allow undo to undo `Esc` key clear
-- New feature: [Security Audit Log](https://kato.im/articles/en/teams/security-audit-log/)!
+### <a href="#May-13-2013" name="May-13-2013">13 мая, 2014</a>
+- Добавлена возможность отмены отмены нажатия `Esc`
+- Новая функция: [Журналы проверок безопасности](/articles/ru/teams/security-audit-log/)!
 
-### <a href="#May-12-2014" name="May-12-2014">May 12, 2014</a>
-- Introduce signup codes
-- Clear rooms search input on `Esc`
-- Double meaning for `Esc` in room search to match Global Search
+### <a href="#May-12-2014" name="May-12-2014">12 мая, 2014</a>
+- Введены коды для создания учетной записи
+- Добавлена функция очистки окна поиска в комнате по нажатию на клавишу `Esc`
+- Значение нажатия клавиши`Esc` при поиске внутри комнаты приведено в соответствие с ее значением в случае глобального поиска
 
-### <a href="#May-11-2014" name="May-11-2014">May 11, 2014</a>
-- New integration: [Pingdom](https://kato.im/articles/en/power-users/integrations/#pingdom)
-- Show error message if a camera if the user did not allow Kato use of the camera
-- Change Kato Roll background color
-- CEO drawing:
+### <a href="#May-11-2014" name="May-11-2014">11 мая, 2014</a>
+- Новая интеграция: [Pingdom](/articles/ru/power-users/integrations/#pingdom)
+- Показывать сообщение об ошибке, если пользователь не разрешил Kato использование камеры
+- Изменен фоновый цвет Kato Roll 
+- Рисунок CEO:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/298f5a78a3dfa899fc1569c984a5d28c4bce5718aaf9ddeed888632cfc206/clip.png)
 
-### <a href="#May-10-2014" name="May-10-2014">May 10, 2014</a>
-- Show correct integration type labels in search mode
+### <a href="#May-10-2014" name="May-10-2014">10 мая, 2014</a>
+- В режиме поиска добавлено отображение верных ярлыков типов интеграций 
 
-### <a href="#May-9-2014" name="May-9-2014">May 9, 2014</a>
-- Happy Victory Day!
-- Fix scrolling issue related to [off-the-record mode](https://kato.im/articles/en/general/cheatsheet/#off-the-record)
+### <a href="#May-9-2014" name="May-9-2014">9 мая, 2014</a>
+- С днем победы!
+- Исправлена ошибка при прокрутке в режиме [off-the-record mode](/articles/ru/general/cheatsheet/#off-the-record)
 
-### <a href="#May-8-2014" name="May-8-2014">May 8, 2014</a>
-- Fix scrolling issues related text input auto-resize
-- Fix issue with restoring rooms on Global Search close
-- Released [Android app](https://play.google.com/store/apps/details?id=im.kato)!
+### <a href="#May-8-2014" name="May-8-2014">8 мая, 2014</a>
+- Исправлены ошибки при прокрутке, возникающие при авторесайзе 
+- Исправлены ошибки при восстановлении комнат после закрытия окна глобального поиска
+- Выпущено приложение для [Android](https://play.google.com/store/apps/details?id=im.kato)!
 
-### <a href="#May-7-2014" name="May-7-2014">May 7, 2014</a>
+### <a href="#May-7-2014" name="May-7-2014">7 мая, 2014</a>
 - Only load rooms when the app starts (fixes major reconnect-related annoyance)
 - Disallow Everybody and Everyone as username
 - Fix search highlighting in URLs
