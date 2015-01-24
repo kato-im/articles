@@ -8,10 +8,10 @@
 
 ##  Основные разделы руководства:
 
-[Основные возможности](articles/ru/general/)
-[Оповещения](articles/ru/notifications/)
-[Команды](articles/ru/teams/)
-[Дополнительная информация](articles/ru/fun/)
-[Возможности для продвинутых пользователей](/articles/ru/power-users/)
-[Приложения](articles/ru/kato-apps/)
-[Голосовые и видеозвонки](articles/ru/voice-video/)
+- [Основные возможности](articles/ru/general/)
+- [Оповещения](articles/ru/notifications/)
+- [Команды](articles/ru/teams/)
+- [Дополнительная информация](articles/ru/fun/)
+- [Возможности для продвинутых пользователей](/articles/ru/power-users/)
+- [Приложения](articles/ru/kato-apps/)
+- [Голосовые и видеозвонки](articles/ru/voice-video/)
