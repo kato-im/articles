@@ -101,23 +101,23 @@
                 },
                 {
                     "type": "category",
-                    "title": "Fun",
+                    "title": "Дополнительные возможности",
                     "src": "fun",
                     "entities": [
                         {
                             "type": "page",
                             "src": "emoji-support",
-                            "title": "Emoji Support"
+                            "title": "Поддержка Emoji"
                         },
                         {
                             "type": "page",
                             "src": "ifttt-integration",
-                            "title": "IFTTT Integration"
+                            "title": "Интеграция с IFTTT"
                         },
                         {
                             "type": "page",
                             "src": "product-updates",
-                            "title": "Product Updates"
+                            "title": "Обновления продукта"
                         }
                     ]
                 },
