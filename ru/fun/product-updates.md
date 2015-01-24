@@ -511,94 +511,93 @@
 
 ![clip.png](https://s3.amazonaws.com/kato-share/6d20add56b5176453f1eb45c5a4afc73cda3a0e838ef0d9014e5ead57da52903/clip.png)
 
-## <a href="#April-2014" name="April-2014">April 2014</a>
+## <a href="#April-2014" name="April-2014">Апрель 2014</a>
 ***
 
-### <a href="#April-30-2014" name="April-30-2014">April 30, 2014</a>
-- Add ability to manage adhoc keys
-- Introduce Kato Roll presence status icon
+### <a href="#April-30-2014" name="April-30-2014">30 апреля, 2014</a>
+- Добавлена возможность обработки adhoc-ключей
+- Представлена иконка статуса Kato Roll
 
-### <a href="#April-29-2014" name="April-29-2014">April 29, 2014</a>
-- Fix `Enter` key behavior in add rooms modal
+### <a href="#April-29-2014" name="April-29-2014">29 апреля, 2014</a>
+- Исправлено поведение клавиши `Enter` в модальном окне добавления комнаты
 
-### <a href="#April-28-2014" name="April-28-2014">April 28, 2014</a>
-- Improved screensharing
+### <a href="#April-28-2014" name="April-28-2014">28 апреля, 2014</a>
+- Улучшена функция демонстрации экрана
 
-### <a href="#April-26-2014" name="April-26-2014">April 26, 2014</a>
-- Reuses WebRTC instance between logins
+### <a href="#April-26-2014" name="April-26-2014">26 апреля, 2014</a>
+- Повторное использование экземпляра WebRTC между логинами
 
-### <a href="#April-22-2014" name="April-22-2014">April 22, 2014</a>
-- Highlights entire line for mentions
-- Fixed icon spacing in file upload UI
-- Fixed line breaks in search results for non-Markdown messages
-- Fixed inconsistent Markdown indent
-- Fixed an issue with multiple indents, limit to 7 (Markdown)
-- Permits whitespace between indents (Markdown)
+### <a href="#April-22-2014" name="April-22-2014">22 апреля, 2014</a>
+- Подсветка всей строки с упоминанием
+- Исправлено расстояние между иконками в окне загрузки файла
+- Исправлено отображение разрывов строк в результатов поиска сообщений не в разметке Markdown
+- Исправлены отступы в Markdown 
+- Разерешно пустое пространство между отступами (Markdown)
 
 
-### <a href="#April-19-2014" name="April-19-2014">April 19, 2014</a>
-- v1.0.0 of iOS app available
+### <a href="#April-19-2014" name="April-19-2014">19 апреля, 2014</a>
+- Доступна версия v1.0.0 приложения для iOS
 
-### <a href="#April-18-2014" name="April-18-2014">April 18, 2014</a>
-- Fixed memory leak
-- Fixed history jumping on mouseover
-- Fixed history scroll when image previews are loaded
+### <a href="#April-18-2014" name="April-18-2014">18 апреля, 2014</a>
+- Устранена утечка памяти
+- Исправлена проблема «скачков» истории при наведении мышки
+- Исправлена проблема с прокруткой истории при загрузке предпросмотра изображений
 
-### <a href="#April-7-2014" name="April-7-2014">April 7, 2014</a>
-- Increased Emoji size
-- Fixed renderer type in edited message
-- Fixed Markdown indents in multi-line mode
-- Unified layout of plaintext and Markdown messages
-- Turns newlines to spaces in collapse messages
+### <a href="#April-7-2014" name="April-7-2014">7 апреля, 2014</a>
+- Увеличен размер отображаемых Emoji 
+- Улучшен тип визуализации отредактированного сообщения
+- Исправлены отступы Markdown в мультистроковом режиме
+- Унифицировано отображение обычного текста и сообщений в формате Markdown 
+- В свернутых сообщения перевод строки заменен пробелами 
 
-### <a href="#April-5-2014" name="April-5-2014">April 5, 2014</a>
-- Formatting in emails with [mentions](https://kato.im/articles/en/general/cheatsheet/#mentions) is closer to what we show in the web app
+### <a href="#April-5-2014" name="April-5-2014">5 апреля, 2014</a>
+- Форматирование в email-оповещения об [упоминаниях](https://kato.im/articles/en/general/cheatsheet/#mentions) приближено к отображению в веб-версии
 
-### <a href="#April-3-2014" name="April-3-2014">April 3, 2014</a>
-- Closes full-screen roster is window is too wide
-- A ton of other UI fixes
+### <a href="#April-3-2014" name="April-3-2014">3 апреля , 2014</a>
+- Если окно слишком широкое, полноэкранное отображение ростера закрывается 
+- Множество исправлений в интерфейсе
 
-### <a href="#April-1-2014" name="April-1-2014">April 1, 2014</a>
-- Allows resize of Kato Roll
-- Allows UTF-8 filenames in [uploaded files](https://kato.im/articles/en/general/cheatsheet/#file-sharing) (yay!)
+### <a href="#April-1-2014" name="April-1-2014">1 апреля, 2014</a>
+- Разрешен ресайз Kato Roll
+- Разрешено использование UTF-8 в именах [загруженных файлов](/articles/ru/general/cheatsheet/#file-sharing) (yay!)
 
-## <a href="#March-2014" name="March-2014">March 2014</a>
+## <a href="#March-2014" name="March-2014">Март 2014</a>
 ***
 
-### <a href="#March-29-2014" name="March-29-2014">March 29, 2014</a>
-- Add Lars and Boris to [About page](http://kato.im/about)
+### <a href="#March-29-2014" name="March-29-2014">29 марта, 2014</a>
+- На страницу [О прокте](http://kato.im/about) добавлена информация о Lars и Boris
 
-### <a href="#March-28-2014" name="March-28-2014">March 28, 2014</a>
-- Fixed a ton of small, but important UI issues
-- Uses fancy animation for pending messages
-- Fixed Global Search display bug
-- Added Hugh's photo to [About page](http://kato.im/about)
-- Uses single image for all [integrations](https://kato.im/articles/en/power-users/integrations)
-- Added support for [GitHub-style emoji](https://kato.im/articles/en/fun/emoji-support/)
-- Migrated to [Font Awesome 4](http://fontawesome.io/)
+### <a href="#March-28-2014" name="March-28-2014">28 марта, 2014</a>
+- Исправлено большое количество небольших, но важных элементов интерфейса
+- Добавлена приятная анимания для сообщений в стадии ожидания
+- Исправлена ошибка отображения результатов глобального поиска 
+- На страницу [О проекте](http://kato.im/about) добавлена фотография Hugo
+- Для все [integrations](/articles/ru/power-users/integrations) использовано единое изображение
+- Добавлена поддержка [emoji в стиле GitHub](/articles/ru/fun/emoji-support/)
+- Осуществлена миграция на [Font Awesome 4](http://fontawesome.io/)
 
-### <a href="#March-24-2014" name="March-24-2014">March 24, 2014</a>
+### <a href="#March-24-2014" name="March-24-2014">24 марта, 2014</a>
 
-- Roll out CEO drawing:
+- CEO нарисовал вот это:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/1734fc3d3fef050189072bb3ee7a9f3e586e4914462c9308e354f781826466d9/clip.png)
 
-### <a href="#March-17-2014" name="March-17-2014">March 17, 2014</a>
-- Escapes `#` correctly in JIRA integration
+### <a href="#March-17-2014" name="March-17-2014">17 марта, 2014</a>
+- Верная обработка символа `#` в интеграции с JIRA 
 
-### <a href="#March-15-2014" name="March-15-2014">March 15, 2014</a>
-- Fixed file upload issue in [MacGap App](http://download.kato.im/Kato.pkg)
+### <a href="#March-15-2014" name="March-15-2014">15 марта, 2014</a>
+- Исправлена ошика с загрузкой файлов в [MacGap App](http://download.kato.im/Kato.pkg)
 
-### <a href="#March-10-2014" name="March-10-2014">March 10, 2014</a>
-- Allows OneNote as link protocol
+### <a href="#March-10-2014" name="March-10-2014">10 марта, 2014</a>
+- Разрешено использование OneNote в качестве протокола ссылок (link protocol)
 
-## <a href="#February-2014" name="February-2014">February 2014</a>
+## <a href="#February-2014" name="February-2014">Февраль 2014</a>
 ***
 
-### <a href="#February-25-2014" name="February-25-2014">February 25, 2014</a>
-- Fixed ESC to clear room search
-- Fixed search highlighting in URLs
-- Migrated to Bootstrap 3.1! <- big one
+### <a href="#February-25-2014" name="February-25-2014">25 февраля, 2014</a>
+- Исправлена некорректная работа функции очистки поля поиска в комнате по нажатию ESC 
+- Исправлена ошибка подсветки результатов поиска в URL
+- Осуществлен переход на Bootstrap 3.1!
 
-### <a href="#February-20-2014" name="February-20-2014">February 20, 2014</a>
-- When clicking on [Markdown](https://kato.im/articles/en/power-users/markdown-syntax/) message, selects the whole message
+### <a href="#February-20-2014" name="February-20-2014">20 февраля, 2014</a>
+- По клику на сообщение в разметке [Markdown](https://kato.im/articles/en/power-users/markdown-syntax/) выделять все сообщение
