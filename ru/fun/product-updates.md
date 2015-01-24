@@ -1,282 +1,280 @@
 <br />
 
-## <a href="#December-2014" name="December-2014">December 2014</a>
+## <a href="#December-2014" name="December-2014">Декабрь 2014</a>
 ***
 
-### <a href="#December-15-2014" name="December-15-2014">December 15, 2014</a>
-- Added support for pasting images from clipboard in Firefox
-- Enabled rich previews, e.g. Google Docs, Rdio, Spotify, SoundCloud, New York Times
-- Fixed "Create New Organization" button
-- Fixed incorrect UTF-8 symbols in the 'From' field for some emails
-- Fixed a typo in the "Text, Voice and Video" section of the Product page
-- Updated some error messages
-- Updated welcome text to clarify that entire team can see support room
+### <a href="#December-15-2014" name="December-15-2014">15 декабря, 2014</a>
+- Добавлена поддержка вставки изображений из буфера обмена в Firefox
+- Реализована возможность полноформатных превью файлов Google Docs, Rdio, Spotify, SoundCloud, New York Times
+- Исправлена ошибка при нажатии на кнопку «Создать новую команду» ("Create New Organization")
+- Исправлены некорректные символы UTF-8 в поле «От кого» ('From') некоторых email-сообщений
+- Исправлена опечатка в разделе "Text, Voice and Video" на странице продукта
+- Обновлены некоторые сообщения об ошибках
+- Обновлен приветственный текст, позволяющий понять, что каждый член команды имеет доступ к комнате поддержки
 
-### <a href="#December-12-2014" name="December-12-2014">December 12, 2014</a>
-- Security fix: admin without access to room no longer sees it in global search results (thanks, Bernie!)
-- New design for sign in / sign up page! 
-- Fix account deletion confirmation popup
-- Onboarding Wizard updates and fixes
+### <a href="#December-12-2014" name="December-12-2014">12 декабря, 2014</a>
+- Исправление безопасности: администратор без доступа к комнате больше не видит ее в результатах глобального поиска (благодарим за наводку Bernie)
+- Новый дизайн страницы регистрации и логина
+- Исправлено всплывающее окно подтверждения удаления учетной записи
+- Обновления и исправления в «Мастере регистрации и вводного тура»
 
-### <a href="#December-8-2014" name="December-8-2014">December 8, 2014</a>
-- Fix presence indicator for new member
-- Onboarding Wizard updates and fixes
-- `Ctrl+[` is an alias for `Esc` in [Keyboard Control](https://kato.im/articles/en/power-users/keyboard-control) mode
-- [Keyboard Control] When pasting with `Ctrl+v` or `Command+v`, switch to insert mode
-- [Keyboard Control] `Enter` will open the first link when focus is on a message
-- [Keyboard Control] New, better last message edit functionality (`u`)
-- New home page headline
-- Update "Congrats" page after a user creates a Kato Teams account
+### <a href="#December-8-2014" name="December-8-2014">8 декабря, 2014</a>
+- Исправлен индиктаор присутствия нового члена команды
+- Обновления и исправления в «Мастере регистрации и вводного тура»
+- Добавлен алиас `Ctrl+[` для клавиши `Esc` в режиме [Горячих клавиш](/articles/ru/power-users/keyboard-control) 
+- В режиме горячих клавиш использование комбинаций клавиш `Ctrl+v` или `Command+v` включает режим ввода
+- В режиме горячих клавиш нажатие клавиши `Enter` откроет первую ссылку в сообщении
+- В режиме горячих клавиш реализована более удачная функция редактировани последнего соощения (клавиша `u`)
+- Новый заголовок на главной странице
+- Обновлен текст на странице приветствия после создания учетной записи в Kato
 
-## <a href="#November-2014" name="November-2014">November 2014</a>
+## <a href="#November-2014" name="November-2014">Ноябрь 2014</a>
 ***
 
-### <a href="#November-29-2014" name="November-29-2014">November 29, 2014</a>
-- Google drive integration: share file with write access instead of read-only
+### <a href="#November-29-2014" name="November-29-2014">29 ноября, 2014</a>
+- Инетграция с Google drive: реализована возможность публикации файлов с доступом на редактирование, а не только чтение
 
-### <a href="#November-25-2014" name="November-25-2014">November 25, 2014</a>
-- Make initial text in empty rooms much more informative
+### <a href="#November-25-2014" name="November-25-2014">25 ноября, 2014</a>
+- Создан более информацтивный вводный текст, отображаемый в пустых комнатах 
 
-### <a href="#November-24-2014" name="November-24-2014">November 24, 2014</a>
-- Fix discrepancy with bg color in HTTP POST integration
-- Fix for "Open web app" link not working on iPhone Chrome and Safari
+### <a href="#November-24-2014" name="November-24-2014">24 ноября, 2014</a>
+- Исправлено несоответствие с цветом bg в интеграции HTTP POST 
+- Исправлена неработающая ссылка «Открыть веб-приложение» ("Open web app") в браузерах Chrome и Safari для iPhone
 
-### <a href="#November-22-2014" name="November-22-2014">November 22, 2014</a>
-- Fix Travis crash (undefined repo URL) (thanks, Chris!)
+### <a href="#November-22-2014" name="November-22-2014">22 ноября, 2014</a>
+- Исправлено падение Travis  (не определен URL репозитория) (благодарим пользователя Chris)
 
-### <a href="#November-20-2014" name="November-20-2014">November 20, 2014</a>
-- Remove Kato Roll :(
-- Fix issue with people colors changing when creating another Kato team 
+### <a href="#November-20-2014" name="November-20-2014">20 ноября, 2014</a>
+- Удалена функция Kato Roll :(
+- Исправлена ошибка, приводившая к изменению цветов отображения людей при создании новой команды Kato
 
-### <a href="#November-19-2014" name="November-19-2014">November 19, 2014</a>
-- Fix 'since' time for mobile presence tooltips
+### <a href="#November-19-2014" name="November-19-2014">19 ноября, 2014</a>
+- Исправлено временная метка «с» ('since'), использующаяся в иконках присутствия с мобильных устройств
 
-### <a href="#November-17-2014" name="November-17-2014">November 17, 2014</a>
-- Fix a Chrome-on-Windows problem with "more" button
-- Show previews for tweets
+### <a href="#November-17-2014" name="November-17-2014">17 ноября, 2014</a>
+- Исправлена проблема с кнопкой «раскрыть полностью» ("more") в браузере Chrome на ОС Windows
+- Реализована возможность предпросмотра для твитов
 
-### <a href="#November-14-2014" name="November-14-2014">November 14, 2014</a>
-- Fix for the [Sprintly integration](https://kato.im/articles/en/power-users/integrations/#sprintly) (thanks, Jason!)
-- Fix utf8 handling in [Jira integration](https://kato.im/articles/en/power-users/integrations/#jira) (thanks, geiger!)
-- Fix scary server bug
-- Add label names [GitHub integration](https://kato.im/articles/en/power-users/integrations/#github) (thanks, Craig!)
-- Add colors to [OpsGenie integration](https://kato.im/articles/en/power-users/integrations/#opsgenie) (thanks, Andrew!)
-- When 1-1s are disabled, don't make them enabled via a security loophole (thanks, Rachel & Aliciah!)
-- New logo for Box integration (thanks, Sanjay!)
-- Fix [Stripe integration](https://kato.im/articles/en/power-users/integrations/#stripe) (thanks, Roger!)
-- Update the [Kato Hubot adapter](https://github.com/kato-im/hubot-kato)
+### <a href="#November-14-2014" name="November-14-2014">14 ноября, 2014</a>
+- Исправлена ошибка в [интеграции со Sprintly](/articles/ru/power-users/integrations/#sprintly) (благодарим пользователя Jason)
+- Исправлена ошибка обработки utf8 в [интеграции с Jira ](/articles/ru/power-users/integrations/#jira) (благодарим пользователя geiger)
+- Исправлена ошибка на сервере
+- Добавлены названия ярылков в [интеграции с GitHub](articles/ru/power-users/integrations/#github) (благодарим пользователя Craig)
+- Добавлены цветв в [интеграции с OpsGenie](articles/ru/power-users/integrations/#opsgenie) (благодарим пользователя Andrew)
+- В режиме отключенных комнат 1-1 закрыта возможностьих использования через ошибку безопасности (благодарим пользователей Rachel и Aliciah)
+- Новый логтип для интеграции с Box (благодарим пользователя Sanjay)
+- Исправление в [интеграции со Stripe](/articles/ru/power-users/integrations/#stripe) (благодарим пользователя Roger)
+- Обновление для [адаптера Kato для Hubot](https://github.com/kato-im/hubot-kato)
 
-### <a href="#November-12-2014" name="November-12-2014">November 12, 2014</a>
-- Fixed a number of stability issues in the [Android app](https://play.google.com/store/apps/details?id=im.kato)
-- New integration: [UberConference](https://kato.im/articles/en/power-users/uberconference-integration/)! (Thanks, Hugo!)
+### <a href="#November-12-2014" name="November-12-2014">12 ноября, 2014</a>
+- Исправлены проблемы со стабильностью работы [приложения для Android](https://play.google.com/store/apps/details?id=im.kato)
+- Добавлена новая интеграция с [UberConference](/articles/ru/power-users/uberconference-integration/)! (благодарим пользователя Hugo)
 
-## <a href="#October-2014" name="October-2014">October 2014</a>
+## <a href="#October-2014" name="October-2014">Октябрь 2014</a>
 ***
 
-### <a href="#October-29-2014" name="October-29-2014">October 29, 2014</a>
-- New integration: [Doorbell](https://kato.im/articles/en/power-users/integrations/#doorbell)
-- Android app v 1.2.93 released [link](https://play.google.com/store/apps/details?id=im.kato)
+### <a href="#October-29-2014" name="October-29-2014">29 октября, 2014</a>
+- Новая интеграция: [Doorbell](/articles/ru/power-users/integrations/#doorbell)
+- Выпущена версия 1.2.93 приложения для Android [ссылка](https://play.google.com/store/apps/details?id=im.kato)
 
-### <a href="#October-23-2014" name="October-23-2014">October 23, 2014</a>
-- Bye-bye, hover crazytown
-- Hello, [message cards](cheatsheet#message-cards)!
+### <a href="#October-23-2014" name="October-23-2014">23 октября, 2014</a>
+- Исправлена ошибка отображения при наведении мышки на элемент
+- Добавлены [карточки сообщений](/articles/ru/cheatsheet#message-cards)!
 
 ![clip.png](https://in.kato.im/21c0c392b1074f2aa79859429ee4bac14b614e65ea71d06340d53406e51359f/clip.png)
 
-### <a href="#October-21-2014" name="October-21-2014">October 21, 2014</a>
-- Extra! Extra! Introducing [gifv](http://imgur.com/blog/2014/10/09/introducing-gifv/) support
-- New organization-level policy: disable [off-the-record](https://kato.im/articles/en/general/cheatsheet/#off-the-record) for non-admins. [URL to new setting](https://app.kato.im/#/membership/_/policy/off-the-record)
-- Send "has joined" emails only regarding email-based signups (vs. URL) and automatic signups based on domain
-- Improve [Stash integration](https://kato.im/articles/en/power-users/integrations/#stash)
+### <a href="#October-21-2014" name="October-21-2014">21 октября, 2014</a>
+- Добавлена поддержка [gifv](http://imgur.com/blog/2014/10/09/introducing-gifv/)
+- Новая политика уровня команды: отключение [режима off-the-record](/articles/ru/general/cheatsheet/#off-the-record) для не-администраторв. [URL новой настройки](https://app.kato.im/#/membership/_/policy/off-the-record)
+- Отправка email-сообщений о присоединении нового пользователя ("has joined") только для подписок через электронную почту (vs. URL) и автоматически созданных учетных записях на основе подключенного домена
+- Улучшена [интеграция со Stash](/articles/ru/power-users/integrations/#stash)
 
-### <a href="#October-16-2014" name="October-16-2014">October 16, 2014</a>
-- v1.2.66 of iOS app is available
+### <a href="#October-16-2014" name="October-16-2014">16 октября, 2014</a>
+- Выпущена версия 1.2.66 приложения для iOS
 
-### <a href="#October-13-2014" name="October-13-2014">October 13, 2014</a>
-- New feature: [Kato channel on IFTTT!](https://ifttt.com/kato) [Learn more](https://kato.im/articles/en/fun/ifttt-integration)
+### <a href="#October-13-2014" name="October-13-2014">13 октября, 2014</a>
+- Добавлена новая функция: [Канал Kato на IFTTT!](https://ifttt.com/kato) [Подробное описание](/articles/ru/fun/ifttt-integration)
 
-### <a href="#October-7-2014" name="October-7-2014">October 7, 2014</a>
-- Do not allow anchor outline in links when part of message content
-- Properly handle hiding of modals
+### <a href="#October-7-2014" name="October-7-2014">7 октября, 2014</a>
+- Если частью контента сообщения является ссылка, то в них запрещено использовать якорей (anchor outline)
+- Исправлена обработка скрытия модальных окон
 
-### <a href="#October-6-2014" name="October-6-2014">October 6, 2014</a>
-- New feature: add a link to open room post-creation
-- Fix awful bug in [HTTP POST integration](https://kato.im/articles/en/power-users/integrations/#http_post) instructions
-- Make video icons same size
-- Fix room border issue
+### <a href="#October-6-2014" name="October-6-2014">6 октября, 2014</a>
+- Новая функция: добавление ссылки на октрытие комнаты после ее создания
+- Исправлена ошибка в инструкциях[интеграции HTTP POST](/articles/ru/power-users/integrations/#http_post) 
+- Иконки видео приведены к общим размерам
+- Исправлена граница комнаты
 
-### <a href="#October-5-2014" name="October-5-2014">October 5, 2014</a>
-- Further updates to [global integrations view](https://app.kato.im/#/integrations)
-- Fix bug in [Trello integration](https://kato.im/articles/en/power-users/integrations/#trello)
+### <a href="#October-5-2014" name="October-5-2014">5 октября, 2014</a>
+- Обновления [общего меню интеграций](https://app.kato.im/#/integrations)
+- Исправлена ошибка в [интеграции с Trello](/articles/ru/power-users/integrations/#trello)
 
-### <a href="#October-4-2014" name="October-4-2014">October 4, 2014</a>
-- Update [Visual Studio Online integration](https://kato.im/articles/en/power-users/integrations/#vso) copy
+### <a href="#October-4-2014" name="October-4-2014">4 октября, 2014</a>
+- Обновлен текст в [интеграции с Visual Studio Online](articles/ru/power-users/integrations/#vso)
 
-### <a href="#October-3-2014" name="October-3-2014">October 3, 2014</a>
-- Don't show Kato Roll to users who don't have access to Kato Roll
-- Improvements to [global integrations UI](https://app.kato.im/#/integrations)
-- New feature: Box.com file picker
-- [Codeship integration](https://kato.im/articles/en/power-users/integrations/#codeship) formatting updates
+### <a href="#October-3-2014" name="October-3-2014">3 октября, 2014</a>
+- Не показывать Kato Roll пользователям, которые не имеют к нему доступа
+- Улучшен интерфейс [меню интеграций](https://app.kato.im/#/integrations)
+- Новая функция: выбор файла через Box.com
+- В [интеграция с Codeship](https://kato.im/articles/en/power-users/integrations/#codeship) исправлено форматирование
 
-### <a href="#October-2-2014" name="October-2-2014">October 2, 2014</a>
-- Adjust colors (tone them _way_ down) for [noise controls](https://kato.im/articles/en/notifications/noise-control/)
-- Adjust spacing of g+ icon (used for GDocs integration, of course)
-- Update verbiage in policy tab of organization settings
-- Fix tooltip wrap issue in Firefox
-- Don't show Kato Roll when Kato Roll is not available
+### <a href="#October-2-2014" name="October-2-2014">2 октября, 2014</a>
+- Настройка цветов (присвоены более темные тона) для кнопка [контроля шума](/articles/ru/notifications/noise-control/)
+- Исправлен интервал иконки g+, использованной для интеграции с GDocs
+- Переписан текст в окне настройки политик команды
+- Исправлена ошибка в работе тултипа для сворачивания подсказок в Firefox
+- Не показывать Kato Roll, когда Kato Roll недоступен
 
-### <a href="#October-1-2014" name="October-1-2014">October 1, 2014</a>
-- Improvements in fixes in global integrations view - [https://app.kato.im/#/integrations](https://app.kato.im/#/integrations)
+### <a href="#October-1-2014" name="October-1-2014">1 октября, 2014</a>
+- Улучшения и исправления в меню интеграций - [https://app.kato.im/#/integrations](https://app.kato.im/#/integrations)
 
-## <a href="#September-2014" name="September-2014">September 2014</a>
+## <a href="#September-2014" name="September-2014">Сентябрь 2014</a>
 ***
 
-### <a href="#September-30-2014" name="September-30-2014">September 30, 2014</a>
-- Improve in-app URL routing
-- CEO drawing
+### <a href="#September-30-2014" name="September-30-2014">30 сентября, 2014</a>
+- Улучшена маршрутизация URL в приложении (in-app URL routing)
 
 ![clip.png](https://s3.amazonaws.com/kato-share/85e82d6b396b06a693e133b57f4308fdf69e1cf06759e3821c7c80a44bcd839a/clip.png)
 
-### <a href="#September-29-2014" name="September-29-2014">September 29, 2014</a>
-- New integration: [Codeship](https://kato.im/articles/en/power-users/integrations/#codeship)
+### <a href="#September-29-2014" name="September-29-2014">29 сентября, 2014</a>
+- Новая интеграция: [Codeship](/articles/ru/power-users/integrations/#codeship)
 
-### <a href="#September-23-2014" name="September-23-2014">September 23, 2014</a>
-- Improve Google Hangouts menu
-- Introduce onboarding wizard
-- Don't show photo snapshot option in browsers that don't support this (Safari, hi)
+### <a href="#September-23-2014" name="September-23-2014">23 сентября, 2014</a>
+- Улучшено меню Google Hangouts
+- Внедрен вводный тур
+- Не показывать опцию создания скрншотов, в браузерах, которые не поддерживают эту возможность
 
-### <a href="#September-22-2014" name="September-22-2014">September 22, 2014</a>
-- Improve formatting in help modal for [Keyboard Control](https://kato.im/articles/en/power-users/keyboard-control)
-- Fix various in-app URL routing issues
+### <a href="#September-22-2014" name="September-22-2014">22 сентября, 2014</a>
+- Улучшение форматирования в модальном окне справки для режима [горячих клавиш](/articles/ru/power-users/keyboard-control)
+- Исправлены многочисленные ошибки маршрутизации URL
 
-### <a href="#September-21-2014" name="September-21-2014">September 21, 2014</a>
-- Fix instructions in [Visual Studio Online integration](https://kato.im/articles/en/power-users/integrations/#vso)
+### <a href="#September-21-2014" name="September-21-2014">21 сентября, 2014</a>
+- Исправлены инструкции для [интеграции с Visual Studio Online](/articles/ru/power-users/integrations/#vso)
 
-### <a href="#September-20-2014" name="September-20-2014">September 20, 2014</a>
-- New icon for [Intercom integration](https://kato.im/articles/en/power-users/integrations/#intercom)
+### <a href="#September-20-2014" name="September-20-2014">20 сентября, 2014</a>
+- Новая иконка для интеграции с [Intercom](/articles/ru/power-users/integrations/#intercom)
 
-### <a href="#September-18-2014" name="September-18-2014">September 18, 2014</a>
-- Fix beeps in MacGap when using [Keyboard Control](https://kato.im/articles/en/power-users/keyboard-control)
+### <a href="#September-18-2014" name="September-18-2014">18 сентября, 2014</a>
+- Исправлены звуковые оповещения вin MacGap при работе в режиме [горячих клавиш](/articles/ru/power-users/keyboard-control)
 
 ### <a href="#September-17-2014" name="September-17-2014">September 17, 2014</a>
-- Introduce global integrations view: [https://app.kato.im/#/integrations](https://app.kato.im/#/integrations)
+- Представлено меню интеграций: [https://app.kato.im/#/integrations](https://app.kato.im/#/integrations)
 
-### <a href="#September-15-2014" name="September-15-2014">September 15, 2014</a>
-- New feature: make it possible to claim a non-generic domain for your company
-- Improve charts in weekly stats emails (alpha, WIP)
+### <a href="#September-15-2014" name="September-15-2014">15 сентября, 2014</a>
+- Новая функция: возможность подключения стороннего (non-generic) домена для компании
+- Исправлены графики в еженедельных email-письмах со статистикой (находятся в альфа-версии)
 
-### <a href="#September-12-2014" name="September-12-2014">September 12, 2014</a>
-- New feature: GDrive file picker
-- New feature: rich paste support, support Markdown, code, and plain
+### <a href="#September-12-2014" name="September-12-2014">12 сентября, 2014</a>
+- Новая функция: выбор файлов через GDrive
+- Новая функция: поддержка вставки больших кусков текста, Markdown и кода
 
-### <a href="#September-11-2014" name="September-11-2014">September 11, 2014</a>
-- Fix markdown formatting
-- Fix hiding PEOPLE and ROOMS bars for [restricted members](https://kato.im/articles/en/general/cheatsheet/#restricted-members)
-- Show error for invalid emails
+### <a href="#September-11-2014" name="September-11-2014">11 сентября, 2014</a>
+- Исправлено форматирование Markdown
+- Исправлены теряющиеся столбцы людей и комнат для [пользователей с ограниченными правами](/articles/ru/general/cheatsheet/#restricted-members)
+- Добавлены сообщения об ошибках при отправке неправильных email-сообщений
 
-### <a href="#September-10-2014" name="September-10-2014">September 10, 2014</a>
-- New integration: [OpsGenie](https://kato.im/articles/en/power-users/integrations/#opsgenie)
-- Fix font in help menu
+### <a href="#September-10-2014" name="September-10-2014">10 сентября, 2014</a>
+- Новая интеграция: [OpsGenie](/articles/ru/power-users/integrations/#opsgenie)
+- Исправлен шрифт в меню справки
 
-### <a href="#September-8-2014" name="September-8-2014">September 8, 2014</a>
-- Improve help menu
+### <a href="#September-8-2014" name="September-8-2014">8 сентября, 2014</a>
+- Улучшено меню справки
 
-### <a href="#September-5-2014" name="September-5-2014">September 5, 2014</a>
-- Fix display glitch with modal backgrounds
-- Add space before pasted link if not preceded by space
-- Auto-select lone org in dropdown menus
-- Fix Firefox room drag-drop issue
-- Hide Kato Roll on mobile
+### <a href="#September-5-2014" name="September-5-2014">5 сентября, 2014</a>
+- Исправлена ошибка отображения фонов модальных окон
+- Если перед вставляемой ссылкой нет пробела, он добавляется автоматически
+- Автовыбор единственной команды в выпадающих меню
+- Исправлена ошибка при перетягивании комнат в Firefox
+- Скрывать Kato Roll на мобильных устройствах
 
-### <a href="#September-4-2014" name="September-4-2014">September 4, 2014</a>
-- Move Kato Roll controls to Kato Roll UI
-- Show more info in [Intercom integration](https://kato.im/articles/en/power-users/integrations/#intercom) when new user signs up
+### <a href="#September-4-2014" name="September-4-2014">4 сентября , 2014</a>
+- Элементы управления Kato Roll перенесены в отдельное меню
+- Добавлена дополнительная информация в меню создания аккаунта для нового пользователя в[интеграции с Intercom](/articles/ru/power-users/integrations/#intercom)
 
-### <a href="#September-2-2014" name="September-2-2014">September 2, 2014</a>
-- Reset file chooser after use
+### <a href="#September-2-2014" name="September-2-2014">2 сентября, 2014</a>
+- Сбрасывать настройки после выбора файла
 
-## <a href="#August-2014" name="August-2014">August 2014</a>
+## <a href="#August-2014" name="August-2014">Август 2014</a>
 ***
 
-### <a href="#August-29-2014" name="August-29-2014">August 29, 2014</a>
-- New integration: [Intercom](https://kato.im/articles/en/power-users/integrations/#intercom)
-- Fix message selection
+### <a href="#August-29-2014" name="August-29-2014">29 августа, 2014</a>
+- Новая интеграция: [Intercom](/articles/ru/power-users/integrations/#intercom)
+- Исправлена ошибка при выделении сообщений
 
-### <a href="#August-28-2014" name="August-28-2014">August 28, 2014</a>
-- Fix issue with Global Search when using Keyboard Control
-- Use bar charts instead of pie charts in weekly stats email (alpha)
-- CEO drawing
+### <a href="#August-28-2014" name="August-28-2014">28 августа, 2014</a>
+- Исправлена ошибка в работе глобального поиска в режиме горячих клавиш
+- В еженедельных email-сообщениях со статистикой графики-пироги заменены графиками баров (функция в альфа-режиме)
 
 ![clip.png](https://s3.amazonaws.com/kato-share/5bafa7624ef7e91f86276c22bbcbfd739a52e12a6b6e893261b5e4865689685a/clip.png)
 
-### <a href="#August-27-2014" name="August-27-2014">August 27, 2014</a>
-- New feature: invite unrestricted members via URL
-- Improvements to admin modals
-- Hide Kato Roll if camera is disabled
-- Don't show Kato Roll until camera is authorized
-- Adjust verbiage in revoke adminship tab
+### <a href="#August-27-2014" name="August-27-2014">27 августа, 2014</a>
+- Новая функция: приглашение пользователей без ограничений прав через URL
+- Улучшения модальных меню для администраторов
+- Скрывать Kato Roll если камера выключена
+- Непоказывать Kato Roll пока пользователь не разрешит использование камеры
+- Изменен текст в окне отзыва административных прав
 
-### <a href="#August-25-2014" name="August-25-2014">August 25, 2014</a>
-- Fix issues with room drag-n-drop
-- Fix PagerDuty crash
-- New feature: Integration with Google Hangouts
-- Better weekly reports (Kato org only)
+### <a href="#August-25-2014" name="August-25-2014">25 августа, 2014</a>
+- Исправлены ошибки функции перетягивания комнат
+- Исправлено падение PagerDuty
+- Новая функция: интеграция с Google Hangouts
+- Улучшены еженедельные отчеты (только для команды Kato)
 
-### <a href="#August-22-2014" name="August-22-2014">August 22, 2014</a>
-- v1.1.38 of iOS app is available
+### <a href="#August-22-2014" name="August-22-2014">22 августа, 2014</a>
+- Выпущена версия 1.1.38 приложения для iOS
 
-### <a href="#August-21-2014" name="August-21-2014">August 21, 2014</a>
-- Publish new pricing (Kato is free! Wow.)
+### <a href="#August-21-2014" name="August-21-2014">21 августа, 2014</a>
+- Опубликованы новые тарифы (Теперь Kato стал бесплатным!)
 
-### <a href="#August-19-2014" name="August-19-2014">August 19, 2014</a>
-- Fix timestamp padding in mention emails
+### <a href="#August-19-2014" name="August-19-2014">19 августа, 2014</a>
+- Исправлено отображение даты в email-сообщениях об упоминании пользователя
 
-### <a href="#August-18-2014" name="August-18-2014">August 18, 2014</a>
-- Make Keyboard Control help modal look a little better
+### <a href="#August-18-2014" name="August-18-2014">18 августа, 2014</a>
+- Улучшен внешний вид меню горячих клавиш
 
-### <a href="#August-17-2014" name="August-17-2014">August 17, 2014</a>
-- Add Steve to [/about](https://kato.im/about) page
+### <a href="#August-17-2014" name="August-17-2014">17 августа, 2014</a>
+- На странице [о проекте](https://kato.im/about) появилась информация о Стиве
 
-### <a href="#August-16-2014" name="August-16-2014">August 16, 2014</a>
-- Fix backend issue with integrations
+### <a href="#August-16-2014" name="August-16-2014">16 августа, 2014</a>
+- Исправлена ошибка бэкенда интеграций
 
-### <a href="#August-14-2014" name="August-14-2014">August 14, 2014</a>
-- Fix "Red marker in roster is not visible for newly added members with access to an open restricted room"
+### <a href="#August-14-2014" name="August-14-2014">14 августа, 2014</a>
+- Исправление «Красный маркер в ростер не виден только что добавленным членам команды с доступом к публичным комнатам»
 
-### <a href="#August-13-2014" name="August-13-2014">August 13, 2014</a>
-- New feature: profile cards
-- Keep error message around in banner (use x to close)
+### <a href="#August-13-2014" name="August-13-2014">13 августа, 2014</a>
+- Новая функция: карточки пользователя
+- Вывод сообщений ошибки в баннер (чтобы его закрыть нужно нажать x)
 
-### <a href="#August-12-2014" name="August-12-2014">August 12, 2014</a>
-- Fix image aspect ratio
-- Create **All** room by default, open it
+### <a href="#August-12-2014" name="August-12-2014">12 августа, 2014</a>
+- Исправлено соотношение сторон изображений
+- Создание всей комнаты по-умолчанию
 
-### <a href="#August-11-2014" name="August-11-2014">August 11, 2014</a>
-- New feature (internal)
+### <a href="#August-11-2014" name="August-11-2014">11 августа, 2014</a>
+- Новая функция (внутренняя)
 
-### <a href="#August-7-2014" name="August-7-2014">August 7, 2014</a>
-- Fix for "Chrome on Retina OS X only: After closing the Membership view, histories in all rooms scroll up."
-- v1.1.38 of iOS app available 
+### <a href="#August-7-2014" name="August-7-2014">7 августа, 2014</a>
+- Исправление ошибки в Chrome для Retina OS X: После закрытия меню членства в командах, история во всех комнатах прокручивается вверх 
+- Выпущена версия 1.1.38 приложения для iOS
 
-### <a href="#August-6-2014" name="August-6-2014">August 6, 2014</a>
-- Happy birthday Boris!
+### <a href="#August-6-2014" name="August-6-2014">6 августа, 2014</a>
+- С днем рождения, Борис!
 
-### <a href="#August-4-2014" name="August-4-2014">August 4, 2014</a>
-- Remember room search state when resizing layout
-- Remove leading space for pasted links (makes composing `![clip](URL)`-type images in Markdown much easier)
-- Second mention in a message is shown as encoding when the message is edited - fix this
-- Add organization name to room tooltip for narrow screens
-- Fix UI bugs for "Change" buttons
+### <a href="#August-4-2014" name="August-4-2014">4 августа, 2014</a>
+- Запоминается состояние поиска в комнате во время ресайза окна браузера
+- Удаление пробела во вставляемых ссылках (облегчает создание изображений вида `![clip](URL)`в разметке Markdown)
+- Второе упоминание в сообщение показывалось как код: исправлено
+- Для узких экранов в тултип комнаты добавлено название команды
+- Исправлены ошибки интерфейса для кнопок «Изменить» ("Change")
 
-### <a href="#August-3-2014" name="August-3-2014">August 3, 2014</a>
-- In-app URL routing: only show orgs where user is an admin
-- Fix issue for mentions for people with whom you share several organizations
-- More descriptive HTTP status for simple HTTP post integration
+### <a href="#August-3-2014" name="August-3-2014">3 августа, 2014</a>
+- Маршрутизация в приложении по ссылкам: показывать только команды, в которых пользователь является администратором
+- Исправлена ошибка с упоминанием людей, с которыми пользователя объединяют несколько команд
+- Создан более информацтивный HTTP-статус для простых интеграций HTTP post
 
-### <a href="#August-2-2014" name="August-2-2014">August 2, 2014</a>
-- Fix Pingdom integration
+### <a href="#August-2-2014" name="August-2-2014">2 августа, 2014</a>
+- Исправленние в интеграции Pingdom 
 
-## <a href="#July-2014" name="July-2014">July 2014</a>
+## <a href="#July-2014" name="July-2014">Июль 2014</a>
 ***
 
 ### <a href="#July-31-2014" name="July-31-2014">July 31, 2014</a>
