@@ -476,39 +476,38 @@
 - Выпущено приложение для [Android](https://play.google.com/store/apps/details?id=im.kato)!
 
 ### <a href="#May-7-2014" name="May-7-2014">7 мая, 2014</a>
-- Only load rooms when the app starts (fixes major reconnect-related annoyance)
-- Disallow Everybody and Everyone as username
-- Fix search highlighting in URLs
+- Загрузка комнат только после запуска приложения
+- Запрещено исспользование слов Everybody и Everyone в качестве имени пользователя
+- Исправлена ошибка выделения в URL при поиске
 
-### <a href="#May-6-2014" name="May-6-2014">May 6, 2014</a>
-- Show user's local time in room header when user is offline
-- Fix issue with height of input field
+### <a href="#May-6-2014" name="May-6-2014">6 мая, 2014</a>
+- Показывать локальное время пользователя в заголовке комнаты, когда он офлайн
+- Изменена высота поля ввода сообщения
 
-### <a href="#May-5-2014" name="May-5-2014">May 5, 2014</a>
-- Fix Knockout.js dependency
-- New feature: make it possible for the user to configure room layout (max rooms, min room width)
-- Make response-via-email prettier
+### <a href="#May-5-2014" name="May-5-2014">5 мая, 2014</a>
+- Исправлена зависимость в Knockout.js 
+- Новая функция: добавлена возможность регулирования внешнего вида интерфейса (максимальное число открытых комнат, минимальная ширина комнаты)
+- Улучшена функция ответча через email
 
-### <a href="#May-4-2014" name="May-4-2014">May 4, 2014</a>
-- Fix bug with Trello that requires authorization each time the tab is opened
-- New feature: delete account :(
-- Scroll history to dead bottom on `Esc`
+### <a href="#May-4-2014" name="May-4-2014">4 мая, 2014</a>
+- Исправлена ошибка в интеграции с Trello, из-за которой каждый раз при открытии вкладки требовалась авторизация
+- Новая функция: удаление учетной записи :(
+- Прокрутка истории к самому низу по нажатию `Esc`
 
-### <a href="#May-3-2014" name="May-3-2014">May 3, 2014</a>
-- Remove space symbol after mention in mention emails
-- Separate generic integrations (HTTP, Email) into their own section
+### <a href="#May-3-2014" name="May-3-2014">3 мая, 2014</a>
+- Удаление символа пробела после упоминания в соответствующем email-сообщении
+- Разделение интеграций HTTP и Email
 
-### <a href="#May-2-2014" name="May-2-2014">May 2, 2014</a>
-- Fix vertical alignment of icons
+### <a href="#May-2-2014" name="May-2-2014">2 мая, 2014</a>
+- Улучшено вертикальное выравнивание иконок
 
-### <a href="#May-1-2014" name="May-1-2014">May 1, 2014</a>
-- Let's get some work done in honor of the ### International Workers' Day!
-- Unify rooms / public rooms filedrop code
-- Various fixes related to container heights
-- Fix history jump when timestamp appears
-- Fix gazette (getting started) in 2-layout
-- Fix Kato Roll photo margins
-- Roll out CEO drawing:
+### <a href="#May-1-2014" name="May-1-2014">1 мая, 2014</a>
+- В ### международный день труда нужно как следует поработать!
+- Унивицирован fildrop-код комнат(публичных) 
+- Многочисленные исправления, связанные с высотой контейнеров
+- Исправлена ошибка с возникновением «скачков» истории при появлении временной метки
+- Исправлены поля фото в Kato Roll
+- CEO нарисовал вот это:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/6d20add56b5176453f1eb45c5a4afc73cda3a0e838ef0d9014e5ead57da52903/clip.png)
 
