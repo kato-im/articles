@@ -112,7 +112,7 @@
                         {
                             "type": "page",
                             "src": "ifttt-integration",
-                            "title": "IFTTT Integration"
+                            "title": "IFTTT Integration "
                         },
                         {
                             "type": "page",
@@ -273,6 +273,28 @@
                             "title": "Подключение домена"
                         }
                     ]
+                }
+                {
+                  "type": "category",
+                    "title": "Дополнительные возможности",
+                    "src": "fun",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "emoji-support",
+                            "title": "Поддержка Emoji"
+                        },
+                        {
+                            "type": "page",
+                            "src": "ifttt-integration",
+                            "title": "Интеграция с IFTTT "
+                        },
+                        {
+                            "type": "page",
+                            "src": "product-updates",
+                            "title": "Обновления продукта"
+                        }
+                    ]  
                 }
             ]
         }
