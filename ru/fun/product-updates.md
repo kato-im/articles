@@ -279,135 +279,135 @@
 ## <a href="#July-2014" name="July-2014">Июль 2014</a>
 ***
 
-### <a href="#July-31-2014" name="July-31-2014">July 31, 2014</a>
-- New feature: drag and drop rooms to reorder
+### <a href="#July-31-2014" name="July-31-2014">31 июля, 2014</a>
+- Новая функция: изменение порядка отображения комнат с помощью перетягивания
 
-### <a href="#July-30-2014" name="July-30-2014">July 30, 2014</a>
-- New feature: email a weekly report with statistics (Kato org only)
-- Improve UI for pending messages
+### <a href="#July-30-2014" name="July-30-2014">30 июля, 2014</a>
+- Новая функция: еженедельная email-рассылка с отчетом со статистикой (только для команды Kato)
+- Улучшен интерфейс отображения статуса недоставленных сообщений
 
-### <a href="#July-29-2014" name="July-29-2014">July 29, 2014</a>
-- Show "just now" for messages that were just sent (this magically fixes the biggest WTF on Kato)
-- Fix issues with file upload UI
-- Fix Fast Forward behavior
-- Fix Kato Roll presence icon
-- Happy birthday Peter!
+### <a href="#July-29-2014" name="July-29-2014">29 июля, 2014</a>
+- Показывать пометку "just now" для только что отправленных сообщений
+- Исправлены ошибки в интерфейсе окна загрузки файлов
+- Исправлены ошибки переадресации сообщений (Fast Forward)
+- Исправлена иконка статуса Kato Roll
+- С днем рождения, Петр!
 
-### <a href="#July-28-2014" name="July-28-2014">July 28, 2014</a>
-- Use first organization if none selected
-- Fix scrolling on membership page
-- `Enter` key handling in forgot password modal
-- Fix narrow roster organization item with unread counter
-- Make message collapsed after delete/hide
-- Upgrade to Font Awesome 4.1
-- v1.0.2 of iOS app available
-- CEO drawing
+### <a href="#July-28-2014" name="July-28-2014">28 июля, 2014</a>
+- Использовать первую команду, в случае если ни одна команда не выбрана
+- Исправлены ошибки при прокрутке страницы членства в команде
+- Обработка клавиши `Enter` в диалоговом окне, появляющемся в процессе восстановления пароля
+- Добавление счетчика непрочитанных сообщений ростере команды
+- Сворачнивание сообщение после их удаления/скрытия
+- Обновление до Font Awesome 4.1
+- Вышла версия приложения 1.0.2 для iOS
+- Рисунок CEO
 
 ![clip.png](https://s3.amazonaws.com/kato-share/7846de8d3537da198c6001cbdf36674bb4998ec61b35297a3470f394f6063f19/clip.png)
 
-### <a href="#July-24-2014" name="July-24-2014">July 24, 2014</a>
-- Fix typos
+### <a href="#July-24-2014" name="July-24-2014">24 июля, 2014</a>
+- Исправлены опечатки
 
 ### <a href="#July-23-2014" name="July-23-2014">July 23, 2014</a>
-- Continue processing after error in invite modal
-- Select uncollapsed organization by default
-- Nice fading for long names in room headers instead of ellipsis, so 2009
-- Improve edit last message menu
-- Fix retry (load history) button
-- Fix mentions autocomplete
+- Продолжение обработки после появления ошибки в модальном окне для отправки приглашения новому пользователю
+- По умолчанию выбирать не свернутую команду
+- Размывание окончания длинных имен вместо многоточий
+- Улучшено меню редактирования последнего сообщения
+- Исправлена кнопка "retry"(загрузка истории) 
+- Исправлена ошибка автоподстановки в упоминаниях
 
-### <a href="#July-22-2014" name="July-22-2014">July 22, 2014</a>
-- Multiple fixes related to Keyboard Control + Global Search
-- Fix issue with Kato Roll flashing old photo
-- Fix beveled appearance of room input menu
-- Fix room footer issues
-- Tweak room header centering and Global Search bottom border
-- Fix image preview aspect ratio issue
+### <a href="#July-22-2014" name="July-22-2014">22 июля, 2014</a>
+- Множественные исправления в режиме горячих клавиш и глобальном поиске
+- Исправление ошибки мигания старых фото в Kato Roll
+- Исправлено «скошенное» отображение окна ввода сообщения в комнате
+- Исправлены ошибки в подвале комнаты
+- Немного исправлено центрирование заголовка комнаты и нижняя граница окна глобального поиска
+- Исправлено соотношение сторон изображения в режиме предпросмотра
 
 
-### <a href="#July-21-2014" name="July-21-2014">July 18, 2014</a>
-- 1.0.1 of iOS out available
+### <a href="#July-21-2014" name="July-21-2014">18 июля, 2014</a>
+- Выпущена версия 1.0.1 приложения для iOS
 
-### <a href="#July-18-2014" name="July-18-2014">July 18, 2014</a>
-- CSS refactor
-- Fix rooms/people filter UX
-- Fix crazy brokenness related to meta keys and Keyboard Control
-- Decrease the width of the Global Search pane
-- Add tooltip to the 1-1 clock icon
+### <a href="#July-18-2014" name="July-18-2014">18 июля, 2014</a>
+- Осуществлен рефакторинг CSS 
+- Исправлен интерфейсы фильтрации комнат/людей
+- Исправлены ошики мета-ключей и горячих клавиш
+- Уменьшена ширина панели глобального поиска
+- Добавлен тултип к иконке комнат 1-1
 
-### <a href="#July-17-2014" name="July-17-2014">July 17, 2014</a>
+### <a href="#July-17-2014" name="July-17-2014">17 июля, 2014</a>
 - New feature: [Keyboard Control](https://kato.im/articles/en/power-users/keyboard-control/)
 
-### <a href="#July-16-2014" name="July-16-2014">July 16, 2014</a>
-- Fix a ton of UI bugs (for new UI)
+### <a href="#July-16-2014" name="July-16-2014">16 июля, 2014</a>
+- Исправлено большое количество ошибок в интерфейсе
 
-### <a href="#July-8-2014" name="July-8-2014">July 8, 2014</a>
-- Make emails look decent on old Android devices
+### <a href="#July-8-2014" name="July-8-2014">8 июля, 2014</a>
+- Улучено отображение email-сообщение на старых Android-устройствах 
 
-## <a href="#June-2014" name="June-2014">June 2014</a>
+## <a href="#June-2014" name="June-2014">Июнь 2014</a>
 ***
 
-### <a href="#June-30-2014" name="June-30-2014">June 30, 2014</a>
-- Expand extended routing (add more URLs)
+### <a href="#June-30-2014" name="June-30-2014">30 июня, 2014</a>
+- Добавлено больше URL для расширенной маршрутизации
 
-### <a href="#June-26-2014" name="June-26-2014">June 26, 2014</a>
-- Rewrite mention autocomplete feature
+### <a href="#June-26-2014" name="June-26-2014">26 июня, 2014</a>
+- Переписана функция автоподстановки в упоминании 
 
-### <a href="#June-18-2014" name="June-18-2014">June 18, 2014</a>
-- Improve password reset UI
-- Don't resize rooms when management modal/screen is active
-- Fix security hole in invites
+### <a href="#June-18-2014" name="June-18-2014">18 июня, 2014</a>
+- Исправление интерфейса для сброса пароля
+- Запрещено изменение размеров окна комнаты (ресайз), когда активны модальные окна изменения настроек
+- Исправлена ошибка безопасности в процедуре рассылки приглашений
 
-### <a href="#June-16-2014" name="June-16-2014">June 16, 2014</a>
-- Introduce extended routing, lets us do stuff like https://app.kato.im/#/integrations
+### <a href="#June-16-2014" name="June-16-2014">16 июня, 2014</a>
+- Реализована расширенная маршрутизация https://app.kato.im/#/integrations
 
-### <a href="#June-11-2014" name="June-11-2014">June 11, 2014</a>
-- Set min room width to 200px
-- Fix layout in settings modal at low screen resolution
+### <a href="#June-11-2014" name="June-11-2014">11 июня, 2014</a>
+- Минимальная ширина комнаты установлена на отметке в 200px
+- Улучшено отображение модального окна настроек на мониторах с низким разрешением
 
-### <a href="#June-10-2014" name="June-10-2014">June 10, 2014</a>
-- Fix crash in GitHub integration
-- Fix message click to select/de-select
-- Fix border on message highlight
-- CEO drawing
+### <a href="#June-10-2014" name="June-10-2014">10 июня, 2014</a>
+- Исправлен сбой в интеграции с GitHub
+- Исправлена ошибка в процедуре выделения и отмены выделения текста в сообщении по клику 
+- Исправлена граница выделенного сообщения
+- Рисунок CEO
 
 ![clip.png](https://s3.amazonaws.com/kato-share/271fa439a0f6c3ba421e43ed8c3f9a9eaf4e711f35a82cef1d891dd73edf4688/clip.png)
 
-### <a href="#June-9-2014" name="June-9-2014">June 9, 2014</a>
-- Fix room order in left-docked layout
-- Fix multiline code newlines in [Markdown mode](https://kato.im/articles/en/power-users/markdown-syntax/)
-- Fix mentions at beginning of new line
+### <a href="#June-9-2014" name="June-9-2014">9 июня, 2014</a>
+- Исправлен порядок комнат в отображении c закреплением слева (left-docked layout)
+- Исправлены ошибки в режиме [Markdown](/articles/ru/power-users/markdown-syntax/)
+- Исправлены ошибки при создании упоминаний в начале новой строки
 
-### <a href="#June-8-2014" name="June-8-2014">June 8, 2014</a>
-- New integration: [WorkingOn](https://kato.im/articles/en/power-users/integrations/#workingon)
+### <a href="#June-8-2014" name="June-8-2014">8 июня, 2014</a>
+- Новая интеграция: [WorkingOn](/articles/ru/power-users/integrations/#workingon)
 
-### <a href="#June-6-2014" name="June-6-2014">June 6, 2014</a>
-- Fix type in organization settings modal
-- Fix horizontal scroll issues
-- Fix Kato Roll scroll issue
-- Don't allow to mention a user who doesn't have access to a [restricted room](https://kato.im/articles/en/general/cheatsheet/#restricted-rooms) in said restricted room
-- Fix issue with [unpinned](https://kato.im/articles/en/general/cheatsheet/#pins) rooms being replaced
-- Change click area for selecting entire message
-- Fix video button layout at narrow room width
+### <a href="#June-6-2014" name="June-6-2014">6 июня, 2014</a>
+- Исправлен тип в окне настроек команды
+- Исправлены ошибки при горизонтальной прокрутке
+- Исправлена ошибка при прокрутке Kato Roll
+- Введен запрет на упоминания пользователя, который не имеет доступа к [приватной комнате](/articles/ru/general/cheatsheet/#restricted-rooms) в этой комнате
+- Исправлена ошибк, позволявшая заменять [не прикрепленные](/articles/ru/general/cheatsheet/#pins)
+- Измнены границы зоны, по клику на которую выделяется все сообщение 
+- Исправлено отображение кнопки видео в комнатах с меньшей шириной
 
-### <a href="#June-5-2014" name="June-5-2014">June 5, 2014</a>
-- Massive refactoring of UI innards
-- Fix collapse issue with [multi-organization membership](https://kato.im/articles/en/general/cheatsheet/#multiple-orgs)
-- Hide Kato Roll icon in Safari, because Safari doesn't support amazing things
+### <a href="#June-5-2014" name="June-5-2014">5 июня, 2014</a>
+- Масштабный рефакторинг внутренностей интерфейса 
+- Исправлена ошибка сворачивания окон при членстве [в нескольких командах](/articles/ru/general/cheatsheet/#multiple-orgs)
+- Скрывать иконку Kato Roll в Safari (из-за ограничений этого браузера)
 
-### <a href="#June-4-2014" name="June-4-2014">June 4, 2014</a>
-- Include embed code in public room integration
+### <a href="#June-4-2014" name="June-4-2014">4 июня, 2014</a>
+- В публичных комнатах добавлена возможность вставки кода с внешних сайтов
 
-### <a href="#June-3-2014" name="June-3-2014">June 3, 2014</a>
-- Fix code intentation
-- Correctly handle Regex special characters in search result highlighting
-- Fix drafts
-- Fix mentions autocomplete algorithm
+### <a href="#June-3-2014" name="June-3-2014">3 июня, 2014</a>
+- Улучшена индентация кода
+- Внедрена корректная обработка спецсимволов регулярных выражений (Regex) при выделении в результатх поиска
+- Исправлены ошибки в шаблонах
+- Внесены исправления в алгоритм автоподстановки
 
-### <a href="#June-2-2014" name="June-2-2014">June 2, 2014</a>
-- Port mention autocomplete algorithm from mobile core to web
+### <a href="#June-2-2014" name="June-2-2014">2 июня, 2014</a>
+- Ядро алгоритма автоподстановки портировано из мобильной версии продукта в веб-версию
 
-## <a href="#May-2014" name="May-2014">May 2014</a>
+## <a href="#May-2014" name="May-2014">Май 2014</a>
 ***
 
 ### <a href="#May-28-2014" name="May-28-2014">May 28, 2014</a>
