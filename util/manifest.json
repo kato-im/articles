@@ -322,6 +322,33 @@
                             "title": "Обновления продукта"
                         }
                     ]  
+                },
+                {
+                    "type": "category",
+                    "title": "Аудио и видео",
+                    "src": "voice-video",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "video-voice-calling",
+                            "title": "Голосовые и видеозвонки"
+                        },
+                        {
+                            "type": "page",
+                            "src": "screensharing",
+                            "title": "Демонстрация экрана"
+                        },
+                        {
+                            "type": "page",
+                            "src": "google-hangouts-integration",
+                            "title": "Интеграция с Google Hangouts"
+                        },
+                        {
+                            "type": "page",
+                            "src": "uberconference-integration",
+                            "title": "Интеграция с UberConference"
+                        }
+                    ]
                 }
             ]
         }
