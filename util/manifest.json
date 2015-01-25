@@ -325,6 +325,23 @@
                 },
                 {
                     "type": "category",
+                    "title": "Приложения",
+                    "src": "kato-apps",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "desktop",
+                            "title": "Десктоп-приложения"
+                        },
+                        {
+                            "type": "page",
+                            "src": "mobile",
+                            "title": "Мобильные приложения"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
                     "title": "Аудио и видео",
                     "src": "voice-video",
                     "entities": [
