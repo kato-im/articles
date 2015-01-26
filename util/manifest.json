@@ -302,6 +302,43 @@
                     ]
                 },
                 {
+                    "type": "category",
+                    "title": "Возможности для продвинутых пользователей",
+                    "src": "power-users",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "restricted-rooms",
+                            "title": "Приватные комнаты"
+                        },
+                        {
+                            "type": "page",
+                            "src": "markdown-syntax",
+                            "title": "Синтаксис Markdown"
+                        },
+                        {
+                            "type": "page",
+                            "src": "m-for-markdown",
+                            "title": "Режим Markdown"
+                        },
+                        {
+                            "type": "page",
+                            "src": "keyboard-control",
+                            "title": "Горячие клавиши"
+                        },
+                        {
+                            "type": "page",
+                            "src": "integrations",
+                            "title": "Интеграции"
+                        },
+                        {
+                            "type": "page",
+                            "src": "api",
+                            "title": "API"
+                        }
+                    ]
+                },
+                {
                   "type": "category",
                     "title": "Дополнительные возможности",
                     "src": "fun",
