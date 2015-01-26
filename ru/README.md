@@ -4,9 +4,9 @@
 
 Исходные тексты всех документов руководства представлены на GitHub: <a href='https://github.com/kato-im/articles' target='_blank'>http://github.com/kato-im/articles</a>. Мы будем очень благодарны, если вы, наш пользователь, внесёте вклад в описание мессенджера Kato и его возможностей. В нижней части каждой статьи есть линк "Предложить улучшение", используя которую можно легко создать новый pull request с Вашими дополнениями и изменениями:
 
-![clip.png](http://i.imgur.com/Kt6OCbo.png)
+![clip.png](http://i.imgur.com/k72U3nf.png)
 
-##  Основные разделы руководства:
+##  Содержание:
 
 - [Основные возможности](/articles/ru/general/)
 - [Оповещения](/articles/ru/notifications/)
