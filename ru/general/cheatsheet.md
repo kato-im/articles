@@ -27,7 +27,9 @@
 
 В настоящий момент перечисленные функции предоставляются в тестовом режиме. Видео- и голосовые звонки доступны пользователям браузеров Chrome, Firefox и Opera. Демонстрировать своим собеседникам экран могут пользователи Chrome и Firefox (необходима дополнительная настройка).
 
-Более подробная информация о [видео- и голосовых звонках](/articles/ru/voice-video/video-voice-calling), а также [демонстрации экрана](/articles/ru/voice-video/screensharing) представлено в соответствующих главах данного руководства.
+
+
+Более подробная информация о [видео- и голосовых звонках](/articles/ru/voice-video/video-voice-calling) (а также о [демонстрации экрана](/articles/ru/voice-video/screensharing)) представлена в соответствующих главах данного руководства.
 
 *(Мессенджер Kato также интегрирован с [Google Hangouts](/articles/ru/voice-video/google-hangouts-integration) и [UberConference](/articles/ru/voice-video/uberconference-integration).)*
 
