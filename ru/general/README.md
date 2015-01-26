@@ -4,7 +4,7 @@
 
 Администраторам команд Kato будет полезно ознакомиться с информацией о различных [типах комнат](https://kato.im/articles/ru/room-types/).
 
-## [Справка](https://kato.im/articles/ru/cheatsheet/)
+## [Шпаргалка](https://kato.im/articles/ru/cheatsheet/)
 ## [Редактирование сообщений](https://kato.im/articles/ru/edit-message/)
 ## [Длинные сообщения](https://kato.im/articles/ru/rich-paste-support/)
 ## [Типы комнат](https://kato.im/articles/ru/room-types/)
