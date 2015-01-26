@@ -6,7 +6,7 @@
 
 ## [Шпаргалка](/articles/ru/general/cheatsheet)
 ## [Редактирование сообщений](/articles/ru/general/edit-message)
-## [Длинные сообщения](/articles/ru/general/rich-paste-support)
+## [Длинные сообщения](/articles/ru/general/long-messages)
 ## [Типы комнат](/articles/ru/general/room-types)
 ## [Перестановка комнат](/articles/ru/general/room-drag-n-drop)
 ## [Карточки пользователей](/articles/ru/general/profile-cards)
