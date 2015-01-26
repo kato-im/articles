@@ -29,7 +29,7 @@
 
 Более подробная информация о [видео- и голосовых звонках](https://kato.im/articles/ru/video-calling/), а также [демонстрации экрана](https://kato.im/articles/ru/cheatsheet/introducing-screensharing) представлено в соответствующих главах данного руководства.
 
-*(Мессенджер Kato также интегрирован с [Google Hangouts](https://kato.im/articles/cheatsheet/google-hangouts-integration) и [UberConference](https://kato.im/articles/cheatsheet/uberconference-integration).)*
+*(Мессенджер Kato также интегрирован с [Google Hangouts](/articles/ru/voice-video/google-hangouts-integration) и [UberConference](/articles/ru/voice-video/uberconference-integration).)*
 
 ********************************************************************************
 ## <a href="#typos" name="typos">Редактирование последнего сообщения</a>
@@ -41,7 +41,7 @@
 ********************************************************************************
 ## <a href="#message-cards" name="message-cards">Карточки сообщений</a>
 
-Если навести курсор мышки на какое-то сообщение в истории комнаты, то слева появится вертикальная полоса («шпалы»), клик на которую открывает меню с так называемой **карточкой сообщения** (по аналогии с [**карточкой пользователя**](https://kato.im/articles/ru/cheatsheet/profile-cards)).
+Если навести курсор мышки на какое-то сообщение в истории комнаты, то слева появится вертикальная полоса («шпалы»), клик на которую открывает меню с так называемой **карточкой сообщения** (по аналогии с [**карточкой пользователя**](/articles/ru/general/cheatsheet/profile-cards)).
 
 ![clip.png](https://in.kato.im/e766111232fe8e444c3a385f11b31cdd98e195314072f23c45013a497e568db/clip.png)
 
