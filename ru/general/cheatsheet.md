@@ -1,9 +1,9 @@
 ********************************************************************************
-## <a href="#newlines" name="newlines">Перенос строки в сообщении</a>
+## <a href="#newlines" name="newlines">Перенос строки в новом сообщении</a>
 
-Для вставки в сообщение новой строки просто нажмите комбинацию клавиш *Shift+Return*:
+Для вставки в сообщение новой строки нажмите комбинацию клавиш *shift+return*:
 
-![clip.png](https://in.kato.im/8e38ead5ac3d507555c45475b4aa160e4f460046f99fcacf7cf98b56d8c00c5/clip.png)
+![clip.png](https://in.kato.im/43ba2b4c12a301a9a6acd6beab08f4dddb4a37c7a4d95ac0679258379a1651c0/clip.png)
 
 Кроме того, в Kato существуют и некоторые другие возможности [форматирования сообщений](/articles/ru/general/cheatsheet#message-formatting). 
 
