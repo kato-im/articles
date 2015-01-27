@@ -4,7 +4,7 @@
 
 If you're using **Google Chrome** or **Firefox**, you can share your screen with another Kato user. Here's how:
 
-**1. Необходимо активировать фукнцию [Видео- или аудиозвонков](/articles/en/voice-video/video-voice-calling)**
+**1. Необходимо активировать фукнцию [Видео- или аудиозвонков](/articles/ru/voice-video/video-voice-calling)**
 
   Это может сделать администратор команды Kato.
 
