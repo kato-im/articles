@@ -2,6 +2,24 @@
 
 <br />
 
+# <a href="2015" name="2015">2015</a>
+***
+
+## <a href="January-2015" name="January-2015">January 2015</a>
+***
+
+### <a href="#January-9-2015" name="January-9-2015">January 15, 2015</a>
+- Admins of teams active two weeks in a row now get weekly email reports
+- Updated Source Sans Pro, now with Cyrillic sиpport
+- Fixd a bug preventing hook script downloads for Git and Perforce
+- Show Grooveshark thumbnails instead of previews, because autoplay
+- New integration! HockeyApp
+- Support BCC in email integration
+- Fix crash in Mandrill integration
+- Add "push tag" event to GitLab integration
+- Fix links in GitHub integration
+- 
+
 ## <a href="#December-2014" name="December-2014">December 2014</a>
 ***
 
