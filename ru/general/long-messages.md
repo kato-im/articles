@@ -31,7 +31,7 @@
 
 ![clip.png](https://s3.amazonaws.com/kato-share/84564f4b182bbd783a3162f2aa4e202339c7162c44e3ea2d1f1f68f676f4f0ff/clip.png)
 
-С помощью [горячей клавиши]((/articles/ru/power-users/keyboard-control)) C можно быстро включить этот режим.
+С помощью [горячей клавиши](/articles/ru/power-users/keyboard-control) **C** можно быстро включить этот режим.
 
 В настоящий момент в Kato первая часть сообщений, содержащих код, не показывается в окне чата — пользователи увидят лишь ссылку:
 
