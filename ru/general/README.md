@@ -1,13 +1,13 @@
 ***
 
-В этом разделе руководства описаны базовые возможности сервиса Kato. Рекомендуем начать работу с мессенджером с прочтения раздела [«Справка»](https://kato.im/articles/ru/cheatsheet/), в котором рассказывается о наиболее важных функциях и особенностях сервиса.
+В этом разделе руководства описаны базовые возможности сервиса Kato. Рекомендуем начать работу с мессенджером с прочтения раздела [Шпаргалка](/articles/ru/general/cheatsheet), в котором рассказывается о наиболее важных функциях и особенностях сервиса.
 
-Администраторам команд Kato будет полезно ознакомиться с информацией о различных [типах комнат](https://kato.im/articles/ru/room-types/).
+Администраторам команд Kato будет полезно ознакомиться с информацией о различных [типах комнат](/articles/ru/general/room-types).
 
-## [Справка](https://kato.im/articles/ru/cheatsheet/)
-## [Редактирование сообщений](https://kato.im/articles/ru/edit-message/)
-## [Длинные сообщения](https://kato.im/articles/ru/rich-paste-support/)
-## [Типы комнат](https://kato.im/articles/ru/room-types/)
-## [Перетягивание комнат](https://kato.im/articles/ru/room-drag-n-drop/)
-## [Карточки пользователей](https://kato.im/articles/ru/profile-cards/)
-## [Поиск по истории всех комнат и команд](https://kato.im/articles/ru/lobal-search/)
+## [Шпаргалка](/articles/ru/general/cheatsheet)
+## [Редактирование сообщений](/articles/ru/general/editing-messages)
+## [Длинные сообщения](/articles/ru/general/long-messages)
+## [Типы комнат](/articles/ru/general/room-types)
+## [Перестановка комнат](/articles/ru/general/room-drag-n-drop)
+## [Карточки пользователей](/articles/ru/general/profile-cards)
+## [Поиск по истории всех комнат и команд](/articles/ru/general/global-search)

@@ -112,7 +112,7 @@
                         {
                             "type": "page",
                             "src": "ifttt-integration",
-                            "title": "IFTTT Integration"
+                            "title": "IFTTT Integration "
                         },
                         {
                             "type": "page",
@@ -218,7 +218,7 @@
                         {
                             "type": "page",
                             "src": "cheatsheet",
-                            "title": "Справка"
+                            "title": "Шпаргалка"
                         },
                         {
                             "type": "page",
@@ -254,6 +254,33 @@
                 },
                 {
                     "type": "category",
+                    "title": "Уведомления",
+                    "src": "notifications",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "noise-control",
+                            "title": "Борьба с информационным шумом"
+                        },
+                        {
+                            "type": "page",
+                            "src": "audio-notifications",
+                            "title": "Звуковые уведомления"
+                        },
+                        {
+                            "type": "page",
+                            "src": "auto-hide-notifications",
+                            "title": "Автоматически скрывающиеся уведомления"
+                        },
+                        {
+                            "type": "page",
+                            "src": "group-mentions",
+                            "title": "Групповые упоминания"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
                     "title": "Команды",
                     "src": "teams",
                     "entities": [
@@ -271,6 +298,109 @@
                             "type": "page",
                             "src": "claiming-domains",
                             "title": "Подключение домена"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Возможности для продвинутых пользователей",
+                    "src": "power-users",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "restricted-rooms",
+                            "title": "Приватные комнаты"
+                        },
+                        {
+                            "type": "page",
+                            "src": "markdown-syntax",
+                            "title": "Синтаксис Markdown"
+                        },
+                        {
+                            "type": "page",
+                            "src": "m-for-markdown",
+                            "title": "Режим Markdown"
+                        },
+                        {
+                            "type": "page",
+                            "src": "keyboard-control",
+                            "title": "Горячие клавиши"
+                        },
+                        {
+                            "type": "page",
+                            "src": "integrations",
+                            "title": "Интеграции"
+                        },
+                        {
+                            "type": "page",
+                            "src": "api",
+                            "title": "API"
+                        }
+                    ]
+                },
+                {
+                  "type": "category",
+                    "title": "Дополнительные возможности",
+                    "src": "fun",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "emoji-support",
+                            "title": "Поддержка Emoji"
+                        },
+                        {
+                            "type": "page",
+                            "src": "ifttt-integration",
+                            "title": "Интеграция с IFTTT "
+                        },
+                        {
+                            "type": "page",
+                            "src": "product-updates",
+                            "title": "Обновления продукта"
+                        }
+                    ]  
+                },
+                {
+                    "type": "category",
+                    "title": "Приложения",
+                    "src": "kato-apps",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "desktop",
+                            "title": "Десктоп-приложения"
+                        },
+                        {
+                            "type": "page",
+                            "src": "mobile",
+                            "title": "Мобильные приложения"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Аудио и видео",
+                    "src": "voice-video",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "video-voice-calling",
+                            "title": "Голосовые и видеозвонки"
+                        },
+                        {
+                            "type": "page",
+                            "src": "screensharing",
+                            "title": "Демонстрация экрана"
+                        },
+                        {
+                            "type": "page",
+                            "src": "google-hangouts-integration",
+                            "title": "Интеграция с Google Hangouts"
+                        },
+                        {
+                            "type": "page",
+                            "src": "uberconference-integration",
+                            "title": "Интеграция с UberConference"
                         }
                     ]
                 }
