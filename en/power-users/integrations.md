@@ -146,6 +146,11 @@ Every Kato room has a unique email address. Some tools only provide email-based 
 <a href='https://www.heroku.com/' target='_blank'>Heroku</a> is a cloud application platform. [Follow these instructions](https://app.kato.im/#/integrations/heroku) to monitor your application deployment events in Kato.
 
 ***
+## <a href="#hockeyapp" name="hockeyapp">![clip.png](https://in.kato.im/55734f546f8ad2fdc0ce06844b33632976f5bf7e2ff6a29d6e6e6a50764535/clip.png) HockeyApp</a>
+<br />
+<a href='http://hockeyapp.net' target='_blank'>HockeyApp from Microsoft</a> is a platform for distributing and managing apps during development, with support for feedback collection, crash reporting, and analytics. You can configure webhooks in your HockeyApp applications that will post notifications to a Kato room with information about new versions, new feedback, and new crash groups. To get started, [click here](https://app.kato.im/#/integrations/hockeyapp).
+
+***
 ## <a href="#hubot" name="hubot">![clip.png](https://in.kato.im/8e0024aca90ceb91828ee90421a4dac4896221f2d449a881701f507b00c70a/clip.png) Hubot</a>
 <br />
 <a href='https://github.com/kato-im/hubot-kato/' target='_blank'>Hubot</a> a robot that helps you automate things. For example, you can configure Hubot to automatically translate messages from one language to another, to deploy your website with a simple command, or to serve as weather forecaster. To get started, please visit our Hubot adapter page on GitHub: [https://github.com/kato-im/hubot-kato](https://github.com/kato-im/hubot-kato).
