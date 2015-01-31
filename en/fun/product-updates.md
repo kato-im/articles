@@ -10,9 +10,9 @@
 
 ### <a href="#January-9-2015" name="January-9-2015">January 15, 2015</a>
 - Admins of teams active two weeks in a row now get weekly email reports
-- Updated Source Sans Pro, now with Cyrillic sиpport
-- Fixd a bug preventing hook script downloads for Git and Perforce
-- Show Grooveshark thumbnails instead of previews, because autoplay
+- Updated Source Sans Pro, now with Cyrillic support
+- Fixed a bug preventing hook script downloads for Git and Perforce
+- Show Grooveshark thumbnails instead of previews, because of autoplay
 - New integration! HockeyApp
 - Support BCC in email integration
 - Fix crash in Mandrill integration
