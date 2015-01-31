@@ -8,7 +8,7 @@
 ## <a href="January-2015" name="January-2015">January 2015</a>
 ***
 
-### <a href="#January-9-2015" name="January-9-2015">January 15, 2015</a>
+### <a href="#January-9-2015" name="January-9-2015">January 9, 2015</a>
 - Admins of teams active two weeks in a row now get weekly email reports
 - Updated Source Sans Pro, now with Cyrillic support
 - Fixed a bug preventing hook script downloads for Git and Perforce
