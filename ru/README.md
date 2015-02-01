@@ -9,7 +9,7 @@
 ##  Содержание:
 
 - [Основные возможности](/articles/ru/general/)
-- [Оповещения](/articles/ru/notifications/)
+- [Уведомления](/articles/ru/notifications/)
 - [Команды](/articles/ru/teams/)
 - [Дополнительная информация](/articles/ru/fun/)
 - [Возможности для продвинутых пользователей](/articles/ru/power-users/)
