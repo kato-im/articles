@@ -18,7 +18,6 @@
 - Fix crash in Mandrill integration
 - Add "push tag" event to GitLab integration
 - Fix links in GitHub integration
-- 
 
 ## <a href="#December-2014" name="December-2014">December 2014</a>
 ***
