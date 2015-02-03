@@ -20,7 +20,7 @@ Make your own integrations by POSTing messages to Kato in JSON format. [Learn mo
 
 ## <a href="#email" name="email">![clip.png](https://s3.amazonaws.com/kato-share/46feccb283936148b37eda00196da0e0f5976d986d029c1c917f334b84d17e1/clip.png) Email</a>
 <br />
-Every Kato room has a unique email address. Some tools only provide email-based notifications (e.g. Bitbucket issues); you can use this integration to route notifications to Kato. At Kato, we use this integration to receive messages from syslog in a room called Syslog. For more info, [click here](https://app.kato.im/#/integrations/email).
+Every Kato room has a unique email address. Some tools only provide email-based notifications (e.g. Bitbucket issues); you can use this integration to route notifications to Kato. Attachments, up to 25MB each, will be posted to the room as separate messages.  At Kato, we use this integration to receive messages from syslog in a room called Syslog. For more info, [click here](https://app.kato.im/#/integrations/email).
 
 ***
 
