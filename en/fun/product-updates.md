@@ -5,11 +5,28 @@
 # <a href="2015" name="2015">2015</a>
 ***
 
+## <a href="February-2015" name="February-2015">February 2015</a>
+***
+### <a href="#February-4-2015" name="February-4-2015">February 4, 2015</a>
+- Increase upload limit from 10MB to 25MB
+- Fix [rich paste support](/articles/en/general/long-messages) for plain text message
+- Fix mentions for names such as `A@B`
+- Replaces Organization with Team in Audit Log messages
+- Set the "email me when someone joins my Kato team" to off by default
+- In invite emails, all links now point to the invitation target
+- Uncheck the [Claim domain](https://kato.im/articles/en/teams/claiming-domains) option during signup
+- Another mentions fix for two mentions of the same room in the same message
+- Fix: [CircleCi integration](/articles/en/power-users/integrations#wordpress) crashes for empty commits
+- Fix: [GitHub integration](/articles/en/power-users/integrations#github) crashes when actions have empty label names
+- Fix: [HockeyApp integration](/articles/en/power-users/integrations#hockeyapp) crashes when `reason` is empty
+- Fix: [JIRA integration](/articles/en/power-users/integrations#jira) crashes priority is undefined
+- Enterprise: replace (None) with **Kato Teams** in _Domain_ dropdown
+
 ## <a href="January-2015" name="January-2015">January 2015</a>
 ***
 
 ### <a href="#January-30-2015" name="January-30-2015">January 30, 2015</a>
-- New, [GitHub-based](https://github.com/kato-im/articles) [kato.im/articles](https://kato.im/articles). **Contributions welcome!**
+- New, [GitHub-based](https://github.com/kato-im/articles) [kato.im/articles](/articles). **Contributions welcome!**
 - Security fix: options to disable support rooms, invitation by non-admins and creating unrestricted rooms were ignored in some cases
 - Show [profile cards](articles/en/general/profile-cards) on click instead of hover.
 - Show the list of users that have access to a restricted room in the room hamburger menu  instead of a red line in the roster
