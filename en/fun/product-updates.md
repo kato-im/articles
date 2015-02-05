@@ -27,7 +27,7 @@
 - Fix issues with Cyrillic in [Wordpress integration](/articles/en/power-users/integrations#wordpress)
 - Better crash messages for [TeamCity integration](/articles/en/power-users/integration#teamcity)
 - Fix issues with browser resize when Global Search is open
-- Fix robot-name-too-long crash in the [IFTTT integration](/articles/en/power-users/integrations#ifttt)
+- Fix crash in the [IFTTT integration](/articles/en/power-users/integrations#ifttt) when robot name is too long
 - Fix for the extra `)` in [Bitbucket](/articles/en/power-users/integrations#bitbucket) and [GitLab](/articles/en/power-users/integrations#gitlab) integrations (this took way too long, sorry about that)
 - Unrestricted rooms appeared as restricted in [Audit Log](/articles/en/teams/security-audit-log)
 - Fix crash on empty description in the [Balanced](/articles/en/power-users/integrations#balanced) integration
