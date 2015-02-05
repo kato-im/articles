@@ -27,7 +27,7 @@
 ### <a href="#January-30-2015" name="January-30-2015">January 30, 2015</a>
 - New, [GitHub-based](https://github.com/kato-im/articles) [kato.im/articles](/articles). **Contributions welcome!**
 - Security fix: options to disable support rooms, invitation by non-admins and creating unrestricted rooms were ignored in some cases
-- Show [profile cards](articles/en/general/profile-cards) on click instead of hover.
+- Show [profile cards](/articles/en/general/profile-cards) on click instead of hover.
 - Show the list of users that have access to a restricted room in the room hamburger menu  instead of a red line in the roster
 - Organizations are now Teams
 - Change `Shift+o` [keyboard control](/articles/en/power-users/keyboard-control) shortcut to `Shift+t` for quick access to the Teams section
