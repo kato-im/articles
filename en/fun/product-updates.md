@@ -32,7 +32,7 @@
 - Unrestricted rooms appeared as restricted in [Audit Log](/articles/en/teams/security-audit-log)
 - Fix crash on empty description in the [Balanced](/articles/en/power-users/integrations#balanced) integration
 - Do not intercept `Shift+Esc` in Chrome on Linux and Windows. This way the task manager can still be opened.
-- Add `[beta]` suffix for the Kato beta site
+- Add `[beta]` suffix for the [Kato beta site](https://beta-app.kato.im)
 
 ### <a href="#January-9-2015" name="January-9-2015">January 9, 2015</a>
 - Admins of teams active two weeks in a row now get weekly email reports
