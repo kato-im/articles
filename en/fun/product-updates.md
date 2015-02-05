@@ -14,8 +14,7 @@
 - Replaces Organization with Team in Audit Log messages
 - Set the "email me when someone joins my Kato team" to off by default
 - In invite emails, all links now point to the invitation target
-- Uncheck the [Claim domain](https://kato.im/articles/en/teams/claiming-domains) option during signup
-- Another mentions fix for two mentions of the same room in the same message
+- Uncheck the [Claim domain](https://kato.im/articles/en/teams/claiming-domains) option during signup by default
 - Fix: [CircleCi integration](/articles/en/power-users/integrations#wordpress) crashes for empty commits
 - Fix: [GitHub integration](/articles/en/power-users/integrations#github) crashes when actions have empty label names
 - Fix: [HockeyApp integration](/articles/en/power-users/integrations#hockeyapp) crashes when `reason` is empty
