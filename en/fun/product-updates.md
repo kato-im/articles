@@ -8,6 +8,32 @@
 ## <a href="January-2015" name="January-2015">January 2015</a>
 ***
 
+### <a href="#January-9-2015" name="January-15-2015">January 15, 2015</a>
+- New, [GitHub-based](https://github.com/kato-im/articles) [kato.im/articles](https://kato.im/articles). **Contributions welcome!**
+- Security fix: options to disable support rooms, invitation by non-admins and creating unrestricted rooms were ignored in some cases
+- Show [profile cards](articles/en/general/profile-cards) on click instead of hover.
+- Show the list of users that have access to a restricted room in the room hamburger menu  instead of a red line in the roster
+- Organizations are now Teams
+- Change `Shift+o` [keyboard control](/articles/en/power-users/keyboard-control) shortcut to `Shift+t` for quick access to the Teams section
+- Allow users without cameras to initiate and join calls
+- Improve roster performance for teams with thousands for users and rooms
+- Mark the Kato support room as such in weekly usage report emails 
+- Add service name and room id to integrations crash info message
+- Preview for monosnap
+- Mark hidden messages as such in downloaded room history
+- Fix mention autocomplete for user/room names with spaces
+- Fix some options in profile cards that weren't working
+- Fix jumpiness in Google Drive integration warning
+- Fix issues with Cyrillic in [Wordpress integration](/articles/en/power-users/integrations#wordpress)
+- Better crash messages for [TeamCity integration](/articles/en/power-users/integration#teamcity)
+- Fix issues with browser resize when Global Search is open
+- Fix robot-name-too-long crash in the [IFTTT integration](/articles/en/power-users/integrations#ifttt)
+- Fix for the extra `)` in [Bitbucket](/articles/en/power-users/integrations#bitbucket) and [GitLab](/articles/en/power-users/integrations#gitlab) integrations (this took way too long, sorry about that)
+- Unrestricted rooms appeared as restricted in [Audit Log](/articles/en/teams/security-audit-log)
+- Fix crash on empty description in the [Balanced](/articles/en/power-users/integrations#balanced) integration
+- Do not intercept `Shift+Esc` in Chrome on Linux and Windows. This way the task manager can still be opened.
+- Add `[beta]` suffix for the Kato beta site
+
 ### <a href="#January-9-2015" name="January-9-2015">January 9, 2015</a>
 - Admins of teams active two weeks in a row now get weekly email reports
 - Updated Source Sans Pro, now with Cyrillic support
