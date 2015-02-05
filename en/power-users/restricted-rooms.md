@@ -43,9 +43,9 @@ An admin can create a restricted room and grant others access. **The admin will 
 
 Changes to restricted room access are reflected in [security audit log](/articles/en/power-users/security-audit-log/) (if it's enabled).
 
-All members with access to a restricted room will appear at the top of the roster and have a maroon marker next to their name.
+All members with access to a restricted room will appear in the room hamburger menu.
 
-![clip.png](https://s3.amazonaws.com/kato-share/7a7e61188b15aafda81ca88a9d63210e4662cdd15040d5e1624cfa8610ab372/clip.png)
+![clip.png](https://in.kato.im/dfaeb5a9257c96fdd65aa43e388d929ac4311dd0fd558d03c6e8970cfc8a0377/clip.png)
 
 ### Who Sees Whom?
 All members with access to All Unestricted Rooms will see each other and can talk to each other in private 1-1s (unless 1-1s are disabled in team policy).
