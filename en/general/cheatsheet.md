@@ -116,7 +116,7 @@ You can determine how much attention you want to give a room by using its Noise 
 
 (This doesn't apply to [1:1 rooms](room-types) and [@mentions](#mentions)—you always follow those.)
 
-That's not all—you can set your own [default noise levels](https://app.kato.im/#/account/noise) by room type, and admins can set default levels for the entire team. For more info, see [Noise Control](noise-control).
+That's not all—you can set your own [default noise levels](https://app.kato.im/#/account/noise) by room type, and admins can set default levels for the entire team. For more info, see [Noise Control](/articles/en/notifications/noise-control).
 
 ********************************************************************************
 ## <a href="#email-notifications" name="email-notifications">Email Notifications and Replying by Email</a>
