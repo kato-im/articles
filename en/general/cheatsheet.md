@@ -18,14 +18,14 @@ How to tell someone's online status:
 ********************************************************************************
 ## <a href="#video-calling" name="video-calling">Video Calling & Screensharing</a>
 
-Team admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in [team settings](https://app.kato.im/#/membership/_/kato-labs). For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](/articles/en/voice-video/video-voice-calling) and [Screensharing](/articles/en/voice-video/screensharing).
+Team admins can enable **video calling**—which includes **voice calling** and **screensharing**—from the **Kato Labs** tab in team settings: `https://app.kato.im/#/membership/_/kato-labs`. For now, these are experimental features. Video/voice calling is supported in Chrome, Firefox, and Opera. Screensharing is supported in Chrome and Firefox, with some extra steps to enable it. For more info, see [Video/Voice Calling](/articles/en/voice-video/video-voice-calling) and [Screensharing](/articles/en/voice-video/screensharing).
 
 *(We also integrate with [Google Hangouts](/articles/en/voice-video/google-hangouts-integration) and [UberConference](/articles/en/voice-video/uberconference-integration). Just saying.)*
 
 ********************************************************************************
 ## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
 
-You have **two minutes** to edit your last message. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](edit-message).
+You have **two minutes** to edit your last message in each particular room. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](/articles/en/general/edit-message).
 
 ********************************************************************************
 ## <a href="#message-cards" name="message-cards">Message Cards</a>
@@ -34,7 +34,7 @@ When you hover a message, you'll see some bars on the left. Click the bars to se
 
 ![clip.png](https://in.kato.im/e766111232fe8e444c3a385f11b31cdd98e195314072f23c45013a497e568db/clip.png)
 
-It's a little popup with the time the message was sent, and some handy commands, including [message formatting](#message-formatting) options. It's like our [profile cards](profile-cards), but for messages. (Hover any item for a tooltip.)
+It's a little popup with the time the message was sent, and some handy commands, including [message formatting](#message-formatting) options. It's like our [profile cards](/articles/en/general/profile-cards), but for messages. (Hover any item for a tooltip.)
 
 ********************************************************************************
 ## <a href="#room-layout" name="room-layout">Room Layout</a>
@@ -44,23 +44,23 @@ Kato lets you be in several conversations, or "rooms", at once, in the same wind
 Working in five rooms:
 ![clip.png](https://s3.amazonaws.com/kato-share/fb6e15f9d756954d2707fd9d030bb6b6cdc57017d68a9227ac2b0067479f1de/clip.png)
 
-Rooms open on the right, and auto-close as needed on the left. You can adjust how many open rooms you want at once in your account options: ([https://app.kato.im/#/account/options](https://app.kato.im/#/account/options))
+Rooms open on the right, and auto-close as needed on the left. You can adjust how many open rooms you want at once in your account options: `https://app.kato.im/#/account/options`.
 
 Once the limit is reached, rooms shift to the left, with the left-most room dropping off the screen.
 
 To keep a room open, you can <a href="#pins" name="pins">pin</a> it.
 
-To keep your current layout (number of open rooms), while opening another room, hold down the `Alt` key when:
+To keep your current layout (number of open rooms), while opening another room, hold down the {alt} key when:
 
 - Clicking on a room in the room list (roster)
-- Hitting `Enter` after activating the roster filter and arriving at a single result
+- Hitting the {return} key after activating the roster filter and arriving at a single result
 
 ********************************************************************************
 ## <a href="#pins" name="pins">Pinning Rooms</a>
 
 Every room has a pin icon: ![clip.png](https://s3.amazonaws.com/kato-share/983cb0ab8c5abbd84e8cef40be2e8b36e754001c27da1a04d01aebb41af6fb80/clip.png). A pinned room looks like this: ![clip.png](https://s3.amazonaws.com/kato-share/86bb058f13991cc218aeeb5e0c1c875b08e8ea4867832586cb2768fb2f02d0d/clip.png).
 
-When Kato needs to close a room—usually to open another room—pinned rooms are closed last. In this example, if a new room is opened, "Dev" would stay open and "UX" would close automatically.
+When Kato needs to close a room—usually to open another room—pinned rooms are closed last. In this example, if a new room is opened, _Dev_ would stay open and _UX_ would close automatically.
 
 ![clip.png](https://s3.amazonaws.com/kato-share/9a4d5decf3d88d1dc23e2b4228289015ea3414b1a62450c478536c13c02c1c/clip.png)
 
@@ -69,28 +69,30 @@ Note: If all rooms are pinned, pinning has no effect.
 ********************************************************************************
 ## <a href="#unrestricted-rooms" name="unrestricted-rooms">Unrestricted Rooms</a>
 
-_Rooms_ are places for persistent, searchable group conversations. Rooms are usually named according to the general topic of discussion, like **Design** or **Marketing**.
+**Rooms** are places for persistent, searchable group conversations. Rooms are usually named according to the general topic of discussion, like _Design_, _Monday Meeting_, or _Fiesta 2:20 PM_.
 
-When [adding a room](https://app.kato.im/#/rooms/add), by default it is visible to all existing and future members of your team&#8212;there is no explicit room membership. Such rooms are called _unrestricted_.
+When adding a room `https://app.kato.im/#/rooms/add`, by default it is visible to all existing and future members of your team&#8212;there is no explicit room membership. Such rooms are called **unrestricted**.
 
 ********************************************************************************
 ## <a href="#restricted-rooms" name="restricted-rooms">Restricted Rooms</a>
 
-Rooms only visible to certain members (or outsiders) are called _restricted_.
+Rooms only visible to certain members are called __restricted__.
 
-When [adding a room](https://app.kato.im/#/rooms/add), enable the **Restricted** switch to make it restricted: ![clip.png](https://s3.amazonaws.com/kato-share/79ac31e7cf95ba981c61247ee1a240f0744bb7061c5496172841e6ad4f87419f/clip.png)
+Note that the access to one or more restricted rooms could be granted instead of the default access [All Unrestricted Rooms]. Such members are usually outsiders (consultants, freelancers, contractors) and are called **restricted members**.  
+
+When adding a room `https://app.kato.im/#/rooms/add`, enable the **Restricted** switch to make it restricted: ![clip.png](https://s3.amazonaws.com/kato-share/79ac31e7cf95ba981c61247ee1a240f0744bb7061c5496172841e6ad4f87419f/clip.png)
 
 ********************************************************************************
 ## <a href="#restricted-members" name="restricted-members">Restricted Members</a>
 
-Any member of your team that does not have access to **All Unrestricted Rooms** is called a _restricted member_. Restricted members only have access to specific rooms and can only see members who have access to the same rooms.
+Any member of your team that does not have access to [All Unrestricted Rooms] is called a **restricted member**. Restricted members only have access to specific restricted rooms and can only see members who have access to the same rooms.
 
 Restricted rooms are useful for sensitive information, like HR and Finance, and for working with outside partners&#8212;lawyers, bookkeepers, contractors, investors, and so on.
 
 ********************************************************************************
 ## <a href="#mentions" name="mentions">Mentions</a>
 
-To get someone's attention, you can _mention_ them, like this:
+To get someone's attention, you can **mention** them, like this:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/c7bff9fce795b1534a26f80fe2f8922edca460cc556cc6228f719a8cc8a29330/clip.png)
 
@@ -103,6 +105,10 @@ To mention a group of people, you can mention the name of a room. Those who foll
 
 ![clip.png](https://s3.amazonaws.com/kato-share/7946988e809cafe020ec78ee1148dcd48d76172b58872d35239867cfbd471d67/clip.png)
 
+For example, your team can have the room named _QA_, with all members of the QA group following it. If you would like to be sure that people from QA are aware about a particular bug disussion in your other room named _iPhone App Dev_, you mention _QA_ room in a message you send in the _iPhone App Dev_ room.
+
+As a result, every member followinf the _QA_ room, will see the red unread pill for the _iPhone App Dev_ room.
+
 ********************************************************************************
 ## <a href="#noise" name="noise">Noise Control</a>
 
@@ -114,24 +120,23 @@ You can determine how much attention you want to give a room by using its Noise 
 
 <img src="https://s3.amazonaws.com/kato-share/5d58f5ead3667f997dacf0798d1df99ba6071839ff8c2f47eafcf125f19dec/clip.png" /> **Ignore** means you won't get unread message counts or notifications for that room.
 
-(This doesn't apply to [1:1 rooms](room-types) and [@mentions](#mentions)—you always follow those.)
+(This doesn't apply to [1:1 rooms](/articles/en/general/room-types) and [@mentions](#mentions)—you always follow those.)
 
-That's not all—you can set your own [default noise levels](https://app.kato.im/#/account/noise) by room type, and admins can set default levels for the entire team. For more info, see [Noise Control](/articles/en/notifications/noise-control).
+That's not all—you can set your own default noise levels `https://app.kato.im/#/account/noise` by room type, and admins can set default levels for the entire team. For more info, see [Noise Control](/articles/en/notifications/noise-control).
 
 ********************************************************************************
 ## <a href="#email-notifications" name="email-notifications">Email Notifications and Replying by Email</a>
 
 By default, unless you read or respond a message within a certain amount of time, you will get an email with a digest that includes the unread message. This is only true for messages in 1:1s and for [mentions](#mentions).
 
-The digests can be turned off here: [https://app.kato.im/#/account/notifications](https://app.kato.im/#/account/notifications).
+The digests can be turned off here: `https://app.kato.im/#/account/notifications`.
 
 You can reply to a notification email&#8212;your reply will be posted back to the Kato room where the notification originated.
 
 ********************************************************************************
 ## <a href="#sound-notifications" name="sound-notifications">Sound Notifications</a>
 
-You can enable audio notifications for private messages and mentions: 
-[https://app.kato.im/#/account/notifications/audio-notifications](https://app.kato.im/#/account/notifications/audio-notifications).
+You can enable audio notifications for private messages and mentions: `https://app.kato.im/#/account/notifications/audio-notifications`.
 
 ********************************************************************************
 ## <a href="#file-sharing" name="file-sharing">Sending Files and Images</a>
@@ -165,9 +170,9 @@ Access URL to your Dropbox file will appear in message input.
 
 Keyboard Control lets you keep your hands on the keyboard while you use Kato.
 
-Keyboard Control is off by default. Before using it, you must turn it on in account options: [https://app.kato.im/#/account/options/keyboard-control](/#/account/options/keyboard-control)
+Keyboard Control is off by default. Before using it, you must turn it on in account options: `https://app.kato.im/#/account/options/keyboard-control`.
 
-Most commands are single characters entered in "command mode" (similar to [vi/vim](http://en.wikipedia.org/wiki/Vi)). To switch to command mode, press **Escape**. For a summary of commands, press **?** (question mark) or go to [https://app.kato.im/#/help/keyboard-control](https://app.kato.im/#/help/keyboard-control)
+Most commands are single characters entered in "command mode" similar to [vi](http://en.wikipedia.org/wiki/vi) and  [Vim](http://en.wikipedia.org/wiki/Vim). To switch to command mode, press the {escape} key. For a summary of commands, press the {?} key (question mark) or go to `https://app.kato.im/#/help/keyboard-control`.
 
 For more info, see [Keyboard Control](/articles/en/power-users/keyboard-control).
 
@@ -194,7 +199,7 @@ While a room is "off the record" (OTR), messages posted to that room aren't stor
 ![clip](https://s3.amazonaws.com/kato-share/440099dbe23a4b03e0efcb05c2a23f5dec19bfab9abdf0e14e71c8673af6aa20/clip.png)
 
 Caveats:
-<li>OTR messages *are visible* to anyone who has that room open at the time.</li>
+<li>OTR messages **are visible** to anyone who has that room open at the time.</li>
 <li>Once a user closes a room or reloads the web page, any OTR messages in that room are lost to that user.</li>
 <li>OTR isn't as secure as peer-to-peer encryption. Don't use it for extremely sensitive information.</li>
 <li>Uploaded files are stored separately from messages. So a file uploaded while a room is OTR remains accessible via its URL, even though the URL itself might no longer be visible in the message history.</li>
@@ -209,19 +214,19 @@ Caveats:
 
 In Kato, you can interact with rooms and people from different teams at the same time.
 
-In this case, the user is a member of two teams: **Hunter Inc.** and **andrei's team**. 
+In this case, the user is a member of two teams: _Hunter Inc._ and _andrei's team_. 
 
-In the image on the left, only **Hunter Inc.** is expanded. The right image shows both teams expanded&#8212;this means a union of people and rooms from both teams appear in the roster.
+In the image on the left, only _Hunter Inc._ is expanded. The right image shows both teams expanded&#8212;this means a union of people and rooms from both teams appear in the roster.
 
 ![clip](https://s3.amazonaws.com/kato-share/da0c1134fdd7fd68a89d87a8155b226bad5ebb31c4c0e93b5cb48625ad7c8/Untitled%20drawing%20%282%29.png)
 
-In the "multi-team" view each room gets an team "affinity token"&#8212;something you can use to identify the parent team. In the image above, each team has a **PR** room, but the affinity tokens provide a way to distinguish the two.
+In the "multi-team" view each room gets an team "affinity token"&#8212;something you can use to identify the parent team. In the image above, each team has a _PR_ room, but the affinity tokens provide a way to distinguish the two.
 
 Note that you can be connected to the same person via multiple teams. This is why people don't have explicit team affinity. If 1:1 are disabled in one such team and enabled in another, 1:1 is allowed. 
 
-In the scenario above, **Peter** is a members of both teams.
+In the scenario above, _Peter_ is a members of both teams.
 
-To verify this, click on **More** in 1:1 room options:
+To verify this, click on the **More** option in 1:1 room menu:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/1143494c2ff1d4e0621793886dfb00df534c9b67a4e7ef53dec5446c863854/clip.png)
 
@@ -256,13 +261,13 @@ For more info, see [Introducing Kato Roll](https://kato.im/articles/introducing-
 ## <a href="#message-formatting" name="message-formatting">Message Formatting</a>
 ### <a href="#markdown" name="markdown">Markdown</a>
 
-Markdown is a simple way to add formatting to messages. For more info, see [Markdown Syntax](https://kato.im/articles/markdown-syntax/).
+Markdown is a simple way to add formatting to messages. For more info, see [Markdown Syntax](/articles/en/power-users/markdown-syntax/).
 
 To enter a message in markdown mode, choose **Markdown** from message options:
 
 ![https://s3.amazonaws.com/kato-share/6b884e72b57fc5801c1a2dc0e753329f52b25a0d6528b7c376d0b15770faa4c/clip.png](https://s3.amazonaws.com/kato-share/6b884e72b57fc5801c1a2dc0e753329f52b25a0d6528b7c376d0b15770faa4c/clip.png)
 
-To use markdown by default, enable the option in your account settings: [https://app.kato.im/#/account/options/markdown-default](https://app.kato.im/#/account/options/markdown-default).
+To use markdown by default, enable the option in your account settings: `https://app.kato.im/#/account/options/markdown-default`.
 
 Example:
 
@@ -271,7 +276,7 @@ Example:
 ********************************************************************************
 ### <a href="#code" name="code">Code Formatting</a>
 
-To paste code and preserve formatting and syntax highlighting, you can choose the **Code** option in message options:
+To paste code and preserve formatting and syntax highlighting, you can choose the **Code** option in message menu:
 
 ![clip](https://s3.amazonaws.com/kato-share/8eb25a9cb5dfee4fea486183effd35295b2f14d3d8b958888685db8717d22c4f/Screenshot%20from%202014-07-06%2019%3A49%3A44.png)
 
