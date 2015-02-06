@@ -174,7 +174,7 @@ For more info, see [Keyboard Control](/articles/en/power-users/keyboard-control)
 ********************************************************************************
 ## <a href="#integrations" name="integrations">Integrations</a>
 
-You can integrate Kato with dozens of tools and services (Zendesk, Shopify, GitHub, Wordpress, etc), as well as create your own custom integrations. For more info, see [Integrations](integrations).
+You can integrate Kato with dozens of tools and services (Zendesk, Shopify, GitHub, Wordpress, etc), as well as create your own custom integrations. For more info, see [Integrations](/articles/en/power-users/integrations).
 
 <!--
 ********************************************************************************
