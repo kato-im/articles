@@ -1,13 +1,15 @@
 ***
 
-В этом разделе руководства описаны базовые возможности сервиса Kato. Рекомендуем начать работу с мессенджером с прочтения раздела [Шпаргалка](/articles/ru/general/cheatsheet), в котором рассказывается о наиболее важных функциях и особенностях сервиса.
+В этом разделе описаны базовые возможности сервиса Kato. 
 
-Администраторам команд Kato будет полезно ознакомиться с информацией о различных [типах комнат](/articles/ru/general/room-types).
+Рекомендуем сначала прочитать раздел [Шпаргалка](/articles/ru/general/cheatsheet), в котором рассказывается о наиболее важных функциях и особенностях сервиса.
+
+Также имеет смысл внимательно прочитать раздел о различных [типах комнат](/articles/ru/general/room-types).
 
 ## [Шпаргалка](/articles/ru/general/cheatsheet)
 ## [Редактирование сообщений](/articles/ru/general/editing-messages)
 ## [Длинные сообщения](/articles/ru/general/long-messages)
 ## [Типы комнат](/articles/ru/general/room-types)
 ## [Перестановка комнат](/articles/ru/general/room-drag-n-drop)
-## [Карточки пользователей](/articles/ru/general/profile-cards)
-## [Поиск по истории всех комнат и команд](/articles/ru/general/global-search)
+## [Карточка пользователя](/articles/ru/general/profile-cards)
+## [Глобальный поиск](/articles/ru/general/global-search)
