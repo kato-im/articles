@@ -34,7 +34,7 @@ If you set the noise level for a specific room, it will be shown in _italic_: ![
 You can set a default noise level for each [room type](/articles/en/general/room-types) in your account settings. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/account/noise*
 
 ## <a href="#noise-team" name="noise-team">Team-Level Default Noise Settings</a>
-Admins can set the default noise level for each room type, across the team. Your default noise levels will override those. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/membership/_/noise*
+Admins can set the default noise level for each room type, across the team. Your default noise levels will override those. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: `https://app.kato.im/#/membership/_/noise`
 
 ## <a href="#noise-room" name="noise-room">Room-Level Default Noise Settings</a>
 Admins can also set the default noise level for a specific room, across the team. Your default noise levels won't override that, but your own setting for that specific room will—so you win.
