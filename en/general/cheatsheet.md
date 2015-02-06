@@ -169,7 +169,7 @@ Keyboard Control is off by default. Before using it, you must turn it on in acco
 
 Most commands are single characters entered in "command mode" (similar to [vi/vim](http://en.wikipedia.org/wiki/Vi)). To switch to command mode, press **Escape**. For a summary of commands, press **?** (question mark) or go to [https://app.kato.im/#/help/keyboard-control](https://app.kato.im/#/help/keyboard-control)
 
-For more info, see [Keyboard Control](keyboard-control).
+For more info, see [Keyboard Control](/articles/en/power-users/keyboard-control).
 
 ********************************************************************************
 ## <a href="#integrations" name="integrations">Integrations</a>
