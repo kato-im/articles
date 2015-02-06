@@ -52,7 +52,7 @@
 | **ROOMS** | | |
 | Open a room | https://app.kato.im/#/rooms/_ | member |
 | Room-specific integrations | https://app.kato.im/#/rooms/_/integrations | member |
-| Room-specific integration |  https://app.kato.im/#/rooms/_/integrations/`<name>` | 
+| Room-specific integration |  https://app.kato.im/#/rooms/_/integrations/ `<name>` | 
 | Open support room | https://app.kato.im/#/rooms/support | member |
 | Add room | https://app.kato.im/#/rooms/add | depends on policy |
 | &#8212; | &#8212; | &#8212; |
