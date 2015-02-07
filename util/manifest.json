@@ -352,11 +352,6 @@
                             "type": "page",
                             "src": "ifttt-integration",
                             "title": "Интеграция с IFTTT "
-                        },
-                        {
-                            "type": "page",
-                            "src": "product-updates",
-                            "title": "Обновления продукта"
                         }
                     ]  
                 },
