@@ -153,14 +153,20 @@ and Blueprint http://www.blueprintcss.org/
   border-color: #F1A200;
 }
 
+.site-content .content-area main article.category-kato-apps header h1,
+.site-content .widget-area ul li.category-kato-apps h2 a, .site-content .widget-area ul li.category-kato-apps .current a, .site-content .widget-area ul li.category-kato-apps h2:before, .site-content .widget-area ul li.category-kato-apps .current:before  {
+  color: #1545CC;
+  border-color: #1545CC;
+}
+
 .site-content .content-area main article.category-fun header h1,
 .site-content .widget-area ul li.category-fun h2 a, .site-content .widget-area ul li.category-fun .current a, .site-content .widget-area ul li.category-fun h2:before, .site-content .widget-area ul li.category-fun .current:before  {
   color: #CE1A00;
   border-color: #CE1A00;
 }
 
-.site-content .content-area main article.category-kato-labs header h1,
-.site-content .widget-area ul li.category-kato-labs h2 a, .site-content .widget-area ul li.category-kato-labs .current a, .site-content .widget-area ul li.category-kato-labs h2:before, .site-content .widget-area ul li.category-kato-labs .current:before  {
+.site-content .content-area main article.category-voice-video header h1,
+.site-content .widget-area ul li.category-voice-video h2 a, .site-content .widget-area ul li.category-voice-video .current a, .site-content .widget-area ul li.category-voice-video h2:before, .site-content .widget-area ul li.category-voice-video .current:before  {
   color: #00CCC7;
   border-color: #00CCC7;
 }
@@ -561,6 +567,15 @@ var {
     font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
+code
+{
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
 abbr,
 acronym {
     border-bottom: 1px dotted #666;
@@ -781,6 +796,30 @@ a:hover,
 a:focus,
 a:active {
     color: #0073A0;
+}
+
+h2 a:hover,
+h2 a:focus,
+h2 a:active {
+    border-left: 5px solid #0073A0;
+    margin-left: -7px;
+    padding: 2px;
+}
+
+h3 a:hover,
+h3 a:focus,
+h3 a:active {
+    border-left: 3px solid #0073A0;
+    margin-left: -5px;
+    padding: 2px;
+}
+
+.category h2 a:hover,
+.category h2 a:focus,
+.category h2 a:active {
+    border-left: none;
+    margin-left: 0;
+    padding: 0;
 }
 
 /*--------------------------------------------------------------

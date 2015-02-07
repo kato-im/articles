@@ -1,35 +1,39 @@
+***
+
 ![clip.png](https://s3.amazonaws.com/kato-share/eccad637cc6e36c539b3bfa4bad3f9295f09adebb58011f05fffbd8c4b3a888a/clip.png)
 
-## Synopsis
-Good news! Today we are delighted to introduce group mentions in [Kato](https://kato.im).
+## Вкратце о групповых упоминаниях
+Если пользователь следит за обновлениями в комнате под названием **Development**, и кто-то упоминает **@Development** в любой другой комнате (или в самой комнате Development), сервис сообщbn об этом (в виде десктоп- и push-уведомления, а также email-дайджеста).
 
-If you [follow](https://kato.im/articles/organization-model-and-noise-management-updates/) the **Development** room, and someone mentions **@Development** in any other room (or in **Development** room itself), you’ll get a ping (red counter, desktop and push notification, digest email).
+Если пользователю нужно привлечь внимание дизайнера, и он знает, что дизайнеры общаются в комнате **Design**, то чтобы дать им знать о себе, ему просто нужно упомянуть эту комнату @Design.
 
-If you need to get a designer’s attention, and you know that designers talk in **Design**, mention **@Design**.
+Сложность тут состоит в том, что не все дизайнеры могут захотеть следить за обновлениями в комнате Design, а просматривать уведомления по каждому сообщению из этой комнаты им может быть неудобно. Так как же дизайнерам общаться в комнате Design или нескольких комнатах (для отдельного проекта/платформы/и т.д.) и при этом получать групповые уведомления? Решение состоит в том, чтобы создать другую комнату, скажем, комнату **Designers**, которая не будет использоваться для публикации туда сообщений. Все дизайнеры просто договорятся следить за обновлениями в этой комнате, так, чтобы по появлению сообщения с упоминанием **@Designers** вся целевая аудитория сообщения узнала о нем. 
 
-## The Full Story
-#### The Join/Leave Model
-Some of the most challenging aspects of designing a collaboration product revolve around noise management. The goal is to deliver information (a) at the right time and (b) with minimal obnoxia.
+При этом необходимо учитывать, что оповещение придет не в комнату **Designers**, а в ту комнату, где было опубликовано сообщение.
 
-To address this requirement, most real-time collaboration products employ what we call the Join/Leave Model, which uses the metaphor of entering and leaving chat rooms as the basis for noise control. In this model, it’s common to see messages similar to these:
+В этом и состоит прелесть модели отслеживания обновлений: пользователь может самостоятельно выбрать, что он хочет отслеживат, и получайть уведомления в любой комнате, где была упомянута заданная тема, даже если пользователь обычно игнорирует сообщения из этой комнаты.
 
-_Bob joined Kitchen_
-_Alice left Kitchen_
+## Подробнее о групповых упоминаниях
+#### Модель «Присоединиться к группе/Покинуть группу»
+Один из наиболее сложных аспектов разработки мессенджеров для командной работы связан с вопросами борьбы с информационным шумом. Цель состоит в том, чтобы предоставить пользователю информацию (а) в нужное время (б) с минимальным для него напряжением.
 
-After Alice leaves, she will no longer be bothered with things happening in Kitchen.
+Чтобы обеспечить эти требования, большинство мессенджеров для командной работы в реальном времени используют то, что мы называем моделью «Присоединиться к группе/Покинуть группу», которая берет метафору входа и выхода из чата за основу контроля над шумом. В этой модели часто можно увидеть сообщения вроде:
 
-Therefore, in theory, the set of all members who have joined a room defines a group of people who care about a particular topic. This makes it possible to alert the entire group to something important - this is called a “group mention”.
+_Петя зашел на Кухню_
+_Оля покинула кухни_
 
-Mentioning is a common and necessary feature in collaboration. Say, if you need  Alice’s opinion on something in the Kitchen room, you can type “Check this out, @Alice” and she’ll get some sort of a ping (sound, desktop notification, email, or mobile push notification).
+После того, как Оля покинет Кухню (то есть комнату), она перестанет получать информацию о том, что там происходит.
 
-But what happens if Alice is not in the Kitchen room, because she left? First, you have to invite her back to the room, and only then can you mention her.
+Поэтому в теории все те, кто присоединился к комнате, представляют собой группу людей, которым важна некоторая тема. Благодаря этому появляется возможность оповестить о чем-то важном всю группу целиком – это называется «групповое упоминание».
 
-And how do you alert the entire team, or the entire company? You’d need a room that nobody can leave. How do you mention a group in a room that was not joined by all members of that group? Oh boy!
+Упоминание – общепринятая и важная практика совместной работы. Скажем, если кому-то нужно узнать мнение Оли по поводу чего-то в комнате «Кухня», то этот кто-то может написать «@Оля, обрати внимание», и она получит оповещение (звуковое или десктоп-уведомление, письмо на электронную почту или push-уведомление на мобильном устройстве).
 
-#### The Follow Model
-After experimenting with the Join/Leave Model in the early version of Kato, we decided to try to avoid these dilemmas by building noise management without explicit room membership. ([Restricted rooms](https://kato.im/articles/introducing-restricted-rooms/) are an exception.)
+Но что произойдет, если Оля не будет на Кухне, потому что она покинула эту Комнату? Во-первых, ее придется пригласить обратно, и только после этого станет возможно использование упоминаний.
 
-All full members of a Kato organization are members of all rooms.  Noise is controlled by a mechanism we ended up calling the Follow Model: the ability to easily mark rooms as important, somewhat important, or irrelevant. It’s similar to following things on Twitter. The big difference from the Join/Leave model is that a mention of @Alice in a room that Alice ignores will still result in a notification.
+А как сделать оповещение на всю команду или на всю компанию? В таком случае придется создать комнату, которую никто не сможет покидать. Как  упомянуть всю группу целиком, если в комнате, где это нужно сделать, нет кого-то из группы? Непонятно!
 
-Because it took us a while to formalize the Follow Model, we kept punting group mentions - a hotly requested feature. With the Follow Model [in place](https://kato.im/articles/organization-model-and-noise-management-updates/), group mentions naturally followed. Enjoy!
+#### Модель отслеживания обновлений
+После экспериментов с моделью «Присоединиться к группе/Покинуть группу» в ранних версиях Kato мы решили попробовать абстрагироваться от этой дилеммы и создать формат управления шумом, не связанный с необходимостью присоединяться к комнатам (Исключение: [приватные комнаты](/articles/ru/general/room-types)). 
+
+Все члены команды в Kato имеют доступ ко всем комнатам с неограниченным доступом. Шум контролируется механизмом, который мы в итоге назвали «Модель отслеживания обновлений»: он обеспечивает возможность легко размечать rомнаты как «важные», «не очень важные» и «неважные». Похоже на модель подписки в Twitter. Отличие от модели «Присоединиться к группе/Покинуть группу» состоит в том, что если кто-то оставит Оле упоминание (@Оля) в комнате, которую она игнорирует, она все равно получит оповещение о сообщении.
 

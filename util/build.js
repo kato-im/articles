@@ -46,8 +46,10 @@ var traverseManifest = function (entity, dirpath, home, language, category) {
         var path;
         if (entity.type === 'language') {
             path = dirpath.slice(1).join('/');
-        } else {
+        } else if (entity.type === 'category') {
             path = dirpath.slice(1, -1).join('/');
+        } else {
+            path = dirpath.slice(1).join('/');
         }
         if (path) {
             path += '/';

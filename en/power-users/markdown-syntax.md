@@ -1,3 +1,5 @@
+***
+
 Markdown is a lightweight markup language invented by John Gruber eight years ago. We've seen something similar in Wikipedia and a few other places, but Markdown took hold.
 
 See [this post](/articles/en/power-users/m-for-markdown) for a detailed discussion of Markdown in [Kato](http://kato.im).

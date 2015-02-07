@@ -1,8 +1,10 @@
+***
+
 Sometimes you want to send a very long message, but you don't want it to overwhelm the chat history.
 
 So if you send a message with more than 2000 characters, Kato will put the whole thing into a new document, and show the first part of the message along with a link to the document.
 
-This works for normal text entry, and also for [Markdown](cheatsheet/#markdown) and [Code](cheatsheet/#code) formatting. [Editing](cheatsheet/#typos) long messages also works normally.
+This works for normal text entry, and also for [Markdown](/articles/en/general/cheatsheet#markdown) and [Code](/articles/en/general/cheatsheet#code) formatting. [Editing](/articles/en/general/cheatsheet#typos) long messages also works normally.
 
 ### Plain Text
 For example, pasting the source of an email from Salman Khan at the [Khan Academy](https://www.khanacademy.org/) into Kato results in this:
@@ -15,7 +17,7 @@ Clicking the link opens the message in a new browser:
 
 ### Markdown
 
-Pasting a large chunk of [Markdown](cheatsheet/#markdown) (if the chat room has Markdown turned on), shows this:
+Pasting a large chunk of [Markdown](/articles/en/general/cheatsheet#markdown) (if the chat room has Markdown turned on), shows this:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/9a13d8aead0c15901081524b3821fced701b3ba06e1034d2183cc3898e44d4/clip.png)
 
@@ -25,11 +27,11 @@ Click the link to see the whole message:
 
 ### Code
 
-To paste code, turn on [Code](cheatsheet/#code) formatting:
+To paste code, turn on [Code](/articles/en/general/cheatsheet#code) formatting:
 
 ![clip.png](https://s3.amazonaws.com/kato-share/84564f4b182bbd783a3162f2aa4e202339c7162c44e3ea2d1f1f68f676f4f0ff/clip.png)
 
-If you're using the [Keyboard Control](https://kato.im/articles/keyboard-control/) feature, **`c`** will turn on Code formatting.
+If you're using the [Keyboard Control](/articles/en/power-users/keyboard-control) feature, **`c`** will turn on Code formatting.
 
 Currently, Kato doesn't show the first part of a long Code message—just the link:
 

@@ -112,7 +112,7 @@
                         {
                             "type": "page",
                             "src": "ifttt-integration",
-                            "title": "IFTTT Integration"
+                            "title": "IFTTT Integration "
                         },
                         {
                             "type": "page",
@@ -126,6 +126,11 @@
                     "title": "Power Users",
                     "src": "power-users",
                     "entities": [
+                        {
+                            "type": "page",
+                            "src": "restricted-rooms",
+                            "title": "Restricted Rooms"
+                        },
                         {
                             "type": "page",
                             "src": "markdown-syntax",
@@ -148,20 +153,32 @@
                         },
                         {
                             "type": "page",
-                            "src": "google-hangouts-integration",
-                            "title": "Google Hangouts Integration"
-                        },
-                        {
-                            "type": "page",
-                            "src": "uberconference-integration",
-                            "title": "UberConference Integration"
+                            "src": "api",
+                            "title": "API"
                         }
                     ]
                 },
                 {
                     "type": "category",
-                    "title": "Kato Labs",
-                    "src": "kato-labs",
+                    "title": "Apps",
+                    "src": "kato-apps",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "desktop",
+                            "title": "Desktop Apps"
+                        },
+                        {
+                            "type": "page",
+                            "src": "mobile",
+                            "title": "Mobile Apps"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Voice & Video",
+                    "src": "voice-video",
                     "entities": [
                         {
                             "type": "page",
@@ -175,8 +192,13 @@
                         },
                         {
                             "type": "page",
-                            "src": "kato-for-mac",
-                            "title": "Kato for Mac OS X"
+                            "src": "google-hangouts-integration",
+                            "title": "Google Hangouts Integration"
+                        },
+                        {
+                            "type": "page",
+                            "src": "uberconference-integration",
+                            "title": "UberConference Integration"
                         }
                     ]
                 }
@@ -186,17 +208,17 @@
             "type": "language",
             "title": "Русский",
             "src": "ru",
-            "improve": "Улучшить статью",
+            "improve": "Предложить улучшение",
             "entities": [
                 {
-                    "title": "Общее",
+                    "title": "Основные возможности",
                     "type": "category",
                     "src": "general",
                     "entities": [
                         {
                             "type": "page",
                             "src": "cheatsheet",
-                            "title": "Справка"
+                            "title": "Шпаргалка"
                         },
                         {
                             "type": "page",
@@ -221,12 +243,12 @@
                         {
                             "type": "page",
                             "src": "profile-cards",
-                            "title": "Визитные карточки"
+                            "title": "Карточки пользователей"
                         },
                         {
                             "type": "page",
                             "src": "global-search",
-                            "title": "Глобальный поиск"
+                            "title": "Поиск по истории всех команд и комнат"
                         }
                     ]
                 },
@@ -238,7 +260,7 @@
                         {
                             "type": "page",
                             "src": "noise-control",
-                            "title": "Управление шумом"
+                            "title": "Борьба с информационным шумом"
                         },
                         {
                             "type": "page",
@@ -248,166 +270,137 @@
                         {
                             "type": "page",
                             "src": "auto-hide-notifications",
-                            "title": "Схлопывание уведомлений"
+                            "title": "Автоматически скрывающиеся уведомления"
                         },
                         {
                             "type": "page",
                             "src": "group-mentions",
-                            "title": "Упоминания групп"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "language",
-            "title": "日本語",
-            "src": "ja",
-            "improve": "日本語",
-            "entities": [
-                {
-                    "title": "General",
-                    "type": "category",
-                    "src": "general",
-                    "entities": [
-                        {
-                            "type": "page",
-                            "src": "cheatsheet",
-                            "title": "Cheatsheet"
-                        },
-                        {
-                            "type": "page",
-                            "src": "editing-messages",
-                            "title": "Editing Messages"
-                        },
-                        {
-                            "type": "page",
-                            "src": "long-messages",
-                            "title": "Long Messages"
-                        },
-                        {
-                            "type": "page",
-                            "src": "room-types",
-                            "title": "Room Types"
-                        },
-                        {
-                            "type": "page",
-                            "src": "room-drag-n-drop",
-                            "title": "Room Drag-n-Drop"
-                        },
-                        {
-                            "type": "page",
-                            "src": "profile-cards",
-                            "title": "Profile Cards"
-                        },
-                        {
-                            "type": "page",
-                            "src": "global-search",
-                            "title": "Global Search"
+                            "title": "Групповые упоминания"
                         }
                     ]
                 },
                 {
                     "type": "category",
-                    "title": "Notifications",
-                    "src": "notifications",
+                    "title": "Команды",
+                    "src": "teams",
                     "entities": [
                         {
                             "type": "page",
-                            "src": "noise-control",
-                            "title": "Noise Control"
+                            "src": "who-owns-your-messages",
+                            "title": "Кому принадлежат сообщения"
                         },
                         {
                             "type": "page",
-                            "src": "audio-notifications",
-                            "title": "Audio Notifications"
+                            "src": "security-audit-log",
+                            "title": "Журналы безопасности"
                         },
                         {
                             "type": "page",
-                            "src": "auto-hide-notifications",
-                            "title": "Auto-hide Notifications"
-                        },
-                        {
-                            "type": "page",
-                            "src": "group-mentions",
-                            "title": "Group Mentions"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "language",
-            "title": "Español",
-            "src": "es",
-            "improve": "Mejorar este artículo",
-            "entities": [
-                {
-                    "title": "General",
-                    "type": "category",
-                    "src": "general",
-                    "entities": [
-                        {
-                            "type": "page",
-                            "src": "cheatsheet",
-                            "title": "Cheatsheet"
-                        },
-                        {
-                            "type": "page",
-                            "src": "editing-messages",
-                            "title": "Editing Messages"
-                        },
-                        {
-                            "type": "page",
-                            "src": "long-messages",
-                            "title": "Long Messages"
-                        },
-                        {
-                            "type": "page",
-                            "src": "room-types",
-                            "title": "Room Types"
-                        },
-                        {
-                            "type": "page",
-                            "src": "room-drag-n-drop",
-                            "title": "Room Drag-n-Drop"
-                        },
-                        {
-                            "type": "page",
-                            "src": "profile-cards",
-                            "title": "Profile Cards"
-                        },
-                        {
-                            "type": "page",
-                            "src": "global-search",
-                            "title": "Global Search"
+                            "src": "claiming-domains",
+                            "title": "Подключение домена"
                         }
                     ]
                 },
                 {
                     "type": "category",
-                    "title": "Notifications",
-                    "src": "notifications",
+                    "title": "Возможности для продвинутых пользователей",
+                    "src": "power-users",
                     "entities": [
                         {
                             "type": "page",
-                            "src": "noise-control",
-                            "title": "Noise Control"
+                            "src": "restricted-rooms",
+                            "title": "Приватные комнаты"
                         },
                         {
                             "type": "page",
-                            "src": "audio-notifications",
-                            "title": "Audio Notifications"
+                            "src": "markdown-syntax",
+                            "title": "Синтаксис Markdown"
                         },
                         {
                             "type": "page",
-                            "src": "auto-hide-notifications",
-                            "title": "Auto-hide Notifications"
+                            "src": "m-for-markdown",
+                            "title": "Режим Markdown"
                         },
                         {
                             "type": "page",
-                            "src": "group-mentions",
-                            "title": "Group Mentions"
+                            "src": "keyboard-control",
+                            "title": "Горячие клавиши"
+                        },
+                        {
+                            "type": "page",
+                            "src": "integrations",
+                            "title": "Интеграции"
+                        },
+                        {
+                            "type": "page",
+                            "src": "api",
+                            "title": "API"
+                        }
+                    ]
+                },
+                {
+                  "type": "category",
+                    "title": "Дополнительные возможности",
+                    "src": "fun",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "emoji-support",
+                            "title": "Поддержка Emoji"
+                        },
+                        {
+                            "type": "page",
+                            "src": "ifttt-integration",
+                            "title": "Интеграция с IFTTT "
+                        },
+                        {
+                            "type": "page",
+                            "src": "product-updates",
+                            "title": "Обновления продукта"
+                        }
+                    ]  
+                },
+                {
+                    "type": "category",
+                    "title": "Приложения",
+                    "src": "kato-apps",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "desktop",
+                            "title": "Десктоп-приложения"
+                        },
+                        {
+                            "type": "page",
+                            "src": "mobile",
+                            "title": "Мобильные приложения"
+                        }
+                    ]
+                },
+                {
+                    "type": "category",
+                    "title": "Аудио и видео",
+                    "src": "voice-video",
+                    "entities": [
+                        {
+                            "type": "page",
+                            "src": "video-voice-calling",
+                            "title": "Голосовые и видеозвонки"
+                        },
+                        {
+                            "type": "page",
+                            "src": "screensharing",
+                            "title": "Демонстрация экрана"
+                        },
+                        {
+                            "type": "page",
+                            "src": "google-hangouts-integration",
+                            "title": "Интеграция с Google Hangouts"
+                        },
+                        {
+                            "type": "page",
+                            "src": "uberconference-integration",
+                            "title": "Интеграция с UberConference"
                         }
                     ]
                 }

@@ -1,20 +1,22 @@
+***
+
 Who owns your private messages in Kato? If you're using Kato Teams (the free product), you do. If you're using Kato Enterprise, the enterprise does. Here's how it works:
 
 ## Kato Teams
 A Kato Teams account belongs to the individual, and all [1:1 conversations](/articles/en/general/room-types) between two accounts belong to both account holders.
 
-If this behavior is undesirable, a Kato Teams admin can disable 1:1 rooms between non-admins. This can be done from an organization's Policy settings: [https://app.kato.im/#/membership/_/policy/1-1](https://app.kato.im/#/membership/_/policy/1-1)
+If this behavior is undesirable, a Kato Teams admin can disable 1:1 rooms between non-admins. This can be done from an team's Policy settings: [https://app.kato.im/#/membership/_/policy/1-1](https://app.kato.im/#/membership/_/policy/1-1)
 
-For example, Bob and Alice have a web consulting agency that uses Kato Teams for communication. When a client—Acme Corp—invites Bob and Alice into the Acme Corp Kato organization, Bob and Alice are now connected to each other via two teams: their own and Acme Corp's. This new connection has no effect on their private 1:1 room, which continues as before. When the contract with Acme Corp ends and Bob and Alice are removed from the Acme Corp organization, their 1:1 room remains intact. However, everything written by Bob and Alice in Acme Corp's **restricted or unrestricted rooms** belongs to Acme Corp.
+For example, Bob and Alice have a web consulting agency that uses Kato Teams for communication. When a client—Acme Corp—invites Bob and Alice into the Acme Corp Kato team, Bob and Alice are now connected to each other via two teams: their own and Acme Corp's. This new connection has no effect on their private 1:1 room, which continues as before. When the contract with Acme Corp ends and Bob and Alice are removed from the Acme Corp team, their 1:1 room remains intact. However, everything written by Bob and Alice in Acme Corp's **restricted or unrestricted rooms** belongs to Acme Corp.
 
-If, at some point, Bob and Alice decide to disband their web consulting agency and delete their Kato organization, they will no longer be connected via Kato and each will disappear from the other's roster.
+If, at some point, Bob and Alice decide to disband their web consulting agency and delete their Kato team, they will no longer be connected via Kato and each will disappear from the other's roster.
 
-However, if Bob joins another company that uses Kato, and that company proceeds to bring on Alice as a consultant, Bob and Alice's 1-1 history will resume from where it ended when they deleted their agency's Kato organization.
+However, if Bob joins another company that uses Kato, and that company proceeds to bring on Alice as a consultant, Bob and Alice's 1-1 history will resume from where it ended when they deleted their agency's Kato team.
 
-Kato Teams identities are global, and each organization's purpose is to connect identities and to contain rooms.
+Kato Teams identities are global, and each team's purpose is to connect identities and to contain rooms.
 
 ## Kato Enterprise
-Each Kato Enterprise is its own enclosed Kato universe (consisting of identities and organizations), where identities can only operate within the context of that universe. All 1:1 messages belong explicitly to the Enterprise, just like all corporate emails and documents.
+Each Kato Enterprise is its own enclosed Kato universe (consisting of identities and teams), where identities can only operate within the context of that universe. All 1:1 messages belong explicitly to the Enterprise, just like all corporate emails and documents.
 
 ## Edited messages
 In Kato, you can edit a message only if:

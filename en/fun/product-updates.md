@@ -1,4 +1,65 @@
+***
+
 <br />
+
+# <a href="2015" name="2015">2015</a>
+***
+
+## <a href="February-2015" name="February-2015">February 2015</a>
+***
+### <a href="#February-4-2015" name="February-4-2015">February 4, 2015</a>
+- Increase upload limit from 10MB to 25MB
+- Fix [rich paste support](/articles/en/general/long-messages) for plain text message
+- Fix mentions for names such as `A@B`
+- Replaces Organization with Team in Audit Log messages
+- Set the "email me when someone joins my Kato team" to off by default
+- In invite emails, all links now point to the invitation target
+- Uncheck the [Claim domain](https://kato.im/articles/en/teams/claiming-domains) option during signup by default
+- Fix: [CircleCi integration](/articles/en/power-users/integrations#wordpress) crashes for empty commits
+- Fix: [GitHub integration](/articles/en/power-users/integrations#github) crashes when actions have empty label names
+- Fix: [HockeyApp integration](/articles/en/power-users/integrations#hockeyapp) crashes when `reason` is empty
+- Fix: [JIRA integration](/articles/en/power-users/integrations#jira) crashes priority is undefined
+- Enterprise: replace (None) with **Kato Teams** in _Domain_ dropdown
+
+## <a href="January-2015" name="January-2015">January 2015</a>
+***
+
+### <a href="#January-30-2015" name="January-30-2015">January 30, 2015</a>
+- New, [GitHub-based](https://github.com/kato-im/articles) [kato.im/articles](/articles). **Contributions welcome!**
+- Security fix: options to disable support rooms, invitation by non-admins and creating unrestricted rooms were ignored in some cases
+- Show [profile cards](/articles/en/general/profile-cards) on click instead of hover.
+- Show the list of users that have access to a restricted room in the room hamburger menu  instead of a red line in the roster
+- Organizations are now Teams
+- Change `Shift+o` [keyboard control](/articles/en/power-users/keyboard-control) shortcut to `Shift+t` for quick access to the Teams section
+- Allow users without cameras to initiate and join calls
+- Improve roster performance for teams with thousands for users and rooms
+- Mark the Kato support room as such in weekly usage report emails 
+- Add service name and room id to integrations crash info message
+- Preview for monosnap
+- Mark hidden messages as such in downloaded room history
+- Fix mention autocomplete for user/room names with spaces
+- Fix some options in profile cards that weren't working
+- Fix jumpiness in Google Drive integration warning
+- Fix issues with Cyrillic in [Wordpress integration](/articles/en/power-users/integrations#wordpress)
+- Better crash messages for [TeamCity integration](/articles/en/power-users/integration#teamcity)
+- Fix issues with browser resize when Global Search is open
+- Fix crash in the [IFTTT integration](/articles/en/power-users/integrations#ifttt) when robot name is too long
+- Fix for the extra `)` in [Bitbucket](/articles/en/power-users/integrations#bitbucket) and [GitLab](/articles/en/power-users/integrations#gitlab) integrations (this took way too long, sorry about that)
+- Unrestricted rooms appeared as restricted in [Audit Log](/articles/en/teams/security-audit-log)
+- Fix crash on empty description in the [Balanced](/articles/en/power-users/integrations#balanced) integration
+- Do not intercept `Shift+Esc` in Chrome on Linux and Windows. This way the task manager can still be opened.
+- Add `[beta]` suffix for the [Kato beta site](https://beta-app.kato.im)
+
+### <a href="#January-9-2015" name="January-9-2015">January 9, 2015</a>
+- Admins of teams active two weeks in a row now get weekly email reports
+- Updated Source Sans Pro, now with Cyrillic support
+- Fixed a bug preventing hook script downloads for Git and Perforce
+- Show Grooveshark thumbnails instead of previews, because of autoplay
+- New integration! HockeyApp
+- Support BCC in email integration
+- Fix crash in Mandrill integration
+- Add "push tag" event to GitLab integration
+- Fix links in GitHub integration
 
 ## <a href="#December-2014" name="December-2014">December 2014</a>
 ***

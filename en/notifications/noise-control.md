@@ -1,10 +1,12 @@
-Managing noise is a crucial aspect of a communication system, especially as the organization grows. Too many notifications, and you can't get anything done. Too few, and you miss important stuff. Kato has a flexible approach for managing the demands on your attention.
+***
 
-First of all, you'll always get an immediate notification when someone sends you a message in the **[1:1 room](room-types)** that you share with that person.
+Managing noise is a crucial aspect of a communication system, especially as teams grow. Too many notifications, and you can't get anything done. Too few, and you miss important stuff. Kato has a flexible approach for managing the demands on your attention.
+
+First of all, you'll always get an immediate notification when someone sends you a message in the **[1:1 room](/articles/en/general/room-types)** that you share with that person.
 
 You'll also get an immediate notification when you are **mentioned** in any room. Mentioning someone is a great way to get their attention.
 
-For normal [restricted or unrestricted rooms](room-types), you can choose a **noise level** using the menu in the room header. The menu icon shows the current noise level:
+For normal [restricted or unrestricted rooms](/articles/en/general/room-types), you can choose a **noise level** using the menu in the room header. The menu icon shows the current noise level:
 
 <table>
   <tr>
@@ -29,13 +31,13 @@ For normal [restricted or unrestricted rooms](room-types), you can choose a **no
 If you set the noise level for a specific room, it will be shown in _italic_: ![clip](https://s3.amazonaws.com/kato-share/817e344293c1db147d7db14dc0a2bf339d132401c8bb50b6dca8ddba77fc4f3/clip.png) vs ![clip](https://s3.amazonaws.com/kato-share/599ad9a8bc930bfe51ae45f6698218aa1f08e53117739f02d03ad91b28395c5/clip.png). Adjusting noise levels as conversations evolve is a good way to minimize unnecessary distractions. That's why Kato noise controls are always in view.
 
 ## <a href="#noise-account" name="noise-account">Account-Level Default Noise Settings</a>
-You can set a default noise level for each [room type](room-types) in your account settings. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/account/noise*
+You can set a default noise level for each [room type](/articles/en/general/room-types) in your account settings. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/account/noise*
 
-## <a href="#noise-organization" name="noise-organization">Organization-Level Default Noise Settings</a>
-Admins can set the default noise level for each room type, across the organization. Your default noise levels will override those. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: *https://app.kato.im/#/membership/_/noise*
+## <a href="#noise-team" name="noise-team">Team-Level Default Noise Settings</a>
+Admins can set the default noise level for each room type, across the team. Your default noise levels will override those. **Tip:** as a shortcut, you can paste this URL into your Kato browser tab: `https://app.kato.im/#/membership/_/noise`
 
 ## <a href="#noise-room" name="noise-room">Room-Level Default Noise Settings</a>
-Admins can also set the default noise level for a specific room, across the organization. Your default noise levels won't override that, but your own setting for that specific room will—so you win.
+Admins can also set the default noise level for a specific room, across the team. Your default noise levels won't override that, but your own setting for that specific room will—so you win.
 
 ***
 

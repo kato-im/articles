@@ -5,7 +5,9 @@ html(lang='en-US')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title 
       | !{ current.title } 
-      | | Kato Articles
+      if current.title
+        | |
+      |  Kato Articles
     link(rel='stylesheet', type='text/css', href="sspro-2.010r/style.css")
     style.
       html {
@@ -24,10 +26,6 @@ html(lang='en-US')
     script(type='text/javascript', src='wp-includes/js/jquery/jquery.js%3Fver=1.11.1')
     script(type='text/javascript', src='wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.2.1')
     script(type='text/javascript', src='wp-content/sedlex/inline_scripts/01dccd0af79d5a0008be3d29ee4d87b578ca3cbf.js%3Fver=20141226')
-    script(type='text/javascript').
-      window.analytics=window.analytics||[],window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(t){if(!document.getElementById("analytics-js")){var a=document.createElement("script");a.type="text/javascript",a.id="analytics-js",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.io/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)}},window.analytics.SNIPPET_VERSION="2.0.9";
-      window.analytics.load("r7jbjqk8ka");
-      window.analytics.page();
     link(rel='EditURI', type='application/rsd+xml', title='RSD', href='xmlrpc.php%3Frsd')
     link(rel='wlwmanifest', type='application/wlwmanifest+xml', href='wp-includes/wlwmanifest.xml')
     |  
@@ -91,7 +89,7 @@ html(lang='en-US')
                 //| &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
                 //| &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
                 .nav-middle
-                  - var href = 'https://github.com/kato-im' + path.replace('articles', 'articles/tree/master') + current.src + (current.type !== 'page' ? '/README.md' : '.md');
+                  - var href = 'https://github.com/kato-im' + path.replace('articles', 'articles/edit/master') + (current.type !== 'language' ? current.src + (current.type !== 'page' && current.type !== 'home' ? '/' : '') : '') + (current.type !== 'page' ? 'README.md' : '.md');
                   a(href=href, target='_blank')
                     i.fa.fa-github-alt
                     |  !{ language.improve }
@@ -131,8 +129,6 @@ html(lang='en-US')
     //a(href="https://github.com/kato-im/articles")
     //  img(style="position: absolute; top: 0; left: 0; border: 0;", src="https://camo.githubusercontent.com/c6625ac1f3ee0a12250227cf83ce904423abf351/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677261795f3664366436642e706e67", alt="Fork me on GitHub", data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png")
     // #page
-    script(type='text/javascript').
-      analytics.track("Viewed Post", {"title":"Room Types","category":"General, Product Updates, Notifications, Docs, Organizations, Fun, Power Users, Kato Labs","noninteraction":true}, {"library":"analytics-wordpress"});
     script(type='text/javascript', src='wp-content/plugins/ajaxy-search-form/js/sf.js%3Fver=1.0.1')
     script(type='text/javascript', src='wp-content/plugins/ajaxy-search-form/js/sf_selective.js%3Fver=1.0.0')
     script(type='text/javascript', src='wp-content/themes/kato/js/navigation.js')

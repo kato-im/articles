@@ -1,8 +1,10 @@
+***
+
 No enterprise system is complete without a security audit log. This includes communication and collaboration systems. Hey—this includes Kato! This is why we’re so excited to announce a new feature today: security audit log.
 
 ## Motivation
 
-What’s a security audit log? It’s a room that contains an immutable record of important things that happen in your Kato organization, but that nobody knows about—unless you have a security audit log! Consider these unpleasant possibilities:
+What’s a security audit log? It’s a room that contains an immutable record of important things that happen in your Kato team, but that nobody knows about—unless you have a security audit log! Consider these unpleasant possibilities:
 
 <table>
     <tr>
@@ -22,11 +24,11 @@ What’s a security audit log? It’s a room that contains an immutable record o
         <td>Sabotage, “hostage-taking” of content</td>
     </tr>
     <tr>
-        <td>Adding people to the organization</td>
+        <td>Adding people to the team</td>
         <td>Voyeurism</td>
     </tr>
     <tr>
-        <td>Removing people from the organization</td>
+        <td>Removing people from the team</td>
         <td>Vandalism</td>
     </tr>
     <tr>
@@ -39,7 +41,7 @@ What’s a security audit log? It’s a room that contains an immutable record o
     </tr>
     <tr>
         <td>Changing a restricted room’s access list</td>
-        <td>Sensitive data spreads throughout the organization</td>
+        <td>Sensitive data spreads throughout the team</td>
     </tr>
     <tr>
         <td>Changing a room’s restricted status</td>
