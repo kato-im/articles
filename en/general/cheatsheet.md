@@ -25,7 +25,7 @@ Team admins can enable **video calling**—which includes **voice calling** and 
 ********************************************************************************
 ## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
 
-You have **two minutes** to edit your last message in each particular room. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](/articles/en/general/editing-messages).
+You have **two minutes** to edit your last message in each particular room. To do this, click the message box and press the {arrow-up} key. For more info, see [Editing Messages](/articles/en/general/editing-messages).
 
 ********************************************************************************
 ## <a href="#message-cards" name="message-cards">Message Cards</a>
