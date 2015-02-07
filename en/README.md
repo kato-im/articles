@@ -59,4 +59,6 @@ You can configure various services, like GitHub, Twitter, Zendesk, or Raygun to 
 Kato makes it easy to work across multiple Kato Teams, possibly with some of the same people, and to interact with rooms from different teams at the same time.
 
 Kato Teams is a **free service**, with no limit on team size, number of searchable messages, or connected integrations. A paid service, called _Kato Enterprise_ is currently in private beta testing. In addition to rigorous data ownership and management policies and controls, Kato Enterprise integrates with single sign-on providers like Okta and OneLogin to enable user authentication and provisioning into teams within a particular Kato Enterprise account based on groups and permissions configured within your existing user directories.
+
+TEST
 -->
