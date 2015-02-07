@@ -25,12 +25,12 @@ Team admins can enable **video calling**—which includes **voice calling** and 
 ********************************************************************************
 ## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
 
-You have **two minutes** to edit your last message in each particular room. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](/articles/en/general/edit-message).
+You have **two minutes** to edit your last message in each particular room. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](/articles/en/general/editing-messages).
 
 ********************************************************************************
 ## <a href="#message-cards" name="message-cards">Message Cards</a>
 
-When you hover a message, you'll see some bars on the left. Click the bars to see the *message card*:
+When you hover a message, you'll see some bars on the left. Click the bars to see the **message card**:
 
 ![clip.png](https://in.kato.im/e766111232fe8e444c3a385f11b31cdd98e195314072f23c45013a497e568db/clip.png)
 
@@ -48,7 +48,7 @@ Rooms open on the right, and auto-close as needed on the left. You can adjust ho
 
 Once the limit is reached, rooms shift to the left, with the left-most room dropping off the screen.
 
-To keep a room open, you can <a href="#pins" name="pins">pin</a> it.
+To keep a room open, you can [pin](#pins) it.
 
 To keep your current layout (number of open rooms), while opening another room, hold down the {alt} key when:
 
@@ -120,7 +120,7 @@ You can determine how much attention you want to give a room by using its Noise 
 
 <img src="https://s3.amazonaws.com/kato-share/5d58f5ead3667f997dacf0798d1df99ba6071839ff8c2f47eafcf125f19dec/clip.png" /> **Ignore** means you won't get unread message counts or notifications for that room.
 
-(This doesn't apply to [1:1 rooms](/articles/en/general/room-types) and [@mentions](#mentions)—you always follow those.)
+(This doesn't apply to [1:1 rooms](/articles/en/general/room-types) and [@-mentions](#mentions)—you always follow those.)
 
 That's not all—you can set your own default noise levels `https://app.kato.im/#/account/noise` by room type, and admins can set default levels for the entire team. For more info, see [Noise Control](/articles/en/notifications/noise-control).
 
@@ -261,7 +261,7 @@ For more info, see [Introducing Kato Roll](https://kato.im/articles/introducing-
 ## <a href="#message-formatting" name="message-formatting">Message Formatting</a>
 ### <a href="#markdown" name="markdown">Markdown</a>
 
-Markdown is a simple way to add formatting to messages. For more info, see [Markdown Syntax](/articles/en/power-users/markdown-syntax/).
+Markdown is a simple way to add formatting to messages. For more info, see [Markdown Syntax](/articles/en/power-users/markdown-syntax).
 
 To enter a message in markdown mode, choose **Markdown** from message options:
 
