@@ -2,7 +2,7 @@
 
 ## Приложение для OS X (враппер Safari)
 
-Скачать это приложение можно по ссылке ( важный момент — это [**старая версия** Kato для Mac OS X](http://labs.kato.im/Kato.pkg)).
+Скачать это приложение можно по ссылке (важный момент — это [**старая версия** Kato для Mac OS X](http://labs.kato.im/Kato.pkg)).
 
 Приложение работает на основе [MacGap](https://github.com/MacGapProject/MacGap1) и в нем есть несколько ошибок:
 
@@ -20,7 +20,7 @@
 
 ## Windows (Chrome Shortcut)
 
- - В браузере Chrome нужно зайти на https://app.kato.im.
+ - В браузере Chrome нужно зайти на [https://app.kato.im](https://app.kato.im).
  - Выбрать меню настроек в тулбаре браузера.
  - Выбрать секцию **«Инструменты»** (**Tools**).
  - Выбрать пункт **«Создать ярлык приложения»** (**Create application shortcuts**).
