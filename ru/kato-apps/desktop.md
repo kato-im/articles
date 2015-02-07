@@ -20,7 +20,7 @@
 
 ## Windows (Chrome Shortcut)
 
- - В браузере Chrome нужно зайти на https://app.kato.im.
+ - В браузере Chrome нужно зайти на [https://app.kato.im](https://app.kato.im).
  - Выбрать меню настроек в тулбаре браузера.
  - Выбрать секцию **«Инструменты»** (**Tools**).
  - Выбрать пункт **«Создать ярлык приложения»** (**Create application shortcuts**).
