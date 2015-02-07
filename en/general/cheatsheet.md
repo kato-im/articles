@@ -25,7 +25,7 @@ Team admins can enable **video calling**—which includes **voice calling** and 
 ********************************************************************************
 ## <a href="#typos" name="typos">Editing Messages & Fixing Typos</a>
 
-You have **two minutes** to edit your last message in each particular room. To do this, click the message box and press **Up-Arrow**. For more info, see [Editing Messages](/articles/en/general/editing-messages).
+You have **two minutes** to edit your last message in each particular room. To do this, click the message box and press the {arrow-up} key. For more info, see [Editing Messages](/articles/en/general/editing-messages).
 
 ********************************************************************************
 ## <a href="#message-cards" name="message-cards">Message Cards</a>
@@ -172,7 +172,7 @@ Keyboard Control lets you keep your hands on the keyboard while you use Kato.
 
 Keyboard Control is off by default. Before using it, you must turn it on in account options: `https://app.kato.im/#/account/options/keyboard-control`.
 
-Most commands are single characters entered in "command mode" similar to [vi](http://en.wikipedia.org/wiki/vi) and  [Vim](http://en.wikipedia.org/wiki/Vim). To switch to command mode, press the {escape} key. For a summary of commands, press the {?} key (question mark) or go to `https://app.kato.im/#/help/keyboard-control`.
+Most commands are single characters entered in "command mode" similar to [vi](http://en.wikipedia.org/wiki/vi) and  [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)). To switch to command mode, press the {escape} key. For a summary of commands, press the {?} key (question mark) or go to `https://app.kato.im/#/help/keyboard-control`.
 
 For more info, see [Keyboard Control](/articles/en/power-users/keyboard-control).
 
