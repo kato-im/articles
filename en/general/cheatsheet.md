@@ -172,7 +172,7 @@ Keyboard Control lets you keep your hands on the keyboard while you use Kato.
 
 Keyboard Control is off by default. Before using it, you must turn it on in account options: `https://app.kato.im/#/account/options/keyboard-control`.
 
-Most commands are single characters entered in "command mode" similar to [vi](http://en.wikipedia.org/wiki/vi) and  [Vim](http://en.wikipedia.org/wiki/Vim). To switch to command mode, press the {escape} key. For a summary of commands, press the {?} key (question mark) or go to `https://app.kato.im/#/help/keyboard-control`.
+Most commands are single characters entered in "command mode" similar to [vi](http://en.wikipedia.org/wiki/vi) and  [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)). To switch to command mode, press the {escape} key. For a summary of commands, press the {?} key (question mark) or go to `https://app.kato.im/#/help/keyboard-control`.
 
 For more info, see [Keyboard Control](/articles/en/power-users/keyboard-control).
 
