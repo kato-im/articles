@@ -15,6 +15,11 @@
                     "entities": [
                         {
                             "type": "page",
+                            "src": "notation",
+                            "title": "Notation"
+                        },
+                        {
+                            "type": "page",
                             "src": "cheatsheet",
                             "title": "Cheatsheet"
                         },
@@ -211,10 +216,15 @@
             "improve": "Предложить улучшение",
             "entities": [
                 {
-                    "title": "Основные возможности",
+                    "title": "Обзор",
                     "type": "category",
                     "src": "general",
                     "entities": [
+                        {
+                            "type": "page",
+                            "src": "notation",
+                            "title": "Как читать этот документ"
+                        },
                         {
                             "type": "page",
                             "src": "cheatsheet",
