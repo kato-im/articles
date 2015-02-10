@@ -63,7 +63,7 @@
 
 Вот так выглядит комната журнала проверок безопаснтсти, которую включил администратор команды:
 
- ![clip.png](http://i.imgur.com/l4R3yFZ.png)
+ ![clip.png](https://in.kato.im/6c7fdd827e08189c754954f07e0ae452490f58b788d66ce5bd79501618ce767/l4R3yFZ.png)
  
 ## Как включить журналирование
 
@@ -73,7 +73,7 @@
 
 2. Далее следует активировать интеграцию **Audit Log**:
 
- ![clip.png](http://i.imgur.com/HDigdhv.png)
+ ![clip.png](https://in.kato.im/7d1985c4b48a7afc71b67cd1d1df0719471a3faae2e9c0bb49ad609c34c3ccb4/HDigdhv.png)
 
 3. После этого журнал будет активирован.
 
