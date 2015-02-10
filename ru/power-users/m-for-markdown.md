@@ -33,4 +33,4 @@ Markdown — это простой в восприятии язык размет
 
 Режим Markdown можно активировать по умолчанию для всех сообщений:
 
-![](https://s3.amazonaws.com/kato-share/f32505a3d20f16926e582510914fa46573051a89f870b307ce3799267e0c0d5f/clip.png)
+![clip]https://in.kato.im/a0f17170fb59a08a1898b897bfad007ea2687bcf96d9382e848130b525f0e9ee/clip.png
