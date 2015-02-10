@@ -63,7 +63,7 @@
 
 Вот так выглядит комната журнала проверок безопаснтсти, которую включил администратор команды:
 
- ![clip.png](https://s3.amazonaws.com/kato-share/dbadff7e6df31ee34b53eb3bae1bbc9f8a3b51e8ede6828f14b02adbe9050d79/clip.png)
+ ![clip.png](http://i.imgur.com/l4R3yFZ.png)
  
 ## Как включить журналирование
 
@@ -73,7 +73,7 @@
 
 2. Далее следует активировать интеграцию **Audit Log**:
 
- ![clip.png](https://s3.amazonaws.com/kato-share/dc3dca0aa398f2d962001cf94f9d7b1fd0d0000fe502bb9b8dfa229b6194cb67/clip.png)
+ ![clip.png](http://i.imgur.com/HDigdhv.png)
 
 3. После этого журнал будет активирован.
 

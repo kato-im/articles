@@ -14,23 +14,20 @@ Markdown — это простой в восприятии язык размет
 
 В режиме Markdown в Kato можно публиковать красиво сверстанные сообщения:
 
-![](https://s3.amazonaws.com/kato-share/faf87cd364ebc679916c4dd6791d4d29b57f515f93ce15b7f0ee89311f88b36/clip.png)
+![](https://in.kato.im/825b6411defe9b7414963b06a503ed2760e0564a2e28a21e0a56836e2526c11/clip.png)
 
 Чтобы включить режим Markdown необходимо нажать на кнопку M в настройках сообщения. 
 
-Тогда текст со следующей разметкой:
-
-![](https://s3.amazonaws.com/kato-share/d752fff0363dc6d6ba5635f1f8097be8b8d39ce440438384be3b8170347e120/clip.png)
-
-Будет выглядеть в окне чата вот так:
-
-![](https://s3.amazonaws.com/kato-share/a633dcf3ac070b57b07c935240825b3c9a57beb63422945171eef4e8d8f62b8/clip.png)
+![](https://in.kato.im/6eb5c51231c72a4c2c458857f706f38b4f9d60ebfa5d79c5be6ff87936dd3e51/clip.png)
 
 После того, как сообщение в разметке Markdown опубиковано, пользователи в комнате могут просмотреть его код — для этого нужно навести курсор на текст и кликнуть на иконку кода:
 
-![](https://s3.amazonaws.com/kato-share/8591fca088fa273b533755b4fc96052a5ea8ae92468e691a69745e24e8f733f3/clip.png)
-![](https://s3.amazonaws.com/kato-share/9099774be4fb2b52aae7e7ed6eb050d9ec0dd7bb1191bd689202a959c50f9473/clip.png)
+![](https://in.kato.im/a7ad3223a5f64fc14af66271cf7c1d5616e29fce937c7c0a4c5dda3fe35c39cf/clip.png)
+
+После этого можно будет просмотреть исходный код в разметке Markdown:
+
+![](https://in.kato.im/b3296b2d545773a047eba915848f6ad6f73c912776b1b54355005a5c561835fc/clip.png)
 
 Режим Markdown можно активировать по умолчанию для всех сообщений:
 
-![](https://s3.amazonaws.com/kato-share/f32505a3d20f16926e582510914fa46573051a89f870b307ce3799267e0c0d5f/clip.png)
+![clip](https://in.kato.im/a0f17170fb59a08a1898b897bfad007ea2687bcf96d9382e848130b525f0e9ee/clip.png)
