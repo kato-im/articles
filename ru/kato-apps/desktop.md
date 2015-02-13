@@ -1,6 +1,6 @@
 ***
 
-## Приложение для OS X (враппер Safari)
+## Приложение для OS X
 
 Скачать приложение можно по ссылке—[http://labs.kato.im/Kato.pkg](http://labs.kato.im/Kato.pkg).
 
