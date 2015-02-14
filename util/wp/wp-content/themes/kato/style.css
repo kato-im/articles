@@ -567,7 +567,7 @@ var {
     font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
-code
+p code
 {
     padding: 2px 4px;
     font-size: 90%;
