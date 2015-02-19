@@ -4,4 +4,4 @@
 
 ## [Emoji Support](/articles/en/fun/emoji-support)
 ## [IFTTT Integration](/articles/en/fun/ifttt-integration)
-## [Product Updates](/articles/en/fun/ifttt-integration)
+## [Product Updates](/articles/en/fun/product-updates)
