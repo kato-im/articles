@@ -7,6 +7,18 @@
 
 ## <a href="February-2015" name="February-2015">February 2015</a>
 ***
+### <a href="#February-18-2015" name="February-18-2015">February 18, 2015</a>
+- Markdown/code/off-the-record section moved to bottom of message input menu
+- Fixed an annoying issue with the [email integration](/articles/en/power-users/integrations#email) 
+ 
+### <a href="#February-15-2015" name="February-15-2015">February 15, 2015</a>
+- Include self in restricted room access by default
+- Show team name in room header even if a user is a member of only one team
+- Fix crash in [Travis CI integration](/articles/en/power-users/integrations#travis): properly handle repository name parameter
+- Fix mentions with an apostrophe at the end of name
+- Fix repository name in links for [Stash integration](/articles/en/power-users/integrations#stash)
+- `/#/account` links will now stay in address bar and properly handle back/forward browser buttons
+
 ### <a href="#February-4-2015" name="February-4-2015">February 4, 2015</a>
 - Increase upload limit from 10MB to 25MB
 - Fix [rich paste support](/articles/en/general/long-messages) for plain text message
