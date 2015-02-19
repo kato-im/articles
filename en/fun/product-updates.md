@@ -5,7 +5,7 @@
 # <a href="2015" name="2015">2015</a>
 ***
 
-## <a href="February-2015" name="February-2015">February 2015</a>
+## <a href="#February-2015" name="February-2015">February 2015</a>
 ***
 ### <a href="#February-18-2015" name="February-18-2015">February 18, 2015</a>
 - Markdown/code/off-the-record section moved to bottom of message input menu
