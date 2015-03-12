@@ -6,6 +6,6 @@ The room drag-n-drop feature lets you drag room headers and rearrange your open 
 
 <br />
 
-If you enable the [Keyboard Control](keyboard-control) feature, you can also rearrange your rooms with `H` and `L` commands in `Esc` mode.
+If you enable the [Keyboard Control](articles/en/power-users/keyboard-control) feature, you can also rearrange your rooms with `H` and `L` commands in `Esc` mode.
 
 If you have any issues with room drag-n-drop, please let us know in your Kato support room.
