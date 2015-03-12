@@ -2,7 +2,7 @@
 
 ## OS X App (Safari Wrapper)
 
-You can download this [**old version** of Kato for Mac OS X](http://labs.kato.im/Kato.pkg).
+You can download [Kato for Mac OS X](http://labs.kato.im/Kato.pkg).
 
 It's based on [MacGap](https://github.com/MacGapProject/MacGap1), and it's got some issues:
 
