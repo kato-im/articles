@@ -283,7 +283,7 @@ Every Kato room has a unique email address. Some tools only provide email-based 
 ***
 ## <a href="#sameroom" name="sameroom"![clip.png](https://in.kato.im/109684c465d1ef06ea5eb45a84661fbf84edb149f12d1c2dd7bc117f1ecc6b/clip.png) Sameroom</a>
 <br />
-<a href='https://sameroom.io' target='_blank'>Sameroom</a> lets you connect Kato to Slack, HipChat, Campfire, Skype, IRC, Gitter, Flowdock, and email. If you're working with a group on another platform, or want to set up an ad-hoc community without requiring everyone to use yet another system, you can use Sameroom to share a room in Kato—this is called "creating a Portal" on Sameroom.
+<a href='https://sameroom.io' target='_blank'>Sameroom</a> lets you connect Kato to Slack, HipChat, Campfire, Skype, IRC, Gitter, Flowdock, and email. If you're working with a group on another platform, or want to set up an ad-hoc community without requiring everyone to use yet another system (for a coworking space, a conference, or a CEO network), Sameroom can help. You can share a room in Kato with others by "creating a Portal" to it on Sameroom.
 
 ***
 ## <a href="#semaphore" name="semaphore">![clip.png](https://s3.amazonaws.com/kato-share/49cf1b13a74129e47b357dca90b74f7bb8b110683a6a677ebba95befa525f68/clip.png) Semaphore</a>
