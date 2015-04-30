@@ -281,7 +281,7 @@ Every Kato room has a unique email address. Some tools only provide email-based 
 <a href='https://www.runscope.com/' target='_blank'>Runscope</a> provides API testing and monitoring for app developers. You can [add a Kato webhook](https://app.kato.im/#/integrations/runscope) to your Runscope account to receive notifications.
 
 ***
-## a href="#sameroom" name="sameroom"![clip.png](https://in.kato.im/109684c465d1ef06ea5eb45a84661fbf84edb149f12d1c2dd7bc117f1ecc6b/clip.png) Sameroom</a>
+## <a href="#sameroom" name="sameroom"![clip.png](https://in.kato.im/109684c465d1ef06ea5eb45a84661fbf84edb149f12d1c2dd7bc117f1ecc6b/clip.png) Sameroom</a>
 <br />
 <a href='https://sameroom.io' target='_blank'>Sameroom</a> lets you connect Kato to Slack, HipChat, Campfire, Skype, IRC, Gitter, Flowdock, and email. If you're working with a group on another platform, or want to set up an ad-hoc community without requiring everyone to use yet another system, you can use Sameroom to share a room in Kato—this is called "creating a Portal" on Sameroom.
 
