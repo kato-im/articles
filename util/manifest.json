@@ -96,11 +96,6 @@
                             "type": "page",
                             "src": "security-audit-log",
                             "title": "Security Audit Log"
-                        },
-                        {
-                            "type": "page",
-                            "src": "claiming-domains",
-                            "title": "Claiming Domains"
                         }
                     ]
                 },
