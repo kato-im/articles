@@ -12,7 +12,7 @@ Access to *Restricted rooms* is limited to **specific people**. Admins in your t
 
 **Note:** Creating a restricted room **doesn't automatically give you access to it**. Sometimes admins create restricted rooms on behalf of others. (For example, an administrative assistant might create a room where sensitive financial details are discussed.)
 
-For more info on restricted rooms, see [Restricted Rooms](introducing-restricted-rooms) and [Changing Room Access](introducing-changing-room-access).
+For more info on restricted rooms, see [Restricted Rooms](/articles/en/power-users/restricted-rooms).
 
 ### ![icon_1-1](https://s3.amazonaws.com/kato-share/ab26984594a4d458fddcedfd5dcd648dac751415e57c45568811db9a856dd946/clip.png) 1:1 Rooms
 
@@ -28,7 +28,7 @@ Your *Kato support room* is special—it gives your team **direct access to Kato
 
 ### ![icon_audit](https://s3.amazonaws.com/kato-share/1ff1ab2420539f3d4d5b008f957e047bac4f06c45c9d08ebd288dc34975a965b/clip.png) Security Audit Logs
 
-*Security Audit Log* rooms aren't really a separate type. They just have a special icon, showing that they use the [*Audit Log* integration](https://kato.im/articles/introducing-security-audit-log/). This posts certain automatic messages to the room. Otherwise, these are just normal (restricted or unrestricted) rooms.
+*Security Audit Log* rooms aren't really a separate type. They just have a special icon, showing that they use the [*Audit Log* integration](/articles/en/teams/security-audit-log). This posts certain automatic messages to the room. Otherwise, these are just normal (restricted or unrestricted) rooms.
 
 ### ![icon_public](https://s3.amazonaws.com/kato-share/b2695440ca4e074b7b4c5d4a434e7772615146e4221c3b0401f4eb6f72f1709/Untitled%208.png) Public Rooms
 
