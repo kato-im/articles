@@ -28,7 +28,6 @@ The source for these articles is available on GitHub: <a href='https://github.co
 - [**Teams**](/articles/en/teams)
  - [Who Owns Your Messages?](/articles/en/teams/who-owns-your-messages)
  - [Security Audit Log](/articles/en/teams/security-audit-log)
- - [Claiming Domains](/articles/en/teams/claiming-domains)
 - [**Fun**](/articles/en/fun)
  - [Emoji Support](/articles/en/fun/emoji-support)
  - [IFTTT Integration](/articles/en/fun/ifttt-integration)
