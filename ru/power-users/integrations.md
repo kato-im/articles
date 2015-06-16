@@ -14,6 +14,38 @@
 
 ***
 
+Получаем уведомления от zabbix в произвольную комнату через http post.<br>
+Все действия перечислены для ОС Debian 7<br>
+В конфиге zabbix-server:<br>
+<code>/etc/zabbix/zabbix_server.conf</code><br>
+ищем строку:<br>
+<code>AlertScriptsPath=</code><br>
+Меняем значение, если не устраивает на свое.(не забудьте перезапустить сервер, если изменили значение)<br>
+По умолчанию имеет вид:<br>
+<code>AlertScriptsPath=/usr/lib/zabbix/alertscripts</code><br>
+Создаем файл kato.sh, с таким содержимым:<br>
+<code>#!/bin/bash
+msg=$(echo $3);
+cat <<EOF | curl -X POST -d "{\"from\": \"ZABBIX\", \"color\": \"green\", \"renderer\": \"markdown\", \"text\": \"To user: $1 Subject: $2 Mesage: $msg\" }" https://api.kato.im/rooms/[ТУТ ID комнаты]/simple
+EOF</code>
+Сохраяняем, меняем права<br>
+<code>chmod +x /usr/lib/zabbix/alertscripts/kato.sh</code><br>
+Заходим в zabbix, Администриование->Способы оповещения->Создать способ оповещения.<br>
+<br>
+Имя:kato<br>
+Тип:Скрипт<br>
+Имя скрипта:kato.sh<br>
+<br>
+Сохранить.<br>
+<br>
+Теперь добавим пользователю этот способ оповещения<br>
+Администрирование->Пользователи->[Ваш пользователь]->Оповещения->Добавить-><br>
+Тип:kato<br>
+Отправлять на:[Ваш пользователь]<br>
+Добавить.<br>
+
+***
+
 ## <a href="#email" name="email">![clip.png](https://s3.amazonaws.com/kato-share/46feccb283936148b37eda00196da0e0f5976d986d029c1c917f334b84d17e1/clip.png) Email</a>
 <br />
 У каждой комнаты в Kato есть собственный уникальный email-адрес. Поскольку никоторые внешние инструменты поддерживают только email-оповещения, данную интеграцию можно использовать для перенаправления подобных сообщений в комнаты мессенджера. Более подробная информация представлена по [ссылке](https://app.kato.im/#/integrations/email).
